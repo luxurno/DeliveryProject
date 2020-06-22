@@ -1,0 +1,268 @@
+body, html {
+  background-color: #b2bfd4;
+  width: 100%;
+  height: 100%;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+.home {
+  height: 100%;
+  width: 100%;
+}
+.navbar-brand-custom {
+  font-size: 1.75rem;
+  margin-right: 5.5rem;
+}
+
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.navbar {
+  height: 10vh;
+  font-size: 1.25rem;
+  background-color: #103a7d;
+}
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+}
+
+.dropdown-item {
+  background-color: #a2c2f2;
+
+  &:hover {
+    background-color: #8bb0e8;
+  }
+}
+
+
+.dropdown-menu {
+  background-color: #a2c2f2;
+}
+
+.nav-item {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.dropdown {
+  padding-top: 0.5rem;
+  position: absolute;
+
+  img {
+    height: 38px;
+    width: 38px;
+    float: left;
+    padding-top: 0.3rem;
+  }
+  a {
+    float: left;
+  }
+}
+
+.modules-header-text {
+  font-size: 3rem;
+  color: #87a6d6;
+  padding: 0.2rem;
+}
+*:focus {
+  outline: none;
+}
+
+input{
+  text-indent: 0.75rem;
+}
+
+.blue-outline-box {
+  color: #292cc4;
+
+  label {
+    top: -50%;
+    position: absolute;
+  }
+  label:nth-of-type(2) {
+    top: 95%;
+    left: 8%;
+    max-width: fit-content;
+    position: absolute;
+    color: red;
+  }
+
+  input[type=text] {
+    border: solid #292cc4;
+    width: 38vh;
+    height: 8vh;
+  }
+}
+
+.customize-button {
+  button {
+    height: 7vh;
+    width: 38vh;
+  }
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.vertical-center {
+  position: relative;
+  top: 35%;
+}
+
+.wyszukiwanie-kierowcy-form {
+  background-color: white;
+  min-width: 100vh;
+  min-height: 18vh;
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #292cc4;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #292cc4;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #292cc4;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.modules-header-text-form {
+  color: #292cc4;
+  font-size: 2rem;
+  padding-left: 2.5rem;
+}
+
+.konfiguracja-kierowcy {
+  &-row {
+    position: static;
+    padding-top: 3rem;
+  }
+}
+
+.konfiguracja-kierowcy-form {
+  background-color: white;
+  min-width: 100vh;
+  min-height: 70vh;
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #292cc4;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #292cc4;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #292cc4;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.wysylanie-odbioru-form {
+  background-color: white;
+  min-width: 100vh;
+  min-height: 88vh;
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #292cc4;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #292cc4;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #292cc4;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.wysylanie-odbioru {
+  &-row {
+    position: static;
+    padding-top: 3rem;
+  }
+}
+
+.podglad-trasy-kierowcy {
+  &-maps {
+    height: 100vh;
+    width: 100vh;
+  }
+
+  &-list {
+    position: absolute;
+    margin-left: 100vh;
+  }
+}
+
+.lista-kierowcy-container {
+  color: white;
+  position: absolute;
+}
+
+.list {
+  &-odds-element {
+    height: 4rem;
+    width: 25rem;
+    background-color: #2f6f9c;
+  }
+
+  &-even-element {
+    height: 4rem;
+    width: 25rem;
+    background-color: #6fa4c9;
+  }
+
+  &-element-number {
+    padding: 0.75rem;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+
+  &-element-address {
+    &-box {
+      display: inline-block;
+      font-size: 1.25rem;
+      padding-left: 1rem;
+  }
+
+    &-one {
+
+    }
+
+    &-two {
+
+    }
+  }
+}
+
+
+
