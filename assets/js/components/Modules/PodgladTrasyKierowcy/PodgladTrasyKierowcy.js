@@ -8,6 +8,7 @@ class PodgladTrasyKierowcy extends Component {
 
         this.state = {
             route: '/api/route/preview',
+            list: [],
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -18,6 +19,13 @@ class PodgladTrasyKierowcy extends Component {
             [event.target.name]: event.target.value
         });
     }
+
+    handleDriverListCallback = (dataFromChild) => {
+        this.setState({
+            list: dataFromChild.list,
+        });
+        // TODO Remove bug with missing one action (letter)
+    };
 
     render() {
         let { name, showConfig } = this.props.data;
@@ -41,10 +49,10 @@ class PodgladTrasyKierowcy extends Component {
                 </div>
                 <div className={"row margin-0 vertical-center"}>
                     <div className={"podglad-trasy-kierowcy-maps"} id={"map"}>
-                        <PodgladTrasyMap />
+                        <PodgladTrasyMap data={this.state}/>
                     </div>
                     <div className={"podglad-trasy-kierowcy-list"} style={listaKierowcyStyles}>
-                        <ListaKierowcy data={this.state} />
+                        <ListaKierowcy data={this.state} callbackFromParent={this.handleDriverListCallback}/>
                     </div>
                 </div>
             </div>

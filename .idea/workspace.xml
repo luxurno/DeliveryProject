@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ListaKierowcy/ListaKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ListaKierowcy/ListaKierowcy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyKierowcy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RoutePreviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RoutePreviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +201,9 @@
       <workItem from="1592621111383" duration="11143000" />
       <workItem from="1592633126570" duration="10823000" />
       <workItem from="1592663653559" duration="11759000" />
-      <workItem from="1592849805009" duration="149000" />
+      <workItem from="1592849805009" duration="513000" />
+      <workItem from="1593110660802" duration="8685000" />
+      <workItem from="1593340904157" duration="1233000" />
     </task>
     <servers />
   </component>
@@ -235,20 +245,20 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="5" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590780001949" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1592663661132">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1593340904136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590774294937" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592663661132" />
-    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1592641400821">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593340904136" />
+    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1593114114873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="101" width="607" height="526" key="find.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590783767217" />
-    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1592641400821" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1592418854612">
+    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593114114873" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1593115924804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592418854612" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593115924804" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592849896718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

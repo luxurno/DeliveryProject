@@ -22,7 +22,6 @@ class WyszukanieKierowcy extends Component {
     }
 
     handleSearchDriver(event) {
-        console.log(this.state);
         if (this.state.name === "") {
             this.setState({ showConfig: false});
         } else {

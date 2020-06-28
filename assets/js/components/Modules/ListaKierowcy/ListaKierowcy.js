@@ -13,10 +13,16 @@ class ListaKierowcy extends Component {
         };
     }
 
-    componentDidMount() {
-        axios.get(process.env.APP_DOMAIN + this.props.data.route).then(res => {
+    async getListDrivers() {
+        await axios.get(process.env.APP_DOMAIN + this.props.data.route).then(res => {
             const list = res.data;
             this.setState({ list: list });
+        });
+    }
+
+    componentDidMount() {
+        this.getListDrivers().then(r => {
+            this.props.callbackFromParent(this.state);
         });
     }
 
