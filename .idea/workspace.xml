@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Validator/DriverValidator.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ListaKierowcy/ListaKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ListaKierowcy/ListaKierowcy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyKierowcy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/PodgladTrasyKierowcy/PodgladTrasyMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/RoutePreviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RoutePreviewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/KonfiguracjaKierowcy/KonfiguracjaKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/KonfiguracjaKierowcy/KonfiguracjaKierowcy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DriverController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Luxurno" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -157,13 +156,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1cakrUuwYB1GLOh6EhslqX0EGlV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -177,7 +179,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Luxurno" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -211,59 +218,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="476" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1592669391904">
+    <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601610834055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="476" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592669391904" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592419122489">
+    <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610834055" />
+    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1601610335470">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590779982967" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592419122489" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592668959800">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592668959800" />
-    <state x="441" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592668473260">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="441" y="225" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1592668473260" />
-    <state x="317" y="141" key="EditFileWatcherDialog" timestamp="1590780006164">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="317" y="141" key="EditFileWatcherDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590780006164" />
-    <state x="781" y="147" key="FileChooserDialogImpl" timestamp="1592663687884">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="-822" y="210" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590778322588" />
-    <state x="781" y="147" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592663687884" />
-    <state x="456" y="177" key="NewPhpClassDialog" timestamp="1592664481750">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="456" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1592664481750" />
-    <state x="184" y="5" key="SettingsEditor" timestamp="1590780001949">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="5" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590780001949" />
+    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610335470" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1593340904136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590774294937" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593340904136" />
     <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1593114114873">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="607" height="526" key="find.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590783767217" />
     <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593114114873" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593115924804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593115924804" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1592849896718">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1590789116368" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1592849896718" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

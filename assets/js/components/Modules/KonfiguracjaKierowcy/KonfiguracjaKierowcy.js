@@ -97,8 +97,6 @@ class KonfiguracjaKierowcy extends Component {
                 }
                 break;
             case "adr":
-                console.log(value);
-                console.log(['tak', 'nie'].includes(value.toLowerCase()));
                 if (['tak', 'nie'].includes(value.toLowerCase())) {
                     this.setState({invalidAdr: false});
                 } else {

@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace App\Controller;
 
 use App\Service\DriverService;
+use App\Validator\DriverValidator;
 use App\ValueObject\DriverValueObject;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -15,10 +16,16 @@ class DriverController extends AbstractController
 {
     /** @var DriverService */
     private $driverService;
+    /** @var DriverValidator */
+    private $driverValidator;
 
-    public function __construct(DriverService $driverService)
+    public function __construct(
+        DriverService $driverService,
+        DriverValidator $driverValidator
+    )
     {
         $this->driverService = $driverService;
+        $this->driverValidator = $driverValidator;
     }
 
     /**
@@ -53,11 +60,15 @@ class DriverController extends AbstractController
             (int) $driverData['config']['height'],
             (int) $driverData['config']['width'],
             (int) $driverData['config']['capacity'],
-            $driverData['config']['adr']
+            strtolower($driverData['config']['adr'])
         );
 
         $response = new Response();
         try {
+            if (false === $this->driverValidator->validateAdr($driverVO)) {
+                throw new \Exception();
+            }
+
             $this->driverService->saveDriverConfig($driverVO);
             $response->setStatusCode(Response::HTTP_NO_CONTENT);
         } catch (\Exception $e) {
