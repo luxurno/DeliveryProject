@@ -13,7 +13,11 @@ body, html {
 }
 .navbar-brand-custom {
   font-size: 1.75rem;
-  margin-right: 5.5rem;
+  margin-right: 6.5rem;
+
+  @media only screen and (max-width: 1150px) {
+    margin-right: 3.5rem;
+  }
 }
 
 a {

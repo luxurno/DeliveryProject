@@ -6,13 +6,10 @@ class Navbar extends Component {
     render() {
         return(
             <nav className={"navbar navbar-expand-lg"}>
-                {/*<Link className={"navbar-brand"} to={"#"}>Analiza i projektowanie</Link>*/}
-
-
                 <div className={"collapse navbar-collapse"} id={"navbarSupportedContent"}>
                     <ul className={"navbar-nav mr-auto"}>
                         <li className={"nav-item active navbar-brand-custom"}>
-                            <Link className={"nav-link"} to={"#"}>Analiza i projektowanie</Link>
+                            <Link className={"nav-link"} to={"/"}>Luxurno</Link>
                         </li>
                         <li className={"nav-item"}>
                             <Link className={"nav-link"} to={"/konfiguracja"}>Konfiguracja</Link>
