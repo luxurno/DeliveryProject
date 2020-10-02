@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import * as ReactDOM from "react-dom";
 
 class KonfiguracjaKierowcy extends Component {
     constructor(props) {
@@ -10,23 +11,102 @@ class KonfiguracjaKierowcy extends Component {
             width: "",
             capacity: "",
             adr: "",
+            invalidHeight: true,
+            invalidWidth: true,
+            invalidCapacity: true,
+            invalidAdr: true,
         };
 
+        this.validateHeight = this.validateHeight.bind(this);
+        this.validateWidth = this.validateWidth.bind(this);
+        this.validateCapacity = this.validateCapacity.bind(this);
+        this.validateAdr = this.validateAdr.bind(this);
+        this.validateData = this.validateData.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.getDriverId = this.getDriverId.bind(this);
         this.handleSaveConfiguration = this.handleSaveConfiguration.bind(this);
     }
 
+    validateHeight() {
+        return true;
+    }
+
+    validateWidth() {
+        return true;
+    }
+
+    validateCapacity() {
+        return true;
+    }
+
+    validateAdr() {
+        return true;
+    }
+
     handleChange(event) {
-        console.log(event.target.name);
         this.setState({
             [event.target.name]: event.target.value
         });
+        this.validateData(event);
     }
 
     getDriverId(name) {
         let id = name.split(".");
         return id[0];
+    }
+
+    validateData(event) {
+        let value = event.target.value;
+
+        switch(event.target.name) {
+            case "height":
+                value = parseInt(event.target.value);
+                if (Number.isInteger(value)) {
+                    if (value.valueOf() >= 150 && value.valueOf() <= 350) {
+                        this.setState({invalidHeight: false});
+                    } else {
+                        this.setState({invalidHeight: true});
+                    }
+                } else {
+                    this.setState({invalidHeight: true});
+                }
+                break;
+            case "width":
+                value = parseInt(event.target.value);
+                if (Number.isInteger(value)) {
+                    if (value.valueOf() >= 150 && value.valueOf() <= 300) {
+                        this.setState({invalidWidth: false});
+                    } else {
+                        this.setState({invalidWidth: true});
+                    }
+                } else {
+                    this.setState({invalidWidth: true});
+                }
+                //this.state.invalidWidth = !Number.isInteger(parseInt(value));
+                break;
+            case "capacity":
+                value = parseInt(event.target.value);
+                if (Number.isInteger(value)) {
+                    if (value.valueOf() >= 500 && value.valueOf() <= 1900) {
+                        this.setState({invalidCapacity: false});
+                    } else {
+                        this.setState({invalidCapacity: true});
+                    }
+                } else {
+                    this.setState({invalidCapacity: true});
+                }
+                break;
+            case "adr":
+                console.log(value);
+                console.log(['tak', 'nie'].includes(value.toLowerCase()));
+                if (['tak', 'nie'].includes(value.toLowerCase())) {
+                    this.setState({invalidAdr: false});
+                } else {
+                    this.setState({invalidAdr: true});
+                }
+                break;
+        }
+
     }
 
     handleSaveConfiguration(event) {
@@ -55,7 +135,7 @@ class KonfiguracjaKierowcy extends Component {
                 }
             })
             .catch(error => {
-                this.state.validateErrorMessage = "Taki sklep już istnieje!";
+                this.state.validateErrorMessage = "Taki kierowca nie istnieje";
             });
         event.preventDefault();
     }
@@ -95,7 +175,7 @@ class KonfiguracjaKierowcy extends Component {
                                         placeholder={"np. 220cm"}
                                         onChange={this.handleChange}
                                     />
-                                    <label>Wprowadzono niepoprawną wartość.</label>
+                                    <label style={{display: this.state.invalidHeight ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
                                 <div className={"col text-center blue-outline-box"}>
                                     <label>Szerokość Samochod *</label>
@@ -106,7 +186,7 @@ class KonfiguracjaKierowcy extends Component {
                                         placeholder={"np. 270cm"}
                                         onChange={this.handleChange}
                                     />
-                                    <label>Wprowadzono niepoprawną wartość.</label>
+                                    <label style={{display: this.state.invalidWidth ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
                             </div>
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
@@ -119,7 +199,7 @@ class KonfiguracjaKierowcy extends Component {
                                         placeholder={"np. 1300kg"}
                                         onChange={this.handleChange}
                                     />
-                                    <label>Wprowadzono niepoprawną wartość.</label>
+                                    <label style={{display: this.state.invalidCapacity ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
                                 <div className={"col text-center blue-outline-box"}>
                                     <label>Uprawnienia ADR *</label>
@@ -127,15 +207,16 @@ class KonfiguracjaKierowcy extends Component {
                                         type={"text"}
                                         name={"adr"}
                                         value={this.state.adr}
-                                        placeholder={"np. TAK"}
+                                        placeholder={"np. TAK/NIE"}
                                         onChange={this.handleChange}
                                     />
-                                    <label>Wprowadzono niepoprawną wartość.</label>
+                                    <label style={{display: this.state.invalidAdr ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
                             </div>
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
                                 <div className={"col text-center customize-button"}>
                                     <button
+                                        disabled={this.state.invalidHeight || this.state.invalidWidth || this.state.invalidCapacity || this.state.invalidAdr}
                                         type={"button"}
                                         className={"btn btn-primary"}
                                         onClick={this.handleSaveConfiguration}
