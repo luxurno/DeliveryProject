@@ -32,8 +32,10 @@
         "dotenv": "^8.2.0",
         "google-maps-react": "^2.0.6",
         "jquery": "^3.5.1",
+        "material-ui": "^0.20.2",
         "popper.js": "^1.16.1",
         "react-fontawesome": "^1.7.1",
+        "react-papaparse": "^3.8.0",
         "react-router-dom": "^5.1.2"
     },
     "plugins": [

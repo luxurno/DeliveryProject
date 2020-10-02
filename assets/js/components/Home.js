@@ -1,6 +1,7 @@
 import React, {Component} from 'react';;
 import {Route, Switch, Redirect, Link, withRouter} from 'react-router-dom';
 import Navbar from '../components/Navbar/Navbar';
+import ImportPrzesylek from "./ImportPrzesylek";
 import Konfiguracja from "./Konfiguracja";
 import PodgladTrasy from "./PodgladTrasy";
 import GeneratorTrasy from "./GeneratorTrasy";
@@ -13,6 +14,7 @@ class Home extends Component {
                 <Navbar/>
 
                 <Switch>
+                    <Route path={"/import-przesylek"} component={ImportPrzesylek}/>
                     <Route path={"/konfiguracja"} component={Konfiguracja}/>
                     <Route path={"/podglad-trasy"} component={PodgladTrasy}/>
                     <Route path={"/generator-trasy"} component={GeneratorTrasy}/>

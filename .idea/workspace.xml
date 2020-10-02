@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Validator/DriverValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/ImportPrzesylek.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportPrzesylek/FileDropzone/FileDropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportPrzesylek/ImportPrzesylekModule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/KonfiguracjaKierowcy/KonfiguracjaKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/KonfiguracjaKierowcy/KonfiguracjaKierowcy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DriverController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app-custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Konfiguracja.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Konfiguracja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/WyszukanieKierowcy/WyszukanieKierowcy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +237,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593340904136" />
-    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1593114114873">
+    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1601616223761">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1593114114873" />
+    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601616223761" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1593115924804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1593115924804" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601616763961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601616763961" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

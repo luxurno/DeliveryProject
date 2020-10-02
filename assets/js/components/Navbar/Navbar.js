@@ -12,6 +12,9 @@ class Navbar extends Component {
                             <Link className={"nav-link"} to={"/"}>Luxurno</Link>
                         </li>
                         <li className={"nav-item"}>
+                            <Link className={"nav-link"} to={"/import-przesylek"}>Import przesyłek</Link>
+                        </li>
+                        <li className={"nav-item"}>
                             <Link className={"nav-link"} to={"/konfiguracja"}>Konfiguracja</Link>
                         </li>
                         <li className={"nav-item"}>
@@ -31,9 +34,9 @@ class Navbar extends Component {
 
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <Link className="dropdown-item" to={"/import-przesylek"}>Import przesyłek</Link>
                                 <Link className="dropdown-item" to={"/konfiguracja"}>Konfiguracja</Link>
                                 <Link className="dropdown-item" to={"/podglad-trasy"}>Podgląd trasy</Link>
-                                <div className="dropdown-divider" />
                                 <Link className="dropdown-item" to={"/generator-trasy"}>Generator trasy</Link>
                                 <Link className="dropdown-item" to={"/wysylanie-odbioru"}>Wysyłanie odbioru</Link>
                             </div>

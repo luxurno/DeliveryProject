@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import WyszukiwanieKierowcyDatalist from "./WyszukiwanieKierowcyDatalist";
+import WyszukiwanieKierowcyDatalist from "../WyszukanieKierowcy/WyszukiwanieKierowcyDatalist";
+import FileDropzone from "./FileDropzone/FileDropzone";
 
-class WyszukanieKierowcy extends Component {
-    constructor(props) {
-        super(props);
+class ImportPrzesylekModule extends Component {
+    constructor() {
+        super();
 
         this.state = {
             name: "",
@@ -11,7 +12,7 @@ class WyszukanieKierowcy extends Component {
         };
 
         this.handleChange = this.handleChange.bind(this);
-        this.handleSearchDriver = this.handleSearchDriver.bind(this);
+        this.handleImportFile = this.handleImportFile.bind(this);
     }
 
     handleChange(event) {
@@ -21,17 +22,12 @@ class WyszukanieKierowcy extends Component {
         this.props.callbackFromParent(this.state);
     }
 
-    handleSearchDriver(event) {
-        if (this.state.name === "") {
-            this.setState({ showConfig: false});
-        } else {
-            this.setState({ showConfig: true});
-        }
-        this.props.callbackFromParent(this.state);
+    handleImportFile() {
+        console.log('handluje! XD');
     }
 
     render() {
-        return(
+        return (
             <div className={"wyszukiwanie-kierowcy-container"}>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"modules-header-text"}>
@@ -43,16 +39,8 @@ class WyszukanieKierowcy extends Component {
                         <form onSubmit={this.handleSearchDriver}>
                             <div className={"row margin-0 vertical-center"}>
                                 <div className={"col text-center blue-outline-box"}>
-                                    <label>Imię i nazwisko</label>
-                                    <input
-                                        type={"text"}
-                                        name={"name"}
-                                        list={"drivers"}
-                                        value={this.state.value}
-                                        placeholder={"np. Karol Kowalski"}
-                                        onChange={this.handleChange}
-                                    />
-                                    <WyszukiwanieKierowcyDatalist/>
+                                    <label>Upload pliku</label>
+                                    <FileDropzone/>
                                 </div>
                                 <div className={"col text-center customize-button"}>
                                     <button
@@ -69,5 +57,4 @@ class WyszukanieKierowcy extends Component {
         );
     }
 }
-
-export default WyszukanieKierowcy;
+export default ImportPrzesylekModule;
