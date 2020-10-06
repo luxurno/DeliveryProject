@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Command/ImporterGeneratorCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Entity/TotalAddress.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Enum/ImportFileHeadersEnum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Exception/MissingResultsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Generator/RandomIdsTotalAddressGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Provider/TotalAddressCountProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Repository/TotalAddressRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Service/ImportGeneratorService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app-custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/ImportPrzesylek.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/ImportDostaw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportPrzesylek/FileDropzone/FileDropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/FileDropzone/FileDropzone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportPrzesylek/ImportPrzesylekModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Navbar/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +221,7 @@
       <workItem from="1601658254621" duration="17213000" />
       <workItem from="1601715388424" duration="15417000" />
       <workItem from="1601926050482" duration="4397000" />
-      <workItem from="1602002900440" duration="6465000" />
+      <workItem from="1602002900440" duration="7675000" />
     </task>
     <servers />
   </component>
@@ -263,10 +249,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602008827709" />
-    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1602007230143">
+    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1602009970017">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602007230143" />
+    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602009970017" />
     <state x="517" y="286" key="NewPhpFileDialog" timestamp="1602007011762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -275,10 +261,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602002914776" />
-    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1601661616352">
+    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1602010582995">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1601661616352" />
+    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602010582995" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1602008360302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
