@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import WyszukiwanieKierowcyDatalist from "../WyszukanieKierowcy/WyszukiwanieKierowcyDatalist";
 import FileDropzone from "./FileDropzone/FileDropzone";
 
-class ImportPrzesylekModule extends Component {
+class ImportDostawModule extends Component {
     constructor() {
         super();
 
@@ -28,26 +28,28 @@ class ImportPrzesylekModule extends Component {
 
     render() {
         return (
-            <div className={"wyszukiwanie-kierowcy-container"}>
+            <div className={"import-dostaw-container"}>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"modules-header-text"}>
                         {this.props.data.title}
                     </div>
                 </div>
                 <div className={"d-flex justify-content-center"}>
-                    <div className={"wyszukiwanie-kierowcy-form d-flex"}>
+                    <div className={"import-dostaw-form d-flex"}>
                         <form onSubmit={this.handleSearchDriver}>
-                            <div className={"row margin-0 vertical-center"}>
-                                <div className={"col text-center blue-outline-box"}>
-                                    <label>Upload pliku</label>
-                                    <FileDropzone/>
-                                </div>
-                                <div className={"col text-center customize-button"}>
-                                    <button
-                                        type={"button"}
-                                        className={"btn btn-primary"}
-                                        onClick={this.handleSearchDriver}
-                                    >{this.props.data.button}</button>
+                            <div className={'import-dostaw-wrapper'}>
+                                <div className={"row margin-0 import-dostaw-item"}>
+                                    <div className={"col text-center import-dostaw-box"}>
+                                        <label>Upload pliku</label>
+                                        <FileDropzone/>
+                                    </div>
+                                    <div className={"col text-center customize-button"}>
+                                        <button
+                                            type={"button"}
+                                            className={"btn btn-primary"}
+                                            onClick={this.handleSearchDriver}
+                                        >{this.props.data.button}</button>
+                                    </div>
                                 </div>
                             </div>
                         </form>
@@ -57,4 +59,4 @@ class ImportPrzesylekModule extends Component {
         );
     }
 }
-export default ImportPrzesylekModule;
+export default ImportDostawModule;

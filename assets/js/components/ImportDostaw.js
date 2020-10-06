@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import ImportPrzesylekModule from "./Modules/ImportPrzesylek/ImportPrzesylekModule";
+import ImportDostawModule from "./Modules/ImportDostaw/ImportDostawModule";
 
-class ImportPrzesylek extends Component {
+class ImportDostaw extends Component {
     constructor() {
         super();
 
@@ -24,9 +24,10 @@ class ImportPrzesylek extends Component {
     render() {
         return (
             <div>
-                <ImportPrzesylekModule data={this.state} callbackFromParent={this.driverNameCallback}/>
+                <ImportDostawModule data={this.state} callbackFromParent={this.driverNameCallback}/>
+
             </div>
         );
     }
 }
-export default ImportPrzesylek;
+export default ImportDostaw;

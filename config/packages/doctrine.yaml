@@ -16,3 +16,9 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+            App\Bundle\ImporterGenerator:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/ImporterGenerator/Entity'
+                prefix: 'App\Bundle\ImporterGenerator\Entity'
+                alias: App\Bundle\ImporterGenerator

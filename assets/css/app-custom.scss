@@ -116,6 +116,34 @@ input{
   }
 }
 
+.import-dostaw-box {
+  color: #292cc4;
+  flex: none; // This is for test
+
+  label {
+    top: -50%;
+  }
+  label:nth-of-type(2) {
+    top: 95%;
+    left: 8%;
+    max-width: fit-content;
+    position: absolute;
+    color: red;
+  }
+
+  input[type=text] {
+    border: solid #292cc4;
+    width: 38vh;
+    height: 8vh;
+  }
+
+  section {
+    border: solid #292cc4;
+    width: 38vh;
+    height: 8vh;
+  }
+}
+
 .customize-button {
   button {
     height: 7vh;
@@ -274,5 +302,46 @@ input{
   }
 }
 
+.import-dostaw-form {
+  background-color: white;
+  min-width: 100vh;
+  min-height: 38vh;
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #292cc4;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #292cc4;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #292cc4;
+  }
+
+  form {
+    width: 100%;
+  }
+}
+
+.import-dostaw {
+  &-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.25rem;
+    grid-auto-rows: 5rem;
+    grid-template-areas:
+            ". . . ."
+            ". a a ."
+            ". . . .";
+  }
+
+  &-item {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+}
 
 
