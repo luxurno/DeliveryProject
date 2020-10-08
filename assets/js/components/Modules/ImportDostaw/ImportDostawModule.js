@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import WyszukiwanieKierowcyDatalist from "../WyszukanieKierowcy/WyszukiwanieKierowcyDatalist";
+import axios from 'axios';
 import FileDropzone from "./FileDropzone/FileDropzone";
 
 class ImportDostawModule extends Component {
@@ -8,6 +8,7 @@ class ImportDostawModule extends Component {
 
         this.state = {
             name: "",
+            importData: null,
             showConfig: false,
         };
 
@@ -22,7 +23,31 @@ class ImportDostawModule extends Component {
         this.props.callbackFromParent(this.state);
     }
 
-    handleImportFile() {
+    importDataCallback = (data) => {
+        this.setState({
+            importData: data,
+        });
+    };
+
+    handleImportFile(event) {
+        let data = this.state.importData;
+
+        axios
+            .post(
+                process.env.APP_DOMAIN + "/api/import-delivery/save",
+                {
+                    data: data,
+                },
+                { withCredentials: true }
+            )
+            .then(response => {
+                console.log('ok');
+                console.log(response);
+            })
+            .catch(error => {
+                console.log('error');
+                console.log(error);
+            });
         console.log('handluje! XD');
     }
 
@@ -36,18 +61,18 @@ class ImportDostawModule extends Component {
                 </div>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"import-dostaw-form d-flex"}>
-                        <form onSubmit={this.handleSearchDriver}>
+                        <form onSubmit={this.handleImportFile}>
                             <div className={'import-dostaw-wrapper'}>
                                 <div className={"row margin-0 import-dostaw-item"}>
                                     <div className={"col text-center import-dostaw-box"}>
                                         <label>Upload pliku</label>
-                                        <FileDropzone/>
+                                        <FileDropzone callbackImportFile={this.importDataCallback}/>
                                     </div>
                                     <div className={"col text-center customize-button"}>
                                         <button
                                             type={"button"}
                                             className={"btn btn-primary"}
-                                            onClick={this.handleSearchDriver}
+                                            onClick={this.handleImportFile}
                                         >{this.props.data.button}</button>
                                     </div>
                                 </div>

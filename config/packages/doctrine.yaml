@@ -16,9 +16,27 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Entity'
                 prefix: 'App\Entity'
                 alias: App
+            App\Bundle\Import:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/Import/Entity'
+                prefix: 'App\Bundle\Import\Entity'
+                alias: App\Bundle\Import
+            App\Bundle\ImportDelivery:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/ImportDelivery/Entity'
+                prefix: 'App\Bundle\ImportDelivery\Entity'
+                alias: App\Bundle\ImportDelivery
             App\Bundle\ImporterGenerator:
                 is_bundle: false
                 type: annotation
                 dir: '%kernel.project_dir%/src/Bundle/ImporterGenerator/Entity'
                 prefix: 'App\Bundle\ImporterGenerator\Entity'
                 alias: App\Bundle\ImporterGenerator
+            App\Bundle\User:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/User/Entity'
+                prefix: 'App\Bundle\User\Entity'
+                alias: App\Bundle\User`

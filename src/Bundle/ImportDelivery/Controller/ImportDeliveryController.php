@@ -20,8 +20,8 @@ class ImportDeliveryController extends AbstractController
      */
     public function saveImport(Request $request): Response
     {
-
-        var_dump('saves');
+        $importData = json_decode($request->getContent(), true);
+        var_dump($importData['data']);
         die;
 
         $response = new Response();

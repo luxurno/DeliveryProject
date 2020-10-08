@@ -2,10 +2,15 @@ import React, { Component } from 'react'
 import { CSVReader } from 'react-papaparse'
 
 class FileDropzone extends Component {
+    constructor(props) {
+        super(props);
+    }
+
     handleOnDrop = (data) => {
         console.log('---------------------------');
         console.log(data);
         console.log('---------------------------');
+        this.props.callbackImportFile(data);
     };
 
     handleOnError = (err, file, inputElem, reason) => {

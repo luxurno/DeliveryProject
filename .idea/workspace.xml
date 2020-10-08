@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Repository/ImportRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Repository/ImportDeliveryRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Repository/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes/annotations.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/FileDropzone/FileDropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/FileDropzone/FileDropzone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Entity/TotalAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Entity/TotalAddress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20201006165618.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +232,8 @@
       <workItem from="1601658254621" duration="17213000" />
       <workItem from="1601715388424" duration="15417000" />
       <workItem from="1601926050482" duration="4397000" />
-      <workItem from="1602002900440" duration="7675000" />
+      <workItem from="1602002900440" duration="13529000" />
+      <workItem from="1602183867486" duration="6033000" />
     </task>
     <servers />
   </component>
@@ -237,42 +249,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610834055" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1601928311605">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1602188465961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1601928311605" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602004559412">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602188465961" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602189423708">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602004559412" />
-    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1602008827709">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602189423708" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1602184045373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602008827709" />
-    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1602009970017">
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602184045373" />
+    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1602189391763">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602009970017" />
+    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602189391763" />
     <state x="517" y="286" key="NewPhpFileDialog" timestamp="1602007011762">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602007011762" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602002914776">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602183878031">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602002914776" />
-    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1602010582995">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602183878031" />
+    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1602189776370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602010582995" />
+    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602189776370" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1602008360302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602008360302" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602006705364">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602188887229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602006705364" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602188887229" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -2,14 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\ImporterGenerator\Entity;
+namespace App\Bundle\ImportDelivery\Entity;
 
+use App\Bundle\Import\Entity\Import;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Bundle\ImporterGenerator\Repository\TotalAddressRepository")
+ * @ORM\Entity(repositoryClass="App\Bundle\ImportDelivery\Repository\ImportDeliveryRepository")
  */
-class TotalAddress
+class ImportDelivery
 {
     /**
      * @ORM\Id()
@@ -17,10 +19,6 @@ class TotalAddress
      * @ORM\Column(type="integer")
      */
     private $id;
-    /**
-     * @ORM\Column(type="datetime")
-     */
-    private $createDate;
     /**
      * @ORM\Column(type="string", length=255)
      */
@@ -54,13 +52,17 @@ class TotalAddress
      */
     private $kodPocztowy;
     /**
-     * @ORM\Column(type="string", length=255)
+     * @var DateTime $created
+     *
+     * @ORM\Column(name="created_at", type="datetime", nullable=false)
      */
-    private $hash;
+    protected $createdAt;
+
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\ManyToOne(targetEntity="App\Bundle\Import\Entity\Import", inversedBy="importDelivery", cascade={"persist"})
+     * @ORM\JoinColumn(name="import_id", referencedColumnName="id")
      */
-    private $changeDate;
+    protected $import;
 
     public function getId()
     {
@@ -72,24 +74,14 @@ class TotalAddress
         $this->id = $id;
     }
 
-    public function getVoivodeship(): string
+    public function getVoivodeship()
     {
         return $this->voivodeship;
     }
 
-    public function setVoivodeship(string $voivodeship): void
+    public function setVoivodeship($voivodeship): void
     {
         $this->voivodeship = $voivodeship;
-    }
-
-    public function getCreateDate()
-    {
-        return $this->createDate;
-    }
-
-    public function setCreateDate($createDate): void
-    {
-        $this->createDate = $createDate;
     }
 
     public function getKraj()
@@ -162,23 +154,23 @@ class TotalAddress
         $this->kodPocztowy = $kodPocztowy;
     }
 
-    public function getHash()
+    public function getCreatedAt(): DateTime
     {
-        return $this->hash;
+        return $this->createdAt;
     }
 
-    public function setHash($hash): void
+    public function setCreatedAt(DateTime $createdAt): void
     {
-        $this->hash = $hash;
+        $this->createdAt = $createdAt;
     }
 
-    public function getChangeDate()
+    public function getImport(): Import
     {
-        return $this->changeDate;
+        return $this->import;
     }
 
-    public function setChangeDate($changeDate): void
+    public function setImport(Import $import): void
     {
-        $this->changeDate = $changeDate;
+        $this->import = $import;
     }
 }
