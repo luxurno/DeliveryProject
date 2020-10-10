@@ -305,7 +305,7 @@ input{
 .import-dostaw-form {
   background-color: white;
   min-width: 100vh;
-  min-height: 38vh;
+  min-height: 30vh;
 
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #292cc4;
@@ -328,9 +328,8 @@ input{
 .import-dostaw {
   &-wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     grid-gap: 1.25rem;
-    grid-auto-rows: 5rem;
+    grid-auto-rows: 5.75rem;
     grid-template-areas:
             ". . . ."
             ". a a ."
@@ -342,6 +341,17 @@ input{
     align-self: center;
     justify-self: center;
   }
+
+  &-loader {
+    margin-top: -21vh;
+    width: 8rem;
+    margin-left: 44.75%;
+  }
 }
 
+.spinner-border {
+  height: 8rem;
+  width: 8rem;
+  color: lightsteelblue;
+}
 

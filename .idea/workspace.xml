@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/clear-db.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Factory/ImportFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Factory/ImportFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Service/ImportService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/DTO/ImportDeliveryDTO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Exception/MissingResultsException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryDTOFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryDTOFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryFactoryInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Filter/ImportDeliveryFilter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/Command/CreateImportDeliveryCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/Handler/CreateImportDeliveryHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/ImportDeliveryGenerator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Resolver/ImportDeliveryResolver.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Service/ImportDeliveryService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Validator/ImportDeliveryValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Exception/UserNotFound.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/analiza_i_projektowanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analiza_i_projektowanie.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Spinner/SpinnerPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DriverController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/app-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app-custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/clear-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dev/clear-db.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,9 +179,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\analiza_i_projektowanie\dev" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImportDelivery\Service" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator\Generator" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator" />
@@ -258,7 +234,7 @@
       <workItem from="1602002900440" duration="13529000" />
       <workItem from="1602183867486" duration="15164000" />
       <workItem from="1602273996812" duration="1074000" />
-      <workItem from="1602325622181" duration="17867000" />
+      <workItem from="1602325622181" duration="26994000" />
     </task>
     <servers />
   </component>
@@ -307,10 +283,10 @@
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602325625865" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602274004684" />
-    <state x="379" y="101" width="828" height="596" key="find.popup" timestamp="1602349971034">
+    <state x="379" y="101" width="828" height="596" key="find.popup" timestamp="1602358555550">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602349971034" />
+    <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602358555550" />
     <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602199083987" />
     <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1602192537986">
       <screen x="0" y="0" width="1366" height="728" />

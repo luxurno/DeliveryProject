@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import FileDropzone from "./FileDropzone/FileDropzone";
+import SpinnerPage from "./../../Spinner/SpinnerPage";
 
 class ImportDostawModule extends Component {
     constructor() {
@@ -10,6 +11,7 @@ class ImportDostawModule extends Component {
             name: "",
             importData: null,
             showConfig: false,
+            isLoading: false
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -31,6 +33,7 @@ class ImportDostawModule extends Component {
 
     handleImportFile(event) {
         let data = this.state.importData;
+        this.setState({isLoading: true});
 
         axios
             .post(
@@ -41,17 +44,20 @@ class ImportDostawModule extends Component {
                 { withCredentials: true }
             )
             .then(response => {
+                this.setState({isLoading: false});
                 console.log('ok');
                 console.log(response);
             })
             .catch(error => {
+                this.setState({isLoading: false});
                 console.log('error');
                 console.log(error);
             });
-        console.log('handluje! XD');
     }
 
     render() {
+        let isLoading = this.state.isLoading;
+
         return (
             <div className={"import-dostaw-container"}>
                 <div className={"d-flex justify-content-center"}>
@@ -63,7 +69,9 @@ class ImportDostawModule extends Component {
                     <div className={"import-dostaw-form d-flex"}>
                         <form onSubmit={this.handleImportFile}>
                             <div className={'import-dostaw-wrapper'}>
-                                <div className={"row margin-0 import-dostaw-item"}>
+                                <div className={"row margin-0 import-dostaw-item"}
+                                     style={{display: !isLoading ? 'flex' : 'none' }}
+                                >
                                     <div className={"col text-center import-dostaw-box"}>
                                         <label>Upload pliku</label>
                                         <FileDropzone callbackImportFile={this.importDataCallback}/>
@@ -76,6 +84,9 @@ class ImportDostawModule extends Component {
                                         >{this.props.data.button}</button>
                                     </div>
                                 </div>
+                            </div>
+                            <div className={"import-dostaw-loader"}>
+                                <SpinnerPage isLoading={this.state.isLoading}/>
                             </div>
                         </form>
                     </div>
