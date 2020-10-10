@@ -52,17 +52,41 @@ class ImportDelivery
      */
     private $kodPocztowy;
     /**
-     * @var DateTime $created
-     *
-     * @ORM\Column(name="created_at", type="datetime", nullable=false)
+     * @ORM\Column(name="updated_at", type="datetime")
+     */
+    protected $updatedAt;
+    /**
+     * @ORM\Column(name="created_at", type="datetime")
      */
     protected $createdAt;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Bundle\Import\Entity\Import", inversedBy="importDelivery", cascade={"persist"})
+     * @ORM\ManyToOne(targetEntity="App\Bundle\Import\Entity\Import", inversedBy="importDeliveries", cascade={"persist"})
      * @ORM\JoinColumn(name="import_id", referencedColumnName="id")
      */
     protected $import;
+
+    /**
+     * @ORM\PrePersist
+     * @ORM\PreUpdate
+     */
+    public function updateTimestamps(): void
+    {
+        $this->setUpdatedAt(new DateTime('now'));
+        if ($this->getCreatedAt() === null) {
+            $this->setCreatedAt(new DateTime('now'));
+        }
+    }
+
+    public function getImport(): Import
+    {
+        return $this->import;
+    }
+
+    public function setImport(Import $import): void
+    {
+        $this->import = $import;
+    }
 
     public function getId()
     {
@@ -154,23 +178,23 @@ class ImportDelivery
         $this->kodPocztowy = $kodPocztowy;
     }
 
-    public function getCreatedAt(): DateTime
+    public function getUpdatedAt()
+    {
+        return $this->updatedAt;
+    }
+
+    public function setUpdatedAt($updatedAt): void
+    {
+        $this->updatedAt = $updatedAt;
+    }
+
+    public function getCreatedAt(): ?DateTime
     {
         return $this->createdAt;
     }
 
-    public function setCreatedAt(DateTime $createdAt): void
+    public function setCreatedAt(?DateTime $createdAt): void
     {
         $this->createdAt = $createdAt;
-    }
-
-    public function getImport(): Import
-    {
-        return $this->import;
-    }
-
-    public function setImport(Import $import): void
-    {
-        $this->import = $import;
     }
 }

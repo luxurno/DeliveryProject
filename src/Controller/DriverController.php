@@ -7,6 +7,7 @@ namespace App\Controller;
 use App\Service\DriverService;
 use App\Validator\DriverValidator;
 use App\ValueObject\DriverValueObject;
+use Exception;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -66,12 +67,12 @@ class DriverController extends AbstractController
         $response = new Response();
         try {
             if (false === $this->driverValidator->validateAdr($driverVO)) {
-                throw new \Exception();
+                throw new Exception();
             }
 
             $this->driverService->saveDriverConfig($driverVO);
             $response->setStatusCode(Response::HTTP_NO_CONTENT);
-        } catch (\Exception $e) {
+        } catch (Exception $e) {
             $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
 

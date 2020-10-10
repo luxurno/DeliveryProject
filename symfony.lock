@@ -1,4 +1,7 @@
 {
+    "beberlei/assert": {
+        "version": "v3.2.7"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -128,6 +131,12 @@
         "files": [
             "./config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "simple-bus/message-bus": {
+        "version": "v3.0.3"
+    },
+    "simple-bus/symfony-bridge": {
+        "version": "v5.3.1"
     },
     "symfony/asset": {
         "version": "v4.4.8"

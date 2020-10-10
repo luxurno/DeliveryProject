@@ -2,20 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Repository/ImportRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Repository/ImportDeliveryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/clear-db.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Factory/ImportFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Factory/ImportFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/Import/Service/ImportService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/DTO/ImportDeliveryDTO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Exception/MissingResultsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryDTOFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryDTOFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Factory/ImportDeliveryFactoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Filter/ImportDeliveryFilter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/Command/CreateImportDeliveryCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/Handler/CreateImportDeliveryHandler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Generator/ImportDeliveryGenerator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Resolver/ImportDeliveryResolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Service/ImportDeliveryService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Validator/ImportDeliveryValidator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bundle/User/Exception/UserNotFound.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/analiza_i_projektowanie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/analiza_i_projektowanie.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/FileDropzone/FileDropzone.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/FileDropzone/FileDropzone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/packages/doctrine.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/doctrine.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/Import/Entity/Import.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Controller/ImportDeliveryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Entity/TotalAddress.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImporterGenerator/Entity/TotalAddress.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20201006165618.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/ImportDelivery/Entity/ImportDelivery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DriverController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +182,9 @@
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/vendor/simple-bus/message-bus" />
+      <path value="$PROJECT_DIR$/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/vendor/simple-bus/symfony-bridge" />
     </include_path>
   </component>
   <component name="ProjectId" id="1cakrUuwYB1GLOh6EhslqX0EGlV" />
@@ -186,6 +208,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImportDelivery\Service" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator\Generator" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator" />
     </key>
@@ -233,7 +256,9 @@
       <workItem from="1601715388424" duration="15417000" />
       <workItem from="1601926050482" duration="4397000" />
       <workItem from="1602002900440" duration="13529000" />
-      <workItem from="1602183867486" duration="6033000" />
+      <workItem from="1602183867486" duration="15164000" />
+      <workItem from="1602273996812" duration="1074000" />
+      <workItem from="1602325622181" duration="17867000" />
     </task>
     <servers />
   </component>
@@ -249,38 +274,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610834055" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1602188465961">
+    <state x="438" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602347632912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602188465961" />
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602189423708">
+    <state x="438" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602347632912" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1602342775556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602189423708" />
-    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1602184045373">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602342775556" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1602197489314" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602336134330">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602184045373" />
-    <state x="459" y="177" key="NewPhpClassDialog" timestamp="1602189391763">
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602336134330" />
+    <state x="413" y="118" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602198851628" />
+    <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1602346073234">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602189391763" />
-    <state x="517" y="286" key="NewPhpFileDialog" timestamp="1602007011762">
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602346073234" />
+    <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602274135790" />
+    <state x="785" y="126" key="NewPhpClassDialog" timestamp="1602340197594">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602007011762" />
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602183878031">
+    <state x="785" y="126" key="NewPhpClassDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602340197594" />
+    <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602195283878" />
+    <state x="517" y="286" key="NewPhpFileDialog" timestamp="1602190969180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602183878031" />
-    <state x="379" y="101" width="737" height="596" key="find.popup" timestamp="1602189776370">
+    <state x="517" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602190969180" />
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602325625865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="101" width="737" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602189776370" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1602008360302">
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602325625865" />
+    <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602274004684" />
+    <state x="379" y="101" width="828" height="596" key="find.popup" timestamp="1602349971034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602008360302" />
+    <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602349971034" />
+    <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602199083987" />
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1602192537986">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1602192537986" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1602341139660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602341139660" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602195452113" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602188887229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

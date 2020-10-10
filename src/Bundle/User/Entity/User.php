@@ -41,30 +41,42 @@ class User
      */
     private $lastName;
     /**
-     * @ORM\OneToOne(targetEntity="App\Bundle\Import\Entity\Import", mappedBy="user", cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="App\Bundle\Import\Entity\Import", mappedBy="user", cascade={"persist"})
      */
-    protected $import;
+    protected $imports;
     /**
      * @var DateTime $created
      *
-     * @ORM\Column(name="created_at", type="datetime", nullable=false)
+     * @ORM\Column(name="created_at", type="datetime")
      */
     protected $createdAt;
     /**
      * @var DateTime $updated
      *
-     * @ORM\Column(name="updated_at", type="datetime", nullable=false)
+     * @ORM\Column(name="updated_at", type="datetime")
      */
     protected $updatedAt;
 
     public function __construct()
     {
-        $this->import = new ArrayCollection();
+        $this->imports = new ArrayCollection();
+    }
+
+    /**
+     * @ORM\PrePersist
+     * @ORM\PreUpdate
+     */
+    public function updatedTimestamps(): void
+    {
+        $this->setUpdatedAt(new DateTime('now'));
+        if ($this->getCreatedAt() === null) {
+            $this->setCreatedAt(new DateTime('now'));
+        }
     }
 
     public function addImport(Import $import): self
     {
-        $this->import->add($import);
+        $this->imports->add($import);
         $import->setUser($this);
 
         return $this;

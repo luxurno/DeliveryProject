@@ -25,3 +25,30 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+### Services
+    import_delivery_bundle.import_delivery_service:
+        class: App\Bundle\ImportDelivery\Service\ImportDeliveryService
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@App\Bundle\ImportDelivery\Factory\ImportDeliveryDTOFactory'
+            - '@App\Bundle\ImportDelivery\Generator\ImportDeliveryGenerator'
+            - '@App\Bundle\Import\Factory\ImportFactory'
+            - '@App\Bundle\User\Repository\UserRepository'
+
+### Generator
+    import_delivery_bundle.import_delivery_generator:
+        class: App\Bundle\ImportDelivery\Generator\ImportDeliveryGenerator
+        arguments:
+            - '@command_bus'
+
+    import_delivery_bundle.create_import_delivery_handler:
+        class: App\Bundle\ImportDelivery\Generator\Handler\CreateImportDeliveryHandler
+        public: true
+        arguments:
+            - '@doctrine.orm.entity_manager'
+            - '@App\Bundle\ImportDelivery\Factory\ImportDeliveryFactory'
+        tags:
+            - { name: command_handler, handles: App\Bundle\ImportDelivery\Generator\Command\CreateImportDeliveryCommand }
+
+

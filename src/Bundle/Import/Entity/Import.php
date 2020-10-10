@@ -6,6 +6,7 @@ namespace App\Bundle\Import\Entity;
 
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
 use App\Bundle\User\Entity\User;
+use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
@@ -21,11 +22,7 @@ class Import
      */
     private $id;
     /**
-     * @ORM\Column(type="datetime")
-     */
-    private $createDate;
-    /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(name="import_date", type="date", unique=true)
      */
     private $importDate;
     /**
@@ -35,25 +32,30 @@ class Import
     protected $user;
     /**
      * @ORM\OneToMany(targetEntity="App\Bundle\ImportDelivery\Entity\ImportDelivery", mappedBy="import", cascade={"persist"})
-     * @ORM\JoinColumn(name="import_delivery_id", referencedColumnName="id")
      */
     protected $importDeliveries;
     /**
-     * @ORM\Column(type="datetime")
+     * @var DateTime $created
+     *
+     * @ORM\Column(name="created_at", type="datetime")
      */
-    private $changeDate;
+    private $createdAt;
 
     public function __construct()
     {
+        $dateTimeNow = new DateTime('now');
+        if ($this->getCreatedAt() === null) {
+            $this->setCreatedAt($dateTimeNow);
+        }
+        $dateTimeNow->format('Y-m-d');
+        $this->setImportDate($dateTimeNow);
         $this->importDeliveries = new ArrayCollection();
     }
 
-    public function addImportDeliveries(ImportDelivery $importDelivery): self
+    public function setImportDeliveries(ImportDelivery $importDelivery): void
     {
         $this->importDeliveries->add($importDelivery);
         $importDelivery->setImport($this);
-
-        return $this;
     }
 
     public function getId()
@@ -66,28 +68,29 @@ class Import
         $this->id = $id;
     }
 
-    public function getCreateDate()
-    {
-        return $this->createDate;
-    }
-
-    public function setCreateDate($createDate): void
-    {
-        $this->createDate = $createDate;
-    }
-
     public function setUser(User $user): void
     {
         $this->user = $user;
     }
 
-    public function getChangeDate()
+    public function getImportDate(): DateTime
     {
-        return $this->changeDate;
+        return $this->importDate;
     }
 
-    public function setChangeDate($changeDate): void
+    public function setImportDate(DateTime $importDate): void
     {
-        $this->changeDate = $changeDate;
+        $this->importDate = $importDate;
+    }
+
+    public function getCreatedAt() :?DateTime
+    {
+        return $this->createdAt;
+    }
+
+    public function setCreatedAt(DateTime $createdAt): self
+    {
+        $this->createdAt = $createdAt;
+        return $this;
     }
 }
