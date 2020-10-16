@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dev/clear-db-linux.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/clear-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dev/clear-db.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20201008193839.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20201008193839.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

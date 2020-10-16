@@ -16,6 +16,12 @@ RUN apt-get install -y \
 RUN docker-php-ext-install zip
 RUN docker-php-ext-install pdo pdo_mysql
 
+# Install Yarn
+RUN apt install gnupg -y
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+RUN apt update && apt install yarn -y
+
 WORKDIR ${PROJECT_ROOT}
 
 COPY ./ ${PROJECT_ROOT}
