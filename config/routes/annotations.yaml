@@ -4,6 +4,7 @@ controllers:
 
 import_delivery:
     resource: ../../src/Bundle/ImportDelivery/Controller/
+    type: annotation
 
 kernel:
     resource: ../../src/Kernel.php

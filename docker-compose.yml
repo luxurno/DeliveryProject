@@ -1,0 +1,47 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        PROJECT_DIR: /var/www
+    command: php -S 0.0.0.0:8080 ./public/index.php
+    environment:
+      RABBIT_HOST: ${RABBIT_HOST}
+      RABBIT_PORT: ${RABBIT_PORT}
+      RABBIT_USER: ${RABBIT_USER}
+      RABBIT_PASS: ${RABBIT_PASS}
+      RABBIT_VHOST: ${RABBIT_VHOST}
+      USER: ${USER}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/var/www
+    depends_on:
+      - rabbit
+      - mysql
+
+  rabbit:
+    image: rabbitmq:3.8.6-management-alpine
+    hostname: "rabbit"
+    environment:
+      RABBITMQ_DEFAULT_USER: "guest"
+      RABBITMQ_DEFAULT_PASS: "guest"
+      RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - "5672:5672"
+      - "15673:15672"
+
+  mysql:
+    image: 'mysql:5.7'
+    restart: 'always'
+    expose:
+      - '3306'
+    ports:
+      - '3306:3306'
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
