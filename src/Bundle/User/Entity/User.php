@@ -45,17 +45,17 @@ class User
      */
     protected $imports;
     /**
+     * @var DateTime $updated
+     *
+     * @ORM\Column(name="updated_at", type="datetime", nullable=true)
+     */
+    protected $updatedAt;
+    /**
      * @var DateTime $created
      *
      * @ORM\Column(name="created_at", type="datetime")
      */
     protected $createdAt;
-    /**
-     * @var DateTime $updated
-     *
-     * @ORM\Column(name="updated_at", type="datetime")
-     */
-    protected $updatedAt;
 
     public function __construct()
     {
@@ -142,16 +142,6 @@ class User
         $this->lastName = $lastName;
     }
 
-    public function getCreatedAt(): DateTime
-    {
-        return $this->createdAt;
-    }
-
-    public function setCreatedAt(DateTime $createdAt): void
-    {
-        $this->createdAt = $createdAt;
-    }
-
     public function getUpdatedAt(): ?DateTime
     {
         return $this->updatedAt;
@@ -160,5 +150,15 @@ class User
     public function setUpdatedAt(?DateTime $updatedAt): void
     {
         $this->updatedAt = $updatedAt;
+    }
+
+    public function getCreatedAt(): DateTime
+    {
+        return $this->createdAt;
+    }
+
+    public function setCreatedAt(DateTime $createdAt): void
+    {
+        $this->createdAt = $createdAt;
     }
 }

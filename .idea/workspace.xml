@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/components/Spinner/SpinnerPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app-custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/components/Modules/ImportDostaw/ImportDostawModule.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/clear-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dev/clear-db.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/clear-db.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dev/clear-db.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bundle/User/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20201008193839.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Migrations/Version20201008193839.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,28 +14,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Luxurno" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="c0eprdpe" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -167,7 +146,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -178,7 +156,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../boostypers/najsik" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -192,18 +170,6 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="var_dump" />
-    </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -246,10 +212,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Plugins/0.0.1366.728@0.0.1366.728" timestamp="1601658392491" />
-    <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601610834055">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="299" y="78" width="802" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602877625033">
+      <screen x="0" y="42" width="1920" height="1038" />
     </state>
     <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610834055" />
+    <state x="299" y="78" width="802" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.42.1920.1038@0.42.1920.1038" timestamp="1602877625033" />
     <state x="438" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602347632912">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -278,6 +245,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1602190969180" />
+    <state x="464" y="182" width="992" height="733" key="SettingsEditor" timestamp="1602877175945">
+      <screen x="0" y="42" width="1920" height="1038" />
+    </state>
+    <state x="464" y="182" width="992" height="733" key="SettingsEditor/0.42.1920.1038@0.42.1920.1038" timestamp="1602877175945" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1602325625865">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

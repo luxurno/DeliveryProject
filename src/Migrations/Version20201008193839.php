@@ -24,7 +24,8 @@ final class Version20201008193839 extends AbstractMigration
                                 `nick`='Luxurno Marcin Szostak', 
                                 `email`='luxurno@luxurno.com',
                                 `first_name`='Marcin',
-                                `last_name`='Szostak'
+                                `last_name`='Szostak',
+                                `created_at`=NOW()
                                 ");
     }
 
