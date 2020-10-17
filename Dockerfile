@@ -1,4 +1,4 @@
-FROM php:7.2
+FROM php:7.2-fpm
 
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
@@ -28,4 +28,3 @@ COPY ./ ${PROJECT_ROOT}
 
 RUN composer install --prefer-dist --no-interaction
 RUN composer dump-autoload --optimize --quiet
-

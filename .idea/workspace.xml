@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a430fdd-aa6a-40c7-92a9-c3078c4a4ecb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dev/clear-db-linux.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/etc/nginx/conf.d/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/etc/nginx/fastcgi.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/etc/nginx/mime.types" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/etc/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/usr/local/etc/php-fpm.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/usr/local/etc/php-fpm.d/www.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DriverController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DriverController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,10 +172,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/etc/nginx" />
+      <recent name="$PROJECT_DIR$/docker/etc/nginx/conf.d" />
+      <recent name="$PROJECT_DIR$/docker/etc" />
       <recent name="C:\work\analiza_i_projektowanie\dev" />
       <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImportDelivery\Service" />
-      <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator\Generator" />
-      <recent name="C:\work\analiza_i_projektowanie\src\Bundle\ImporterGenerator" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -217,10 +229,11 @@
     </state>
     <state x="213" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1601610834055" />
     <state x="299" y="78" width="802" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.42.1920.1038@0.42.1920.1038" timestamp="1602877625033" />
-    <state x="438" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602347632912">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="616" y="279" width="534" height="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602922559435">
+      <screen x="0" y="42" width="1920" height="1038" />
     </state>
     <state x="438" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602347632912" />
+    <state x="616" y="279" width="534" height="399" key="#com.intellij.fileTypes.FileTypeChooser/0.42.1920.1038@0.42.1920.1038" timestamp="1602922559435" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1602342775556">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -236,11 +249,12 @@
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602346073234" />
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602274135790" />
-    <state x="785" y="126" key="NewPhpClassDialog" timestamp="1602340197594">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1103" y="222" width="391" height="561" key="NewPhpClassDialog" timestamp="1602910321462">
+      <screen x="0" y="42" width="1920" height="1038" />
     </state>
     <state x="785" y="126" key="NewPhpClassDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602340197594" />
     <state x="459" y="177" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1602195283878" />
+    <state x="1103" y="222" width="391" height="561" key="NewPhpClassDialog/0.42.1920.1038@0.42.1920.1038" timestamp="1602910321462" />
     <state x="517" y="286" key="NewPhpFileDialog" timestamp="1602190969180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -254,11 +268,12 @@
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602325625865" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602274004684" />
-    <state x="379" y="101" width="828" height="596" key="find.popup" timestamp="1602358555550">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="533" y="186" width="1164" height="850" key="find.popup" timestamp="1602921458668">
+      <screen x="0" y="42" width="1920" height="1038" />
     </state>
     <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602358555550" />
     <state x="379" y="101" width="828" height="596" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1602199083987" />
+    <state x="533" y="186" width="1164" height="850" key="find.popup/0.42.1920.1038@0.42.1920.1038" timestamp="1602921458668" />
     <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1602192537986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -268,20 +283,14 @@
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728/-1920.0.1920.1160@0.0.1366.728" timestamp="1602341139660" />
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1602195452113" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602188887229">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="486" y="112" width="945" height="967" key="search.everywhere.popup" timestamp="1602935920598">
+      <screen x="0" y="42" width="1920" height="1038" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1602188887229" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/templates/base.html.twig</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="486" y="112" width="945" height="967" key="search.everywhere.popup/0.42.1920.1038@0.42.1920.1038" timestamp="1602935920598" />
+    <state x="685" y="461" width="542" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1602917861576">
+      <screen x="0" y="42" width="1920" height="1038" />
+    </state>
+    <state x="685" y="461" width="542" height="175" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.42.1920.1038@0.42.1920.1038" timestamp="1602917861576" />
   </component>
 </project>

@@ -30,7 +30,7 @@ class DriverController extends AbstractController
     }
 
     /**
-     * @Route("/api/drivers", name="users")
+     * @Route("/api/drivers", name="drivers")
      * @return Response
      */
     public function getDrivers(): Response
