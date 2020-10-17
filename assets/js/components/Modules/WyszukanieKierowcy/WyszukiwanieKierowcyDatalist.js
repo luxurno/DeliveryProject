@@ -15,7 +15,7 @@ class WyszukiwanieKierowcyDatalist extends Component {
     }
 
     handleSearch() {
-        axios.get(process.env.APP_DOMAIN + "/api/drivers").then(res => {
+        axios.get(process.env.APP_DOMAIN + '/api/drivers').then(res => {
             const drivers = res.data;
             this.setState({ drivers: drivers });
         });

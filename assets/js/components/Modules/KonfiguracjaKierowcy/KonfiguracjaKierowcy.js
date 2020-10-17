@@ -115,7 +115,7 @@ class KonfiguracjaKierowcy extends Component {
 
         axios
             .post(
-                process.env.APP_DOMAIN + "/api/driver/save",
+                process.env.APP_DOMAIN + '/api/driver/save',
                 {
                     config: {
                         id: id,

@@ -7,7 +7,7 @@ class PodgladTrasyKierowcy extends Component {
         super(props);
 
         this.state = {
-            route: '/api/route/preview',
+            route: process.env.APP_DOMAIN + '/api/route/preview',
             list: [],
         };
 

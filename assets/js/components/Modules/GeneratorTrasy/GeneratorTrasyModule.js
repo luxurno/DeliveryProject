@@ -6,7 +6,7 @@ class GeneratorTrasyModule extends Component {
         super();
 
         this.state = {
-            route: "/api/route/preview",
+            route: process.env.APP_DOMAIN + '/api/route/preview',
             name: "",
             showConfig: false
         };

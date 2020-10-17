@@ -37,7 +37,7 @@ class ImportDostawModule extends Component {
 
         axios
             .post(
-                process.env.APP_DOMAIN + "/api/import-delivery/save",
+                process.env.APP_DOMAIN + '/api/import-delivery/save',
                 {
                     data: data,
                 },
