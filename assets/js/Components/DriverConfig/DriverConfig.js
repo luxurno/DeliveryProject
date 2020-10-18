@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { OnKeyPressService } from '../../Service/OnKeyPress/OnKeyPressService';
-import { KeyEnum } from "../../Service/OnKeyPress/Enum/KeyEnum";
+import { OnKeyPressService } from '../../Service/OnKeyPressService';
+import { KeyEnum } from "../../Service/Enum/KeyEnum";
 
 export default class DriverConfig extends Component {
     onKeyPressService$: OnKeyPressService = new OnKeyPressService();
