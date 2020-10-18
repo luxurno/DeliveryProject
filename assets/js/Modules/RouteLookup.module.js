@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import DriverSearchComponent from "../Components/DriverSearch/DriverSearchComponent";
 import RouteLookupComponent from "../Components/RouteLookup/RouteLookupComponent";
+import { HeadersEnum } from "../Text/Enum/HeadersEnum";
+import { ButtonEnum } from "../Text/Enum/ButtonEnum";
 
 class RouteLookup extends Component {
     constructor(props) {
@@ -23,10 +25,6 @@ class RouteLookup extends Component {
     };
 
     render() {
-        let podgladTrasyKierowcyStyle = {
-            left: '55vh',
-        };
-
         return(
             <div>
                 <DriverSearchComponent data={this.state} callbackFromParent={this.driverNameCallback} />

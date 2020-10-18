@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import DriverSearch from "../Components/DriverSearch/DriverSearchComponent";
-import DriverConfig from "../Components/DriverConfig/DriverConfig";
 import RouteGeneratorComponent from "../Components/RouteGenerator/RouteGeneratorComponent";
+import { HeadersEnum } from "../Text/Enum/HeadersEnum";
+import { ButtonEnum } from "../Text/Enum/ButtonEnum";
 
 export default class RouteGenerator extends Component {
     constructor(props) {

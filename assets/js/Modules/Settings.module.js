@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import DriverSearch from "../Components/DriverSearch/DriverSearchComponent";
 import DriverConfig from "../Components/DriverConfig/DriverConfig";
-import HeadersEnum from "../Text/Enum/HeadersEnum";
+import { HeadersEnum } from "../Text/Enum/HeadersEnum";
+import { ButtonEnum } from "../Text/Enum/ButtonEnum";
 
 class Settings extends Component {
     constructor(props) {
