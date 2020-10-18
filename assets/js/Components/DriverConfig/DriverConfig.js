@@ -1,7 +1,11 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
+import { OnKeyPressService } from '../../Service/OnKeyPress/OnKeyPressService';
+import { KeyEnum } from "../../Service/OnKeyPress/Enum/KeyEnum";
 
-class DriverConfig extends Component {
+export default class DriverConfig extends Component {
+    onKeyPressService$: OnKeyPressService = new OnKeyPressService();
+
     constructor(props) {
         super(props);
 
@@ -23,7 +27,14 @@ class DriverConfig extends Component {
         this.validateData = this.validateData.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.getDriverId = this.getDriverId.bind(this);
+        this.handleSubmitKeyDown = this.handleSubmitKeyDown.bind(this);
         this.handleSaveConfiguration = this.handleSaveConfiguration.bind(this);
+    }
+
+    handleSubmitKeyDown(event: KeyboardEvent): void {
+        if (this.onKeyPressService$.isKeyPressed(event, KeyEnum.ENTER)) {
+            this.handleSaveConfiguration();
+        }
     }
 
     validateHeight() {
@@ -103,7 +114,6 @@ class DriverConfig extends Component {
                 }
                 break;
         }
-
     }
 
     handleSaveConfiguration(event) {
@@ -156,7 +166,10 @@ class DriverConfig extends Component {
                 </div>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"konfiguracja-kierowcy-form d-flex"}>
-                        <form onSubmit={this.handleSaveConfiguration}>
+                        <form
+                            onKeyDown={(e) => this.handleSubmitKeyDown(e)}
+                            onSubmit={this.handleSaveConfiguration}
+                        >
                             <div className={"row margin-0 vertical-center " +
                             "modules-header-text-form konfiguracja-kierowcy-name " +
                             "konfiguracja-kierowcy-row"}>
@@ -213,7 +226,6 @@ class DriverConfig extends Component {
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
                                 <div className={"col text-center customize-button"}>
                                     <button
-                                        onKeyDown={(e) => this.handleSubmitKeyDown(e)}
                                         disabled={this.state.invalidHeight || this.state.invalidWidth || this.state.invalidCapacity || this.state.invalidAdr}
                                         type={"button"}
                                         className={"btn btn-primary"}
@@ -228,5 +240,3 @@ class DriverConfig extends Component {
         );
     }
 }
-
-export default DriverConfig;
