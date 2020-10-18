@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import WyszukanieKierowcy from "./Modules/WyszukanieKierowcy/WyszukanieKierowcy";
-import PodgladTrasyKierowcy from "./Modules/PodgladTrasyKierowcy/PodgladTrasyKierowcy";
+import DriverSearchComponent from "../Components/DriverSearch/DriverSearchComponent";
+import RouteLookupComponent from "../Components/RouteLookup/RouteLookupComponent";
 
-class PodgladTrasy extends Component {
-    constructor() {
-        super();
+class RouteLookup extends Component {
+    constructor(props) {
+        super(props);
 
         this.state = {
-            title: "Wyszukiwanie Kierowcy",
-            button: "Wyszukaj",
+            title: HeadersEnum.DRIVER_SEARCH,
+            button: ButtonEnum.SEARCH,
             name: "",
             showConfig: false
         };
@@ -29,11 +29,11 @@ class PodgladTrasy extends Component {
 
         return(
             <div>
-                <WyszukanieKierowcy data={this.state} callbackFromParent={this.driverNameCallback} />
-                <PodgladTrasyKierowcy data={this.state}/>
+                <DriverSearchComponent data={this.state} callbackFromParent={this.driverNameCallback} />
+                <RouteLookupComponent data={this.state}/>
             </div>
         );
     }
 }
 
-export default PodgladTrasy;
+export default RouteLookup;

@@ -1,0 +1,8 @@
+{
+  compilerOptions: {
+    incremental: true,
+    tsBuildInfoFile: "./buildcache/front-end",
+    outDir: "./lib"
+  },
+  include: ["./src"]
+}

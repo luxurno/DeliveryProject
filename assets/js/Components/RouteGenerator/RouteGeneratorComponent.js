@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ListaKierowcy from "../ListaKierowcy/ListaKierowcy";
+import DriverListComponent from "../DriverList/DriverListComponent";
 
-class GeneratorTrasyModule extends Component {
+class RouteGeneratorComponent extends Component {
     constructor() {
         super();
 
@@ -50,11 +50,11 @@ class GeneratorTrasyModule extends Component {
                     </div>
                 </div>
                 <div className={"d-flex justify-content-center"}>
-                    <ListaKierowcy data={this.state} styles={listaKierowcyStyles} />
+                    <DriverListComponent data={this.state} styles={listaKierowcyStyles} />
                 </div>
             </div>
         );
     }
 }
 
-export default GeneratorTrasyModule;
+export default RouteGeneratorComponent;

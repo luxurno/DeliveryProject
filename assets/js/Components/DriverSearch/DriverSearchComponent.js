@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import WyszukiwanieKierowcyDatalist from "./WyszukiwanieKierowcyDatalist";
+import DriverSearchDatalist from "./Datalist/DriverSearchDatalist";
 
-class WyszukanieKierowcy extends Component {
+export default class DriverSearchComponent extends Component {
     constructor(props) {
         super(props);
 
@@ -52,7 +52,7 @@ class WyszukanieKierowcy extends Component {
                                         placeholder={"np. Karol Kowalski"}
                                         onChange={this.handleChange}
                                     />
-                                    <WyszukiwanieKierowcyDatalist/>
+                                    <DriverSearchDatalist/>
                                 </div>
                                 <div className={"col text-center customize-button"}>
                                     <button
@@ -69,5 +69,3 @@ class WyszukanieKierowcy extends Component {
         );
     }
 }
-
-export default WyszukanieKierowcy;

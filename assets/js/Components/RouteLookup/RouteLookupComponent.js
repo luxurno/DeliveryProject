@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import PodgladTrasyMap from "./PodgladTrasyMap";
-import ListaKierowcy from "../ListaKierowcy/ListaKierowcy";
+import RouteLookupMap from "./Map/RouteLookupMap";
+import DriverListComponent from "../DriverList/DriverListComponent";
 
-class PodgladTrasyKierowcy extends Component {
+class RouteLookupComponent extends Component {
     constructor(props) {
         super(props);
 
@@ -49,10 +49,10 @@ class PodgladTrasyKierowcy extends Component {
                 </div>
                 <div className={"row margin-0 vertical-center"}>
                     <div className={"podglad-trasy-kierowcy-maps"} id={"map"}>
-                        <PodgladTrasyMap data={this.state}/>
+                        <RouteLookupMap data={this.state}/>
                     </div>
                     <div className={"podglad-trasy-kierowcy-list"} style={listaKierowcyStyles}>
-                        <ListaKierowcy data={this.state} callbackFromParent={this.handleDriverListCallback}/>
+                        <DriverListComponent data={this.state} callbackFromParent={this.handleDriverListCallback}/>
                     </div>
                 </div>
             </div>
@@ -60,4 +60,4 @@ class PodgladTrasyKierowcy extends Component {
     }
 }
 
-export default PodgladTrasyKierowcy;
+export default RouteLookupComponent;

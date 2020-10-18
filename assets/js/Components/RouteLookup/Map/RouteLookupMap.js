@@ -7,7 +7,7 @@ const mapStyles = {
     height: '100vh'
 };
 
-class PodgladTrasyMap extends Component {
+class RouteLookupMap extends Component {
     constructor(props) {
         super(props);
 
@@ -48,4 +48,4 @@ class PodgladTrasyMap extends Component {
 
 export default GoogleApiWrapper({
     apiKey: 'AIzaSyAmoNCrb5Zy4EIIGfkVWWXHr9Ev_xKy7Oc'
-})(PodgladTrasyMap);
+})(RouteLookupMap);

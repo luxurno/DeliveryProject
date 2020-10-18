@@ -6,10 +6,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import '../css/app.css';
 import '../css/app-custom.scss';
-import Home from './components/Home';
+import HomeApp from './Home.app';
 
 ReactDOM.render(
     <Router>
-        <Home />
+        <HomeApp />
     </Router>
-    , document.getElementById('root'));
+    , document.getElementById('root')
+);

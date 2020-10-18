@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import * as ReactDOM from "react-dom";
 
-class KonfiguracjaKierowcy extends Component {
+class DriverConfig extends Component {
     constructor(props) {
         super(props);
 
@@ -129,7 +128,7 @@ class KonfiguracjaKierowcy extends Component {
             )
             .then(response => {
                 if (response.status === 204) {
-                    window.location = '/konfiguracja'
+                    window.location = '/settings'
                 }
             })
             .catch(error => {
@@ -214,6 +213,7 @@ class KonfiguracjaKierowcy extends Component {
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
                                 <div className={"col text-center customize-button"}>
                                     <button
+                                        onKeyDown={(e) => this.handleSubmitKeyDown(e)}
                                         disabled={this.state.invalidHeight || this.state.invalidWidth || this.state.invalidCapacity || this.state.invalidAdr}
                                         type={"button"}
                                         className={"btn btn-primary"}
@@ -229,4 +229,4 @@ class KonfiguracjaKierowcy extends Component {
     }
 }
 
-export default KonfiguracjaKierowcy;
+export default DriverConfig;

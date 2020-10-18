@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
-import ImportDostawModule from "./Modules/ImportDostaw/ImportDostawModule";
+import ImportDeliveryComponent from "../Components/ImportDelivery/ImportDeliveryComponent";
 
-class ImportDostaw extends Component {
-    constructor() {
-        super();
+export default class ImportDelivery extends Component {
+    constructor(props) {
+        super(props);
 
         this.state = {
-            title: "Importuj dostawy",
-            button: "Importuj",
+            title: HeadersEnum.IMPORT_DELIVERIES,
+            button: ButtonEnum.IMPORT,
             name: "",
             showConfig: false,
         };
@@ -24,10 +24,8 @@ class ImportDostaw extends Component {
     render() {
         return (
             <div>
-                <ImportDostawModule data={this.state} callbackFromParent={this.driverNameCallback}/>
-
+                <ImportDeliveryComponent data={this.state} callbackFromParent={this.driverNameCallback}/>
             </div>
         );
     }
 }
-export default ImportDostaw;

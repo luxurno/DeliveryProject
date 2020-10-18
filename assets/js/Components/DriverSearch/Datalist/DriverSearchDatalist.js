@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 
-class WyszukiwanieKierowcyDatalist extends Component {
-    constructor() {
-        super();
+export default class DriverSearchDatalist extends Component {
+    constructor(props) {
+        super(props);
 
         this.state = {
             drivers: null,
@@ -40,5 +40,3 @@ class WyszukiwanieKierowcyDatalist extends Component {
         );
     }
 }
-
-export default WyszukiwanieKierowcyDatalist;

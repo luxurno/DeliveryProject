@@ -66,7 +66,17 @@ Encore
     })
 
     // enables Sass/SCSS support
-    .enableSassLoader()
+    .enableSassLoader((options) => {
+        options.sourceMap = true;
+        options.sassOptions = {
+            outputStyle: options.outputStyle,
+            sourceComments: !Encore.isProduction(),
+        };
+        delete options.outputStyle;
+    }, {})
+
+    // enable ts loader
+    .enableTypeScriptLoader()
 ;
 
 module.exports = Encore.getWebpackConfig();

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class WysylanieOdbioruModule extends Component {
+export default class SendingPerceptionComponent extends Component {
     constructor(props) {
         super(props);
 
@@ -125,5 +125,3 @@ class WysylanieOdbioruModule extends Component {
         );
     }
 }
-
-export default WysylanieOdbioruModule;

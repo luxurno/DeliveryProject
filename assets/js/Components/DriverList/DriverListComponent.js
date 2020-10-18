@@ -3,7 +3,7 @@ import axios from 'axios';
 import OddsElement from "./OddsElement/OddsElement";
 import EvenElement from "./EvenElement/EvenElement";
 
-class ListaKierowcy extends Component {
+export default class DriverListComponent extends Component {
     constructor(props) {
         super(props);
 
@@ -45,7 +45,4 @@ class ListaKierowcy extends Component {
             </div>
         );
     }
-
 }
-
-export default ListaKierowcy;

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import FileDropzone from "./FileDropzone/FileDropzone";
-import SpinnerPage from "./../../Spinner/SpinnerPage";
+import SpinnerPage from "../../Spinner/SpinnerPage";
 
-class ImportDostawModule extends Component {
-    constructor() {
-        super();
+class ImportDeliveryComponent extends Component {
+    constructor(props) {
+        super(props);
 
         this.state = {
             name: "",
@@ -95,4 +95,4 @@ class ImportDostawModule extends Component {
         );
     }
 }
-export default ImportDostawModule;
+export default ImportDeliveryComponent;
