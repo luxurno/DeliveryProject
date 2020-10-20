@@ -6,6 +6,10 @@ import_delivery:
     resource: ../../src/Bundle/ImportDelivery/Controller/
     type: annotation
 
+near_by:
+    resource: ../../src/Bundle/NearBy/Controller/
+    type: annotation
+
 perception:
     resource: ../../src/Bundle/Perception/Controller/
     type: annotation

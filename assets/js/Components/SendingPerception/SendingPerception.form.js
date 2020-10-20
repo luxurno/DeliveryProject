@@ -3,10 +3,12 @@ import {OnKeyPressService} from "../../Core/Service/OnKeyPress.service.ts";
 import {KeyEnum} from "../../Core/Service/Enum/KeyEnum";
 import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 import axios from "axios";
+import {StorageService} from "../../Core/Service/Storage.service";
 
 export default class SendingPerceptionForm extends Component {
-    onKeyPressService$: OnKeyPressService = new OnKeyPressService();
     driverNameFilter$: DriverNameFilter = new DriverNameFilter();
+    onKeyPressService$: OnKeyPressService = new OnKeyPressService();
+    storageService$: StorageService = new StorageService();
 
     constructor(props) {
         super(props);
@@ -34,7 +36,7 @@ export default class SendingPerceptionForm extends Component {
 
     handleSubmitKeyDown(event: KeyboardEvent): void {
         if (this.onKeyPressService$.isKeyPressed(event, KeyEnum.ENTER)) {
-            this.handleSaveConfiguration();
+            this.handleReceiptOrder(event);
         }
     }
 
@@ -61,13 +63,14 @@ export default class SendingPerceptionForm extends Component {
                 { withCredentials: true }
             )
             .then(response => {
-                if (response.status === 204) {
-                    console.log('TODO');
-                    //window.location = '/settings'
+                if (response.status === 200) {
+                    this.storageService$.setSendingPerceptionId(Number.parseInt(response.data.id));
+                    this.props.showNearByCallback(true);
                 }
             })
             .catch(error => {
-                console.log('TODO');
+                console.log('TODO ERROR');
+                this.props.showNearByCallback(false);
                 //this.state.validateErrorMessage = "Taki kierowca nie istnieje";
             });
         event.preventDefault();
@@ -140,13 +143,13 @@ export default class SendingPerceptionForm extends Component {
     }
 
     render() {
-        let { name } = this.props.data;
-        name = this.driverNameFilter$.getDriverName(name);
-
         return(
             <div className={"d-flex justify-content-center"}>
                 <div className={"wysylanie-odbioru-form d-flex"}>
-                    <form onSubmit={this.handleReceiptOrder}>
+                    <form
+                        onKeyDown={(e) => this.handleSubmitKeyDown(e)}
+                        onSubmit={this.handleReceiptOrder}
+                    >
                         <div className={"row margin-0 vertical-center " +
                         "modules-header-text-form wysylanie-odbioru-name " +
                         "wysylanie-odbioru-row"}>
