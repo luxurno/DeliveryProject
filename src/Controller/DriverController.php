@@ -31,14 +31,16 @@ class DriverController extends AbstractController
 
     /**
      * @Route("/api/drivers", name="drivers")
+     * @param Request $request
      * @return Response
      */
-    public function getDrivers(): Response
+    public function getDrivers(Request $request): Response
     {
-        $users = $this->driverService->getAllDrivers();
+        $userId = $request->get('userId');
+
+        $users = ($userId !== null) ? $this->driverService->getAllDrivers((int) $userId) : [];
 
         $response = new Response();
-
         $response->headers->set('Content-Type', 'application/json');
         //$response->headers->set('Access-Control-Allow-Origin', '*');
 

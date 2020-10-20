@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import {StorageService} from "../../../Core/Service/Storage.service";
 
 export default class DriverSearchDatalist extends Component {
+    storageService$: StorageService = new StorageService();
+
     constructor(props) {
         super(props);
 
         this.state = {
             drivers: null,
-            refEl: null
+            refEl: null,
         };
 
         this.handleSearch = this.handleSearch.bind(this);
@@ -15,7 +18,9 @@ export default class DriverSearchDatalist extends Component {
     }
 
     handleSearch() {
-        axios.get(process.env.APP_DOMAIN + '/api/drivers').then(res => {
+        let userId = this.storageService$.getCurrentUserId();
+
+        axios.get(process.env.APP_DOMAIN + '/api/drivers?userId=' + userId).then(res => {
             const drivers = res.data;
             this.setState({ drivers: drivers });
         });

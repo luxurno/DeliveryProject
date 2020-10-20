@@ -37,8 +37,8 @@ class DriverService
         $this->entityManager->flush();
     }
 
-    public function getAllDrivers(): array
+    public function getAllDrivers(int $userId): array
     {
-         return $this->driverRepository->findAll();
+         return $this->driverRepository->findBy(['user' => $userId]);
     }
 }
