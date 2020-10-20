@@ -9,17 +9,8 @@ export default class SendingPerceptionComponent extends Component {
     }
 
     render() {
-        let { name, showConfig } = this.props.data;
-        let displayStyle = {};
-
-        if (showConfig === false) {
-            displayStyle = {
-                display: "none",
-            };
-        }
-
         return (
-            <div className={"wysylanie-odbioru-container"} style={displayStyle}>
+            <div className={"wysylanie-odbioru-container"}>
                 <HeadersCustomBox headersText={HeadersEnum.SENDING_PERCEPTION} />
 
                 <SendingPerceptionForm data={this.props.data} />

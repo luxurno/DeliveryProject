@@ -62,11 +62,13 @@ export default class SendingPerceptionForm extends Component {
             )
             .then(response => {
                 if (response.status === 204) {
-                    window.location = '/settings'
+                    console.log('TODO');
+                    //window.location = '/settings'
                 }
             })
             .catch(error => {
-                this.state.validateErrorMessage = "Taki kierowca nie istnieje";
+                console.log('TODO');
+                //this.state.validateErrorMessage = "Taki kierowca nie istnieje";
             });
         event.preventDefault();
     }
