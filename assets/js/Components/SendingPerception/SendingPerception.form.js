@@ -150,7 +150,7 @@ export default class SendingPerceptionForm extends Component {
                         <div className={"row margin-0 vertical-center " +
                         "modules-header-text-form wysylanie-odbioru-name " +
                         "wysylanie-odbioru-row"}>
-                            <tspan>Zlecenie nowego odbioru dla:&nbsp;</tspan><b>{name}</b>
+                            <tspan>Zlecenie nowego odbioru</tspan>
                         </div>
                         <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
                             <div className={"col text-center blue-outline-box"}>

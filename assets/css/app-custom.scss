@@ -145,6 +145,8 @@ input{
 }
 
 .customize-button {
+  padding-bottom: 2vh;
+
   button {
     height: 7vh;
     width: 38vh;
@@ -222,7 +224,7 @@ input{
 .wysylanie-odbioru-form {
   background-color: white;
   min-width: 100vh;
-  min-height: 88vh;
+  min-height: 70vh;
 
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #292cc4;
