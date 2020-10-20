@@ -7,7 +7,6 @@ class RouteLookupComponent extends Component {
         super(props);
 
         this.state = {
-            route: process.env.APP_DOMAIN + '/api/route/preview',
             list: [],
         };
 

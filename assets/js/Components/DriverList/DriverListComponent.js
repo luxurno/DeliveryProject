@@ -14,7 +14,7 @@ export default class DriverListComponent extends Component {
     }
 
     async getListDrivers() {
-        await axios.get(process.env.APP_DOMAIN + this.props.data.route).then(res => {
+        await axios.get(process.env.APP_DOMAIN + '/api/route/preview').then(res => {
             const list = res.data;
             this.setState({ list: list });
         });
