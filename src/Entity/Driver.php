@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace App\Entity;
 
+use App\Bundle\User\Entity\User;
 use Doctrine\ORM\Mapping as ORM;
 use JsonSerializable;
 
@@ -42,6 +43,22 @@ class Driver implements JsonSerializable
      * @ORM\Column(type="string", options={"default" : "nie"})
      */
     private $adr;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Bundle\User\Entity\User", inversedBy="drivers", cascade={"persist"})
+     * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
+     */
+    protected $user;
+
+    public function getUser(): User
+    {
+        return $this->user;
+    }
+
+    public function setUser(User $user): void
+    {
+        $this->user = $user;
+    }
 
     public function getId()
     {

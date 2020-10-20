@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace App\Bundle\User\Entity;
 
 use App\Bundle\Import\Entity\Import;
+use App\Entity\Driver;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -20,6 +21,10 @@ class User
      * @ORM\Column(type="integer")
      */
     private $id;
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Driver", mappedBy="driver", cascade={"persist"})
+     */
+    protected $drivers;
     /**
      * @ORM\Column(type="string", columnDefinition="ENUM('spedytor', 'kierowca')")
      */
@@ -59,6 +64,7 @@ class User
 
     public function __construct()
     {
+        $this->drivers = new ArrayCollection();
         $this->imports = new ArrayCollection();
     }
 
@@ -78,6 +84,14 @@ class User
     {
         $this->imports->add($import);
         $import->setUser($this);
+
+        return $this;
+    }
+
+    public function addDriver(Driver $driver): self
+    {
+        $this->drivers->add($driver);
+        $driver->setUser($this);
 
         return $this;
     }
