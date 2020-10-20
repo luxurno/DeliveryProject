@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import RouteLookupMap from "./Map/RouteLookupMap";
 import DriverListComponent from "../DriverList/DriverListComponent";
+import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 
 class RouteLookupComponent extends Component {
+    driverNameFilter$: DriverNameFilter = new DriverNameFilter();
+
     constructor(props) {
         super(props);
 
@@ -30,6 +33,7 @@ class RouteLookupComponent extends Component {
         let { name, showConfig } = this.props.data;
         let displayStyle = {};
 
+        name = this.driverNameFilter$.getDriverName(name);
         if (showConfig === false) {
             displayStyle = {
                 display: "none",
