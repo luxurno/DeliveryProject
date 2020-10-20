@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {OnKeyPressService} from "../../Core/Service/OnKeyPress.service";
 import {KeyEnum} from "../../Core/Service/Enum/KeyEnum";
 import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
+import axios from "axios";
 
 export default class SendingPerceptionForm extends Component {
     onKeyPressService$: OnKeyPressService = new OnKeyPressService();
@@ -37,8 +38,37 @@ export default class SendingPerceptionForm extends Component {
         }
     }
 
-    handleReceiptOrder() {
-        console.log("here");
+    handleReceiptOrder(event: KeyboardEvent) {
+        const { postal, city, street, number, capacity, weight } = this.state;
+
+        const { name } = this.props.data;
+        let id = this.driverNameFilter$.getDriverId(name);
+
+        axios
+            .post(
+                process.env.APP_DOMAIN + '/api/perception/save',
+                {
+                    perception: {
+                        id: id,
+                        postal: postal,
+                        city: city,
+                        street: street,
+                        number: number,
+                        capacity: capacity,
+                        weight: weight,
+                    }
+                },
+                { withCredentials: true }
+            )
+            .then(response => {
+                if (response.status === 204) {
+                    window.location = '/settings'
+                }
+            })
+            .catch(error => {
+                this.state.validateErrorMessage = "Taki kierowca nie istnieje";
+            });
+        event.preventDefault();
     }
 
     handleChange(event) {
@@ -54,10 +84,8 @@ export default class SendingPerceptionForm extends Component {
         switch(event.target.name) {
             case "postal":
                 if (/^[0-9]{2}-[0-9]{3}$/.test(value)) {
-                    console.log('tak jest');
                     this.setState({invalidPostal: false});
                 } else {
-                    console.log('tak nie jest');
                     this.setState({invalidPostal: true});
                 }
                 break;

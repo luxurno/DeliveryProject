@@ -94,7 +94,7 @@ export default class DriverConfig extends Component {
         }
     }
 
-    handleSaveConfiguration(event) {
+    handleSaveConfiguration(event: KeyboardEvent) {
         const { height, width, capacity, adr } = this.state;
 
         const { name } = this.props.data;
