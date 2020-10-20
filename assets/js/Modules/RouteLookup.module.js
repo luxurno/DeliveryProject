@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import DriverSearchComponent from "../Components/DriverSearch/DriverSearchComponent";
 import RouteLookupComponent from "../Components/RouteLookup/RouteLookupComponent";
-import { HeadersEnum } from "../Text/Enum/HeadersEnum";
-import { ButtonEnum } from "../Text/Enum/ButtonEnum";
+import { HeadersEnum } from "../Core/Text/Enum/Headers.enum";
+import { ButtonEnum } from "../Core/Text/Enum/Button.enum";
 
 class RouteLookup extends Component {
     constructor(props) {

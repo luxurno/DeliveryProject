@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { OnKeyPressService } from '../../Service/OnKeyPressService';
-import { KeyEnum } from "../../Service/Enum/KeyEnum";
+import { OnKeyPressService } from '../../Core/Service/OnKeyPress.service';
+import { KeyEnum } from "../../Core/Service/Enum/KeyEnum";
+import {HeadersEnum} from "../../Core/Text/Enum/Headers.enum";
+import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 
 export default class DriverConfig extends Component {
     onKeyPressService$: OnKeyPressService = new OnKeyPressService();
+    driverNameFilter$: DriverNameFilter = new DriverNameFilter();
 
     constructor(props) {
         super(props);
 
         this.state = {
+            name: HeadersEnum.DRIVER_CONFIG,
             height: "",
             width: "",
             capacity: "",
@@ -20,13 +24,8 @@ export default class DriverConfig extends Component {
             invalidAdr: true,
         };
 
-        this.validateHeight = this.validateHeight.bind(this);
-        this.validateWidth = this.validateWidth.bind(this);
-        this.validateCapacity = this.validateCapacity.bind(this);
-        this.validateAdr = this.validateAdr.bind(this);
         this.validateData = this.validateData.bind(this);
         this.handleChange = this.handleChange.bind(this);
-        this.getDriverId = this.getDriverId.bind(this);
         this.handleSubmitKeyDown = this.handleSubmitKeyDown.bind(this);
         this.handleSaveConfiguration = this.handleSaveConfiguration.bind(this);
     }
@@ -37,32 +36,11 @@ export default class DriverConfig extends Component {
         }
     }
 
-    validateHeight() {
-        return true;
-    }
-
-    validateWidth() {
-        return true;
-    }
-
-    validateCapacity() {
-        return true;
-    }
-
-    validateAdr() {
-        return true;
-    }
-
     handleChange(event) {
         this.setState({
             [event.target.name]: event.target.value
         });
         this.validateData(event);
-    }
-
-    getDriverId(name) {
-        let id = name.split(".");
-        return id[0];
     }
 
     validateData(event) {
@@ -120,7 +98,7 @@ export default class DriverConfig extends Component {
         const { height, width, capacity, adr } = this.state;
 
         const { name } = this.props.data;
-        let id = this.getDriverId(name);
+        let id = this.driverNameFilter$.getDriverId(name);
 
         axios
             .post(
@@ -161,7 +139,7 @@ export default class DriverConfig extends Component {
             <div className={"konfiguracja-kierowcy-container"} style={displayStyle}>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"modules-header-text"}>
-                        Konfiguracja Kierowcy
+                        {this.state.name}
                     </div>
                 </div>
                 <div className={"d-flex justify-content-center"}>

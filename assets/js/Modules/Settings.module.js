@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import DriverSearch from "../Components/DriverSearch/DriverSearchComponent";
 import DriverConfig from "../Components/DriverConfig/DriverConfig";
-import { HeadersEnum } from "../Text/Enum/HeadersEnum";
-import { ButtonEnum } from "../Text/Enum/ButtonEnum";
+import { HeadersEnum } from "../Core/Text/Enum/Headers.enum";
+import { ButtonEnum } from "../Core/Text/Enum/Button.enum";
 
-class Settings extends Component {
+export default class Settings extends Component {
     constructor(props) {
         super(props);
 
@@ -12,7 +12,7 @@ class Settings extends Component {
             title: HeadersEnum.DRIVER_SEARCH,
             button: ButtonEnum.SEARCH,
             name: "",
-            showConfig: false
+            showConfig: false,
         };
     }
 
@@ -21,7 +21,6 @@ class Settings extends Component {
             name: dataFromChild.name,
             showConfig: dataFromChild.showConfig,
         });
-        // TODO Remove bug with missing one action (letter)
     };
 
     render() {
@@ -33,4 +32,3 @@ class Settings extends Component {
         );
     }
 }
-export default Settings;

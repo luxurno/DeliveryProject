@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ImportDeliveryComponent from "../Components/ImportDelivery/ImportDeliveryComponent";
-import { HeadersEnum } from "../Text/Enum/HeadersEnum";
-import { ButtonEnum } from "../Text/Enum/ButtonEnum";
+import { HeadersEnum } from "../Core/Text/Enum/Headers.enum";
+import { ButtonEnum } from "../Core/Text/Enum/Button.enum";
 
 export default class ImportDelivery extends Component {
     constructor(props) {

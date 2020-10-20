@@ -18,15 +18,12 @@ export default class DriverSearchComponent extends Component {
         this.setState({
             [event.target.name]: event.target.value
         });
-        this.props.callbackFromParent(this.state);
     }
 
     handleSearchDriver(event) {
-        if (this.state.name === "") {
-            this.setState({ showConfig: false});
-        } else {
-            this.setState({ showConfig: true});
-        }
+        event.preventDefault();
+
+        this.setState({ showConfig: true});
         this.props.callbackFromParent(this.state);
     }
 
