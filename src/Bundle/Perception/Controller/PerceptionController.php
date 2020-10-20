@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\ImportDelivery\Controller;
+namespace App\Bundle\Perception\Controller;
 
 use App\Bundle\ImportDelivery\Exception\MissingResultsException;
-use App\Bundle\ImportDelivery\Resolver\ImportDeliveryResolver;
+use App\Bundle\Perception\Service\PerceptionService;
 use App\Bundle\User\Exception\UserNotFound;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -13,34 +13,33 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Throwable;
 
-class ImportDeliveryController extends AbstractController
+class PerceptionController extends AbstractController
 {
-    /** @var ImportDeliveryResolver */
-    private $importDeliveryResolver;
+    /** @var PerceptionService */
+    private $perceptionService;
 
-    public function __construct(ImportDeliveryResolver $importDeliveryResolver)
+    public function __construct(PerceptionService $perceptionService)
     {
-        $this->importDeliveryResolver = $importDeliveryResolver;
+        $this->perceptionService = $perceptionService;
     }
 
     /**
-     * @Route("/api/import-delivery/save", name="import-delivery")
+     * @Route("/api/perception/save", name="perception-save")
      * @param Request $request
      * @return Response
      * @throws MissingResultsException
      */
-    public function saveImport(Request $request): Response
+    public function savePerception(Request $request): Response
     {
-        $importData = json_decode($request->getContent(), true);
+        $perceptionData = json_decode($request->getContent(), true);
 
-        if ($importData['data'] === []) {
+        if ($perceptionData['perception'] === []) {
             throw new MissingResultsException('Empty results');
         }
 
         $response = new Response();
         try {
-            $this->importDeliveryResolver->resolve($importData);
-            $response->setStatusCode(Response::HTTP_NO_CONTENT);
+            $this->perceptionService->savePerception($perceptionData['perception']);
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
         } catch (Throwable $e) {

@@ -49,7 +49,7 @@ export default class SendingPerceptionForm extends Component {
                 process.env.APP_DOMAIN + '/api/perception/save',
                 {
                     perception: {
-                        id: id,
+                        userId: id,
                         postal: postal,
                         city: city,
                         street: street,
