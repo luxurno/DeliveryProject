@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {HeadersEnum} from "../../Core/Text/Enum/Headers.enum";
 import {HeadersCustomBox} from "../../Core/Box/HeadersCustom.box";
 import DriversNearByComponent from "../DriversNearBy/DriversNearBy.component";
-import RouteLookupMap from "../RouteLookup/Map/RouteLookupMap";
+import RouteLookupMap from "../../Core/Map/Google.map";
 
 export default class NearByComponent extends Component {
     constructor(props) {
@@ -10,6 +10,8 @@ export default class NearByComponent extends Component {
 
         this.state = {
             list: [],
+            perceptionLat: "",
+            perceptionLng: "",
         };
     }
 
@@ -20,9 +22,16 @@ export default class NearByComponent extends Component {
         // TODO Remove bug with missing one action (letter)
     };
 
+    nearByPerceptionCallback = (dataFromChild) => {
+        this.setState({
+            perceptionLat: dataFromChild?.lat,
+            perceptionLng: dataFromChild?.lng,
+        });
+    };
+
     render() {
         let listaKierowcyStyles = {
-            left: "55vh"
+            left: "50vh"
         };
 
         return(
@@ -33,7 +42,11 @@ export default class NearByComponent extends Component {
                         <RouteLookupMap data={this.state} />
                     </div>
                     <div className={"podglad-trasy-kierowcy-list"} style={listaKierowcyStyles}>
-                        <DriversNearByComponent data={this.state} driversNearByListCallback={this.driversNearByListCallback}/>
+                        <DriversNearByComponent
+                            data={this.state}
+                            driversNearByListCallback={this.driversNearByListCallback}
+                            nearByPerceptionCallback={this.nearByPerceptionCallback}
+                        />
                     </div>
                 </div>
             </div>

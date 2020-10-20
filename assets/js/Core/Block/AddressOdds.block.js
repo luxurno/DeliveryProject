@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 
-class EvenElement extends Component {
+export class AddressOddsBlock extends Component {
     constructor(props) {
         super(props);
-
     }
 
     render() {
@@ -12,8 +11,8 @@ class EvenElement extends Component {
             houseNumber = "/" + this.props.data.house;
         }
 
-        return(
-            <div className={"list-even-element"}>
+        return (
+            <div className={"list-odds-element"}>
                 <div className={"row margin-0"}>
                     <div className={"list-element-number"}>
                         {this.props.data.id + 1}.
@@ -31,5 +30,3 @@ class EvenElement extends Component {
         );
     }
 }
-
-export default EvenElement;

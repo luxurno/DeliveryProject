@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import OddsElement from "./OddsElement/OddsElement";
-import EvenElement from "./EvenElement/EvenElement";
+import {AddressOddsBlock} from "../../Core/Block/AddressOdds.block";
+import {AddressEvenBlock} from "../../Core/Block/AddressEven.block";
 
 export default class DriverListComponent extends Component {
     constructor(props) {
@@ -33,9 +33,9 @@ export default class DriverListComponent extends Component {
         for( let i=0; i < list.length; i++) {
             list[i]['id'] = i;
             if (i%2 === 0) {
-                html.push(<OddsElement key={i} data={list[i]} />);
+                html.push(<AddressOddsBlock key={i} data={list[i]} />);
             } else {
-                html.push(<EvenElement key={i} data={list[i]} />);
+                html.push(<AddressEvenBlock key={i} data={list[i]} />);
             }
         }
 

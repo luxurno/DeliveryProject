@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import SendingPerceptionForm from "./SendingPerception.form";
+import SendingPerceptionForm from "./Form/SendingPerception.form";
 import {HeadersCustomBox} from "../../Core/Box/HeadersCustom.box";
 import {HeadersEnum} from "../../Core/Text/Enum/Headers.enum";
 

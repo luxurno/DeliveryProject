@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import {OnKeyPressService} from "../../Core/Service/OnKeyPress.service.ts";
-import {KeyEnum} from "../../Core/Service/Enum/KeyEnum";
-import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
+import {OnKeyPressService} from "../../../Core/Service/OnKeyPress.service.ts";
+import {KeyEnum} from "../../../Core/Service/Enum/KeyEnum";
+import {DriverNameFilter} from "../../../Core/Filter/DriverName.filter";
 import axios from "axios";
-import {StorageService} from "../../Core/Service/Storage.service";
+import {StorageService} from "../../../Core/Service/Storage.service";
 
 export default class SendingPerceptionForm extends Component {
     driverNameFilter$: DriverNameFilter = new DriverNameFilter();
@@ -153,11 +153,11 @@ export default class SendingPerceptionForm extends Component {
                         <div className={"row margin-0 vertical-center " +
                         "modules-header-text-form wysylanie-odbioru-name " +
                         "wysylanie-odbioru-row"}>
-                            <tspan>Zlecenie nowego odbioru</tspan>
+                            <span>Zlecenie nowego odbioru</span>
                         </div>
                         <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Kod Pocztowy *</tspan></label>
+                                <label><span>Kod Pocztowy *</span></label>
                                 <input
                                     type={"text"}
                                     name={"postal"}
@@ -168,7 +168,7 @@ export default class SendingPerceptionForm extends Component {
                                 <label style={{display: this.state.invalidPostal ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                             </div>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Miasto *</tspan></label>
+                                <label><span>Miasto *</span></label>
                                 <input
                                     type={"text"}
                                     name={"city"}
@@ -181,7 +181,7 @@ export default class SendingPerceptionForm extends Component {
                         </div>
                         <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Ulica *</tspan></label>
+                                <label><span>Ulica *</span></label>
                                 <input
                                     type={"text"}
                                     name={"street"}
@@ -192,7 +192,7 @@ export default class SendingPerceptionForm extends Component {
                                 <label style={{display: this.state.invalidStreet ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                             </div>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Numer *</tspan></label>
+                                <label><span>Numer *</span></label>
                                 <input
                                     type={"text"}
                                     name={"number"}
@@ -205,18 +205,18 @@ export default class SendingPerceptionForm extends Component {
                         </div>
                         <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Powierzchnia *</tspan></label>
+                                <label><span>Powierzchnia *</span></label>
                                 <input
                                     type={"text"}
                                     name={"capacity"}
                                     value={this.state.capacity}
-                                    placeholder={"np. 1,2m2"}
+                                    placeholder={"np. 1,2m²"}
                                     onChange={this.handleChange}
                                 />
                                 <label style={{display: this.state.invalidCapacity ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                             </div>
                             <div className={"col text-center blue-outline-box"}>
-                                <label><tspan>Waga *</tspan></label>
+                                <label><span>Waga *</span></label>
                                 <input
                                     type={"text"}
                                     name={"weight"}
@@ -241,7 +241,7 @@ export default class SendingPerceptionForm extends Component {
                                     type={"button"}
                                     className={"btn btn-primary"}
                                     onClick={this.handleReceiptOrder}
-                                ><tspan>Wyślij</tspan></button>
+                                ><span>Wyślij</span></button>
                             </div>
                         </div>
                     </form>

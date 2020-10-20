@@ -50,4 +50,30 @@ class PerceptionController extends AbstractController
 
         return $response;
     }
+
+    /**
+     * @Route("/api/perception", methods={"GET"})
+     * @param Request $request
+     * @return Response
+     */
+    public function getPerception(Request $request): Response
+    {
+        $perception = [
+            'id' => 1,
+            'postal' => '41-200',
+            'city' => 'Sosnowiec',
+            'street' => 'Paderewskiego',
+            'number' => '38',
+            'capacity' => '1,2',
+            'weight' => '400',
+            'lat' => '50.3737032',
+            'lng' => '19.2121552',
+        ];
+
+        $response = new Response();
+        $response->headers->set('Content-Type', 'application/json');
+        $response->setContent(json_encode($perception));
+
+        return $response;
+    }
 }

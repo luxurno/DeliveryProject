@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import axios from "axios";
-import OddsElement from "../DriverList/OddsElement/OddsElement";
-import EvenElement from "../DriverList/EvenElement/EvenElement";
+import {AddressOddsBlock} from "../../Core/Block/AddressOdds.block";
+import {AddressEvenBlock} from "../../Core/Block/AddressEven.block";
 import {StorageService} from "../../Core/Service/Storage.service";
+import NearByPerceptionBlock from "../../Core/Block/NearByPerception.block";
+import {DriverOddsBlock} from "../../Core/Block/DriverOdds.block";
+import {DriverEvenBlock} from "../../Core/Block/DriverEven.block";
 
 export default class DriversNearByComponent extends Component {
     storageService$: StorageService = new StorageService();
@@ -11,14 +14,12 @@ export default class DriversNearByComponent extends Component {
         super(props);
 
         this.state = {
-            name: "",
             list: [],
+            perception: null,
         };
     }
 
     async getListDrivers() {
-        console.log('123');
-        console.log(this.storageService$.getSendingPerceptionId());
         await axios.get(process.env.APP_DOMAIN + '/api/near-by/preview').then(res => {
             const list = res.data;
             this.setState({ list: list });
@@ -31,16 +32,28 @@ export default class DriversNearByComponent extends Component {
         });
     }
 
+    callbackPerception = (dataFromChild) => {
+        this.setState({
+            perception: dataFromChild.perception,
+        });
+        this.props.nearByPerceptionCallback(dataFromChild.perception);
+    };
+
     render() {
         let list = this.state.list;
         let html = [];
 
+        html.push(<NearByPerceptionBlock
+            key={0}
+            perceptionId={this.storageService$.getSendingPerceptionId()}
+            callbackPerception={this.callbackPerception}
+        />);
         for( let i=0; i < list.length; i++) {
             list[i]['id'] = i;
             if (i%2 === 0) {
-                html.push(<OddsElement key={i} data={list[i]} />);
+                html.push(<DriverOddsBlock key={i+1} data={list[i]} />);
             } else {
-                html.push(<EvenElement key={i} data={list[i]} />);
+                html.push(<DriverEvenBlock key={i+1} data={list[i]} />);
             }
         }
 

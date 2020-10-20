@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import RouteLookupMap from "./Map/RouteLookupMap";
+import RouteLookupMap from "../../Core/Map/Google.map";
 import DriverListComponent from "../DriverList/DriverListComponent";
 import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 
@@ -40,7 +40,7 @@ class RouteLookupComponent extends Component {
             };
         }
         let listaKierowcyStyles = {
-            left: "55vh"
+            left: "50vh"
         };
 
         return(

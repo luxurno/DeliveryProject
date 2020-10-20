@@ -1,6 +1,6 @@
 export class StorageService {
     currentUserId$ = 1;
-    sendingPerceptionId$ = 0;
+    sendingPerceptionId$ = 1;
 
     getCurrentUserId(): number {
         return this.currentUserId$;

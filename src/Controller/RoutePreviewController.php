@@ -24,8 +24,8 @@ class RoutePreviewController extends AbstractController
                 'street' => 'ul. Józefa Piłsudskiego',
                 'number' => '38',
                 'house' => null,
-                'latitude' => '50.2777032',
-                'longitude' => '19.1161552',
+                'lat' => '50.2777032',
+                'lng' => '19.1161552',
             ],
             [
                 'id' => 2,
@@ -35,7 +35,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '17',
                 'house' => '1',
                 'lat' => '50.2493978',
-                'long' => '19.1312617',
+                'lng' => '19.1312617',
             ],
             [
                 'id' => 3,
@@ -45,7 +45,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '109',
                 'house' => null,
                 'lat' => '50.2032894',
-                'long' => '19.1288553',
+                'lng' => '19.1288553',
             ],
             [
                 'id' => 4,
@@ -55,7 +55,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '2',
                 'house' => null,
                 'lat' => '50.1894774',
-                'long' => '19.1003783',
+                'lng' => '19.1003783',
             ],
             [
                 'id' => 5,
@@ -65,7 +65,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '48',
                 'house' => null,
                 'lat' => '50.1374425',
-                'long' => '18.9835517',
+                'lng' => '18.9835517',
             ],
             [
                 'id' => 6,
@@ -75,7 +75,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '58',
                 'home' => null,
                 'lat' => '50.0658653',
-                'long' => '19.0453792',
+                'lng' => '19.0453792',
             ],
             [
                 'id' => 7,
@@ -85,7 +85,7 @@ class RoutePreviewController extends AbstractController
                 'number' => '6',
                 'house' => null,
                 'lat' => '50.0269784',
-                'long' => '19.0619103',
+                'lng' => '19.0619103',
             ],
         ];
 
