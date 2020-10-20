@@ -28,8 +28,6 @@ class RouteLookupMap extends Component {
     };
 
     render() {
-
-        console.log(this.props.data.list);
         return (
             <Map
                 google={this.props.google}
