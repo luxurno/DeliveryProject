@@ -44,7 +44,7 @@ services:
       RABBITMQ_DEFAULT_PASS: "guest"
       RABBITMQ_DEFAULT_VHOST: "/"
     ports:
-      - "5672:5672"
+      - "5673:5672"
       - "15673:15672"
 
   mysql:
