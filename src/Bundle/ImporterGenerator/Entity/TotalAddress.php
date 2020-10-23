@@ -26,9 +26,9 @@ class TotalAddress
      */
     private $kraj;
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="string", length=255, options={"default" : "Śląsk"})
      */
-    private $voivodeship;
+    private $voivodeship = "Śląsk";
     /**
      * @ORM\Column(type="string", length=255)
      */
@@ -58,9 +58,9 @@ class TotalAddress
      */
     private $hash;
     /**
-     * @ORM\Column(type="datetime")
+     * @ORM\Column(type="datetime", options={"default" : null}, nullable=true)
      */
-    private $changeDate;
+    private $changeDate = null;
 
     public function getId()
     {

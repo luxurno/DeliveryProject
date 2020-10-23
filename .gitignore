@@ -24,3 +24,6 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+
+### Addresses
+src/Migrations/Addresses/Slask/02.10.2020_08_07_22__24_slaskie.xml
