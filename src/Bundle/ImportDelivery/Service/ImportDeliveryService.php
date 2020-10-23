@@ -9,6 +9,7 @@ use App\Bundle\Import\Factory\ImportFactory;
 use App\Bundle\ImportDelivery\DTO\ImportDeliveryDTO;
 use App\Bundle\ImportDelivery\Factory\ImportDeliveryDTOFactory;
 use App\Bundle\ImportDelivery\Generator\ImportDeliveryGenerator;
+use App\Bundle\ImportDelivery\Producer\ImportDeliveryProducer;
 use App\Bundle\ImporterGenerator\Enum\ImportFileHeadersEnum;
 use App\Bundle\User\Entity\User;
 use DateTime;
@@ -20,23 +21,26 @@ class ImportDeliveryService
     private $importDeliveryDTOFactory;
     /** @var ImportDeliveryGenerator */
     private $importDeliveryGenerator;
+    /** @var ImportDeliveryProducer */
+    private $importDeliveryProducer;
     /** @var ImportFactory */
     private $importFactory;
 
     public function __construct(
         ImportDeliveryDTOFactory $importDeliveryDTOFactory,
         ImportDeliveryGenerator $importDeliveryGenerator,
+        ImportDeliveryProducer $importDeliveryProducer,
         ImportFactory $importFactory
     )
     {
         $this->importDeliveryDTOFactory = $importDeliveryDTOFactory;
         $this->importDeliveryGenerator = $importDeliveryGenerator;
+        $this->importDeliveryProducer = $importDeliveryProducer;
         $this->importFactory = $importFactory;
     }
 
-    public function createImportDelivery(Import $import, array $importDelivery): void
+    public function createImportDelivery(Import $import, array $importDelivery, int $index): void
     {
-        /** @var ImportDeliveryDTO $importDeliveryDTO */
         $importDeliveryDTO = $this->importDeliveryDTOFactory->factory();
 
         $importDeliveryDTO->setCountry($importDelivery[ImportFileHeadersEnum::COUNTRY]);
@@ -49,5 +53,6 @@ class ImportDeliveryService
         $importDeliveryDTO->setPostalCode($importDelivery[ImportFileHeadersEnum::POSTAL_CODE]);
 
         $this->importDeliveryGenerator->generate($import, $importDeliveryDTO);
+        $this->importDeliveryProducer->addQueue($importDeliveryDTO, $index);
     }
 }

@@ -43,9 +43,10 @@ class ImportDeliveryController extends AbstractController
             $response->setStatusCode(Response::HTTP_NO_CONTENT);
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
-        } catch (Throwable $e) {
-            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
+//        catch (Throwable $e) {
+//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+//        }
 
         return $response;
     }

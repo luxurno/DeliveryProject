@@ -14,7 +14,8 @@ RUN apt-get install -y \
       libzip-dev \
       unzip
 RUN docker-php-ext-install zip
-RUN docker-php-ext-install pdo pdo_mysql
+RUN docker-php-ext-install pdo pdo_mysql sockets
+RUN docker-php-ext-enable sockets
 
 # Install Yarn
 RUN apt install gnupg -y

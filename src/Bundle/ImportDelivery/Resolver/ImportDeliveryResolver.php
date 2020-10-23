@@ -43,7 +43,7 @@ class ImportDeliveryResolver
         foreach ($importData['data'] as $index => $data) {
             if ($this->importDeliveryValidator->validate($headers, $data['data'])) {
                 $data = array_combine($headers, $data['data']);
-                $this->importDeliveryService->createImportDelivery($import, $data);
+                $this->importDeliveryService->createImportDelivery($import, $data, $index);
             }
         }
     }
