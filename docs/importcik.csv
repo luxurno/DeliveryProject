@@ -1,155 +1,36 @@
 kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy
-Polska,lubliniecki,Kosz�?cin,KoszÄ™cin,Sobieskiego,18,00-000
-Polska,czÄ™stochowski,Poczesna,Nierada,GÃ³rska,6,42-262
-Polska,Å¼ywiecki,Rajcza,"Rycerka GÃ³rna",,176,34-370
-Polska,cieszyÅ„ski,Strumie�?,DrogomyÅ›l,KrÄ™ta,8,43-424
-Polska,bÄ™dziÅ„ski,Mierz�?cice,Zawada,Nowowiejska,40,42-460
-Polska,bÄ™dziÅ„ski,Mierz�?cice,MierzÄ™cice,WolnoÅ›ci,77,42-460
-Polska,cieszyÅ„ski,Skoczów,Kowale,Centralna,14,43-430
-Polska,cieszyÅ„ski,Ustro�?,UstroÅ„,Katowicka,158,43-450
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,"Å›w. Jana Chrzciciela",11,43-346
-Polska,Å¼ywiecki,Żywiec,Å»ywiec,AstrÃ³w,6,34-300
-Polska,Å¼ywiecki,Żywiec,Å»ywiec,BielÃ³w,3,34-300
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,"Pod Kasztanem",11,43-344
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,Barkowska,102,43-344
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,SabaÅ‚y,28,43-382
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,"BolesÅ‚awa ÅšmiaÅ‚ego",13,43-300
-Polska,zawierciaÅ„ski,Pilica,Wierbka,GÅ‚Ã³wna,86,42-436
-Polska,"Piekary ÅšlÄ…skie","Piekary �?l�?skie","Piekary ÅšlÄ…skie","Alfonsa Zgrzebnioka",35,41-945
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,SzczÄ™Å›liwa,21,43-318
-Polska,"Piekary ÅšlÄ…skie","Piekary �?l�?skie","Piekary ÅšlÄ…skie","PowstaÅ„cÃ³w ÅšlÄ…skich",16,41-945
-Polska,"Piekary ÅšlÄ…skie","Piekary �?l�?skie","Piekary ÅšlÄ…skie","Andrzeja Wajdy",5,41-948
-Polska,raciborski,Kornowac,PogrzebieÅ„,Wiejska,33,44-285
-Polska,raciborski,Racibórz,RacibÃ³rz,Polna,6b,47-400
-Polska,wodzisÅ‚awski,Rydu�?towy,RYDUÅTOWY,RACIBORSKA,553,44-280
-Polska,raciborski,Racibórz,RacibÃ³rz,HulczyÅ„ska,38a,47-400
-Polska,pszczyÅ„ski,Pszczyna,Pszczyna,"M. Kopernika",5,43-200
-Polska,bÄ™dziÅ„ski,Bobrowniki,SÄ…czÃ³w,WolnoÅ›ci,63,42-595
-Polska,Bielsko-BiaÅ‚a,Bielsko-Bia�?a,Bielsko-BiaÅ‚a,Topolowa,26,43-300
-Polska,Å¼ywiecki,Żywiec,Å»ywiec,Moszczanicka,35,34-300
-Polska,ChorzÃ³w,Chorzów,ChorzÃ³w,Graniczna,82,41-506
-Polska,cieszyÅ„ski,Wis�?a,WisÅ‚a,Polna,6,43-460
-Polska,cieszyÅ„ski,Wis�?a,WisÅ‚a,"Do Potoku",5,43-460
-Polska,JastrzÄ™bie-ZdrÃ³j,Jastrz�?bie-Zdrój,JastrzÄ™bie-ZdrÃ³j,Kasztanowa,8E,44-338
-Polska,ChorzÃ³w,Chorzów,ChorzÃ³w,GÅ‚Ã³wna,16a,41-503
-Polska,ChorzÃ³w,Chorzów,ChorzÃ³w,Farna,22a,41-506
-Polska,gliwicki,Knurów,KnurÃ³w,LotnikÃ³w,7c,44-196
-Polska,raciborski,Racibórz,RacibÃ³rz,MariaÅ„ska,118,47-400
-Polska,pszczyÅ„ski,Pszczyna,"WisÅ‚a Wielka",HodowcÃ³w,127,43-243
-Polska,zawierciaÅ„ski,Zawiercie,Zawiercie,Nowowiejska,5B,42-400
-Polska,pszczyÅ„ski,Pszczyna,ÅÄ…ka,"Juliana Przybosia",12A,43-241
-Polska,zawierciaÅ„ski,Pilica,Wierbka,Widok,5,42-436
-Polska,cieszyÅ„ski,Strumie�?,Pruchna,ZboÅ¼owa,6,43-523
-Polska,cieszyÅ„ski,Skoczów,MiÄ™dzyÅ›wieÄ‡,RÃ³wna,4,43-430
-Polska,rybnicki,�?wierklany,Åšwierklany,Å»orska,26B,44-266
-Polska,tarnogÃ³rski,"Tarnowskie Góry","Tarnowskie GÃ³ry",Hipoteczna,8,00-000
-Polska,"DÄ…browa GÃ³rnicza","D�?browa Górnicza","DÄ…browa GÃ³rnicza","BiaÅ‚ej Przemszy",136A,41-300
-Polska,"DÄ…browa GÃ³rnicza","D�?browa Górnicza","DÄ…browa GÃ³rnicza",Gilowa,9,41-300
-Polska,Rybnik,Rybnik,Rybnik,BÅ‚Ä™kitna,78,44-200
-Polska,Rybnik,Rybnik,Rybnik,KsiÄ…Å¼enicka,68,44-207
-Polska,czÄ™stochowski,Janów,JanÃ³w,Makowa,14,42-253
-Polska,tarnogÃ³rski,Ożarowice,Zendek,GÅ‚Ã³wna,5,42-625
-Polska,lubliniecki,Pawonków,Solarnia,StraÅ¼acka,27B,42-700
-Polska,wodzisÅ‚awski,Mszana,Mszana,Mickiewicza,176a,44-325
-Polska,bÄ™dziÅ„ski,Wojkowice,Wojkowice,Stara,53,42-580
-Polska,myszkowski,Kozieg�?owy,PiÅ„czyce,LeÅ›na,26,42-350
-Polska,myszkowski,Kozieg�?owy,RzeniszÃ³w,SpÃ³Å‚dzielcza,71,42-350
-Polska,zawierciaÅ„ski,Szczekociny,Szczekociny,Ogrodowa,9,42-445
-Polska,wodzisÅ‚awski,Marklowice,Marklowice,Wyzwolenia,23,44-321
-Polska,gliwicki,Toszek,Paczyna,Wiejska,84A,44-120
-Polska,gliwicki,Toszek,Paczyna,Kwiatowa,1,44-120
-Polska,Å¼ywiecki,�?lemie�?,ÅšlemieÅ„,JaÅ›minowa,16,34-323
-Polska,czÄ™stochowski,Blachownia,Blachownia,Graniczna,3,42-290
-Polska,Å¼ywiecki,�?lemie�?,KocoÅ„,ZakopiaÅ„ska,43,34-323
-Polska,czÄ™stochowski,R�?dziny,KoÅ›cielec,Wiatrakowa,24,42-240
-Polska,rybnicki,Lyski,Dzimierz,Rzuchowska,25,44-295
-Polska,rybnicki,Lyski,Å»ytna,Grabie,14,47-435
-Polska,rybnicki,Lyski,Bogunice,Lysecka,10,44-295
-Polska,lubliniecki,Herby,Kalina,StraÅ¼acka,5,42-284
-Polska,tarnogÃ³rski,"Tarnowskie Góry","Tarnowskie GÃ³ry","Stefana Å»eromskiego",70,00-000
-Polska,czÄ™stochowski,R�?dziny,Rudniki,Stalowa,35,42-240
-Polska,Bytom,Bytom,Bytom,"PowstaÅ„cÃ³w ÅšlÄ…skich",29,41-900
-Polska,Bytom,Bytom,Bytom,Reptowska,62,41-900
-Polska,lubliniecki,Lubliniec,Lubliniec,Podmiejska,4a,42-700
-Polska,MysÅ‚owice,Mys�?owice,MysÅ‚owice,LeÅ›na,33b,41-400
-Polska,MysÅ‚owice,Mys�?owice,MysÅ‚owice,JodÅ‚owa,30,41-400
-Polska,Å»ory,Żory,Å»ory,ÅÄ…kowa,18,44-240
-Polska,myszkowski,Poraj,Poraj,Graniczna,16,42-360
-Polska,pszczyÅ„ski,Paw�?owice,KrzyÅ¼owice,KoÅ›ciuszki,8C,43-254
-Polska,mikoÅ‚owski,Orzesze,Orzesze,Ogrodowa,10,43-180
-Polska,mikoÅ‚owski,Orzesze,Orzesze,Gliwicka,37,43-180
-Polska,Å¼ywiecki,Jele�?nia,PrzyborÃ³w,Lipowa,2,34-340
-Polska,JastrzÄ™bie-ZdrÃ³j,Jastrz�?bie-Zdrój,JastrzÄ™bie-ZdrÃ³j,Libowiec,10,44-337
-Polska,"Ruda ÅšlÄ…ska","Ruda �?l�?ska","RUDA ÅšLÄ„SKA","ks. P. Åšciegiennego",1,41-710
-Polska,"Ruda ÅšlÄ…ska","Ruda �?l�?ska","RUDA ÅšLÄ„SKA",MÅ‚yÅ„ska,117,41-706
-Polska,"Ruda ÅšlÄ…ska","Ruda �?l�?ska","RUDA ÅšLÄ„SKA",Wschodnia,19,41-707
-Polska,Å¼ywiecki,Łodygowice,Åodygowice,Å»ywiecka,114,34-325
-Polska,Å¼ywiecki,Łodygowice,Åodygowice,"Pod KalnÄ…",2,34-325
-Polska,Katowice,Katowice,Katowice,DÄ™bowa,97,40-109
-Polska,cieszyÅ„ski,Skoczów,SkoczÃ³w,ÅÄ…kowa,5,43-430
-Polska,Katowice,Katowice,Katowice,"Karola Stabika",29,40-750
-Polska,Katowice,Katowice,Katowice,Poleska,32,40-733
-Polska,Zabrze,Zabrze,Zabrze,"ks. Jana DzierÅ¼ona",9,41-800
-Polska,Tychy,Tychy,Tychy,"Husarii Polskiej",27,43-100
-Polska,Tychy,Tychy,Tychy,FilomatÃ³w,23,43-100
-Polska,Tychy,Tychy,Tychy,Rybitwy,19,43-110
-Polska,Tychy,Tychy,Tychy,LeÅ›na,36,43-100
-Polska,Tychy,Tychy,Tychy,"Lwa ToÅ‚stoja",3B,43-110
-Polska,bÄ™dziÅ„ski,B�?dzin,BÄ™dzin,Teatralna,47,42-500
-Polska,pszczyÅ„ski,Kobiór,KobiÃ³r,WÄ…ska,11,43-210
-Polska,pszczyÅ„ski,Pszczyna,Jankowice,Zagajniki,11B,43-215
-Polska,cieszyÅ„ski,D�?bowiec,Simoradz,DÄ™bina,35,43-426
-Polska,bieruÅ„sko-lÄ™dziÅ„ski,Imielin,Imielin,Å»eÅ„cÃ³w,52,41-407
-Polska,wodzisÅ‚awski,Gorzyce,CzyÅ¼owice,Nowa,11a,44-352
-Polska,czÄ™stochowski,K�?omnice,Garnek,GÅ‚Ã³wna,9b,42-270
-Polska,Zabrze,Zabrze,Zabrze,Wodnika,1,41-818
-Polska,gliwicki,Wielowie�?,Zacharzowice,Wiejska,4,44-187
-Polska,Å¼ywiecki,Żywiec,Å»ywiec,Suska,13A,34-300
-Polska,bielski,Szczyrk,Szczyrk,Uzdrowiskowa,26,43-370
-Polska,tarnogÃ³rski,Zbros�?awice,ZbrosÅ‚awice,"Ignacego Krasickiego",8,42-674
-Polska,Gliwice,Gliwice,Gliwice,KosÃ³w,1,44-100
-Polska,Gliwice,Gliwice,Gliwice,Szafirowa,16,44-121
-Polska,Gliwice,Gliwice,Gliwice,Åanowa,40,44-141
-Polska,Gliwice,Gliwice,Gliwice,Kozielska,492,44-164
-Polska,Gliwice,Gliwice,Gliwice,Jesionowa,7A,44-100
-Polska,czÄ™stochowski,Lelów,LelÃ³w,Å»wirkowskiego,86,42-235
-Polska,cieszyÅ„ski,Goleszów,Cisownica,KrokusÃ³w,14,43-440
-Polska,gliwicki,Pyskowice,Pyskowice,"Stefana Batorego",7,44-120
-Polska,gliwicki,Pyskowice,Pyskowice,"JÃ³zefa Wieczorka",22B,44-120
-Polska,gliwicki,So�?nicowice,Smolnica,Begonii,22,44-153
-Polska,"DÄ…browa GÃ³rnicza","D�?browa Górnicza","DÄ…browa GÃ³rnicza",ÅšliwiÅ„skiego,5A,41-300
-Polska,"DÄ…browa GÃ³rnicza","D�?browa Górnicza","DÄ…browa GÃ³rnicza",Mireckiego,34,41-300
-Polska,gliwicki,Pilchowice,Å»ernica,"1 Maja",17,00-000
-Polska,Jaworzno,Jaworzno,Jaworzno,GÃ³rnicza,31,43-600
-Polska,"Siemianowice ÅšlÄ…skie","Siemianowice �?l�?skie","SIEMIANOWICE ÅšLÄ„SKIE",SZPAKÃ“W,3,41-100
-Polska,ÅšwiÄ™tochÅ‚owice,�?wi�?toch�?owice,ÅšWIÄ˜TOCHÅOWICE,WIÅšNIOWA,8A,41-600
-Polska,Å¼ywiecki,Milówka,Kamesznica,Stawowa,64,34-360
-Polska,cieszyÅ„ski,Istebna,KoniakÃ³w,,599,43-474
-Polska,cieszyÅ„ski,Istebna,Jaworzynka,,309,43-476
-Polska,bieruÅ„sko-lÄ™dziÅ„ski,Bieru�?,BIERUÅƒ,KOCYNDRA,19,43-150
-Polska,bieruÅ„sko-lÄ™dziÅ„ski,Bieru�?,BIERUÅƒ,KOPAÅƒSKA,28,43-150
-Polska,kÅ‚obucki,Opatów,WaleÅ„czÃ³w,Sportowa,11,42-151
-Polska,bieruÅ„sko-lÄ™dziÅ„ski,L�?dziny,LÄ™dziny,HoÅ‚dunowska,106,41-143
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,Ikara,80,42-221
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,"Piotra Bardowskiego",21b,42-216
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,DekabrystÃ³w,3,42-218
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,Staropolska,14,42-218
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,HutnikÃ³w,18,42-202
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,Sokola,60,42-280
-Polska,CzÄ™stochowa,Cz�?stochowa,CzÄ™stochowa,CzoÅ‚gistÃ³w,34,42-202
-Polska,kÅ‚obucki,K�?obuck,BiaÅ‚a,Studzienna,14,42-125
-Polska,kÅ‚obucki,K�?obuck,BiaÅ‚a,StraÅ¼acka,34,42-125
-Polska,kÅ‚obucki,K�?obuck,KÅ‚obuck,Szkolna,236C,42-100
-Polska,kÅ‚obucki,K�?obuck,KÅ‚obuck,"Elizy Orzeszkowej",2,42-100
-Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,"Ignacego Åukasiewicza",3,43-500
-Polska,bielski,Jasienica,"MiÄ™dzyrzecze GÃ³rne",,473,43-392
-Polska,bielski,Kozy,Kozy,Dolna,22e,43-340
-Polska,bielski,Por�?bka,Kobiernice,SÅ‚oneczna,12,43-356
-Polska,bielski,Wilkowice,Bystra,"Juliana FaÅ‚ata",18,43-360
-Polska,bielski,Bestwina,KaniÃ³w,SÅ‚oneczna,9,43-514
-Polska,bielski,Bestwina,Bestwinka,"Franciszka Gandora",26,43-512
-Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Kolonia CieÅ›le",24B,41-217
-Polska,wodzisÅ‚awski,"Wodzis�?aw �?l�?ski","WodzisÅ‚aw ÅšlÄ…ski","BolesÅ‚awa Chrobrego",340A,44-300
-Polska,wodzisÅ‚awski,"Wodzis�?aw �?l�?ski","WodzisÅ‚aw ÅšlÄ…ski","Osiedle XXX Lecia",10,44-300
-Polska,czÄ™stochowski,Olsztyn,Biskupice,ZboÅ¼owa,88,42-256
-Polska,czÄ™stochowski,Olsztyn,Biskupice,OlsztyÅ„ska,192,42-256
+Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,STRZODY,1,44-280
+Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,"BOLESŁAWA KRZYWOUSTEGO",69B,44-280
+Polska,cieszyński,Strumień,Pruchna,Rajska,5,43-523
+Polska,raciborski,Nędza,Babice,Polna,1,47-440
+Polska,cieszyński,Chybie,Mnich,"Aleja Topolowa",45,43-520
+Polska,Chorzów,Chorzów,Chorzów,Cieszyńska,22,41-500
+Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"Janusza Kusocińskiego",41,44-330
+Polska,żywiecki,Rajcza,Sól,,279,34-370
+Polska,myszkowski,Koziegłowy,Lgota-Nadwarcie,Nadrzeczna,87,42-350
+Polska,częstochowski,Koniecpol,Okołowice,Stanisławska,12,42-230
+Polska,żywiecki,Żywiec,Żywiec,"Marii Dąbrowskiej",19,34-300
+Polska,Mysłowice,Mysłowice,Mysłowice,Długa,222,41-400
+Polska,myszkowski,Poraj,Żarki-Letnisko,Kąpielowa,76,42-360
+Polska,częstochowski,Mykanów,Radostków-Kolonia,Wesoła,39,42-233
+Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Kurpiowska,3,41-706
+Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Sosnowa,10A,41-706
+Polska,lubliniecki,Lubliniec,Lubliniec,Południowa,26,42-700
+Polska,zawierciański,Kroczyce,Siedliszowice,,82,42-427
+Polska,Katowice,Katowice,Katowice,Przedwiośnie,7,40-319
+Polska,Zabrze,Zabrze,Zabrze,"Joanny Żnieńskiej",16,41-819
+Polska,Zabrze,Zabrze,Zabrze,Stalowa,5,41-814
+Polska,zawierciański,Łazy,Niegowonice,Nowowiejska,21a,42-450
+Polska,będziński,Będzin,Będzin,Sielecka,85,42-500
+Polska,Rybnik,Rybnik,Rybnik,Szczerbicka,86,44-273
+Polska,Jaworzno,Jaworzno,Jaworzno,Pszczelnik,48,43-600
+Polska,Jaworzno,Jaworzno,Jaworzno,Kaczeńców,73,43-607
+Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,DWORCOWA,21A,41-600
+Polska,żywiecki,Milówka,Szare,,9,34-360
+Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,ŁĄKOWA,13,43-150
+Polska,kłobucki,Miedźno,"Ostrowy nad Okszą",Zakładowa,6A,42-122
+Polska,Częstochowa,Częstochowa,Częstochowa,Limanowska,23,42-202
+Polska,bielski,Wilamowice,Pisarzowice,Zajęcza,6,43-332
+Polska,bielski,Wilkowice,Bystra,Gruntowa,14,43-360
+Polska,częstochowski,Kłomnice,Rzerzęczyce,Polna,2,42-270
+Polska,częstochowski,Kłomnice,Zdrowa,Kłomnicka,11,42-270
