@@ -2,12 +2,13 @@
 
 declare(strict_types=1);
 
-namespace DoctrineMigrations;
+namespace App\Migrations;
 
 use Doctrine\DBAL\Schema\Schema;
 use Doctrine\Migrations\AbstractMigration;
 
 ini_set('memory_limit', '2GB');
+
 /**
  * Auto-generated Migration: Please modify to your needs!
  */
@@ -26,7 +27,6 @@ final class Version20201023145750 extends AbstractMigration
 
         while (! feof($file)) {
             $sql = fgets($file);
-            var_dump($sql);
             if (is_string($sql)) {
                 $this->addSql($sql);
             }

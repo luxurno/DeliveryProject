@@ -7,7 +7,7 @@ namespace App\Bundle\Perception\Service;
 use App\Bundle\Perception\Generator\PerceptionDTOGenerator;
 use App\Bundle\User\Exception\UserNotFound;
 use App\Bundle\User\Repository\UserRepository;
-use App\Core\Service\CoordinatesService;
+use App\Core\Coordinates\Service\CoordinatesService;
 
 class PerceptionService
 {

@@ -10,9 +10,13 @@ class ImportDeliveryComponent extends Component {
         this.state = {
             name: "",
             importData: null,
+            importDate: null,
             showConfig: false,
             isLoading: false
         };
+
+        let now = new Date();
+        this.state.importDate = now.getFullYear() + '-' + (now.getMonth() + 1) + '-' + now.getDate();
 
         this.handleChange = this.handleChange.bind(this);
         this.handleImportFile = this.handleImportFile.bind(this);
@@ -33,6 +37,8 @@ class ImportDeliveryComponent extends Component {
 
     handleImportFile(event) {
         let data = this.state.importData;
+        let importDate = this.state.importDate;
+
         this.setState({isLoading: true});
 
         axios
@@ -40,6 +46,7 @@ class ImportDeliveryComponent extends Component {
                 process.env.APP_DOMAIN + '/api/import-delivery/save',
                 {
                     data: data,
+                    importDate: importDate,
                 },
                 { withCredentials: true }
             )

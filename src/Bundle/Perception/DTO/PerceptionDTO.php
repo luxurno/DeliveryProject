@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace App\Bundle\Perception\DTO;
 
-use App\Core\DTO\CoordinatesDTO;
+use App\Core\Coordinates\DTO\CoordinatesDTO;
 
 class PerceptionDTO
 {

@@ -13,7 +13,7 @@ use App\Bundle\User\Repository\UserRepository;
 use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Exception;
-use http\Exception\InvalidArgumentException;
+use GuzzleHttp\Exception\InvalidArgumentException;
 
 class ImportService
 {
@@ -50,7 +50,7 @@ class ImportService
         }
 
         /** @var Import $import */
-        $import = $this->importRepository->findOneBy(['id' => 1]);
+        $import = $this->importRepository->findOneBy(['import_date' => new DateTime($date)]);
         if ($import === null) {
             try {
                 $importDate = new DateTime($date);

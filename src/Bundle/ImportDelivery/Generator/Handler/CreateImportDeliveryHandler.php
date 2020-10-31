@@ -4,8 +4,6 @@ declare(strict_types = 1);
 
 namespace App\Bundle\ImportDelivery\Generator\Handler;
 
-use App\Bundle\Import\Entity\Import;
-use App\Bundle\ImportDelivery\DTO\ImportDeliveryDTO;
 use App\Bundle\ImportDelivery\Factory\ImportDeliveryFactory;
 use App\Bundle\ImportDelivery\Generator\Command\CreateImportDeliveryCommand;
 use Doctrine\ORM\EntityManager;
@@ -28,9 +26,7 @@ class CreateImportDeliveryHandler
 
     public function handle(CreateImportDeliveryCommand $importDeliveryCommand): void
     {
-        /** @var Import $import */
         $import = $importDeliveryCommand->getImport();
-        /** @var ImportDeliveryDTO $importDeliveryDTO */
         $importDeliveryDTO = $importDeliveryCommand->getImportDeliveryDTO();
 
         $importDelivery = $this->importDeliveryFactory->factory();
@@ -45,6 +41,7 @@ class CreateImportDeliveryHandler
         $importDelivery->setUlica($importDeliveryDTO->getStreet());
         $importDelivery->setNumer($importDeliveryDTO->getNumber());
         $importDelivery->setKodPocztowy($importDeliveryDTO->getPostalCode());
+        $importDelivery->setFormatted($importDeliveryDTO->getFormatted());
         $importDelivery->updateTimestamps();
 
         $import->setImportDeliveries($importDelivery);

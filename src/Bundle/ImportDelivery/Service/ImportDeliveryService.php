@@ -8,6 +8,7 @@ use App\Bundle\Import\Entity\Import;
 use App\Bundle\Import\Factory\ImportFactory;
 use App\Bundle\ImportDelivery\DTO\ImportDeliveryDTO;
 use App\Bundle\ImportDelivery\Factory\ImportDeliveryDTOFactory;
+use App\Bundle\ImportDelivery\Formatter\ImportDeliveryAddressFormatter;
 use App\Bundle\ImportDelivery\Generator\ImportDeliveryGenerator;
 use App\Bundle\ImportDelivery\Producer\ImportDeliveryProducer;
 use App\Bundle\ImporterGenerator\Enum\ImportFileHeadersEnum;
@@ -51,8 +52,9 @@ class ImportDeliveryService
         $importDeliveryDTO->setStreet($importDelivery[ImportFileHeadersEnum::STREET]);
         $importDeliveryDTO->setNumber($importDelivery[ImportFileHeadersEnum::NUMBER]);
         $importDeliveryDTO->setPostalCode($importDelivery[ImportFileHeadersEnum::POSTAL_CODE]);
+        $importDeliveryDTO->setFormatted(ImportDeliveryAddressFormatter::format($importDeliveryDTO));
 
-        $this->importDeliveryGenerator->generate($import, $importDeliveryDTO);
+        $this->importDeliveryGenerator->create($import, $importDeliveryDTO);
         $this->importDeliveryProducer->addQueue($importDeliveryDTO, $index);
     }
 }

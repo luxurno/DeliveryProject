@@ -7,6 +7,7 @@ namespace App\Bundle\ImportDelivery\Controller;
 use App\Bundle\ImportDelivery\Exception\MissingResultsException;
 use App\Bundle\ImportDelivery\Resolver\ImportDeliveryResolver;
 use App\Bundle\User\Exception\UserNotFound;
+use GuzzleHttp\Exception\InvalidArgumentException;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -35,6 +36,9 @@ class ImportDeliveryController extends AbstractController
 
         if ($importData['data'] === []) {
             throw new MissingResultsException('Empty results');
+        }
+        if (strlen($importData['importDate']) !== 10) {
+            throw new InvalidArgumentException();
         }
 
         $response = new Response();

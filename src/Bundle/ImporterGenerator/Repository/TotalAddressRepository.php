@@ -6,7 +6,7 @@ namespace App\Bundle\ImporterGenerator\Repository;
 
 use App\Bundle\ImporterGenerator\Entity\TotalAddress;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\Common\Persistence\ManagerRegistry;
+use Doctrine\Persistence\ManagerRegistry;
 
 /**
  * @method TotalAddress|null find($id, $lockMode = null, $lockVersion = null)

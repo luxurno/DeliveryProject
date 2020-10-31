@@ -7,8 +7,15 @@ namespace App\Bundle\ImportDelivery\Entity;
 use App\Bundle\Import\Entity\Import;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\UniqueConstraint;
 
 /**
+ * @ORM\Table(name="import_delivery",
+ *     uniqueConstraints={
+            @UniqueConstraint(name="import_delivery_unique",
+ *              columns={"import_id", "formatted"})
+ *     }
+ * )
  * @ORM\Entity(repositoryClass="App\Bundle\ImportDelivery\Repository\ImportDeliveryRepository")
  */
 class ImportDelivery
@@ -51,6 +58,22 @@ class ImportDelivery
      * @ORM\Column(type="string", length=255)
      */
     private $kodPocztowy;
+    /**
+     * @ORM\Column(type="string", length=511)
+     */
+    private $formatted;
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="lat", type="decimal", precision=20, scale=16, options={"default" : null}, nullable=true)
+     */
+    private $lat;
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="lng", type="decimal", precision=20, scale=16, options={"default" : null}, nullable=true)
+     */
+    private $lng;
     /**
      * @ORM\Column(name="updated_at", type="datetime")
      */
@@ -176,6 +199,36 @@ class ImportDelivery
     public function setKodPocztowy($kodPocztowy): void
     {
         $this->kodPocztowy = $kodPocztowy;
+    }
+
+    public function getFormatted(): string
+    {
+        return $this->formatted;
+    }
+
+    public function setFormatted(string $formatted): void
+    {
+        $this->formatted = $formatted;
+    }
+
+    public function getLat(): string
+    {
+        return $this->lat;
+    }
+
+    public function setLat(string $lat): void
+    {
+        $this->lat = $lat;
+    }
+
+    public function getLng(): string
+    {
+        return $this->lng;
+    }
+
+    public function setLng(string $lng): void
+    {
+        $this->lng = $lng;
     }
 
     public function getUpdatedAt()

@@ -36,9 +36,9 @@ class ImportDeliveryResolver
 
     public function resolve(array $importData): void
     {
-        $date = new DateTime();
+        $date = $importData['importDate'];
         $headers = $this->importDeliveryFilter->filterHeaders($importData);
-        $import = $this->importService->getImportByDate($date->format('Y-m-d'));
+        $import = $this->importService->getImportByDate($date);
 
         foreach ($importData['data'] as $index => $data) {
             if ($this->importDeliveryValidator->validate($headers, $data['data'])) {

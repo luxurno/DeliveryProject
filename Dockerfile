@@ -27,5 +27,5 @@ WORKDIR ${PROJECT_ROOT}
 
 COPY ./ ${PROJECT_ROOT}
 
-RUN composer install --prefer-dist --no-interaction
-RUN composer dump-autoload --optimize --quiet
+#RUN composer install --prefer-dist --no-interaction
+#RUN composer dump-autoload --optimize --quiet

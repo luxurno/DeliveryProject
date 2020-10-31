@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace App\Core\DTO;
+namespace App\Core\Coordinates\DTO;
 
 class CoordinatesDTO
 {
@@ -11,22 +11,22 @@ class CoordinatesDTO
     /** @var string|null */
     private $longitude;
 
-    public function getLatitude(): string
+    public function getLatitude(): ?string
     {
         return $this->latitude;
     }
 
-    public function setLatitude(string $latitude): void
+    public function setLatitude(?string $latitude): void
     {
         $this->latitude = $latitude;
     }
 
-    public function getLongitude(): string
+    public function getLongitude(): ?string
     {
         return $this->longitude;
     }
 
-    public function setLongitude(string $longitude): void
+    public function setLongitude(?string $longitude): void
     {
         $this->longitude = $longitude;
     }

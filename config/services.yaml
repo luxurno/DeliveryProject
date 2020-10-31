@@ -51,4 +51,10 @@ services:
         tags:
             - { name: command_handler, handles: App\Bundle\ImportDelivery\Generator\Command\CreateImportDeliveryCommand }
 
-
+    import_delivery_bundle.update_import_delivery_handler:
+        class: App\Bundle\ImportDelivery\Generator\Handler\UpdateImportDeliveryHandler
+        public: true
+        arguments:
+            - '@doctrine.orm.entity_manager'
+        tags:
+            - { name: command_handler, handles: App\Bundle\ImportDelivery\Generator\Command\UpdateImportDeliveryCommand }

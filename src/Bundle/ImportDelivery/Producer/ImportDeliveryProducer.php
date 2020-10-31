@@ -43,4 +43,10 @@ class ImportDeliveryProducer
             throw $e;
         }
     }
+//
+//    public function closeQueue(): void
+//    {
+//        $this->rabbitClient->getConnection()->channel()->close();
+//        $this->rabbitClient->getConnection()->close();
+//    }
 }

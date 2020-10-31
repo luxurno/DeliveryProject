@@ -4,7 +4,9 @@ declare(strict_types = 1);
 
 namespace App\Bundle\ImportDelivery\DTO;
 
-class ImportDeliveryDTO
+use App\Core\Model\QueueMessage;
+
+class ImportDeliveryDTO implements QueueMessage
 {
     /** @var string */
     private $country;
@@ -22,6 +24,8 @@ class ImportDeliveryDTO
     private $number;
     /** @var string */
     private $postalCode;
+    /** @var string */
+    private $formatted;
 
     public function getCountry(): string
     {
@@ -101,5 +105,15 @@ class ImportDeliveryDTO
     public function setPostalCode(string $postalCode): void
     {
         $this->postalCode = $postalCode;
+    }
+
+    public function getFormatted(): string
+    {
+        return $this->formatted;
+    }
+
+    public function setFormatted(string $formatted): void
+    {
+        $this->formatted = $formatted;
     }
 }

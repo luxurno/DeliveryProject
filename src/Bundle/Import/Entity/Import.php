@@ -9,8 +9,15 @@ use App\Bundle\User\Entity\User;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\UniqueConstraint;
 
 /**
+ * @ORM\Table(name="import",
+ *     uniqueConstraints={
+            @UniqueConstraint(name="import_unique",
+ *              columns={"import_date", "user_id"})
+ *     }
+ * )
  * @ORM\Entity(repositoryClass="App\Bundle\Import\Repository\ImportRepository")
  */
 class Import
@@ -22,7 +29,7 @@ class Import
      */
     private $id;
     /**
-     * @ORM\Column(name="import_date", type="date", unique=true)
+     * @ORM\Column(name="import_date", type="date")
      */
     private $importDate;
     /**
@@ -31,7 +38,7 @@ class Import
      */
     protected $user;
     /**
-     * @ORM\OneToMany(targetEntity="App\Bundle\ImportDelivery\Entity\ImportDelivery", mappedBy="import", cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="App\Bundle\ImportDelivery\Entity\ImportDelivery", mappedBy="import", cascade={"persist", "remove"})
      */
     protected $importDeliveries;
     /**
