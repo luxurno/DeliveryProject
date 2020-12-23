@@ -10,3 +10,9 @@ https://www.tensorflow.org/tutorials/customization/custom_training_walkthrough
 
 ### Custom text data sets in tensorflow
 https://www.youtube.com/watch?v=NoKvCREx36Q
+
+### Our docker image contains required dependencies
+##### Run container
+docker-compose exec tensorflow bash
+##### Run training model
+cd /var/www/models && python example.py

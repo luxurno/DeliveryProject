@@ -1,3 +1,10 @@
 FROM tensorflow/tensorflow:latest
 
-RUN apt-get update
+# Upgrading pip
+RUN pip install --upgrade pip
+
+# Install dependencies for AI
+RUN pip install wheel
+RUN pip install pandas
+RUN pip install tensorflow_datasets
+

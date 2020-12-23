@@ -63,6 +63,7 @@ services:
 
   tensorflow:
     hostname: "tensorflow"
+    command: "python -m http.server 8888"
     build:
       context: .
       dockerfile: ./Dockerfile-tensorflow
