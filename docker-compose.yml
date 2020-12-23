@@ -60,3 +60,15 @@ services:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+
+  tensorflow:
+    hostname: "tensorflow"
+    build:
+      context: .
+      dockerfile: ./Dockerfile-tensorflow
+    ports:
+      - '8888:8888'
+    volumes:
+      - ./tensorflow:/var/www
+    depends_on:
+      - mysql
