@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import pickle
 
-tokenizer = tfds.features.text.Tokenizer()
+tokenizer = tfds.deprecated.text.Tokenizer()
 
 english = tf.data.TextLineDataset("../resources/english.csv")
 swedish = tf.data.TextLineDataset("../resources/swedish.csv")
@@ -30,17 +30,17 @@ for eng, swe in dataset.skip(1):
 
 
 ## Example if you have multiple files
-file_names = ["../resources/test_example4.csv", "../resources/test_example5.csv", "../resources/test_example6.csv"]
+file_names = ["../resources/test_example1.csv", "../resources/test_example2.csv", "../resources/test_example3.csv"]
 dataset = tf.data.TextLineDataset(file_names)
 
-dataset1 = tf.data.TextLineDataset("../resources/test_example4.csv").skip(1)  # .map(preprocess1)
-dataset2 = tf.data.TextLineDataset("../resources/test_example5.csv").skip(1)  # .map(preprocess1)
-dataset3 = tf.data.TextLineDataset("../resources/test_example6.csv").skip(1)  # .map(preprocess1)
+dataset1 = tf.data.TextLineDataset("../resources/test_example1.csv").skip(1)  # .map(preprocess1)
+dataset2 = tf.data.TextLineDataset("../resources/test_example2.csv").skip(1)  # .map(preprocess1)
+dataset3 = tf.data.TextLineDataset("../resources/test_example3.csv").skip(1)  # .map(preprocess1)
 
 dataset = dataset1.concatenate(dataset2).concatenate(dataset3)
 
-for line in dataset:
-    print(line)
+# for line in dataset:
+#     print(line)
 
 
 # import sys
@@ -70,15 +70,15 @@ def filter_test(line):
     )
 
 
-ds_train = tf.data.TextLineDataset("imdb.csv").filter(filter_train)
-ds_test = tf.data.TextLineDataset("imdb.csv").filter(filter_test)
+ds_train = tf.data.TextLineDataset("../resources/imdb.csv").filter(filter_train)
+ds_test = tf.data.TextLineDataset("../resources/imdb.csv").filter(filter_test)
 
 # TODO:
 # 1. Create vocabulary
 # 2. Numericalize text str -> indices (TokenTextEncoder)
 # 3. Pad the batches so we can send in to an RNN for example
 
-tokenizer = tfds.features.text.Tokenizer()
+tokenizer = tfds.deprecated.text.Tokenizer()
 # 'i love banana' -> ['i', 'love', 'banana'] -> [0, 1, 2]
 
 
@@ -117,7 +117,7 @@ pickle.dump(vocabulary, vocab_file)
 # vocab_file = open("vocabulary.obj", "rb")
 # vocabulary = pickle.load(vocab_file)
 
-encoder = tfds.features.text.TokenTextEncoder(
+encoder = tfds.deprecated.text.TokenTextEncoder(
     list(vocabulary), oov_token="<UNK>", lowercase=True, tokenizer=tokenizer,
 )
 
