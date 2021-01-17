@@ -31,9 +31,7 @@ class GenerateTrainDatabaseCommand extends Command
 
     public function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->generateTrainDatabaseService->generateCsv(
-            $input->getArgument('fileName')
-        );
+        $this->generateTrainDatabaseService->generateCsv();
 
         return 1;
     }
