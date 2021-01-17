@@ -27,11 +27,21 @@ class GenerateTrainDatabaseCommand extends Command
         $this->setName('generate:train-db');
         $this->setDescription('Used to generate train db for AI');
         $this->addArgument('fileName', InputArgument::REQUIRED, 'File name to import in directory /resources/');
+        $this->addArgument('count', InputArgument::OPTIONAL, 'Number of rows to generate');
+        $this->addArgument('from', InputArgument::OPTIONAL, 'Number of id to generate from');
     }
 
     public function execute(InputInterface $input, OutputInterface $output)
     {
-        $this->generateTrainDatabaseService->generateCsv();
+        $fileName = $input->getArgument('fileName');
+        $count = (int) $input->getArgument('count');
+        $from = (int) $input->getArgument('from');
+
+        if ($count !== 0) {
+            $this->generateTrainDatabaseService->generateCustomCsv($fileName, $count, $from);
+        } else {
+            $this->generateTrainDatabaseService->generateCsv();
+        }
 
         return 1;
     }

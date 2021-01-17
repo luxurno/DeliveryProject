@@ -17,6 +17,7 @@ class GenerateTrainDatabaseService
     private const FILE_NAME = 'addressDb.csv';
     private const LOCATION = __DIR__ . '/../../../../tensorflow/resources/';
     private const TYPES = ['train', 'train', 'train', 'test'];
+    private const HEADERS = ['index', 'type', 'label', 'file', 'review'];
     private const LABELS = ['unsup', 'unsup', 'neg', 'Other'];
     /** @var TotalAddressCountProvider */
     private $totalAddressCountProvider;
@@ -32,6 +33,35 @@ class GenerateTrainDatabaseService
         $this->totalAddressRepository = $totalAddressRepository;
     }
 
+    public function generateCustomCsv(string $fileName, int $count, int $from): void
+    {
+        $numberRange = $this->totalAddressCountProvider->provideCountByVoivodeship();
+
+        if ($numberRange <= 1) {
+            throw new MissingDatabaseImport('You need to import Addresses to DB first');
+        }
+
+        $fp = fopen(self::LOCATION . $fileName, 'w+');
+        fputcsv($fp, self::HEADERS);
+        for ($i=$from; $i<= $count+$from; $i++) {
+            $type = self::TYPES[3];
+            $label = self::LABELS[2];
+
+            /** @var TotalAddress $totalAddress */
+            $totalAddress = $this->totalAddressRepository->findOneBy(['id' => $i + 1]);
+
+            $addressDbRow = [
+                'index' =>  $i,
+                'type' => $type,
+                'label' => $label,
+                'file' => $totalAddress->getHash() ?? '',
+                'review' => GenerateTrainDatabaseAddressParser::getAddress($totalAddress),
+            ];
+            fputcsv($fp, $addressDbRow);
+        }
+        fclose($fp);
+    }
+
     public function generateCsv(): void
     {
         $numberRange = $this->totalAddressCountProvider->provideCountByVoivodeship();
@@ -41,6 +71,7 @@ class GenerateTrainDatabaseService
         }
 
         $fp = fopen(self::LOCATION . self::FILE_NAME, 'w');
+        fputcsv($fp, self::HEADERS);
         for($i=0; $i<=$numberRange; $i++) {
             foreach (self::TYPES as $type) {
                 foreach(self::LABELS as $label) {
