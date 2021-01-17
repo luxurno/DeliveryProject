@@ -73,8 +73,22 @@ class GenerateTrainDatabaseService
         $fp = fopen(self::LOCATION . self::FILE_NAME, 'w');
         fputcsv($fp, self::HEADERS);
         for($i=0; $i<=$numberRange; $i++) {
-            foreach (self::TYPES as $type) {
-                foreach(self::LABELS as $label) {
+            if ($i < 25000) {
+                $type = self::TYPES[0];
+                $label = self::LABELS[0];
+            } elseif($i < 25000*2) {
+                $type = self::TYPES[1];
+                $label = self::LABELS[1];
+            }elseif($i > 25000*3) {
+                $type = self::TYPES[3];
+                $label = self::LABELS[3];
+            }elseif($i < 25000*3) {
+                $type = self::TYPES[2];
+                $label = self::LABELS[2];
+            }
+
+//            foreach (self::TYPES as $type) {
+//                foreach(self::LABELS as $label) {
                     /** @var TotalAddress $totalAddress */
                     $totalAddress = $this->totalAddressRepository->findOneBy(['id' => $i + 1]);
 
@@ -82,13 +96,13 @@ class GenerateTrainDatabaseService
                         'index' =>  $i,
                         'type' => $type,
                         'label' => $label,
-                        'file' => $totalAddress->getHash() ?? '',
+                        'file' => $totalAddress->getHash() ?: '',
                         'review' => GenerateTrainDatabaseAddressParser::getAddress($totalAddress),
                     ];
                     fputcsv($fp, $addressDbRow);
-                    $i++;
-                }
-            }
+//                    $i++;
+//                }
+//            }
         }
         fclose($fp);
     }
