@@ -13,7 +13,7 @@ use App\Bundle\ImporterGenerator\Repository\TotalAddressRepository;
 
 class ImportGeneratorService
 {
-    private const LOCATION = __DIR__ . '/../../../../var/';
+    private const LOCATION = __DIR__ . '/../../../../resources/';
 
     /** @var RandomIdsTotalAddressGenerator */
     private $randomIdsTotalAddressGenerator;
