@@ -272,7 +272,7 @@ class AddressValueObject
     }
 }
 
-$xmlFile = '02.10.2020_08_07_22__24_slaskie.xml';
+$xmlFile = '../../../../resources/address_list_slask.xml';
 $primEL  = 'PRG_PunktAdresowy';
 // open the XML file
 $reader = new XMLReader();

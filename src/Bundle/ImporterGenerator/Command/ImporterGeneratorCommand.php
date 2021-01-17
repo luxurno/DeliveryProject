@@ -27,7 +27,7 @@ class ImporterGeneratorCommand extends Command
         $this->setName('import:generate-csv');
         $this->setDescription('Used to generate random address csv');
         $this->addArgument('rows', InputArgument::REQUIRED, 'Number of rows to export');
-        $this->addArgument('fileName', InputArgument::REQUIRED, 'File name to export in directory /var/');
+        $this->addArgument('fileName', InputArgument::REQUIRED, 'File name to export in directory /resources/');
     }
 
     public function execute(InputInterface $input, OutputInterface $output)
