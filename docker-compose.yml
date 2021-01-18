@@ -62,14 +62,14 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
 
   tensorflow:
-    hostname: "tensorflow"
+    hostname: "ml"
     command: "python -m http.server 8888"
     build:
       context: .
-      dockerfile: ./Dockerfile-tensorflow
+      dockerfile: ./Dockerfile-ml
     ports:
       - '8888:8888'
     volumes:
-      - ./tensorflow:/var/www
+      - ./ml:/var/www
     depends_on:
       - mysql

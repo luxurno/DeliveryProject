@@ -15,10 +15,10 @@ ini_set('memory_limit', '2GB');
 class GenerateTrainDatabaseService
 {
     private const FILE_NAME = 'addressDb.csv';
-    private const LOCATION = __DIR__ . '/../../../../tensorflow/resources/';
-    private const TYPES = ['train', 'train', 'train', 'test'];
+    private const LOCATION = __DIR__ . '/../../../../ml/resources/';
+    private const TYPES = ['test', 'test', 'train', 'train', 'train', 'train', 'train', 'train'];
     private const HEADERS = ['index', 'type', 'label', 'file', 'review'];
-    private const LABELS = ['unsup', 'unsup', 'neg', 'Other'];
+    private const LABELS = ['neg', 'pos', 'neg', 'pos', 'unsup', 'unsup', 'unsup', 'unsup'];
     /** @var TotalAddressCountProvider */
     private $totalAddressCountProvider;
     /** @var TotalAddressRepository */
@@ -65,6 +65,7 @@ class GenerateTrainDatabaseService
     public function generateCsv(): void
     {
         $numberRange = $this->totalAddressCountProvider->provideCountByVoivodeship();
+        $numberRange = 100000;
 
         if ($numberRange <= 1) {
             throw new MissingDatabaseImport('You need to import Addresses to DB first');
@@ -73,19 +74,11 @@ class GenerateTrainDatabaseService
         $fp = fopen(self::LOCATION . self::FILE_NAME, 'w');
         fputcsv($fp, self::HEADERS);
         for($i=0; $i<=$numberRange; $i++) {
-            if ($i < 25000) {
-                $type = self::TYPES[0];
-                $label = self::LABELS[0];
-            } elseif($i < 25000*2) {
-                $type = self::TYPES[1];
-                $label = self::LABELS[1];
-            }elseif($i > 25000*3) {
-                $type = self::TYPES[3];
-                $label = self::LABELS[3];
-            }elseif($i < 25000*3) {
-                $type = self::TYPES[2];
-                $label = self::LABELS[2];
-            }
+            $example = $i / 12500;
+            $example = (int) $example;
+
+            $type = self::TYPES[$example];
+            $label = self::LABELS[$example];
 
 //            foreach (self::TYPES as $type) {
 //                foreach(self::LABELS as $label) {
