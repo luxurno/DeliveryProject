@@ -1,0 +1,9 @@
+index,type,label,file,review
+0,train,neg,3277342dffb6b6c26a05f5e0420cf839e9ac7ffe,"Polska Śląsk cieszyński Strumień Bąków 43-246 Główna 41"
+1,train,neg,3d1101d3588687d5fe551bdbf7e9b8ba8e62c1bc,"Polska Śląsk Bielsko-Biała Bielsko-Biała Bielsko-Biała 43-344 Deszczowa 58"
+2,test,neg,809827d2f8fee90166c09c5d3f80944b42ed9851,"Polska Śląsk Piekary Śląskie Piekary Śląskie Piekary Śląskie 41-940 Wierzbowa 8"
+3,test,neg,67a7166789cf2ecc662adf0038110a0498752fef,"Polska Śląsk myszkowski Myszków Myszków 42-300 Słowackiego 184"
+4,test,neg,5dd487709e878de6d776b5114f56f4027bcc702f,"Polska Śląsk rybnicki Czerwionka-Leszczyny Przegędza 44-246 Mikołowska 10B"
+5,test,neg,668f2e846d8c8ee0aa3ed52cd88c4fcbbf02f39d,"Polska Śląsk Dąbrowa Górnicza Dąbrowa Górnicza Dąbrowa Górnicza 41-300 Handlowa 2"
+6,test,neg,73311c40c66f2ba8bca642f2c720e1f39f0c80aa,"Polska Śląsk Jaworzno Jaworzno Jaworzno 43-600 Jana Karola Chodkiewicza 31"
+7,test,neg,adb98567e431cd840c7e6ccbeda58ac208340540,"Polska Śląsk Częstochowa Częstochowa Częstochowa 42-216 Górna 12B"

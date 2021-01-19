@@ -10,13 +10,11 @@ import pickle
 
 tokenizer = tfds.deprecated.text.Tokenizer()
 
-english = tf.data.TextLineDataset("../resources/english2.csv")
-# swedish = tf.data.TextLineDataset("../resources/swedish2.csv")
-dataset = tf.data.Dataset.zip((english))
+warehousePackages = tf.data.TextLineDataset("../resources/warehousePackagesDb.csv")
+dataset = tf.data.Dataset.zip(warehousePackages)
 
-for eng in dataset.skip(1):
-    print(tokenizer.tokenize(eng.numpy().decode("UTF-8")))
-#     print(tokenizer.tokenize(swe.numpy().decode("UTF-8")))
+for warehousePackage in dataset.skip(1):
+    print(tokenizer.tokenize(warehousePackage.numpy().decode("UTF-8")))
 
 # TODO:
 # 1. vocabulary (for each language)
@@ -30,15 +28,16 @@ for eng in dataset.skip(1):
 
 
 ## Example if you have multiple files
-file_names = ["../resources/test_example4.csv", "../resources/test_example5.csv", "../resources/test_example6.csv", "../resources/test_example7.csv"]
+file_names = ["../resources/test_example5.csv", "../resources/test_example6.csv", "../resources/test_example7.csv", "../resources/test_example8.csv", "../resources/test_example9.csv"]
 dataset = tf.data.TextLineDataset(file_names)
 
-dataset1 = tf.data.TextLineDataset("../resources/test_example4.csv").skip(1)  # .map(preprocess1)
-dataset2 = tf.data.TextLineDataset("../resources/test_example5.csv").skip(1)  # .map(preprocess1)
-dataset3 = tf.data.TextLineDataset("../resources/test_example6.csv").skip(1)  # .map(preprocess1)
-dataset4 = tf.data.TextLineDataset("../resources/test_example7.csv").skip(1)  # .map(preprocess1)
+dataset1 = tf.data.TextLineDataset("../resources/test_example5.csv").skip(1)  # .map(preprocess1)
+dataset2 = tf.data.TextLineDataset("../resources/test_example6.csv").skip(1)  # .map(preprocess1)
+dataset3 = tf.data.TextLineDataset("../resources/test_example7.csv").skip(1)  # .map(preprocess1)
+dataset4 = tf.data.TextLineDataset("../resources/test_example8.csv").skip(1)  # .map(preprocess1)
+dataset5 = tf.data.TextLineDataset("../resources/test_example9.csv").skip(1)  # .map(preprocess1)
 
-dataset = dataset1.concatenate(dataset2).concatenate(dataset3)
+dataset = dataset1.concatenate(dataset2).concatenate(dataset3).concatenate(dataset4).concatenate(dataset5)
 
 # for line in dataset:
 #     print(line)
@@ -52,22 +51,18 @@ dataset = dataset1.concatenate(dataset2).concatenate(dataset3)
 def filter_train(line):
     split_line = tf.strings.split(line, ",", maxsplit=4)
     dataset_belonging = split_line[1]  # train, test
-    sentiment_category = split_line[2]  # pos, neg, unsup
 
     return (
-        True
-        if dataset_belonging == "train" and sentiment_category != "unsup"
-        else False
+        True if dataset_belonging == "train" else False
     )
 
 
 def filter_test(line):
     split_line = tf.strings.split(line, ",", maxsplit=4)
     dataset_belonging = split_line[1]  # train, test
-    sentiment_category = split_line[2]  # pos, neg, unsup
 
     return (
-        True if dataset_belonging == "test" and sentiment_category != "unsup" else False
+        True if dataset_belonging == "test" else False
     )
 
 
@@ -167,5 +162,5 @@ model.compile(
     metrics=["accuracy"],
 )
 
-model.fit(ds_train, epochs=30, verbose=2)
+model.fit(ds_train, epochs=15, verbose=2)
 model.evaluate(ds_test)

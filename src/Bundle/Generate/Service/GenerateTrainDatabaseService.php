@@ -16,9 +16,9 @@ class GenerateTrainDatabaseService
 {
     private const FILE_NAME = 'addressDb.csv';
     private const LOCATION = __DIR__ . '/../../../../ml/resources/';
-    private const TYPES = ['test', 'test', 'train', 'train', 'train', 'train', 'train', 'train'];
+    private const TYPES = ['test', 'train', 'train', 'train'];
     private const HEADERS = ['index', 'type', 'label', 'file', 'review'];
-    private const LABELS = ['neg', 'pos', 'neg', 'pos', 'unsup', 'unsup', 'unsup', 'unsup'];
+    private const LABELS = ['neg', 'pos', 'neg', 'pos'];
     /** @var TotalAddressCountProvider */
     private $totalAddressCountProvider;
     /** @var TotalAddressRepository */
@@ -74,7 +74,7 @@ class GenerateTrainDatabaseService
         $fp = fopen(self::LOCATION . self::FILE_NAME, 'w');
         fputcsv($fp, self::HEADERS);
         for($i=0; $i<=$numberRange; $i++) {
-            $example = $i / 12500;
+            $example = $i / 25000;
             $example = (int) $example;
 
             $type = self::TYPES[$example];

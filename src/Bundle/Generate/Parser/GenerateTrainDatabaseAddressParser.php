@@ -12,6 +12,7 @@ class GenerateTrainDatabaseAddressParser
     {
         return implode(' ', [
             $totalAddress->getKraj(),
+            $totalAddress->getVoivodeship(),
             $totalAddress->getPowiat(),
             $totalAddress->getGmina(),
             $totalAddress->getMiasto(),

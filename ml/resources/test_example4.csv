@@ -1,7 +1,7 @@
 index,type,label,file,review
-100400,test,neg,20a211a82ae6f3e4aee387cf434e0aba05973903,"Polska zawierciański Pilica Pilica 42-436 Senatorska 1"
-100401,test,neg,afc2c2dc1cf545b45cf3b1d534b5b3c329492a71,"Polska zawierciański Pilica Wierzbica 42-436  8"
-100402,test,neg,f18d47e9bc498243aa2958e1b3b4943a912a29bf,"Polska zawierciański Pilica Pilica 42-436 Senatorska 11"
-100403,test,neg,712366ce7cb043ecb71f52eb977212d1c5182f7a,"Polska zawierciański Pilica Biskupice 42-436  15"
-100404,test,neg,498f492ed424ce98887cd24070233086a0cc7954,"Polska zawierciański Pilica Sławniów 42-436 Długa 48"s
-100405,test,neg,06296f7c033fdef41dce8470e72fd870e075cb17,"Polska zawierciański Pilica Pilica 42-436 Armii Krajowej 18A"
+0,train,neg,a5cc5f59cfa00dee4cbeb378db7fc12314524494,"Polska Śląsk raciborski Kuźnia Raciborska Rudy 47-430 Rybnicka 20"
+1,train,neg,0bc734cf140f43bbcd5dc8d87a0c27e33d1437e0,"Polska Śląsk raciborski Kuźnia Raciborska Jankowice 47-430 Wiejska 8"
+2,train,neg,2aee2ad883001b118d1a804c2e2352f4350181cd,"Polska Śląsk raciborski Kuźnia Raciborska Jankowice 47-430 Szkolna 6"
+3,train,neg,b0d66735f76afbffe55d4e76aaeee772fc99aa2d,"Polska Śląsk raciborski Kuźnia Raciborska Jankowice 47-430 Wiejska 9"
+4,train,neg,b245c3ccc78f75099c8afdac7322c08ac1bc2a27,"Polska Śląsk raciborski Kuźnia Raciborska Jankowice 47-430 Raciborska 52"
+5,train,neg,20556f1d944fa873104d08b310d6bc12e0c82902,"Polska Śląsk raciborski Kuźnia Raciborska Rudy 47-430 Rybnicka 23"

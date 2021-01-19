@@ -1,0 +1,1236 @@
+id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+457,Polska,lubliniecki,Koszęcin,Koszęcin,Śląska,16a,00-000,92a823974f01034052912035c02784a6d239545d
+787,Polska,lubliniecki,Koszęcin,Koszęcin,Damrota,7,00-000,bdc1be9eac905ae115abdcafe5a07d0d754fe39a
+1448,Polska,lubliniecki,Koszęcin,Sadów,"Powstańców Śląskich",50,00-000,5961f8864af934888035201b5c39eab623c995fb
+2220,Polska,zawierciański,Żarnowiec,Żarnowiec,Miechowska,6b,42-439,b951a0ff3c77b1ee71ae1a724bb7cce32d22ae67
+2538,Polska,częstochowski,Poczesna,"Nowa Wieś",Częstochowska,62,42-262,eddc5aea8cf58c37f9a404bb7229b63fb53f907a
+2650,Polska,częstochowski,Poczesna,Słowik,Równoległa,64,42-263,3f4d772fb5940c5328cd6486b37592448de36819
+2775,Polska,częstochowski,Poczesna,Nierada,Gajowa,21,42-262,f93f020a617096d3a76028b04aad362af74eeaa5
+2956,Polska,częstochowski,Poczesna,Wrzosowa,,3a,42-263,9429d09758e642fa0cb80834be512f2ed7860373
+3327,Polska,częstochowski,Poczesna,Korwinów,Okólna,16A,42-263,c90b55a9068c30ad9d7aeb01b5e16da8161acb3f
+3387,Polska,częstochowski,Poczesna,Nierada,Targowa,44,42-262,bf9ee6d051af1d3486d39293e528c9027001fc8a
+5176,Polska,cieszyński,Skoczów,Skoczów,"Jana Żebroka",17,43-430,e608695be474f055fdaeec9f0d642dcb8f64e146
+6796,Polska,żywiecki,Rajcza,Rajcza,Wspólna,6,34-370,16e0791de77f18c65cc631bd38bc2fda425898ca
+6953,Polska,żywiecki,Rajcza,Zwardoń,,143,34-373,03490ab1d2673ac1c33c8551cfab38348c8df577
+7171,Polska,żywiecki,Rajcza,Sól,,231A,34-370,6e793a241c7e17e0c76e321c42baa0b40779db17
+8334,Polska,cieszyński,Skoczów,"Ochaby Wielkie",Prucheńska,16,43-430,538676530b43f2267087da72166edddd6989dde5
+8660,Polska,cieszyński,Skoczów,"Ochaby Małe","Świętego Marcina",7,43-430,0aa8caab174f759925724cd64d3aba0d1a6b28d6
+8773,Polska,cieszyński,Skoczów,Skoczów,Krzywa,18a,43-430,be09af4ee167046ab66ffca0d43f72376f38ec2d
+8792,Polska,cieszyński,Skoczów,"Ochaby Małe",Dębowiecka,18,43-430,5678dc9880303df16d5e70d66b22a32c4032b337
+9439,Polska,myszkowski,Żarki,Żarki,Niegowska,26,42-310,d5e5f82d61bb4436ba245d4f03821ba4b5359a02
+9741,Polska,wodzisławski,Godów,Gołkowice,"1 Maja",224,44-341,b4295a65e25380d2e1b82e844cd729d999df8d4f
+10020,Polska,rybnicki,Świerklany,Świerklany,Rybacka,9,44-266,b44252da53fdbc4ce904880fcda2501f8a527e66
+10079,Polska,rybnicki,Świerklany,Świerklany,Tulipanowa,16,44-266,3d6a3da7c377bad75b8fcc4280c08ba6229ca624
+10503,Polska,pszczyński,Goczałkowice-Zdrój,Goczałkowice-Zdrój,Robotnicza,3a,43-230,15fdea38a5edaeea2603d773bc063c33febacb5f
+11271,Polska,pszczyński,Goczałkowice-Zdrój,Goczałkowice-Zdrój,Zimowa,7,43-230,a77f1125b7347b223ec00f5f3d5808f9b7f7d3d8
+11464,Polska,pszczyński,Goczałkowice-Zdrój,Goczałkowice-Zdrój,"Powstańców Śląskich",28,43-230,5127a98190db50fd46bf1faa08e2188a0c96f200
+13391,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,LELEWELA,4,44-280,36a156842ed8fa70cad347bd660cecf2146ef32e
+13684,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,PRZERWY-TETMAJERA,102,44-280,23572c6838f09402dcafd1dbc85cb757ffad26cd
+14085,Polska,będziński,Siewierz,Siewierz,Źródlana,11,42-470,971678b7c2d6e48027e203b3bd8a83dd28ea5069
+14129,Polska,będziński,Siewierz,Siewierz,Kamienna,7,42-470,e4d8093d04e081cda7a676d1b7b0330f3a1578f8
+15813,Polska,cieszyński,Strumień,Bąków,Zielona,41,43-246,9317886d109c01d58a92c0bc155a2086a9f17e7f
+15863,Polska,cieszyński,Strumień,Zabłocie,Miodowa,16,43-246,f97d54305f897ec34d13a73c341435c933fe93fc
+15948,Polska,cieszyński,Strumień,Strumień,Rynek,24,43-246,f53e8800b7222c33c15a0d7722fc7f1fdf57fe4f
+16188,Polska,cieszyński,Hażlach,Pogwizdów,Kolejowa,45,43-418,57a850d7ed098523fcb58ce6d00a4c968e1444fa
+17109,Polska,cieszyński,Hażlach,"Kończyce Wielkie",Cieszyńska,11,43-416,c59b8c6f91ca8a73bfbd0444a071c120258cc53c
+17161,Polska,cieszyński,Hażlach,"Kończyce Wielkie",Stroma,4,43-416,82622445f6fa191eebfef8808b38c9153acb5a46
+18739,Polska,cieszyński,Strumień,Drogomyśl,Konwaliowa,29,43-424,7506533b1317ccd1280e766f8b257809b3d3355b
+18999,Polska,cieszyński,Strumień,Zbytków,Olchowa,4,43-246,f94bbb07da20192048525127cd6530cd76f135ed
+19141,Polska,cieszyński,Strumień,Pruchna,Dobra,22,43-523,3341067417a7582843a0e9abbaec19b9e551f084
+20022,Polska,będziński,Mierzęcice,Mierzęcice,Kolejowa,58,42-460,0aaab726f80e81d6f281ad305a8543e6e955e8f4
+21836,Polska,będziński,Psary,"Brzękowice Dolne",,18,00-000,36a6da9b698b0d6acace1bcd602ce4473b336589
+22196,Polska,będziński,Psary,Psary,Graniczna,46,00-000,4b2db5fe3576eadb523c3cbeca88a55a44dd19d1
+22283,Polska,będziński,Psary,Strzyżowice,Szosowa,48,00-000,bc9c345a1784a1f96ea5023512f5e8c63a11944b
+22618,Polska,będziński,Psary,Sarnów,Wiejska,60,00-000,8ffcc6c17dd136e7d00b1fa649a0fc0b97a73675
+23153,Polska,będziński,Psary,Sarnów,Poprzeczna,18,00-000,67e58e42e0430b8de03ccea67618c4a41f1f6cce
+23167,Polska,będziński,Psary,Malinowice,Szkolna,4,00-000,17414065f4ec092f344c4080055dc0a82fc36343
+23898,Polska,będziński,Psary,"Goląsza Dolna",,23a,00-000,6f9c4adca6ea7d81c5b2920a144963033016a5e1
+24261,Polska,cieszyński,Strumień,Bąków,Zielona,44,43-246,044bc8c63916d9f0961714a4c3261a29daa93903
+24460,Polska,cieszyński,Ustroń,Ustroń,Miła,8,43-450,c77dc20ce3530972c28daa7655c8e52efb9b5edd
+25080,Polska,cieszyński,Strumień,Bąków,Sadowa,15,43-246,0582a536d074b49e2fed5c1f3b07c37ec535cd7c
+25192,Polska,cieszyński,Strumień,Zbytków,Górnicza,38,43-246,23879b54e267c7857dcac27cad390d727fae6507
+27592,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Pierchały,21,44-238,4c4ef7d077b66571a364e5ac73ba1be4df246ff0
+27641,Polska,raciborski,Krzyżanowice,Tworków,Parkowa,14,47-451,298191f026749b0313f8a8bcd9982d47c2736c0e
+28156,Polska,cieszyński,Skoczów,Skoczów,Bielska,32,43-430,39d16ecd8f5cb02a37f0a9d9189ff25f4a3670a4
+28175,Polska,cieszyński,Skoczów,Skoczów,Zawiśle,43,43-430,f70b771d7b13a974e1c2a77f91978659b9008629
+28259,Polska,rybnicki,Czerwionka-Leszczyny,Bełk,Poprzeczna,5,44-230,d57f18718fe90599f4199e7619328e7b2d0b7f84
+28350,Polska,cieszyński,Skoczów,Wilamowice,Iskrzyczyńska,25,43-430,94b4ac9d7c62d30fbcbeb628b24a399cf06a456c
+30176,Polska,raciborski,Krzyżanowice,Rudyszwałd,Rakowiec,17,47-460,1cab391103a91a8c5e42e2aac49674c44af1f107
+30212,Polska,raciborski,Krzyżanowice,Krzyżanowice,Mickiewicza,6,47-450,075a1a0e86b08168e10343b90a0d01788fc87912
+30245,Polska,raciborski,Krzyżanowice,"Nowa Wioska",Główna,6,47-450,6557116328942f249b8549862153f50538b8140a
+30784,Polska,cieszyński,Skoczów,Wilamowice,Cieszyńska,45,43-430,9bc862e5a501ed69c0a0c0da989e1117ac08d765
+31495,Polska,cieszyński,Skoczów,Międzyświeć,Malinowa,11,43-430,b8c54ccae7e17379b794d904cf41c4d7e0622bd2
+32197,Polska,cieszyński,Skoczów,Kowale,Kowali,16,43-430,9204727c0d53e5eb687ebfc00fd2732dbed9a1ef
+32802,Polska,zawierciański,Pilica,Wierbka,Zielona,13,42-436,dab7a8aa8867f7f42f490ec6b22fca4146bc5a43
+32954,Polska,zawierciański,Pilica,Wierbka,Nadrzeczna,6,42-436,908e4009678bc7ff17821df0da8c754d153a1e89
+34164,Polska,rybnicki,Świerklany,Świerklany,Bratkowa,6,44-266,48190c63ece2faf4dbb96d4f9493f11a49df4009
+34599,Polska,zawierciański,Ogrodzieniec,Ogrodzieniec,Sienkiewicza,19,42-440,f6d47fab219ebb3697cf4f48c34be0507e8384f3
+34717,Polska,zawierciański,Ogrodzieniec,Giebło,Księża,3,42-440,60c2003ec9694e544ffc74e6d60f542c9755e2a1
+35195,Polska,zawierciański,Ogrodzieniec,Ryczów,Grochowiecka,8,42-440,48dea2aea4d91015d3b0c1880f170fe9f3102c41
+35512,Polska,zawierciański,Pilica,Smoleń,,56,42-436,98289e7467d19cb8d472d8b8bd285cde37e2a8fc
+35778,Polska,rybnicki,Świerklany,Świerklany,"3 Maja",81,44-266,b453e2d7577b0a8ec65f9c0ae90a403310a29d47
+35831,Polska,zawierciański,Pilica,Kidów,Zakościelna,9,42-436,6f82f14f11fdff2d01ff6ed3d1c2fc1c981f843b
+37138,Polska,cieszyński,Ustroń,Ustroń,Leśna,30,43-450,7ec70649279eac84120c7fb7d7d09043af60bc6f
+38047,Polska,będziński,Bobrowniki,Bobrowniki,Gminna,3,42-583,aa7cc3e202b2c8fc75e9b3d427cf1ffd9c466408
+38545,Polska,cieszyński,Chybie,Mnich,"Powstańców Śląskich",3a,43-520,69437ffc655a06e9ff037a3b5616dd85c108b9a1
+39333,Polska,lubliniecki,Woźniki,Drogobycza,Gliwicka,19,00-000,5533da7987a405f06fc484931febdf6e80d1d5a1
+39357,Polska,cieszyński,Ustroń,Ustroń,Szpitalna,50,43-450,ead22fb873baf5541814d70392915c90379bc8df
+40080,Polska,lubliniecki,Woźniki,"Huta Karola",,7a,00-000,a69d6835ef763c03483d8d1a47b3dad031473c57
+40772,Polska,rybnicki,Świerklany,Jankowice,Nowa,53,44-264,d509fcd1c739c630ccecf29d600604ee087777bb
+41365,Polska,żywiecki,Rajcza,Sól,,89A,34-370,1f87622f9d0d687c5f594117cffe5c0b76d22b79
+41673,Polska,żywiecki,Rajcza,"Rycerka Dolna",,167,34-370,9923e8a199f82a644d75a35a0eb26ec34a5db983
+41709,Polska,żywiecki,Rajcza,Sól,,184,34-370,89500a807f837e97eec67a0e3a5b17fd3b8ddd56
+41759,Polska,żywiecki,Rajcza,Rajcza,,77a,34-370,94ddcef6e8ea3312fbc0feecb50b02e34227d2db
+43196,Polska,rybnicki,Czerwionka-Leszczyny,Książenice,"Księdza Pojdy",129,44-213,8f2e8041a939cd3f3f0a275f53701ec87522b5db
+43870,Polska,lubliniecki,Woźniki,Woźniki,Piaskowa,16,00-000,7056830824f6609d0efbaaf26234fef0c11a813b
+44050,Polska,lubliniecki,Woźniki,Psary,Główna,12,00-000,51d39a6acf8c043d9245001539a39ee80b832c17
+44581,Polska,żywiecki,Żywiec,Żywiec,Kocurowska,170,34-300,78f1ec9cc412083a688fed40fefaf1db59a9316e
+44775,Polska,lubliniecki,Woźniki,"Kamieńskie Młyny",Tysiąclecia,6,00-000,f6590ed2929f64628a3fde18db7ce3a260ee6483
+45013,Polska,lubliniecki,Woźniki,Woźniki,"Karola Miarki",68,00-000,2a23d2d89cd2626f5a23a57c491d999b8ab451e3
+45650,Polska,gliwicki,Knurów,Knurów,Powstańców,16,44-193,76d8eca05713f82e805a52039a259beca3cefbf9
+47516,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"13 Zakrętów",23,43-344,5187059da22d2281e13db35561311d431e49c74e
+47719,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Wapienna,19,43-300,d85328d7d1cf07e61a492616b12838c1057336fb
+48938,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"płk. Stanisława Dąbka",10,43-300,fbffde0d446a3e4eb82006998a659bbaf2b41432
+49406,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Pienińska,98B,43-346,053bc13d24279d6265a2f957488766c78f5242c6
+50291,Polska,rybnicki,Czerwionka-Leszczyny,Szczejkowice,Gliwicka,45,44-246,bc8037fd5e93cc971b8217054484d8b1f34b1e11
+50394,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Borowa,32,44-230,28f6bc70e1717756c8a87570b42febca90658797
+50612,Polska,raciborski,"Kuźnia Raciborska",Turze,Raciborska,44,47-420,e97e6749145fcc6a92998817293fbd086f8515d1
+50619,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Norwida,2A,44-230,b78b3c96be56d9c79c81d3525ab81aba7e0e798d
+50729,Polska,rybnicki,Czerwionka-Leszczyny,Stanowice,Zielona,24,44-230,9992671cde74e03841d74d85f6b806bbfb5a46d0
+51934,Polska,rybnicki,Czerwionka-Leszczyny,Bełk,Palowicka,67,44-230,afbee803aa657fbcfb25c9f71e259e9f4178671e
+52332,Polska,raciborski,Nędza,Nędza,Konarskiego,12,47-440,6e45af4a2955b26b0c08c0a5f9c8684fce64aaa3
+52779,Polska,częstochowski,Starcza,Klepaczka,Zachodnia,14,42-261,625cf5056dcc4d36b7238843489f8283271673f5
+52932,Polska,raciborski,Nędza,Łęg,Polna,15,47-440,7cb758b758f0ada60b263e5879349f41831076d8
+53097,Polska,raciborski,"Kuźnia Raciborska",Rudy,Szybki,2A,47-430,577d5792f4759ad3d1ca868552b5738bba76e4ca
+53281,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,"Szyb Zachodni",36A,44-230,82e7f31fcc51622b0112ea6672d919491e20f56b
+53300,Polska,raciborski,Nędza,"Górki Śląskie","Ofiar Oświęcimskich",63,47-440,fbcd3585408da9bdf50ed18b90193a98a734f20f
+54386,Polska,cieszyński,Chybie,Zaborze,Czereśniowa,94,43-520,cf320f253d78fa8134b7968a48e45032fece13a2
+55550,Polska,raciborski,Nędza,Nędza,Mickiewicza,23,47-440,f71488b6b13603a684d134e76a08cf8f15b70b0c
+56233,Polska,raciborski,"Kuźnia Raciborska",Turze,Stawowa,6,47-420,ed36a3ad24195bd1fd906c8ece6593e6e3cb452e
+56661,Polska,rybnicki,Gaszowice,Czernica,Powstańców,45B,44-282,996c8c6c6adc295cee9a47425b86c351871351e7
+56841,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Odległa,13,44-238,ce98e08cdd769a8ce5239188fa586b853777baa5
+58099,Polska,rybnicki,Gaszowice,Szczerbice,Krótka,19A,44-293,bc2602804734ee24ec93fb8b06bda14db60cef7d
+59411,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Świerkowa,17,42-609,6bcdc4863c3d8d4faa683f88545260ac9a3cbde5
+59478,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Skowronków,47,00-000,eceac8cd451dcb47755e0e92e1f6372f143ffdb8
+59487,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Rzeczna,5a,00-000,4c1e6720bef9422d87db5e498d678b420d95c754
+59546,Polska,raciborski,Nędza,Łęg,"Wita Stwosza",36,47-440,99196e5ed05ec70047de980251acf809d1bd3c6f
+59947,Polska,tarnogórski,Tworóg,Boruszowice,Składowa,12,42-690,39cd9e55829bf089e44e5242517833cf876dad5d
+60027,Polska,tarnogórski,Tworóg,Wojska,"Kolonia Ameryka",17,42-690,f744279599af684e71b99b01e17f143f2b57d59f
+60036,Polska,tarnogórski,Tworóg,"Nowa Wieś Tworoska",Wrzosowa,16,42-690,46d1be925816867a8d15133d202a135d4d8d27be
+60613,Polska,tarnogórski,Tworóg,Koty,Lubliniecka,6,42-690,5fd55953e64189f78925d7f2dba971dadec24c34
+61585,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Grabowa,62,00-000,5d8e839d3fa3a2983f1424f5393072784225b23a
+61798,Polska,tarnogórski,Tworóg,Koty,Studzienna,1,42-690,b9c99c0a3c3dcbac7b32e828f57e3dfae2c74846
+63519,Polska,częstochowski,Starcza,Starcza,Szkolna,247,42-261,786a46c2c426f877640f8a99e278762b4b3be894
+64028,Polska,bieruńsko-lędziński,"Chełm Śląski",Kopciowice,Chełmska,130,00-000,72ccd5ca2ce81ab92d07400b8d32a6803392fa76
+64209,Polska,żywiecki,Żywiec,Żywiec,Habsburgów,6,34-300,41c4d0b8ee7dcc39a744bde98d2fba3144fef759
+64860,Polska,bieruńsko-lędziński,"Chełm Śląski","Chełm Śląski",Śląska,55,00-000,e9b993916139272a8439b7fa64ab6008ba8555bd
+64922,Polska,bieruńsko-lędziński,"Chełm Śląski","Chełm Śląski",Stacyjna,14A,00-000,5a8888b5aaba0f2ff012c50a02f76767757060f5
+65151,Polska,wodzisławski,Godów,Gołkowice,Piotrowicka,7,44-341,38997967a8d58dc4b5a01a677e4862d1f75d8010
+65580,Polska,wodzisławski,Godów,Skrzyszów,"Powstańców Śląskich",101,44-348,6793e90b0c6c0e3ea3b91c450ed48e12c83ec832
+66014,Polska,żywiecki,Żywiec,Żywiec,"Królowej Jadwigi",83,34-300,048fec092dfa251e21824a8f092e5f05d1ae5003
+66383,Polska,wodzisławski,Godów,Skrzyszów,"1 Maja",5,44-348,58ffb33d82229e6c5532d748b746a526fe058468
+66419,Polska,wodzisławski,Godów,Gołkowice,"1 Maja",280,44-341,d8ba6cee9a20b76df34b0f3182595f548a025526
+66584,Polska,wodzisławski,Godów,Skrzyszów,"1 Maja",198,44-348,4d21205c311bfc5cf4f60a03d5dd549f1078c8de
+66907,Polska,wodzisławski,Godów,Godów,Raszczykowiec,27,44-340,c476e0ad1b50ea73edef02ce6ca64e38b10cf554
+67163,Polska,wodzisławski,Godów,Skrzyszów,Polna,30,44-348,e9dc83356befbff0686f8d3479ad4be9773b4df9
+69375,Polska,raciborski,"Kuźnia Raciborska",Jankowice,Wiejska,20A,47-430,06c017c589faaa8053b13a00e67a2b8fbdceefd0
+69737,Polska,częstochowski,Poczesna,"Brzeziny Nowe",Spokojna,18,42-263,ac6c2ddf2bfdbda298c69fe52f57332974905fc9
+70071,Polska,częstochowski,Poczesna,"Huta Stara B",Klubowa,3,42-263,fa6be517b7d2893acef94d5576b935bc15567b08
+70293,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Grunwaldzka,19,00-000,c4a649db801474096dc70a9b6c6a9656760a1f56
+71492,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Grzybowa,85,00-000,8e2717409036a080514745b87e7b6ae4dbeb68bf
+71845,Polska,żywiecki,Żywiec,Żywiec,Niwy,4,34-300,02915f44dba4c05f9eec52ac75afead6d31abbee
+72327,Polska,zawierciański,Ogrodzieniec,Ogrodzieniec,Wrzosowa,15,42-440,d787d9397cdc5e9a703ae76fb8290ae2d0d3e7bc
+73981,Polska,żywiecki,Żywiec,Żywiec,"Nad Jeziorem",2a,34-300,115dca0cd984ddab03558d6defca1f75b9a463d9
+74068,Polska,żywiecki,Żywiec,Żywiec,"os. 700-lecia",27,34-300,a4ea7a4bd4af119c48834f3c68101ba40f258cba
+74576,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Komorowicka,47,43-346,5624f4e7caac5dd917d1576e5aecc334a0c63621
+76551,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Czeladnicza,84a,43-346,2701b92e0d5577c91bfc4c948944f39f25d00d56
+77006,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Pawia,6,43-300,53a18051263fabc73b44edbbc40c976104a29649
+77134,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Biwakowa,17,43-382,918f03fb199c9eae2ff5e4cba05eaf11904adf88
+78786,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"ks. Stanisława Brzóski",183,43-318,01455449c9c3e0ec3f21df9ca206a34108a0ded9
+80348,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Komorowicka,31,43-346,67d0f5df0393f5c9df18cd8fdf00e13704c42de7
+80372,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Deszczowa,13,43-344,74b930222ee0c6e33d8c6111078f77fd87911aee
+80794,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Janowicka,121,43-344,d88376a1f42ce6849403d275eb28826c283fd9d8
+80918,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"Kamieniec Podolski",2,43-300,7e09c15584d97f95d489d9f114e8f39c395db340
+80925,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Karpacka,14a,43-316,1d5a214cd965333baadf1e7be8f5b2951fbc78d4
+81271,Polska,gliwicki,Knurów,Knurów,Powstańców,8,44-193,c0c2f7861d71cc3000ca0a45a42e680f6dfbd776
+81390,Polska,pszczyński,Pszczyna,Piasek,"Ignacego Paderewskiego",26,43-211,4a8794b68844fee10f64c8237464cbf8276ab913
+81400,Polska,gliwicki,Knurów,Knurów,Astrów,19,44-190,f2e9d31efeb8298b643d88a9496f6743e470597e
+82363,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Bukowa,62,43-303,96a6a02a8364e8947c5999b56268eefddb5ef0e3
+83407,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Cieszyńska,5,43-382,58360d64da13f5ce8499cf7321d5fda77af000e0
+83481,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Grzybowa,10,43-309,78a4abc9c2fba47a3477306b5e53dd223904bfec
+83515,Polska,gliwicki,Knurów,Knurów,"1 Maja",30,44-190,a9dbdbd8754d454d2f3096742a9aac17f6ac81fd
+83614,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Wodna,132,43-300,1176f3b8902b0d4ad3b17f9dccb0a96735f60e2d
+84989,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Kryształowa,38A,43-344,71e4cdefd497018c66129715a0b9b80729d9d3a3
+85710,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Wróblowicka,117,43-300,e9e6be7a252df58a1350c9c67c33c1785a7b5199
+85785,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Narcyzów,15,43-300,c1d9a877d412a93bbd8eadc10122772d942a6a38
+86489,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Prosta,14,43-310,13c9aa5a81ac91beb3ae8e42197ce2689479006d
+86705,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Zielna,4,43-303,2933564a30761a8c7e8cb00dce861b784984d14d
+87394,Polska,pszczyński,Pszczyna,Ćwiklice,Wolności,48a,43-229,b01fa26502c4148a9a3dcc9f234fc444bba6c475
+87907,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Sowia,44,43-318,6e7461018af9be8e5a785b1953cb806bfe668bf6
+88701,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Kolonia,53,43-344,407324bd35a70228f569887062a64346720109aa
+89155,Polska,pszczyński,Pszczyna,Pszczyna,Rubinowa,17,43-200,eacb3868a3dc5cdc4353beb2393febe2c9f46b97
+89861,Polska,pszczyński,Pszczyna,"Wisła Wielka",Hodowców,74,43-243,6b8f4171f26c5a9a7c0f6992836a273850bacc8f
+89901,Polska,pszczyński,Pszczyna,Studzionka,Stawowa,17a,43-245,6457315a3e8883a86eed3ccd2f86ecb8d01f09b1
+89931,Polska,pszczyński,Pszczyna,Piasek,"Adama Mickiewicza",3,43-211,5f73e71402706c3147f53da8cecfaadc34eb011c
+89933,Polska,pszczyński,Pszczyna,Ćwiklice,"11 Listopada",67,43-229,02898d8b4bcae2638d81dd507effc35d91bea1eb
+90068,Polska,raciborski,Nędza,Babice,Rudzka,19b,47-440,183c1388d762047c5046a8e9baf368e74d2802f7
+90612,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Stara,12a,00-000,2eec9d82aa9b52ee57c101b823926b7f1607d148
+91325,Polska,bieruńsko-lędziński,Bojszowy,"Bojszowy Nowe","Ruchu Oporu",100,43-220,7262c5fe7c33a061cb9b8741e5a0bedf6519e910
+91870,Polska,cieszyński,Chybie,Zarzecze,Podgroble,38,43-520,be9fe6297813ab9404878360987e6eea47da6f69
+91874,Polska,cieszyński,Chybie,Mnich,"Aleja Topolowa",73a,43-520,12eb7edb1b3800d867c32f705cc556d7a2898758
+92202,Polska,cieszyński,Chybie,Chybie,Bielska,90,43-520,87a405624bd926202b9f44b7d235845372fb4faa
+92654,Polska,wodzisławski,Lubomia,Lubomia,Tartakowa,75b,44-360,e1b6df8a444eb609f8a5fd18e4e5d43b9ed94872
+92917,Polska,wodzisławski,Godów,Skrzyszów,Mszańska,24,44-348,3cc2a65993b5bde2b952921217aaebc04ec2e1a1
+94329,Polska,raciborski,"Kuźnia Raciborska","Kuźnia Raciborska",Lipowa,1,47-420,54f28ba68dea3beab705bc2f268c4b608d0925d7
+94627,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Poli Gojawiczyńskiej",8,41-949,ec3320b6f6ac7f2bf431ff60d5869217823b2a7e
+94916,Polska,raciborski,Rudnik,Modzurów,"ks. Augustyna Strzybnego",13A,47-415,b2fe3745ad1a19a4d00243e024de45d321fe58fb
+96284,Polska,raciborski,"Kuźnia Raciborska",Ruda,Główna,6,47-420,c792e1b92dfba6056576be8dd1aefe72f1e20bfc
+96936,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Marii Curie-Skłodowskiej",39,41-949,94aa887d2af2f52d1c7838efa5068af8fe3bf021
+98064,Polska,raciborski,Krzanowice,Krzanowice,Młyńska,59,47-470,b32d77fb454776a783d2833ca43c7061fc48370a
+98726,Polska,raciborski,"Kuźnia Raciborska",Rudy,Rogera,19,47-430,3eac51697a3ab8cca4018b05df9f9e1bd887c6d4
+99064,Polska,raciborski,Rudnik,Gamów,Modzurowska,3,47-411,ce916ad3d5695c0ae24ba9fdcf00b5acf34ab594
+99716,Polska,raciborski,"Kuźnia Raciborska",Rudy,Szybki,3,47-430,d197a330b10281acda0a86af0d9963a1419b9635
+103051,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Papieża Jana Pawła II",66,41-943,98c51e5bda4d1de19c8daadad11848ad3584bc94
+103240,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie",Spółdzielcza,4,41-940,bdd9e5d3c4c6e5f7c4fa88a0dd3e081515c820a1
+104250,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie",Jagiellońska,95,41-948,d4375688b18eb6cc9381291ff7337e47fa37aece
+104781,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Konstantego Damrota",22,41-940,a7aa15ec0c123dd0d5ab18507082e9c92ec93a45
+105087,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Juliusza Ligonia",7,41-945,dd6c285e9c0895145d19b0e6098218d5dea1b89c
+105280,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Armii Krajowej",10,41-943,c869b944d81f4ef29cdbbee0e8ed7b454aea8062
+106074,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Marii Curie-Skłodowskiej",56,41-949,0abad65c87d76be9911231a889b4516f05482e9f
+107380,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"NMP Królowej Polski",24,43-300,a014f4bfa9e44fe3124cf6f2b8155e676319eee2
+107551,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Listopadowa,91,43-300,07ea1988e68e4f0b136f3234d6f4e783d7d728cb
+108113,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Górska,105a,43-318,daf73b2ffba5d4ccfd0d624f2799a65c277999f1
+109257,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Wczasowa,69,43-310,ccc1026a0ab2af3f311075b820260ae215b1441c
+109359,Polska,raciborski,Krzanowice,Borucin,Grunwaldzka,3,47-470,cdcdd8fe0ac01af1d11f778a4769644efd267970
+109550,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"Armii Krajowej",37,44-330,d0caf3530a80453d347621b1a7fd6e064d7eb119
+111156,Polska,myszkowski,Myszków,Myszków,Witosa,9,42-300,6987aa8c0591fd556d0dae0f15544fd3e69e211f
+112863,Polska,myszkowski,Myszków,Myszków,Czarnieckiego,88,42-300,b4cf0a7da36e8a84460c334ed0c001c7f7deb848
+114392,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"os. 1000-lecia",36A,44-335,fc6a9eccfa2dcf96def3376778f00325be88cf45
+114480,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Pszczyńska,175C,44-335,f69ce2c885fe9bdaae0cf39485c68e71bab311dd
+116301,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"Józefa Bema",26,44-268,913ac37f5ed90a30f65788fb21db5bb6e3ab2f48
+116312,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Edukacyjna,4,44-268,464b60d5d8265fbaa25c6327c81c65f45a6213af
+116397,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Świerklańska,17,44-268,0145c66c051e59ccf237ddb50d52cbaa5d771df6
+117531,Polska,będziński,Siewierz,Siewierz,"Żwirki i Wigury",34,42-470,91b31bcb058aebd1e2e2fcab0f6d700363d2de67
+117611,Polska,będziński,Siewierz,Leśniaki,,117,42-470,f7abdaa16f8d0aa6ddf445e731d68654046c6ca0
+119711,Polska,będziński,Psary,Strzyżowice,"1 Maja",142,00-000,e760ce308c19c82e96a31192f5e5b0c7708558e6
+120770,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Wiejska,1A,44-338,565e92bdd1b2cb0ecd24835c884a1c3d6aa3bfcd
+121402,Polska,myszkowski,Myszków,Myszków,Kościuszki,245,42-300,04620d1f846cd7a980760bae2e08b1f856fda296
+122463,Polska,myszkowski,Myszków,Myszków,Sikorskiego,22,42-300,ebdaaeba5c71b5d384cc7eb2a6232142403f62cf
+122752,Polska,myszkowski,Myszków,Myszków,Leśna,46B,42-300,b58e5b3b2e10557dd725681c0141cb4d2d715d90
+123188,Polska,myszkowski,Myszków,Myszków,Labry,1,42-300,95a96de6ee8ac6b4a13157545ed067ece2721bba
+124144,Polska,myszkowski,Myszków,Myszków,Prusa,6,42-300,6a33beb7782aec6fee0ab2f53a2fb1ad24de4ae0
+125818,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry","Stanisława Staszica",11,00-000,88b1ba17c4cfb6b6bb13f49283b282866864fbec
+126134,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry","Stanisława Staszica",31,00-000,bca27712dfa2507299a10e1f0882f2ac2a49f0f3
+126394,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Fiołków,41,00-000,941ef065d722d1fa11572d14e2c8a33150a18825
+127309,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Przedwiośnie,23,00-000,543bb7b43fc7ff1b3d9cfb3647c0316dd3fc9850
+128195,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Górnośląska,34,42-600,d87f595f017c976f4937a2d5f2856089d0de6977
+128597,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Ułańska,6D,00-000,59098bfab921282062c0edfc3a76e7c43987e201
+129427,Polska,raciborski,Racibórz,Racibórz,Dolna,8,47-400,b203cda5ab41f9ba65277e5b5f5ef187f08f559c
+129437,Polska,raciborski,Racibórz,Racibórz,"Emanuela Smołki",17,47-400,aac84b028b045b080a92bd21e3e8f263942b6e41
+130070,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,ŻELAZNA,12,44-280,910567867aefca07b720b963ba98d100a076ae7f
+130325,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,RADOSZOWSKA,165A,44-280,a37bd0ea40a0cb29e276fdc585edb4765d7bdd18
+131188,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Ułańska,18C,00-000,12b7fe6b2a3f4b5d0c57a1ed5b58d2978824872a
+132432,Polska,cieszyński,Chybie,Chybie,Boczna,3,43-520,33e950d526fb97020d9607e4c1b59c4a2cbdad07
+133059,Polska,cieszyński,Chybie,Mnich,"Wojska Polskiego",15,43-520,c68690497bbd5ba4423d4ebc1305db3148a77435
+133186,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,WARNEŃCZYKA,4,44-280,47805b75cadb98dc2a87295d9c82f4f22bda940b
+133377,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,JACKA,6,44-280,aeaf79c7dbdd0c85bde721972858ee0d91458bcf
+134147,Polska,myszkowski,Żarki,Żarki,"marsz. Józefa Piłsudskiego",11,42-310,cf2b69acb3289cda095c073f001a3a3b1aa51396
+134236,Polska,myszkowski,Żarki,Ostrów,Sąsiedzka,34,42-311,03cd3760488e082d3fd808f4c347aa891883c395
+134374,Polska,myszkowski,Żarki,Żarki,"Janusza Kusocińskiego",1,42-310,3aa7ab72d91e0c96dc9abae9e4495c6e2557990a
+135309,Polska,raciborski,"Pietrowice Wielkie","Pietrowice Wielkie",Świętokrzyska,37,47-480,da37a5f9ea4c061f871cf84b1ee41f164174674b
+136062,Polska,Chorzów,Chorzów,Chorzów,Lipińska,24,41-500,716cff826b0ddc6e3bcfdba4052ec7c7c51b95ee
+136695,Polska,pszczyński,Pszczyna,Pszczyna,Srebrna,27,43-200,8a4272539145d896b27fc9e104f9c7af56bc555a
+137047,Polska,pszczyński,Pszczyna,"Wisła Wielka",Cieszyńska,40,43-243,187cdaafef59dcbd0c51d9bbc3fa09d49e9e4f0e
+137125,Polska,pszczyński,Pszczyna,Rudołtowice,Wolności,91,43-229,ba90ccb5ac65a86f9a7a016d51ccf22ce5feb6ee
+137753,Polska,będziński,Bobrowniki,Rogoźnik,"1 Maja",7,42-582,ae48267f3e08a8766aa8bdfabf900609e3c9f941
+138753,Polska,raciborski,Racibórz,Racibórz,"Franciszka Goduli",16,47-400,f72a3a9b437d4a84a5054863de713eae0d7f68b3
+139141,Polska,raciborski,Racibórz,Racibórz,Agnieszki,27,47-400,1618f4e67cce35e9d32df14bb4ed2fc4ba3ffc53
+140007,Polska,będziński,Bobrowniki,Siemonia,Kościuszki,125,42-595,97e164b7807cdc2c3436bee339e2cb58723c3148
+141070,Polska,lubliniecki,Boronów,Boronów,"3 Maja",21a,00-000,826c8d4ccdb6fef8eddb2170e05f5252d7f7ebd4
+141180,Polska,raciborski,Racibórz,Racibórz,Długa,14,47-400,c7a371685ee4785148f72bcdf9ecc938d3572f99
+141340,Polska,lubliniecki,Boronów,Boronów,"Powstańców Śląskich",16,42-283,0ff0daab85e82b8107340195bc1a248975232720
+142315,Polska,będziński,Bobrowniki,Rogoźnik,Brzozowa,9,42-582,b29a1b92a645f049c09c05dee2b002fa6626ebc8
+142352,Polska,lubliniecki,Boronów,Boronów,Leśna,24,42-283,ac0d182b9c7238df5de25ce55537dfdc681a4ec9
+142804,Polska,będziński,Bobrowniki,Siemonia,Kościuszki,18a,42-595,f1cf2a6989287eef2e5d16e3dff0f7af138eb7b3
+143231,Polska,tarnogórski,Radzionków,Radzionków,"I Powstania",39,41-922,b2762f41e60728c26838775be59aded25aafc726
+143287,Polska,będziński,Bobrowniki,Rogoźnik,Kościuszki,70,42-582,6d2fd803ae3b8c9031ac8b3ee5e4639c019e2bbd
+143529,Polska,tarnogórski,Radzionków,Radzionków,"ks. dr. Józefa Knosały",15,41-922,96737aa41f2acae04681efc83925d6611e6b2c80
+145162,Polska,tarnogórski,Radzionków,Radzionków,"Jana Kużaja",19,41-922,0cf22348ad73ca2c5cdcc1fb28b01923985e5532
+146714,Polska,wodzisławski,Gorzyce,"Turza Śląska",Tysiąclecia,27a,00-000,a3a1aac15c4dbee0fade0c226111daacd80807d2
+147371,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Bukowa,13,43-303,6070e918ff5351947b3684e4c2347139e86bfcbc
+147814,Polska,wodzisławski,Gorzyce,Uchylsko,Wiejska,35,00-000,51c6b671b8fcd0bb4bbe071a1bc34d4bb8cba0c6
+148050,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Spółdzielców,13,43-303,9802a132bae5828fee14e6535de6c3afbc6abafb
+148425,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Żeńców,25,43-346,a5787f912082f612b328321631d37651bbda4f04
+148757,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Komorowicka,314,43-346,0dcd0d8da865441bdaa9dfda3735f8fc2eb02f53
+149773,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"gen. Tadeusza Kutrzeby",5,43-316,de324de04d4c62ecc446f5b0b1ee8f380f73ff68
+149870,Polska,żywiecki,Żywiec,Żywiec,Wodna,33,34-300,3d28461a51a9759422309e06b04a6f5942f94dc3
+150719,Polska,zawierciański,Ogrodzieniec,Fugasówka,Bzowska,31A,42-440,270d9e0b760b3298538ddbaf4ecfb15278d28537
+152349,Polska,Chorzów,Chorzów,Chorzów,"ks. bpa Arkadiusza Lisieckiego",5,41-506,617dfa2e18f5c8126f804e0b954926fd303c11d1
+152658,Polska,Chorzów,Chorzów,Chorzów,"Marii Rodziewiczówny",4,41-503,53f1b2bbc390de320a0c72004bba68b7e5f74dfa
+152846,Polska,Chorzów,Chorzów,Chorzów,Brzozowa,12,41-506,1300016ed95b25f6835cf124108c749c19ecf0aa
+153961,Polska,żywiecki,Żywiec,Żywiec,Podlesie,52,34-300,a2504537a1986ebeea523990fea39ddc80d979d7
+154020,Polska,Chorzów,Chorzów,Chorzów,Podmiejska,61,41-506,2b17c75e077a3c811364fb87e77fc5d03f1c0ef4
+157062,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"Powstańców Śląskich",245,44-268,e5e8e163dfe6153c7c72a9c53e2fd55d4016a4c7
+157801,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Opolska,1P,44-335,b8500b6704445f64949b0e3b04849a96de31554f
+157923,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Pszczyńska,221,44-336,22968417c8f16fc340ea51e5979eff1fc439da9b
+158050,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Rolnicza,172,44-336,2d788d8b2e1d61adad34275343fa1aa581ee2293
+158331,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Spółdzielcza,33,44-336,4610e7a7e28463acba19278845c520b259f71d94
+160011,Polska,gliwicki,Knurów,Knurów,"Zofii Kossak-Szczuckiej",13,44-190,f85a9ab5372237ee77d4dee18464852ee0d0edd5
+160148,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Panoramy,7,43-140,ab271c19aae442222abff3ead126707bc7f74ab5
+160865,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Śląska,93,44-335,06924af535e63564ea4df52225aaa0978c5e168d
+160967,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Plebiscytowa,77,44-268,11483d4616e10dcfe123c043ba78a9c2ecb0d20b
+161766,Polska,gliwicki,Knurów,Knurów,Wilsona,64,44-190,dd2e3c788152112f13efce7a35f6e2624db2976b
+162173,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Pokoju,12,43-140,4b87910ee3f6f1958304edc5e2051e9e06343154
+162228,Polska,bieruńsko-lędziński,Lędziny,Lędziny,"Czesława Miłosza",37,43-140,7a95b9f57361f66d813b1ddd44c9355cb6cd9e63
+162613,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Palmowa,3,43-143,a5d3d950e42631c31387b8110571696640208562
+162800,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Goławiecka,44,43-144,ce836bffd4ef4109856b0d246cdd6a6c2a2af35b
+163785,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"Mikołaja Kopernika",13,44-335,b80cc3c7d9195d08dfeb3687c57cc2dcd2f0a320
+164691,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Pieczarkowa,15c,43-382,a7491ed703be725796ade257bcce1e0890476808
+166022,Polska,cieszyński,Wisła,Wisła,Sarnia,26,43-460,3f110e2c3e94e20a7995e94d765937e6fcb4fef1
+166163,Polska,cieszyński,Wisła,Wisła,"os. Jurzyków",7,43-460,784ccb4c176475dd05237be86c7984855eccf9d8
+167479,Polska,cieszyński,Wisła,Wisła,Rastoki,5,43-460,6dce16d43b140159eed7090ff196e4296a129f54
+167839,Polska,cieszyński,Wisła,Wisła,Ustrońska,14,43-460,7796c493ab1a4dbbce11f06c7abe564e5ccc858e
+168610,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Majowa,27A,44-337,a9555549ee6e45e4954a247ebdfd40f56c320681
+168852,Polska,Chorzów,Chorzów,Chorzów,Kluczborska,8,41-503,283496f7910e8a90856285c3606048f5b9a72443
+169884,Polska,Chorzów,Chorzów,Chorzów,Długa,11,41-506,d0bc428963fa17fbdfff3f73991d861893c58cf0
+170252,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Goławiecka,126,43-144,f7b573701a5b317d56abb2699722d6ab28873a30
+170315,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Czeremchy,19,43-144,88a54665a0c6a07c9b7398508ea0f8e9c88cc0a7
+172246,Polska,raciborski,Racibórz,Racibórz,Wygonowa,1,47-400,ca2d6e1892d7ba5879b7006f74519d27a2f1bb7c
+172580,Polska,Chorzów,Chorzów,Chorzów,Floriańska,26,41-500,267d3cd9b63c16ab759be685560787585eae907b
+172642,Polska,raciborski,Racibórz,Racibórz,"Franciszka Siwonia",28,47-400,ca44e0ebf5e27117566d5f3f29faba7015937b76
+172768,Polska,raciborski,Racibórz,Racibórz,Cegielniana,16,47-400,2a4c805de11d0c0aa6b7a75ff63dc224366768d9
+174977,Polska,pszczyński,Pszczyna,Piasek,Studzienicka,47B,43-211,7f1e259b439aecdc61a46fffec213ebac3eb9745
+175232,Polska,pszczyński,Pszczyna,Piasek,Leśna,61f,43-211,7a4d3e46b01d33d6c045f5fadd79d820ab223878
+176025,Polska,pszczyński,Pszczyna,Jankowice,"Złote Łany",36,43-215,59a10c0a2322f9bd1fe53de4f2199b10e05b7dfd
+178234,Polska,zawierciański,Zawiercie,Zawiercie,Poległych,39,42-431,ac4c2e0548091f294b290b3c0e2370885c4d4df8
+179230,Polska,zawierciański,Zawiercie,Zawiercie,"Henryka Sienkiewicza",30a,42-400,eccc90793f6032086eeafb0806711e04d9d2afb8
+179416,Polska,zawierciański,Zawiercie,Zawiercie,Karlińska,57,42-400,1691c2953d96541d39cdf4d977a3a3ab79fe3519
+179456,Polska,zawierciański,Zawiercie,Zawiercie,Kromołowska,7,42-400,82de37f2a5e1779ed9afa13ac47e9dcfe5f4ce7d
+180094,Polska,zawierciański,Zawiercie,Zawiercie,"Królowej Jadwigi",24,42-400,0fb54620051015d42a311b273150a4af4f4f5276
+180557,Polska,zawierciański,Zawiercie,Zawiercie,Okólna,77,42-400,4a7dfa40938317f36659fd7636fe171fc2e04533
+181923,Polska,zawierciański,Zawiercie,Zawiercie,"Józefa Poniatowskiego",2a,42-400,ae1aef4e6522812887cf86b7bb5a34554d64123b
+182644,Polska,zawierciański,Zawiercie,Zawiercie,"Jana III Sobieskiego",20,42-400,48be83a5e805330916c746e01e67e7b754d0be6f
+182908,Polska,zawierciański,Zawiercie,Zawiercie,Gołębia,3,42-400,b930ac373cabc946ca999ad19946b0d82bc308e2
+183841,Polska,zawierciański,Zawiercie,Zawiercie,Wapienna,24,42-400,05619a873c3c1c7da5d79faeddd5780b9e2ced8b
+185028,Polska,zawierciański,Zawiercie,Zawiercie,"Jerzego Gardy",32,42-400,e512702f152b9b4cbf5146c41d56f7b585d53c0d
+185330,Polska,zawierciański,Zawiercie,Zawiercie,Pogodna,3a,42-400,9c6302cd49fe14401f2a043183fe54db2be0fb9a
+186389,Polska,pszczyński,Pszczyna,Jankowice,Biała,7,43-215,bffa6040891174e914cfd51901d6a6c6d21a04e4
+186704,Polska,pszczyński,Pszczyna,Pszczyna,Bramkowa,1,43-200,c8e01513d9fae135b7ed3d05c0aeae6afa407f3b
+187908,Polska,pszczyński,Pszczyna,Pszczyna,"Dr. Mielęckiego",22,43-200,50a152b7860fdde021fe50e6892a6e8218998612
+188700,Polska,pszczyński,Suszec,Suszec,Królówka,22,43-267,cef602ddbd3a0f271a14df1ad7d14e62020004eb
+190494,Polska,pszczyński,Suszec,Suszec,Słoneczna,18A,43-267,cf87ec49fc22cf4b883d1a94cb54c3f919c94542
+192299,Polska,zawierciański,Ogrodzieniec,Podzamcze,"Wojska Polskiego",99,42-440,69e29253097b9aa0c7a95a6885dc2d9a7eed62ea
+192661,Polska,zawierciański,Żarnowiec,"Łany Średnie",,43,42-439,479d9b52561e30a1b80aae1f0825e21650efa397
+192673,Polska,zawierciański,Żarnowiec,"Łany Wielkie",,75,42-439,bc7a303ada5121ebb3515b6706f191794a63e3f9
+193401,Polska,zawierciański,Żarnowiec,Koryczany,,28,42-439,b6e744f3795f7fda5a1c96fb667ece142c05bf39
+193934,Polska,rybnicki,Jejkowice,Jejkowice,Główna,101B,44-290,dd3a37d42725b11c779df74f81373df8079b03cf
+194066,Polska,rybnicki,Jejkowice,Jejkowice,Przemysłowa,13a,44-290,b8a66f52a8fcc8af4ee690afae819093efed5a65
+194106,Polska,rybnicki,Jejkowice,Jejkowice,Niewiadomska,10,44-290,861b1e2133cd7dfc27267b872bed4641eac79eaf
+197245,Polska,raciborski,Nędza,Nędza,Akacjowa,10,47-440,130d70b7253a9c916b223af3c2d880dee81c4c3c
+197781,Polska,cieszyński,Skoczów,Kiczyce,Pierściecka,3,43-430,f433f9299dd47def53a91e0859761ea23dfc087a
+198663,Polska,żywiecki,Rajcza,"Rycerka Dolna",,12K,34-370,bc24d827b2f6a0fceabc161bc67df05f7e4670ea
+199205,Polska,żywiecki,Rajcza,Rajcza,Ujsolska,38C,34-370,c8f9e4594622177467f4c96923c6a0a4e44dcf18
+199439,Polska,żywiecki,Żywiec,Żywiec,Topolowa,17,34-300,ff736a42b242e508db1a7aac0a69142f8c1e0b90
+202566,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Związku Orła Białego",142,41-300,bb7fae2f64e0585507d08e3d294223ecf6b04576
+202835,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Storczyków,34,41-300,7dd228d8b0d0ac5555bb4b36ce698d2da6f72361
+203320,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Czajkowa,19,41-300,fcd8a84fa6e63e2cb94beb833904528fec4e1fdf
+205601,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Kwiatowa,22a,41-300,4f3beaa4ee2973d8bdcd30aae24ca12691e3cbf9
+205944,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Łazowska,4,41-300,4bebb54f4e5dbf7e58dfd94208d18a38fa3439fb
+206529,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Modrzewiowa,2,41-300,b3cf000db33917746bcc48f153be8869b2d002a4
+207080,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Roztoki,35,41-300,a8ccdb2c28d914737feb952479258437018f3334
+207991,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Przelotowa,94,41-300,48abbad2261c34798a3afffafb6f1bb839f4bbc7
+208832,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Łaskowa,110a,41-300,d4472da026ac841a1d1740281f1581d178630e9a
+209221,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Przelotowa,167,41-300,2e383d0b3e907be35bcafa34e86993a25481fa26
+209425,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Przelotowa,201b,41-300,c55842cf3519dd9e56de0bf2d2a161c37372130b
+209440,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Rzeczna,11,41-300,57a281ec2d0b5f43b1a2dc9d533ee3298c91cbd6
+210539,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Laski,6D,41-300,524f7ce86c921bcb81ef3d654a609ecf1cf05f19
+213302,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Kazdębie,6a,41-300,185afa505eef0c0bc1c13ffb97fd63b22a3bc5fa
+213623,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Niepodległości,81,44-336,92290db0b5ddd389556799fb5b2b6206458fcd32
+214773,Polska,Rybnik,Rybnik,Rybnik,Zebrzydowicka,126A,44-217,df38e18512eb6a842c25250bf9c5925ee83d7866
+215056,Polska,Rybnik,Rybnik,Rybnik,"Stanisława Drzymały",42,44-200,8b9ee3da6cafc53915fcd872b6bd4e89e44ce7d6
+215173,Polska,Rybnik,Rybnik,Rybnik,Boguszowicka,87,44-203,e0be822a2a8845802f270a12fcc9774794e92264
+216159,Polska,Rybnik,Rybnik,Rybnik,"Władysława Orkana",22,44-270,42b183fe10c8fbc53189566c170f4d621ec14a43
+216597,Polska,Rybnik,Rybnik,Rybnik,Jałowcowa,11,44-200,317f233a3d9eeb4d834b1071245fa6de24fda162
+216965,Polska,Rybnik,Rybnik,Rybnik,Sztolniowa,34,44-200,0921692ac8ece547b3380bde9bfe23a8d6e5d285
+217133,Polska,Rybnik,Rybnik,Rybnik,"Stanisława Leszczyńskiego",26,44-200,1d0407bd745b173fc87b5337e5cb2600ac39458d
+217636,Polska,Rybnik,Rybnik,Rybnik,Zgodna,8,44-200,de51ae039829aafa6c5f2335fcad7152609e3905
+217729,Polska,Rybnik,Rybnik,Rybnik,Walecznych,5B,44-200,d3273c81b427bfa1987a9d602cb52f9fa5e5295e
+218300,Polska,Rybnik,Rybnik,Rybnik,Niepodległości,65A,44-274,bb9cfa938c1f25a91c67826b27e32df944840cc1
+218449,Polska,Rybnik,Rybnik,Rybnik,Fabryczna,48,44-251,97d06f5e9bb474c147684b18adf10670a1e6d472
+220120,Polska,Rybnik,Rybnik,Rybnik,"Na Górze",19,44-200,b0cd1e694c93bf8b06b3b06d94fa2cb99c6d4043
+224134,Polska,Rybnik,Rybnik,Rybnik,"ks. Pawła Pośpiecha",1,44-253,c657b1ecfd9eda8539ea2b991fadbd49662e24ba
+224252,Polska,Rybnik,Rybnik,Rybnik,Boguszowicka,58D,44-200,33dc8da64f032ed35af8aa54760f17ef191ddcae
+224941,Polska,Rybnik,Rybnik,Rybnik,"Osiedle Krakusa",54,44-200,e63eb0ce4b33ea2d6b303d6d13d80904c0df44d4
+225235,Polska,Rybnik,Rybnik,Rybnik,"Oskara Kolberga",19G,44-200,d9aa54090651082849d73735c5fe7eaa603c709c
+226060,Polska,Rybnik,Rybnik,Rybnik,"Cypriana Kamila Norwida",65,44-217,004dd50593b910add032083ae585c8d8293e3ab9
+226162,Polska,Rybnik,Rybnik,Rybnik,"Bolesława Krupińskiego",21,44-200,a338dbda9fb5dc646a1b0281fc99025583299f52
+226272,Polska,Rybnik,Rybnik,Rybnik,"Obwiednia Południowa",3,44-200,3e269e580ec5af6080e6af4b6fd1c9c223859fe5
+227128,Polska,Rybnik,Rybnik,Rybnik,Żorska,214,44-203,40ba9fd19b501b3fe9669c3cea5c7017d7423689
+228014,Polska,Rybnik,Rybnik,Rybnik,"Ludwika Solskiego",5A,44-200,9716f56b6a2e8b773075a4104bfd2a49ddda18ee
+228225,Polska,Rybnik,Rybnik,Rybnik,Modrzewiowa,41,44-270,196c81267ba239fd5c0a55e0c435a3caa5655e80
+228385,Polska,Rybnik,Rybnik,Rybnik,Wawelska,21,44-200,b8b41e8ad0273bc9304aa024fa6f6ebfce05acce
+229035,Polska,Rybnik,Rybnik,Rybnik,"Feliksa Nowowiejskiego",21,44-274,f1fccd69875361256298ad136304031970559c24
+229090,Polska,Rybnik,Rybnik,Rybnik,Nadbrzeżna,89,44-200,65680698f7efb2ad74e3c45672f439a0360d01cb
+229291,Polska,Rybnik,Rybnik,Rybnik,"Władysława Stanisława Reymonta",56C,44-200,5f1b307e87d10265d676610367cf94050ae51192
+229842,Polska,Rybnik,Rybnik,Rybnik,Partyzantów,45B,44-200,4d746ea701aba291ceeeb61512ddff38a04a2b54
+229851,Polska,Rybnik,Rybnik,Rybnik,Graniczna,71,44-217,9a226ba5fcfcc2c85ff89eb7a2130b112e4a8459
+230231,Polska,Rybnik,Rybnik,Rybnik,Gotartowicka,64D,44-200,3a8eaa1bc0bda44543b644fbc08adf81885d9a23
+230928,Polska,Rybnik,Rybnik,Rybnik,"Stanisława Małachowskiego",40,44-200,1f5a9b5f1bab429ccb00d5040863e07927133bf6
+231647,Polska,Rybnik,Rybnik,Rybnik,"Józefa Stawiarza",18G,44-200,969a2046dc1a42baac6c7ff8f4fe79263f4779f3
+232040,Polska,Rybnik,Rybnik,Rybnik,"Władysława Stanisława Reymonta",65b,44-200,ec6f6a16e8b16e5fd1010580e1807f229a72ab2c
+232477,Polska,Rybnik,Rybnik,Rybnik,Gotartowicka,102,44-200,900e36c2390c76673adaadda90121a96a2f52fa3
+234819,Polska,częstochowski,Kruszyna,Kruszyna,Strażacka,6,42-282,4c837eb0aad2d437016ffe04d1d97f524ab43baf
+235146,Polska,gliwicki,Gierałtowice,Gierałtowice,Miarki,115B,44-186,55396463ebdc06731d6aa3d16b8261d5ccbc060d
+235174,Polska,gliwicki,Gierałtowice,Gierałtowice,Zgrzebnioka,8,44-186,7a8f0d186edde6ab6ff25e459a088f67f5a94b6d
+236180,Polska,gliwicki,Gierałtowice,Przyszowice,"Powstańców Śląskich",5,44-178,7e5bfce832b2e5c9e3216d46667fee93652c4b1c
+236899,Polska,żywiecki,Łękawica,"Kocierz Moszczanicki",Spacerowa,8,34-321,558f59a62075c5e3faa16fbab93d528417054b18
+237133,Polska,częstochowski,Janów,Siedlec,Źródlana,30,42-253,419fe8158d4b5fff83e90bf4e2035ee62c17b668
+237939,Polska,gliwicki,Gierałtowice,Chudów,Osiedle,18,44-177,e235504cae3b2cf2fe2f0dcd4288a2317f352453
+238491,Polska,gliwicki,Gierałtowice,Przyszowice,"Księdza Pogrzeby",27C,44-178,733b49c58d135feb79f9c16613cd2eda1d1e74bb
+238607,Polska,żywiecki,Łękawica,"Kocierz Moszczanicki",Orzechowa,6,34-321,70c0b0acfa4241bee3041075856e3c5de8994311
+239584,Polska,gliwicki,Gierałtowice,Paniówki,Zwycięstwa,34,44-177,896051bf8aa065b8f2aba1d88a6de0d8f2ef2d10
+240672,Polska,gliwicki,Gierałtowice,Przyszowice,"Księdza Pogrzeby",17,44-178,0fed0a37657369a7c8f583552b58a3d30360d615
+241023,Polska,zawierciański,Irządze,Witów,,90,42-446,0e42fadc6277166f389e2dbcc1a4fe47b3dbbbd0
+241332,Polska,częstochowski,Kruszyna,Teklinów,Wspólna,68,42-282,e912318c353f6efedec3f54b137210db227028ad
+241425,Polska,częstochowski,Janów,"Złoty Potok","św. Józefa",14,42-253,7fbdbb76143ae5bc8cb2e73b8cd9f0f17acd0a2d
+241634,Polska,żywiecki,Jeleśnia,Jeleśnia,"Jana Kazimierza",93,34-340,fccbae78fe44e23b219aeec0d3574377c3aa2e67
+242236,Polska,żywiecki,Jeleśnia,Korbielów,"Pod Weską",121,34-340,495ea78bc43e3322b6515065f0deee7c21284371
+242539,Polska,żywiecki,Jeleśnia,Jeleśnia,"Jana Kazimierza",224,34-340,ff45e9fcc9433a8f948904a6b02b6f5101d62b6c
+242630,Polska,żywiecki,Jeleśnia,Jeleśnia,"Jana Kazimierza",154,34-340,8a3ababcf92a55ea540ddcd98066cea4898aab19
+242675,Polska,żywiecki,Jeleśnia,Przyborów,,231A,34-340,4e4fbe5ebb30684015f4c3391c9b924411343ecc
+242970,Polska,żywiecki,Jeleśnia,"Sopotnia Wielka",,197,34-340,76550bc0debe498e90e67c9f4e41ec432b71c815
+242978,Polska,żywiecki,Jeleśnia,Jeleśnia,Suska,53,34-340,bb608266fb4befceedf02f7602fe1b75024fe343
+243239,Polska,żywiecki,Jeleśnia,"Sopotnia Wielka",,6,34-340,0ebdb5c3960d3595ffc43bc4c942cd3534d06ec4
+244065,Polska,zawierciański,Łazy,Chruszczobród-Piaski,,87,42-450,d19521e80896fdc356660429bb01f7b9a512d338
+244874,Polska,lubliniecki,Ciasna,Glinica,Mleczna,9b,42-793,f3feecd04caeed601189e1bd05336b0ecd83d8e1
+245528,Polska,żywiecki,Czernichów,"Międzybrodzie Bialskie",Wiosenna,68,34-312,ed9dd399ee9de9475ce0b4d4699f7ddcad190ac2
+246007,Polska,żywiecki,Czernichów,"Międzybrodzie Żywieckie",Beskidzka,95,34-312,6a77097e50b10d9748ce65990d66009e576266c5
+246124,Polska,żywiecki,Czernichów,"Międzybrodzie Żywieckie",Gajni,22,34-312,e0169b59894840e08517171fca7e7b3ec15ffa30
+246271,Polska,żywiecki,Czernichów,"Międzybrodzie Bialskie",Jutrzenki,21,34-312,bfc43fe5e5ea4c70c075816ee17d71b5e9bd4a6b
+246559,Polska,żywiecki,Czernichów,"Międzybrodzie Bialskie",Zasolnica,30,34-312,99580b6889a96b7c2cbe944c2cbace7b027ca07c
+247415,Polska,żywiecki,Gilowice,Gilowice,Okrajnicka,21,34-322,4d591bf7f2493ebef50c16230ebc204841eea7b5
+248462,Polska,żywiecki,Jeleśnia,Jeleśnia,"Jana Kazimierza",116,34-340,9cfe06b2381b1bc5c5dbeb48b8581d99f3f51153
+249240,Polska,żywiecki,Gilowice,Gilowice,Sosnowa,3,34-322,1ff48163b38d64dc7d7596f4846a5d3613c0d3e3
+250052,Polska,żywiecki,Jeleśnia,Jeleśnia,Wróblowa,9,34-340,a321f31d45d44d600ed520ad5db1524bfa1b4b8b
+250366,Polska,żywiecki,Jeleśnia,Korbielów,"Pod Weską",69,34-340,3abdfe3fdb761220e4558aa8528a62d20d3dd77b
+251514,Polska,tarnogórski,Ożarowice,Ożarowice,Podłączna,75H,42-625,55330f0bb2eab1a2ff1e621f0193e2ecf74d45a9
+253102,Polska,wodzisławski,Mszana,Mszana,Zielona,3E,44-325,c351d5b48f8bd85d44797b17fb9fefcb3d6c88e1
+253230,Polska,lubliniecki,Pawonków,Pawonków,Zawadzkiego,39,42-772,1688ee2361f44a5b61ab1c2a3e7d6b669febbd3b
+253395,Polska,wodzisławski,Mszana,Mszana,Spacerowa,3,44-325,1afc5baa68440fbdad71bb8a432b81d33fdf1644
+254204,Polska,częstochowski,Rędziny,Rędziny,Piaskowa,14,42-242,a4afbda018c1824ea91650552a5a44226db55971
+255941,Polska,lubliniecki,Pawonków,Gwoździany,Lubliniecka,28,42-772,4e5d0f0d48e40ac20346ecea371132c7a4b37955
+256267,Polska,cieszyński,Dębowiec,Ogrodzona,Przemysłowa,4,43-426,b4d49b3dde1750a474c00c138c485c7168987b7b
+256286,Polska,cieszyński,Dębowiec,Simoradz,Główna,30,43-426,fa658877a034b67a3887741c33bb89df44b34735
+256607,Polska,cieszyński,Dębowiec,Łączka,Piaskowa,14,43-426,164581302d7f7eba570cdffb244500b4464db9f6
+257297,Polska,gliwicki,Gierałtowice,Paniówki,Klonowa,26,44-177,b2fd4102408fda59560029e045ab9a39fd9315ff
+260934,Polska,częstochowski,Mstów,Jaskrów,Częstochowska,162,42-244,4e9e280e345a42fb479b19f2173e05e9055480f5
+261241,Polska,częstochowski,Mstów,Zawada,Dolna,22,42-244,5c06d4db72eda48a0faa94c78eb46375dcadc45c
+261532,Polska,częstochowski,Mstów,Jaskrów,Częstochowska,155,42-244,76bd58bdc103a9fa46cdf2d1b7e5ddd52b9dd782
+261648,Polska,częstochowski,Mstów,Jaskrów,Jurajska,41,42-244,2c4b59ebda39f0622a7c7a21267ce53ef7e09370
+262329,Polska,będziński,Wojkowice,Wojkowice,Piaski,160,42-580,b16c698786db402944c0c894e8aa74359aa86b1b
+262777,Polska,żywiecki,Gilowice,Gilowice,Wesoła,25,34-322,8ca4548ffe6931058c3eec7e0c99587c13b19dac
+262896,Polska,częstochowski,Mstów,Cegielnia,Targowa,67,42-244,8e7855814b5e9ff9848a4b4427f287d995a42d32
+265173,Polska,bielski,Jaworze,Jaworze,Liliowa,351,43-384,b79f2dd25fc42b1c9b26bce2ce1ca05651bce5c2
+266324,Polska,żywiecki,Koszarawa,Koszarawa,,476,34-332,144b4ef5e290e1f320789f0047fddf2029869f77
+267208,Polska,myszkowski,Koziegłowy,Koziegłówki,Lipowa,6,42-350,958b941882659e128410f628f288612b4f525c66
+268124,Polska,myszkowski,Koziegłowy,Koziegłowy,Żarecka,69,42-350,9275d2ed5d2d9edc21d29599843d0391c8a4c2ab
+268405,Polska,myszkowski,Koziegłowy,Mzyki,Brzozowa,15,42-350,6bda4bd34ad764d07418b3909402371a6d198c45
+268831,Polska,myszkowski,Koziegłowy,Gniazdów,Szkolna,22,42-350,277976516edfe2d6a27c3ef05b5a9644193aff21
+270171,Polska,lubliniecki,Ciasna,Ciasna,Dworcowa,7,42-793,17ef930cf18c4339e2c67c997c976d7ebd5db9f4
+270767,Polska,myszkowski,Koziegłowy,Koziegłowy,Polna,31,42-350,8133b38c56c2a2b521d6399887e9593a37deb2b7
+271655,Polska,myszkowski,Koziegłowy,"Siedlec Duży","Jana Pawła II",114,42-350,d70e884474b5f8939e5d7faa5b97cd2b89ebb353
+272064,Polska,myszkowski,Koziegłowy,Pińczyce,Modrzewiowa,6,42-350,97f8614d2be6efbd493a7fcd77628def4e70d78d
+272073,Polska,myszkowski,Koziegłowy,Koziegłówki,Myszkowska,9,42-350,3e8365e71ab59bb46f71321984d502da1e8bb0bb
+272262,Polska,wodzisławski,Marklowice,Marklowice,Jankowicka,13,44-321,aeb7f8e885f748169552a1fc9a45918f4604827d
+273071,Polska,wodzisławski,Marklowice,Marklowice,Wyzwolenia,154,44-321,9c31dde2bd855b8ebd52ca68b86b9a97ec503b31
+273659,Polska,zawierciański,Szczekociny,Goleniowy,Kosynierów,55,42-445,749f5d15899cab5e703d407a2b3a324a931f3341
+274323,Polska,cieszyński,Zebrzydowice,Zebrzydowice,Poprzeczna,11,43-410,518f95837f0e7085b4541d91d953df26c546cbb8
+275431,Polska,zawierciański,Szczekociny,Rędziny,,11,42-445,7913cec588d6a138865e7e9560e1e165a48dce86
+276578,Polska,cieszyński,Zebrzydowice,"Kończyce Małe",Wierzbowa,1,43-410,6a0fdcb7484a4ffc78d8f3f04c72c0b94bf2b378
+276865,Polska,zawierciański,Szczekociny,Szczekociny,Leśna,7,42-445,29aee8c9ecc6978b5fa9173fe6253ef297d3d5cf
+278113,Polska,zawierciański,Szczekociny,Małachów,,2,42-445,e87a4bf90c3566e8c7168e9a404a430a10f8db7a
+278263,Polska,cieszyński,Zebrzydowice,"Kończyce Małe",Zagrodowa,16,43-410,4120f5845bd86b889886f44d5a4391a6aa260c10
+279102,Polska,cieszyński,Zebrzydowice,"Kończyce Małe",Jagiellońska,58a,43-410,59fd9aead92407fbc386c962648ebace2f8998b4
+281519,Polska,żywiecki,Świnna,"Pewel Mała","Jana Pawła II",123,34-331,d57f51a930678c1aca34bba04fb5fcb324be4dd3
+281537,Polska,żywiecki,Świnna,Rychwałdek,Karpacka,93,34-331,906eb883b8bc23443ae58e9cfafd726b38c64a80
+281697,Polska,żywiecki,Świnna,Świnna,Wspólna,29,34-331,6897ebfaaab39963a3f8dc78da271323d3d34d7f
+283010,Polska,żywiecki,Świnna,Trzebinia,Beskidzka,53,34-331,7b998a2f3f3a733f598b1c572ac6ebf94ad2c46f
+283490,Polska,żywiecki,Świnna,Trzebinia,Złocieni,3,34-331,dd9c109502b4dfd36be0466fd1c7bfc7fde826e3
+283619,Polska,gliwicki,Rudziniec,Kleszczów,Szkolna,5,44-164,a85887b9f4a523f1a13c3bda9f879dc35688f2fe
+283715,Polska,żywiecki,Świnna,Przyłęków,Jaśminowa,14,34-331,cbf010f1e0cb42b6b029380afec90960d9eb0160
+284058,Polska,tarnogórski,Kalety,Kalety,Leśna,18,42-660,b0e64dffe3fe43d942cd3222ffa18ba1efbf2532
+284190,Polska,gliwicki,Toszek,Toszek,Oracze,11,44-180,30e8804e74ad17a002fa5fee6500557bcac04efb
+284225,Polska,gliwicki,Toszek,Pisarzowice,Wiejska,56,44-180,207ec89e7401c776956b9270c79e0c972bee9348
+284376,Polska,tarnogórski,Kalety,Kalety,Jagodowa,12,42-660,bee3a40c098d894bff9d8d1c61639565266bc811
+284570,Polska,tarnogórski,Kalety,Kalety,Stawowa,16,42-660,16d8e3d85c4d9886618c15a6a70e0df7758f09c4
+285081,Polska,tarnogórski,Kalety,Kalety,Rzeczna,12,42-660,1daed1d21b026e8882b34077f8e76b5214bbdee4
+285287,Polska,tarnogórski,Kalety,Kalety,Tarnogórska,81,42-660,b07428a9c19ae2ecdc25ca8dbbb640dc9efd69da
+285813,Polska,tarnogórski,Kalety,Kalety,Czarneckiego,1,42-660,503f6616ed7c30268006cbfdb39a31ee80f958dd
+286047,Polska,tarnogórski,Kalety,Kalety,"Wojska Polskiego",6,42-660,2b3b6e212d92c25584f3666baab374f55b729993
+286165,Polska,gliwicki,Toszek,Ciochowice,Leśna,3,44-180,1c5d27886cc36a1d4afcab15fac073ad097be615
+286726,Polska,gliwicki,Toszek,Pniów,Górna,49,44-120,4e7b4aac5d322ac5b16ddb60c7e90509b0988fa2
+287352,Polska,bieruńsko-lędziński,Imielin,Imielin,Satelicka,24,41-407,5c7763987c7b4946dc84eefbf1fd744fbdd7594a
+288315,Polska,tarnogórski,Zbrosławice,Zbrosławice,Kościelna,4,42-674,f9ca1ac99add4cf54e3a205dc8be491402835bf9
+289026,Polska,tarnogórski,Zbrosławice,Zbrosławice,Leśna,13,42-674,e82e25cc33705ae9562dadc63f5ec36824c8e9b0
+289156,Polska,tarnogórski,Zbrosławice,Zbrosławice,Wolności,134b,42-674,81fb9ed7b2d13d6eafc032a543596028ec54faeb
+289623,Polska,tarnogórski,Zbrosławice,Czekanów,Szkolna,17a,42-674,8269e30811a4470e0582133bbd5e0ac43e817e62
+289847,Polska,żywiecki,"Węgierska Górka","Węgierska Górka",Zielona,137,34-350,4ae39a432c0292296e569c68c5364982462a5e07
+290934,Polska,tarnogórski,Zbrosławice,Zbrosławice,Ogrodowa,9,42-674,3dc4870f886a95020df44a63df1a0693fbcabed8
+293189,Polska,żywiecki,"Węgierska Górka",Cięcina,"Świętej Katarzyny",129,34-350,86b4135c5beb69057a831c0bc859be412d991ea8
+293731,Polska,tarnogórski,Zbrosławice,Kopienica,"1 Maja",6,42-674,56094eda5ee1581883bf731910d13cf1ff7d694b
+293740,Polska,tarnogórski,Zbrosławice,Jaśkowice,Wiejska,1B,42-674,4e3e4351bb3b3c1f2f3ca098bfb8615d7efda644
+294065,Polska,żywiecki,"Węgierska Górka","Węgierska Górka",Partyzantów,2,34-350,da9ad9ed5601defe4213223e0e744fae9fffbde6
+294931,Polska,żywiecki,"Węgierska Górka",Cisiec,Cisowa,62,34-350,088bebdf189e47123de8e013f317f4e46f573aad
+298737,Polska,częstochowski,Rędziny,Konin,Kielecka,1,42-240,dca000ad9353f71691be0c6246a0774c5ffe25bc
+300767,Polska,częstochowski,Blachownia,Blachownia,Bankowa,7,42-290,d29ff4a2ce600793f05124c2749060e5b766cb5b
+300842,Polska,częstochowski,Rędziny,Rędziny,Mstowska,66,42-242,94284a605cf2d7dc16aaf12e9855e46deb30fb94
+300966,Polska,żywiecki,Ślemień,Las,Obwodowa,13,34-323,bccedd6dfb52a2f046aed4097c09685be0d0b7ec
+301325,Polska,częstochowski,Rędziny,Rędziny,Wolności,159A,42-242,3e29fd4ace282c6ba23ed0a8328ae1be07bf8e70
+302339,Polska,częstochowski,Rędziny,Kościelec,Warszawska,69,42-240,30fd50e268c094ef4451df3e607ffc37d0f58f2d
+302621,Polska,częstochowski,Blachownia,Blachownia,Mała,4,42-290,a8603e1035a48a161f65901e460d6c1e18a0a4f4
+303834,Polska,częstochowski,Blachownia,Blachownia,Młyńska,17,42-290,6fe96075bf5c6a21a938dbda1e51c5e94a9c3ae7
+304612,Polska,żywiecki,Ślemień,Kocoń,"Obok Krzyża",2,34-323,52cb4535ac0e657be58277f13dc8cf776e29ec83
+305103,Polska,żywiecki,Ślemień,Las,Spadzista,3,34-323,52a6fcf16ba446addfcf8e4e19b5f6fd951c97d4
+306121,Polska,rybnicki,Lyski,Zwonowice,Jankowicka,7,44-292,1c911d458c1ffe646f12b80652380bb30e7f18a9
+307894,Polska,częstochowski,Kłomnice,Garnek,Główna,25,42-270,02bb18796e6613b8b7bed1d1b4d1de8b3b0684e2
+308379,Polska,częstochowski,Kłomnice,Pacierzów,Wolności,24,42-270,bc4c3c5b0c391f76ed1cb9d2b8bf9080c287c415
+309170,Polska,żywiecki,Radziechowy-Wieprz,Juszczyna,,295,34-382,a2d12428c020f4ecec2b91fbf40fd11163857453
+309391,Polska,żywiecki,Radziechowy-Wieprz,Wieprz,Długa,714,34-382,c2bb9d8f679ec5dc34c877c03ca90d9dabbd8472
+309607,Polska,żywiecki,Radziechowy-Wieprz,Wieprz,Browarna,970,34-382,981bbeec8c5ceba80d273f740869c2b7f68117df
+309712,Polska,żywiecki,Radziechowy-Wieprz,Brzuśnik,,244,34-382,495442acb6b6984925e1b32129340f65c1884357
+310414,Polska,żywiecki,Radziechowy-Wieprz,Wieprz,Żywiecka,662,34-382,fbf6bf66a6adfca7f6c5aec46808217d1d6d5cf0
+310580,Polska,żywiecki,Radziechowy-Wieprz,Wieprz,Szkolna,477,34-382,a6034f6f191b74950e4ecc7011417d31aa484e10
+310691,Polska,żywiecki,Radziechowy-Wieprz,Brzuśnik,,48,34-382,89df00182465fa8ac0f625a08fbf47fd25231a01
+310926,Polska,żywiecki,Radziechowy-Wieprz,Radziechowy,Galiców,522,34-381,4dead7c888ccaa57c5fe3c6d305e046b08be6ed2
+312081,Polska,częstochowski,"Dąbrowa Zielona",Dąbek,,44,42-265,6bdc04ca8d380ac78659d30795d110d6ead14855
+312452,Polska,lubliniecki,Herby,Głąby,,33,42-284,1a78c8c74b2bb76df7dcc5e8f21e153ae7d5cc3e
+314746,Polska,lubliniecki,Kochanowice,Kochanowice,Ostrowska,69,42-713,589033c19413cbb7159ec2dd91656b35ca3866e3
+315304,Polska,lubliniecki,Kochanowice,Lubockie,Piaskowa,23,42-713,8cac8c638b6a63c8b1085cde294a65dee47bb8a1
+315968,Polska,częstochowski,Koniecpol,Zagacie,,12,42-230,f1d6544624ee6659ed84aad7ce7dadd32c3eaa5d
+316786,Polska,pszczyński,Miedźna,Wola,Powstańców,17,43-225,8752738e6185daff41853e861ad6643890dfa600
+318008,Polska,pszczyński,Miedźna,Wola,Pszczyńska,144,43-225,e20429d8b8cbbabba5063e38722c426089fe36d9
+318295,Polska,pszczyński,Miedźna,Frydek,Polna,9,43-227,0d4fb6842060199f8fe9c009df2c01531951f639
+318425,Polska,cieszyński,Brenna,Brenna,Nostrożny,67,00-000,e57e74c5fdc183819de0cb3da0d83da8f66617da
+318823,Polska,cieszyński,Brenna,"Górki Wielkie",Leśna,25,00-000,2e1e478b9ecb96c7e0bdd301e2a1a7ba6178c009
+319129,Polska,cieszyński,Brenna,"Górki Wielkie",Turystyczna,12,00-000,a760b67bd48317136f9c63f449d4e27fb68d9f51
+319329,Polska,cieszyński,Brenna,Brenna,Pościenny,18,00-000,5647c8e43e379f9b47dafdeebdd93cebcc42258a
+319696,Polska,cieszyński,Brenna,Brenna,Węgierski,58A,00-000,b46aadb24a29d5831deced51ed35bfc4d51d2c73
+320056,Polska,cieszyński,Brenna,"Górki Wielkie",Dębowa,24,00-000,1df742e7f43dbb462634b8e5348115d7200019bb
+320188,Polska,cieszyński,Brenna,"Górki Małe",Chłopska,22,00-000,2d3c2a166222e72bcc17b6f6eb8f383af9452477
+321178,Polska,cieszyński,Brenna,Brenna,Jatny,108,00-000,f3deb4e3267e33dfcf87b72c22b361a96a652c80
+325535,Polska,pszczyński,Miedźna,Miedźna,Bieruńska,25B,43-227,19d2d9d49361c741119c099196517c4a640d5bfc
+326592,Polska,Żory,Żory,Żory,Diamentowa,15A,44-240,a6e0907c4f7ae6f4a79bc9ce72d4c9f56b8bc373
+326911,Polska,Żory,Żory,Żory,"Osiedle 700-lecia Żor",18,44-240,18149d73bf74aae22ea3daf33707fa7f745d91b9
+327616,Polska,Bytom,Bytom,Bytom,"Ludwika Solskiego",1,41-900,d038396a44f0665e5332617e9b5430e1d5ee0e13
+327629,Polska,Bytom,Bytom,Bytom,Energetyki,16,41-900,36dbd588ef0e539f65d376f07848632d70f3e1ff
+328136,Polska,Bytom,Bytom,Bytom,"Bronisława Czecha",20,41-900,7f74f75f8cd76707d102398613b636c5a8d70516
+328184,Polska,Bytom,Bytom,Bytom,Sokoła,17,41-900,90f814def5800d200372e0b3d4695a9f9f7d82d4
+328968,Polska,Bytom,Bytom,Bytom,"Stanisława Witczaka",152,41-900,27c0a79ad9118d10b6ddcec59f3d68a681d392ee
+329542,Polska,Bytom,Bytom,Bytom,"Mieszka I",31,41-900,9e4adeac7507d0f2e2de0881577623c17a390449
+331174,Polska,Bytom,Bytom,Bytom,"Alojzego Felińskiego",73,41-900,2c743057f173f1cb876cf3f7764867a4daa4e35d
+331199,Polska,Bytom,Bytom,Bytom,"Hugona Kołłątaja",20,41-900,0d8bc4e08657ec941f19b5c0f95f8f22878c0328
+331958,Polska,Bytom,Bytom,Bytom,"Świętych Cyryla i Metodego",31,41-900,a44246d207e1d14728fa4972555fa5f3f23fcb1f
+333628,Polska,Bytom,Bytom,Bytom,"Powstańców Warszawskich",17,41-900,95b49d023c9193c6785fcdfec09640dbbb8581e5
+333706,Polska,Bytom,Bytom,Bytom,"Stanisława Webera",4a,41-900,de1adbb23111beb549cbb73dc0c238d7e92a753e
+334775,Polska,Bytom,Bytom,Bytom,Lazarówka,8a,41-900,71c50b1cd49552ef9ddd056fccd89ae049f96583
+336811,Polska,Bytom,Bytom,Bytom,"Stanisława Olejniczaka",22A,41-900,86899c8a95b0b0e367c56d4ffc9767fbfffd67e0
+337214,Polska,Bytom,Bytom,Bytom,"Juliana Tuwima",7a,41-900,8b391cd5bf34cfd13536c533acfff58c693122eb
+337698,Polska,Bytom,Bytom,Bytom,"Józefa Bema",11,41-900,f5fe3ecede4569615aacb626e7f87aa3f3a9f772
+337830,Polska,Bytom,Bytom,Bytom,"Piotra Czajkowskiego",19,41-900,f04ee9a6d557aabb5fb9a17af1dc9a537ab27468
+337946,Polska,Bytom,Bytom,Bytom,"pl. Generała Władysława Sikorskiego",9c,41-900,be5a0b0217d4ff9a623447cdfbf507d6bd3677c5
+338431,Polska,bielski,Buczkowice,Buczkowice,Kaniowa,1056,43-374,83fe58f35cae3a68cb5021daeb5ce7f271675f30
+339501,Polska,bielski,Buczkowice,Rybarzowice,Zielona,330,43-378,f0e029c45477bec92b074c2e0ea08b64e4acc78d
+340296,Polska,bielski,Buczkowice,Buczkowice,Wspólna,383,43-374,8dadfdf518162637ad9bc353c47066584a33840e
+340644,Polska,bielski,Buczkowice,Buczkowice,Woźna,41,43-374,5d1ab2071bd17067d8eb8c07159e02ce314c6c16
+340710,Polska,bielski,Buczkowice,Rybarzowice,Beskidzka,83,43-378,854c9110768efe6560cd54e45b14a58e65428325
+340780,Polska,bielski,Buczkowice,Rybarzowice,Jaskółcza,78,43-378,3b5268faaf4fdd3685c8bba06ea35131ff3c23bf
+341057,Polska,bielski,Buczkowice,Buczkowice,Kaniowa,75,43-374,6996129cc1d7850cf1d6c16d9eadce555e9b5b5f
+341316,Polska,bielski,Buczkowice,Rybarzowice,Jastrzębia,857,43-378,fa7345a03c4942d7f0a31ec0259ceeac8c5b7a88
+341803,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Repecka,102,00-000,b8d0df152eebe2a25f20af74534c92388e6cfaee
+342971,Polska,pszczyński,Pawłowice,Jarząbkowice,Kasztanowa,7,43-252,d1fffd1d8994e9fa0604706fd9f3874ce78b191a
+343072,Polska,pszczyński,Pawłowice,Golasowice,Kochanowskiego,19,43-252,af394805ef6609c33dcd33dddf9efcac173b514d
+345119,Polska,lubliniecki,Lubliniec,Lubliniec,Chłopska,4,42-700,c7795ae9562de7fd64b6159f5c1354a80f53ec64
+345626,Polska,lubliniecki,Lubliniec,Lubliniec,Korfantego,8,42-700,0912a83c50c45f104ab9be00987ce9e6999426b0
+346133,Polska,lubliniecki,Lubliniec,Lubliniec,Słoneczna,35,42-700,e617aae9f32ba9377f6208b985fc8ae51604e713
+346244,Polska,lubliniecki,Lubliniec,Lubliniec,"Żwirki i Wigury",32,42-700,5d748e31784d95071dc31da3cf061ddbd07eb7f5
+346490,Polska,lubliniecki,Lubliniec,Lubliniec,Zagłówek,3a,42-700,ba3bcfaec7199f432a3327b145b99050a0d67c44
+347199,Polska,Mysłowice,Mysłowice,Mysłowice,Wiejska,2a,41-400,37a79f8c61f2459a08eef20123ac1d5c69c80050
+348028,Polska,Mysłowice,Mysłowice,Mysłowice,"Stanisława Staszica",2,41-400,a8d47c53722fa2ff4bc8912391a50b198e448214
+349094,Polska,Mysłowice,Mysłowice,Mysłowice,"Stanisława Staszica",42,41-400,cd919794a473acd0d969d8da267b2f6b6b521a46
+350144,Polska,Mysłowice,Mysłowice,Mysłowice,"Polskiego Czerwonego Krzyża",223,41-400,11d5c371f37a4185b32052b732f102c7ccd81ecf
+350216,Polska,Mysłowice,Mysłowice,Mysłowice,Kolejowa,11,41-400,dbd6381494051dc4a7b3500e035fdd9040586508
+350742,Polska,Mysłowice,Mysłowice,Mysłowice,Cegielniana,11,41-400,ddd0f106721db9d1521aaf8f6a62ab681fba54a2
+351004,Polska,Mysłowice,Mysłowice,Mysłowice,"Wielka Skotnica",52,41-400,349f5b90482f8cd083055b81a6919f19314e6963
+351669,Polska,Mysłowice,Mysłowice,Mysłowice,"Armii Krajowej",36,41-400,7ecf20ec7ef66c457ffa80def45f29e6affb98a3
+353726,Polska,Mysłowice,Mysłowice,Mysłowice,Janowska,59,41-400,d2e9b52703aa3a6b68e32b5b304b0f91a795f82c
+354046,Polska,Mysłowice,Mysłowice,Mysłowice,Plebiscytowa,67,41-400,1780204b8a41df198eb7bdc6a7f6046eca906a6c
+355533,Polska,Mysłowice,Mysłowice,Mysłowice,Skałki,3B,41-400,7bb9b4de8052a17ebfd13f0328d75d47716b8cdf
+355622,Polska,Mysłowice,Mysłowice,Mysłowice,"Polskiego Czerwonego Krzyża",72,41-400,da5ec13e6d26e8be57a5aaf7f5ad3a780d3d6653
+356422,Polska,Mysłowice,Mysłowice,Mysłowice,"Elizy Orzeszkowej",47,41-400,cb0f65d41b27576253dfde524ffa12bf4639d2a4
+356966,Polska,tarnogórski,Zbrosławice,Kopienica,Bohaterów,17C,42-674,1b6e3e302865ced2c9ec86d8ea4328d987974e07
+358220,Polska,Żory,Żory,Żory,Graniczna,25,44-240,c4d1aa40e54040223d0d2ea386a370275ee40bc8
+358379,Polska,Żory,Żory,Żory,Łużycka,8,44-240,0a5ff9c99587b7fa2e2fb93b01f184d3a541137c
+358777,Polska,Żory,Żory,Żory,"Harcerzy Buchalików",49A,44-240,e0a16ae5d17cc805fd1ecfb252c48b3a62a78bc6
+358976,Polska,Żory,Żory,Żory,Osińska,21,44-240,8a892dc78b59acf1293e2084cbb321bf2de778ee
+359937,Polska,Żory,Żory,Żory,"Męczenników Oświęcimskich",24,44-240,266caffe2240094dc10d1c8b8e62452a88f1e561
+360209,Polska,Żory,Żory,Żory,Boguszowicka,35,44-240,44c1c8efe31d1d9d0cbb82647e9ff9aa498bce3b
+360257,Polska,Żory,Żory,Żory,Miła,7A,44-240,4cd4366b3a9d2932470faa6ce8ef81ce05ab9094
+361229,Polska,Żory,Żory,Żory,Orkiszowa,6,44-240,05bbacd67ff9de1097b2a43a472931155ea4d556
+361621,Polska,Żory,Żory,Żory,Główna,40,44-240,b8c860a0522289419c822f63429e2190b8e2b3ee
+361637,Polska,Żory,Żory,Żory,Kościuszki,55,44-240,50f470aff723b9707570c0e55613517430c87ea9
+362020,Polska,Żory,Żory,Żory,Wodzisławska,273,44-240,c853c8b329145f7b75c17ba9e0fe116ea1b90f0e
+362271,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Juliana Polcera",25C,41-300,cb33ac3699eed5f0fa26de9fa6b0a7156165a384
+362629,Polska,mikołowski,Wyry,Gostyń,Stokrotek,9,43-176,aadb6e3a4debbd7c79bad278423f1d5bbc22801a
+363113,Polska,mikołowski,Wyry,Gostyń,Akacjowa,69,43-176,2d4084118080d03456cc4c9530c7b4a38da76f27
+363664,Polska,mikołowski,Wyry,Wyry,Zjednoczenia,21,43-175,345fc441ca4012946eaa2ccc7d839665e14f9231
+363829,Polska,mikołowski,Wyry,Gostyń,Rybnicka,121,43-176,b01eefb4f1c5b2a164370ef9682e4b4b61a06486
+364715,Polska,myszkowski,Poraj,Żarki-Letnisko,Skrajna,6,42-360,3b1ba31207466dd4794ea9a3d27a0e0bfc08543d
+365330,Polska,myszkowski,Poraj,Choroń,Partyzantów,26,42-360,8fb6e3dff3060188412aebce4d139552cac2d10c
+366672,Polska,myszkowski,Poraj,Poraj,Wesoła,32A,42-360,c7070db9c0f5636ca4772fcb271ffd52f6b72119
+369990,Polska,częstochowski,Konopiska,Jamki,,1,42-274,a5742dff2a34c171a389041ef7071dfbeeaae1ac
+370337,Polska,częstochowski,Konopiska,Konopiska,Mała,10,42-274,2c909569c90b40c4d3c5205dcf7bcb95bfae1791
+370599,Polska,częstochowski,Konopiska,Leśniaki,,2A,42-274,92d51c55e0872827330b61cf465c419cad4862e9
+370754,Polska,częstochowski,Konopiska,Jamki,,147,42-274,83edf0af55025bc2429e053dd48da4b889eba553
+370808,Polska,częstochowski,Konopiska,Hutki,,280t,42-274,4d6491f92fcec9307fac42c462c0d04ffa2bb977
+371198,Polska,częstochowski,Konopiska,Aleksandria,Piękna,30,42-274,e2839d610c557696b86fe860ac2be253baaad3d4
+371234,Polska,częstochowski,Konopiska,Aleksandria,Gościnna,152,42-274,9c1c219e902a3a9393a369ec4b3cc478d358dad1
+371885,Polska,częstochowski,Konopiska,Hutki,,252B,42-274,3bea7cd23d9507eade730a3c1df644733f0c43af
+373515,Polska,wodzisławski,Radlin,Radlin,"Kornela Makuszyńskiego",41A,44-310,5951948419cc414a6c1916efcf211233fbf68140
+374225,Polska,wodzisławski,Radlin,Radlin,Rybnicka,315A,44-310,2ad228168e95cde1edb590c1f9cd91011f40ceb9
+374672,Polska,wodzisławski,Radlin,Radlin,"Konstantego Damrota",2,44-310,7eacdc55c3faf9535dda973f85d8f2ad3fc4bda9
+375077,Polska,wodzisławski,Radlin,Radlin,Rydułtowska,28,44-310,0b08bbc504d2ed1a2599f804ddd9181314d4a4f3
+376134,Polska,lubliniecki,Pawonków,Lisowice,Nowa,15,42-700,d2a858e06d60c735c8b4a41760c90c52d5ad3989
+376850,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie",Jesienna,19,41-943,d82d3b4bb60dec8637a06025b977f6d55afd5b20
+376963,Polska,wodzisławski,Gorzyce,Rogów,Wyzwolenia,111B,44-362,0b1eff3504bbae34e4453c2a88fa305e6bb47543
+377418,Polska,będziński,Czeladź,Czeladź,Warszawska,5,41-253,73958da29d986f4d65b82f4d3871d2b031fb66c7
+377962,Polska,będziński,Czeladź,Czeladź,Małobądzka,61,41-253,40b39bc4bf7bb707b671d89fa8132784cc9881f6
+381227,Polska,mikołowski,Orzesze,Orzesze,Traugutta,8,43-180,e50fdfeb91a7d70c17cf3e98bff09d8874951172
+381736,Polska,mikołowski,Orzesze,Orzesze,Mikołowska,165,43-180,5597d886f683b12e8f163842cd53d87c20bc1876
+383580,Polska,mikołowski,Orzesze,Orzesze,Grunwaldzka,1,43-180,4144311b0188a165dc9b7bbdb98006174e4b319d
+384948,Polska,mikołowski,Orzesze,Orzesze,Sarnia,7,43-180,e14c67b3ba9205b3bd35174180d27499a016846e
+385907,Polska,cieszyński,Skoczów,Kiczyce,Orłowa,16,43-430,6b85135357c7b65ab4ed22f39ad95ae73aeba0f5
+386251,Polska,bielski,Jaworze,Jaworze,"Aleja Kościelna",1A,43-384,053351fc627b9bdb6f44c200c29319688063365e
+388396,Polska,Mysłowice,Mysłowice,Mysłowice,"3-go Maja",100,41-400,77c26b9b5d1e1a9204be51efbf6d6977eadb91de
+388434,Polska,częstochowski,Mykanów,Adamów,Nadrzeczna,26,42-231,c4cbae9912600c98af8068af9e1f10b04d3260f2
+388805,Polska,częstochowski,Mykanów,"Wola Kiedrzyńska",Mykanowska,135,42-233,923d7b884d1414dfb661e9c0ce0c700393cb8a4f
+388913,Polska,Mysłowice,Mysłowice,Mysłowice,"3-go Maja",20a,41-400,6c1e621b213e15d32b413631df0142815627e2f2
+389960,Polska,częstochowski,Mykanów,Wierzchowisko,Długa,122,42-233,99fbd42f4e01273bd11a3261536033f4e0decfa3
+390236,Polska,częstochowski,Mykanów,Lubojna,Ogrodowa,19,42-233,f7a06ebc2990775c1e89a7e9f71bd9e42a70c618
+391817,Polska,cieszyński,Zebrzydowice,"Kończyce Małe","Majora Cezarego Hallera",34,43-410,f9de5511dab1b0df34bf6e34b79bb130384e6d2c
+392964,Polska,zawierciański,Włodowice,Rzędkowice,Jurajska,54a,42-421,fc5e2b1fd8b662253ab85a85fcce31824bd69bbd
+394153,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"Za Kuźnią",106,43-346,5bfa4f6dd17371645848614ad5c6de9b395473bc
+394326,Polska,zawierciański,Włodowice,Hucisko,"Skalny Widok",5,42-421,a32cd5fdd60c08337f3bf908c078a0974a5a21a7
+395745,Polska,cieszyński,Cieszyn,Cieszyn,Kępna,8,43-400,79dac86417abc596ab14f6b83cf21f55190a6908
+395793,Polska,cieszyński,Cieszyn,Cieszyn,Majowa,98C,43-400,d70e278855e34f3fe9e15da976f8dfd9b96b96a1
+395805,Polska,cieszyński,Cieszyn,Cieszyn,"Alojzego Milaty",4B,43-400,34b02af4fcfce365d9ca91901c133f3679162314
+397081,Polska,cieszyński,Cieszyn,Cieszyn,"Stanisława Wyspiańskiego",24B,43-400,dde20e1ddca274227e1ceb1b092e905e81025d02
+397574,Polska,cieszyński,Cieszyn,Cieszyn,Błogocka,5,43-400,e94b8e0faa85cc4f94f92c7214159ef5bcece4ee
+397857,Polska,cieszyński,Wisła,Wisła,Krótka,1A,43-460,55a5276c379f0e3b215db1f37f22536572f31edd
+398355,Polska,cieszyński,Cieszyn,Cieszyn,"Stefana Żeromskiego",2A,43-400,9c765c1dbe88ab348769499e38eac385629e6d47
+399281,Polska,cieszyński,Cieszyn,Cieszyn,Wiosenna,36,43-400,257e997dc1755608eed68ab1fca4bc3b82975b26
+399661,Polska,cieszyński,Cieszyn,Cieszyn,Krokusów,22,43-400,8c90bad3bc131f29366eec97c26072d2459aefe6
+400504,Polska,cieszyński,Cieszyn,Cieszyn,Stroma,12,43-400,c579b78990ff776e9236475f371345e044e7734f
+401451,Polska,raciborski,Racibórz,Racibórz,"Bolesława Leśmiana",9,47-400,adfa2572ea95bd6ef0a15329f8bae299041c39da
+402115,Polska,wodzisławski,Lubomia,Lubomia,Polna,86f,44-360,41ff21e4e7d5a172faf30ddc614b8e25ce2b926c
+402309,Polska,bieruńsko-lędziński,Imielin,Imielin,Bluszczowa,2B,41-407,4fcd6f09eb1550fe2dbdab9ad1ae2d58ccc6e42f
+403244,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Walentego Fojkisa",17B,41-712,5f78e450f8a7ee45a2c591fef7c31c92d943b148
+404055,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Kamienna,14,41-707,56a18cec1725023c1934b34580873d3ad5bee477
+405554,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Poli Gojawiczyńskiej",6A,41-706,2ee83a5e75aaa23c64ef2155a14d6539a66555a2
+406091,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Fiołków,4A,41-700,ec0920695cbaed70961b9b1f30981ce90f5cac9c
+406436,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Kardynała Augusta Hlonda",27,41-712,b73db4ccba7d6ada077cb02c8ed104ea728bfceb
+406810,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Leśna,5,41-706,76937a7b53343d53413355e15fddc398c1919cb5
+407190,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Bzów,1A,41-700,fe6767e4f9e4c308e9ce97a9596d38813d0a26ec
+408476,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Stanisławy Wysockiej",5,41-712,19b11fec7eebb8380c1060c6ff830225d1738358
+409543,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Tylna,2,41-700,d4ef7542be1ced3fc22ac8fb800515f969f1632f
+409729,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","1 Maja",318A,41-700,134379e3e2c6358dc0ee793c1f4a4603913de2f8
+409754,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Mikołowska,24,41-706,bf6142090002ae1384e6e6804f3578dd3acb88ec
+410082,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Karola Wideckiego",48,41-711,add078ecf3848684bf03414e36c4a2ee42ceb772
+410114,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Wyzwolenia,10,41-700,c1ebdbb2ee650469735494d1ed781e5fcd48180f
+410516,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Sportowców,44,41-711,131ea6bbc221be84cb8ac2a0751c95ea70080fce
+411324,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Obrońców Westerplatte",15,41-710,4c0be790df12fc186317ef1136634d4c7046c916
+412005,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Wrzosowa,34,41-710,cf80ce70fc5b2aba50aca0023c19d5973c4136d4
+412246,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Orzegowska,19,41-700,df19bc2367ed073ce166411eed8f21d695787f6a
+413271,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Kochłowicka,25B,41-706,3b3ab2bea426c97ace64d240545902ff8e94d154
+415037,Polska,lubliniecki,Lubliniec,Lubliniec,"Kubusia Puchatka",17,42-700,afa12bc7af9b72c35461b76a660bf1e228b6f5e4
+415652,Polska,lubliniecki,Lubliniec,Lubliniec,Jesionowa,29,42-700,57b8ab9e719bad00e1c9e9d6b95a63e28f8b3443
+415719,Polska,lubliniecki,Lubliniec,Lubliniec,"Kubusia Puchatka",7,42-700,1425dc5dd64666b5ca295e97ef98ed5a18463d8d
+416155,Polska,zawierciański,Kroczyce,Kostkowice,Wierzbowa,32,42-425,e1a0c34e8634dacdb5492a460e7ba845be6c4b3e
+416565,Polska,zawierciański,Kroczyce,Gołuchowice,,56,42-427,2cb09a6c95fcb7d2e96b2fb6498ef016c6ad6c62
+416874,Polska,zawierciański,Kroczyce,Kroczyce,Spacerowa,11,42-425,d3cb9e4c99667dc5d324a1b930f0b1a4ea1bafa2
+417897,Polska,zawierciański,Kroczyce,Dzibice,,8,42-425,37738299d1149c33009039013416fbd7e473373f
+418461,Polska,zawierciański,Kroczyce,Kroczyce,Jarzębinowa,5,42-425,c7462dca853229619b96f7a689afaa59869ff32f
+419167,Polska,częstochowski,Mstów,Jaskrów,Starowiejska,21,42-244,8c24a36372c755fa19c3b9702933331d2ad3e84e
+419784,Polska,bieruńsko-lędziński,Imielin,Imielin,Bartnicza,17,41-407,b8a4e258ec15a074f0785371868b3c43e0005c0c
+420077,Polska,zawierciański,Ogrodzieniec,Ogrodzieniec,"Pl. Wolności",29,42-440,4ab1fefcdbe0c4c15c9b45ca6483fb8ecd214338
+420751,Polska,częstochowski,Mstów,Mstów,"Mikołaja Kopernika",1,42-244,6fdf6b5d9e3f8f6eb4aa0f4351cde8d797a86bfe
+420936,Polska,cieszyński,Goleszów,Goleszów,Różana,13,43-440,5ec20928e7d76bba09f29936e2bd0a9f93aa48af
+421237,Polska,cieszyński,Goleszów,Goleszów,Cieszyńska,49,43-440,ce12c9be293e4e536c673f7add6f2acd960c0c64
+421601,Polska,cieszyński,Goleszów,Goleszów,Lotnicza,36,43-440,360fa50b621f7ad2d84f469939d3f804b129f223
+422405,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"Jana Sobieskiego",247,43-382,60208ea1782023c42eb619cca55a9d3c684168e4
+423196,Polska,żywiecki,Łodygowice,Łodygowice,Jesionowa,10,34-325,a4d9788df4192fe5fe95adcfb5d3cf1ad793e8be
+424079,Polska,żywiecki,Łodygowice,Łodygowice,"Księdza Marszałka",1,34-325,62149256928b13b7ff7c9bd601ab407262193c96
+424437,Polska,żywiecki,Łodygowice,Pietrzykowice,Kościuszki,216,34-326,b80a05efa628fb8d2b1453813a1fa1a337305c3e
+425148,Polska,żywiecki,Łodygowice,Bierna,Rolnicza,19,34-325,08c93c40c2e60b4e4e4e1e65feb9146cef158758
+426165,Polska,żywiecki,Łodygowice,Łodygowice,Kościelnych,22,34-325,99f2066f9c6ffc7e38043caec2b6d4e7fa79b204
+426588,Polska,żywiecki,Łodygowice,Łodygowice,Piłsudskiego,182A,34-325,af9631017ca2c8358288a0ca2785f0863a63cd26
+426598,Polska,żywiecki,Łodygowice,Zarzecze,"Jana Pawła II",5,34-326,3f30427a3109495e95df57d8e7fc128da063b4c4
+426635,Polska,żywiecki,Łodygowice,Pietrzykowice,Łęgowa,2,34-326,2b8d28c2a58ca5176d029f8efbdfde8f36d0ecc8
+426680,Polska,żywiecki,Łodygowice,Pietrzykowice,Gajowa,3,34-326,20dbfec29856be5565f985374d2bea6df84a9d3b
+427344,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Oddziału AK Ordona",239a,41-300,6ac428a9ff39c27cd90d1e43b36f134029a49a81
+427407,Polska,będziński,Siewierz,Dziewki,Pasternik,25,42-470,3beef9096e06a775bb016336e22454d695135c53
+427776,Polska,mikołowski,Mikołów,Mikołów,Konwalii,11,43-190,98247abee036acc67dc6b6be52186f197431d886
+428128,Polska,mikołowski,Mikołów,Mikołów,Paprotek,61C/1,43-190,a31ffb06e672b8627d66de8365e5be4202d7c984
+428728,Polska,mikołowski,Mikołów,Mikołów,"ks. Franciszka Górka",97,43-190,646f10fe51cf47585610d92667e988c884666629
+430214,Polska,mikołowski,Mikołów,Mikołów,"ks. kard. Stefana Wyszyńskiego",8,43-190,cec3305f9f202b479f291eab30f098e465479dee
+431753,Polska,mikołowski,Mikołów,Mikołów,Słoneczna,39A,43-190,9c703446051bff0b36c73bfbae7405cfce695ec2
+432962,Polska,mikołowski,Mikołów,Mikołów,Polna,90A,43-190,67551a6e3243cc62c58e22a5d427debd6c8367ca
+433321,Polska,mikołowski,Mikołów,Mikołów,Lipowa,5,43-190,6118cab68155595ff96ab6994ee35a348c12e4fa
+433679,Polska,mikołowski,Mikołów,Mikołów,"Marii Skłodowskiej-Curie",42C,43-190,c6c44d054c88f3490debdd10dbb98d5bcf92633b
+434179,Polska,mikołowski,Mikołów,Mikołów,"Stara Droga",31,43-190,0c3c1ee254bfbbcc4634fa5ee72323ac51637195
+435435,Polska,mikołowski,Mikołów,Mikołów,Długa,24b,43-190,d4efac3b83a52efd8607aacd5b3239ba6f6de13c
+435649,Polska,mikołowski,Mikołów,Mikołów,"Tadeusza Kościuszki",40C,43-190,b39b6ca9889968ef92fc7b455340a94dee9a7e22
+436298,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Żytnia,4A,44-336,cf890484e648e8d3cec98f503aca30dcd82a7d33
+437015,Polska,będziński,Będzin,Będzin,Kamienna,3,42-500,0e386b21e3d7adbc5a58806dc7d3a99c6d341ce2
+437720,Polska,będziński,Będzin,Będzin,"Armii Krajowej",9,42-500,3c108865ba3b91aa38482fb10f679f60e803dc88
+438309,Polska,częstochowski,Przyrów,Przyrów,Piaski,25,42-248,9faf9b5635e2a0576819f50d278d9f09288ac0ff
+438316,Polska,częstochowski,Przyrów,Przyrów,Zielona,4,42-248,bd3cfb224e06a8c6a5045eb6417ac3357d5426d4
+439001,Polska,będziński,Będzin,Będzin,"Marcina Kasprzaka",10,42-500,c6dd973f4a2596569ddb637e8a21e87a67f4585b
+439178,Polska,będziński,Będzin,Będzin,"1 Maja",92a,42-500,e8756f58694000ad4a0a65307b0820bbbc179409
+440048,Polska,będziński,Będzin,Będzin,"Tadeusza Mazowieckiego",32a,42-500,0ba7350b0dedd0e52470c0a5cb37ef5ce3dcf71c
+440950,Polska,wodzisławski,Gorzyce,Bluszczów,Powstańców,18,44-362,6f751dc23a9df2bcae7e8961641e8b82272cf022
+441516,Polska,Katowice,Katowice,Katowice,"1 Maja",96,40-239,b5ec3dc3c85285e673a770be479072f857f7ae38
+443660,Polska,Katowice,Katowice,Katowice,"Jana Pietrusińskiego",13c,40-842,09eadb606d47aab8c1c5cf6a25873073af3ef176
+445487,Polska,Katowice,Katowice,Katowice,"św. Jana",24,40-026,1bb13d6e952186d7d4c2be4217dcfd807ddc68cb
+445765,Polska,Katowice,Katowice,Katowice,Traktorzystów,10,40-695,924e0a1b902f71962af11124aee9cf87bd6546e7
+446327,Polska,Katowice,Katowice,Katowice,"Marcina Radockiego",188,40-645,c8dd17bbd829eb553eaca9e6f2a19ed93dccb70e
+446669,Polska,Katowice,Katowice,Katowice,"Aleja Wojciecha Korfantego",40,40-161,32e4b80222803b4447ef6d7aafc70246d8b67e91
+448107,Polska,Katowice,Katowice,Katowice,Złota,23,40-103,a20d4cb9f45560a53045752d6a8aa780907beaad
+448883,Polska,Katowice,Katowice,Katowice,Lipowa,3,40-103,7e056647dc1505aaa6579cdb0118193484809d20
+449181,Polska,Katowice,Katowice,Katowice,"św. Pawła",11,40-008,e6fa8b4d245e72c45f9a3e1e20316d58d800a20e
+449199,Polska,Katowice,Katowice,Katowice,Szronowa,8,40-316,6290b503ddf9f39d26b65c32e68c9bf564bfef1b
+449503,Polska,Katowice,Katowice,Katowice,"Gen. Józefa Bema",56,40-777,ce2fa00afd8bf30d27ae0a09bb87c1d4bc9a9af1
+449617,Polska,Katowice,Katowice,Katowice,Bałtycka,34c,40-778,d58cf324ea782a3fc9832b813c673764dec47b01
+449826,Polska,Katowice,Katowice,Katowice,Stawowa,4,40-095,79b6639e1df900ec617de1022320e61179557175
+450107,Polska,Katowice,Katowice,Katowice,"Władysława Stanisława Reymonta",20,40-029,d6f6296827e8edfbb9a356602485d2db09ac2c07
+450575,Polska,Katowice,Katowice,Katowice,"Jana III Sobieskiego",12,40-082,4d1926ee7b3449df0ec8d4a0a336293d0fb0e71e
+451115,Polska,Katowice,Katowice,Katowice,Mysłowicka,41a,40-486,54f2221a36619acc8829703ad87948e34d839a67
+451670,Polska,Katowice,Katowice,Katowice,Grodowa,30c,40-407,b2234e08896f3e517d975292ccb4fec820373ecb
+454689,Polska,Katowice,Katowice,Katowice,Gromadzka,51N,40-711,ae263c0486e87daaa816c0f9d998e260f59e454c
+455368,Polska,Bytom,Bytom,Bytom,"Kazimierza Trampisza",9,41-936,2e16e910b9e9672581f713c7937ba1baeec8c8f5
+455715,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Gen. Jerzego Ziętka",11,41-940,37f2908dc57f84eb607464af76591847a3dafd58
+455953,Polska,Katowice,Katowice,Katowice,"Tadeusza Kościuszki",215,40-600,52dd929aa9d03ad6cef326445a06ea0d5c1618ae
+458247,Polska,będziński,Będzin,Będzin,Modrzejowska,51,42-500,a3cf2e79df89cf0af1060944b5447e74e1a99fa9
+459123,Polska,Katowice,Katowice,Katowice,Sołtysia,88,40-748,550aebe36bf41bdb6ba9df5acd3e5496d46a865b
+459277,Polska,Katowice,Katowice,Katowice,Tomasza,11,40-564,7d4c0228b3d6a9bbff04e72c1b86ca2020d02f91
+459642,Polska,Katowice,Katowice,Katowice,Kijowska,37c,40-754,0440f5750e85e80475254912a5cc3533b3ad8978
+460422,Polska,Katowice,Katowice,Katowice,Zbożowa,10,40-657,82df3acb9f885aee6ed42907b08e9b157fed9174
+461074,Polska,Katowice,Katowice,Katowice,"Tomasza Kotlarza",7f,40-139,383680230b6d3ed5aeb8c0a6e9ee389f114e1d57
+461085,Polska,Katowice,Katowice,Katowice,Mysłowicka,28,40-487,b19e760d56310f5fdc643a646e3d48e3f668c3d6
+461420,Polska,Katowice,Katowice,Katowice,"Tadeusza Boya Żeleńskiego",22,40-750,0e60cc14583311e7b304b21f0e75977db2402559
+461585,Polska,Katowice,Katowice,Katowice,"Aleksandra Raka",3,40-748,e6f39ea8a62d6394246b206e39e17a26e0b9638f
+461923,Polska,Katowice,Katowice,Katowice,"Bolesława Prusa",96,40-631,7e0f2fbdc56582aa44ebe494fd8441b074a0a153
+462745,Polska,Katowice,Katowice,Katowice,"Stanisława Żółkiewskiego",1a,40-242,c5075df2d06ac515e65f1dafaeb27a61f597cbfb
+463696,Polska,Katowice,Katowice,Katowice,"Kazimierza Opalińskiego",6,40-715,c63d2a892e32a8d9d5541fe43e1ba8afd7292e57
+463914,Polska,Katowice,Katowice,Katowice,"Jana Samsonowicza",31d,40-749,47973c514ae4bb4ba272a0d7fd21fa2631a72be6
+465374,Polska,Katowice,Katowice,Katowice,Francuska,44,40-028,f151a43a9b571e712bde233a38c9f509936a91c7
+466201,Polska,Katowice,Katowice,Katowice,"Piotra Norblina",1a,40-748,89e4f5c197faba65e6225d5e078880a8d24b647c
+466469,Polska,Katowice,Katowice,Katowice,Lawendowa,7,40-632,e1b3e3f1453bb02eb24caae5613afda9d2ea1415
+467814,Polska,Katowice,Katowice,Katowice,"Bł. Edmunda Bojanowskiego",6,40-772,34e4c088794876c8ad90f7151f8eac4d5090db51
+468650,Polska,Katowice,Katowice,Katowice,Graniczna,42,40-018,ad0cad6d2487ea5b7bfe3b64ed05665090a918d0
+470851,Polska,Katowice,Katowice,Katowice,Nagietek,37D,40-748,0e0435bebff72cdcd9d62fcffb2636926bee511d
+472471,Polska,Zabrze,Zabrze,Zabrze,Wyzwolenia,2,41-800,c940bdb1276263720f84c5fc0549fe13116bbe9c
+473145,Polska,Zabrze,Zabrze,Zabrze,"gen. Władysława Sikorskiego",49,41-809,8fbacf2bcb8f8c6be75ff16b2db29f899cee0e5c
+473186,Polska,Zabrze,Zabrze,Zabrze,"Konrada Sitki",78,41-810,8d159bae33cc1d47c242dc3a4c96498c30687a24
+473297,Polska,Zabrze,Zabrze,Zabrze,"ks. Doktora Antoniego Korczoka",90,41-806,48c358aca8cbaf59fc4ec1dddfc083a3ca9295e5
+473834,Polska,Zabrze,Zabrze,Zabrze,"gen. Władysława Sikorskiego",99,41-809,452a49efa24e243d94ff6482e421f953e70441f8
+473972,Polska,Zabrze,Zabrze,Zabrze,"11 Listopada",38,41-807,71d50044426e5da51ce38e0902bd4ea3986eb4e9
+475955,Polska,Zabrze,Zabrze,Zabrze,"11 Listopada",18,41-807,8d18ac0414824a2901e4ac91d1cbad50682ea2e8
+476164,Polska,Zabrze,Zabrze,Zabrze,Topolowa,3,41-819,d888bea401bb32b10f3cb4a6d2a6311e7ccc927e
+476238,Polska,Zabrze,Zabrze,Zabrze,"Ireny Kosmowskiej",32,41-808,b755ba99c5e3013ca367bbb2327d27eeadb06749
+476778,Polska,Zabrze,Zabrze,Zabrze,Makowa,3,41-809,ebd6f709fd8417baba8c281a51c870ca49df79c8
+477054,Polska,Zabrze,Zabrze,Zabrze,"ks. Andrzeja Hauptmana",7,41-800,e05a6b0fa20c7470fbf88c9866d8cad55c0bde51
+477335,Polska,Zabrze,Zabrze,Zabrze,Tarnopolska,59,41-800,a1b4b3c8faf5de337dcc24c13e664b4abf3fc36f
+477942,Polska,Zabrze,Zabrze,Zabrze,Pyskowicka,26,41-800,f101e05232f3c6d7fe95ae5041cd5529d1ecb736
+478041,Polska,Zabrze,Zabrze,Zabrze,"Nad Kanałem",64,41-800,a62486b0879be07dc0c2a63eb683efac1d05f2cf
+478153,Polska,Zabrze,Zabrze,Zabrze,"ks. Józefa Madei",36a,41-819,c29974babb8635d55c211a4641860573bb433165
+478433,Polska,Zabrze,Zabrze,Zabrze,Traktorzystów,12a,41-814,d347bae253e6e0840d801d5489c6e7810c4078d4
+478641,Polska,Zabrze,Zabrze,Zabrze,"Józefa Mehoffera",4,41-800,51a6d875c2c163f2771d5d30502a30bee272d625
+479357,Polska,Zabrze,Zabrze,Zabrze,"ks. Jerzego Badestinusa",13,41-814,821c572791f421e672adbbeae1042e4aab9ce3ba
+479721,Polska,Zabrze,Zabrze,Zabrze,"Józefa Nawrata",7,41-800,99e58337fd254632f435efe258403f90dd23342a
+479985,Polska,Zabrze,Zabrze,Zabrze,Wolności,540e,41-800,b167cb0c8b86434e13e0d4b4706cc976a38b94f7
+479986,Polska,Zabrze,Zabrze,Zabrze,"Ludwiki Wawrzyńskiej",21,41-813,1de97f151d69cc58f0f4af85e8e6e063d40fe593
+480659,Polska,Zabrze,Zabrze,Zabrze,"Marcina Lutra",8,41-800,36b2be1946e49f14c802d2366f95192053800c93
+481821,Polska,będziński,Będzin,Będzin,"Stefana Okrzei",59,42-506,530b21eed3aafda195926c545d17186b1d8da2fe
+482915,Polska,Zabrze,Zabrze,Zabrze,Wilcza,8,41-800,03dded39062d8b6b0dd0d375ca87d26d21c12cf2
+483789,Polska,Zabrze,Zabrze,Zabrze,"Bolesława Chrobrego",20,41-803,5c867302eb9e4c0fa76627a1451ac50d9c85c8f9
+483915,Polska,Zabrze,Zabrze,Zabrze,Kopalniana,7b,41-807,01b44bb7c98305de9b4470603da717a612a96c20
+486000,Polska,Zabrze,Zabrze,Zabrze,"11 Listopada",121,41-807,474edc58146a13b7ed3deb51f65e22dc94330596
+486088,Polska,Zabrze,Zabrze,Zabrze,"Anieli Krzywoń",14,41-800,3f4dd209b9fac460ca05063d9c58ca62aaa60d24
+486297,Polska,zawierciański,Szczekociny,Szyszki,,40/8,42-445,9235ffcd75df6dc5bd08f1c1624a48274905688e
+486718,Polska,pszczyński,Pszczyna,Czarków,Wolności,6K,43-211,529612ffadece8038c194ab0a300418c860ec6a4
+486728,Polska,Tychy,Tychy,Tychy,"Armii Krajowej",105,43-110,7ee6ec6a14e21d8be095d07a563122b4cea2be59
+486851,Polska,Tychy,Tychy,Tychy,Dzwonkowa,49,43-100,778b5ce30e5fcdd7ee9a51ac1e5a090a6dbab5f6
+486985,Polska,Tychy,Tychy,Tychy,"Zdzisława Hierowskiego",25,43-100,636358d20cf87ba516943e3d744cdf99e4744f56
+489286,Polska,Tychy,Tychy,Tychy,Begonii,8,43-100,71a3758e1fc40c3ef6fee1d06160660bd844f57c
+489680,Polska,Tychy,Tychy,Tychy,Nowokościelna,52b,43-100,c3ef38649c5b6be208136333933f248dc1fe6543
+489778,Polska,Tychy,Tychy,Tychy,Długa,163,43-109,2bd5916af82b6b7df64006d36dc2f20607f3bfe1
+490407,Polska,Tychy,Tychy,Tychy,Nowa,9,43-100,0675e88d0d9ba176383841795e6b2b075e188d44
+491210,Polska,Tychy,Tychy,Tychy,Jaroszowicka,151,43-109,2001b3aaae9086f992c6a3faaf053a8af08aa50e
+492109,Polska,Tychy,Tychy,Tychy,Goździków,51,43-109,623251aa391b61568942af996447224c9c75d68f
+492232,Polska,Tychy,Tychy,Tychy,Modrzewiowa,45,43-100,c08183a1472a706d4942289cbd06e53f381f1c6e
+493569,Polska,Tychy,Tychy,Tychy,Maków,18,43-100,8bd5c280743fa7dfed16df39cc14d62d05bd5210
+493748,Polska,Tychy,Tychy,Tychy,Powstańców,39,43-100,c65417a112d51b4104f0ddc30d7bf8461a07330d
+494908,Polska,Tychy,Tychy,Tychy,Dojazdowa,9B,43-100,fe9d01f74605a59581f4a95cf5302b676c2223d2
+495226,Polska,Tychy,Tychy,Tychy,Żwakowska,20a,43-100,652fbc8f7b49311725575b727f58c034b71e588b
+495453,Polska,Tychy,Tychy,Tychy,Flamingów,26,43-100,edf26575a61514b183a01411e5c9536316a44702
+496985,Polska,Tychy,Tychy,Tychy,Zwierzyniecka,61,43-100,93fcb48e8d5ac79153c9c8fa095034e1084895d4
+497056,Polska,Tychy,Tychy,Tychy,"Władysława Sikorskiego",131,43-110,89ccf38a677940e309c37a17bc0431d0e9a5b647
+497405,Polska,Tychy,Tychy,Tychy,Jodłowa,32,43-100,22215ac663fc57e0338532462b6782ab9d50b159
+498918,Polska,zawierciański,Łazy,Niegowonice,Niwa,4b,42-450,67c5d04139393c8ede624cb39fd6512b855a8f2e
+500310,Polska,bielski,Jaworze,Jaworze,Leszczynowa,65A,43-384,210486a262b369e4bd998236d6d0d446d19ea9c7
+502120,Polska,tarnogórski,Kalety,Kalety,"Księdza Rogowskiego",21A,42-660,4567083ba9e08a187e95ad179c686144c50e8a3c
+502746,Polska,lubliniecki,Herby,Chwostek,"Gustawa Morcinka",46,42-714,c2b520fa0bb2663b50a58c1a06f99924c32e9daa
+503702,Polska,wodzisławski,Gorzyce,Gorzyce,"Henryka Sienkiewicza",3,44-350,b0d024c8403c546e10e57b66401fcc2b31d26f13
+503731,Polska,będziński,Będzin,Będzin,Rolnicza,3,42-500,809ece295dfd31da8fa894a2c5e72b59642d0a22
+505992,Polska,pszczyński,Kobiór,Kobiór,Leśników,19,43-210,2d7bab11e80bb2d151701c7fceca73c9966a78ae
+506127,Polska,pszczyński,Kobiór,Kobiór,Promnicka,9,43-210,85c17e722dd10bab08c349b8a79aaf4687d10db1
+506926,Polska,wodzisławski,Gorzyce,Gorzyce,Rybnicka,29,44-350,32250fc2e9b019f63787ed2beb352cedd90c73e0
+507095,Polska,myszkowski,Myszków,Myszków,Grzybowa,49A,42-300,6a5bfa05636cc04485589f89f44541f684ce5baa
+507436,Polska,będziński,Będzin,Będzin,Wapienna,9,42-500,ca0d16f2ce764d4cd99c62e991f5d78ace31f17c
+507998,Polska,tarnogórski,Ożarowice,Zendek,Strąków,7f,42-625,db04ba6e6986e973ce7b8ddf111f493a103d6d2d
+508171,Polska,wodzisławski,Gorzyce,Rogów,Raciborska,78,44-362,e31496f2e1e6501557f2fb9e5e2408df7c5cfe2f
+508356,Polska,lubliniecki,Koszęcin,Sadów,"Powstańców Śląskich",61A,42-700,ad5bcdc55bf5fbb9cc03050821fc2d44f2505ab8
+512366,Polska,Rybnik,Rybnik,Rybnik,"Saint Vallier",7,44-200,e7ffb743f7ecfceeca0e1f4cdceba2159ee8ca84
+514763,Polska,żywiecki,Ujsoły,Ujsoły,Sportowa,1,34-371,553a792cdcd83b5b051d3cecf7b8848e305285f9
+515500,Polska,żywiecki,Ujsoły,Glinka,,123A,34-371,b0bb42ee1b8eab33dcfdac44e3a79c23dd921a39
+515923,Polska,żywiecki,Ujsoły,Soblówka,,227a,34-371,72859422a110bbb1a7cd8c3e588745b30c48d59a
+515926,Polska,żywiecki,Ujsoły,Soblówka,,227e,34-371,4aac96c2121ebee1bc2eb4b2542f197342e20d76
+516650,Polska,pszczyński,Pawłowice,Pawłowice,Zjednoczenia,103,43-251,310adfa1e0519a65778555a92ebcc93476f86c8d
+516834,Polska,będziński,Wojkowice,Wojkowice,Plaka,56,42-580,a6dc3d02fc8b42daf594915bf2a9000bea3f0cdb
+517027,Polska,mikołowski,Ornontowice,Ornontowice,Zwycięstwa,121,43-178,bce4a616c32bba1cdc141ce6fe11f5623cb68bba
+518391,Polska,mikołowski,Ornontowice,Ornontowice,Bukowa,4B,43-178,5fb310303064f52227781a1487511a6e62f7ca94
+519416,Polska,mikołowski,Ornontowice,Ornontowice,Kolejowa,143,43-178,031c7d4d09d2d08d2d10cde07f71c85c9899b498
+520073,Polska,gliwicki,Rudziniec,Taciszów,Wakacyjna,23,44-171,bda4a2daf62c8c0af1d0e1380795e7569e54a301
+520496,Polska,pszczyński,Pszczyna,Pszczyna,"Braci Jędrysików",5H,43-200,9c270f394df7309418155e8f59297ebbf28d58c3
+521534,Polska,gliwicki,Rudziniec,Rudziniec,Wydzierów,3,44-160,1f93cc5348ed4992545c7d22a833e1723eece2cc
+523503,Polska,częstochowski,"Dąbrowa Zielona",Raczkowice-Kolonia,,1A,42-265,89f88e12d8945b12cf09cdb0c601c447188c3cae
+523509,Polska,częstochowski,Kłomnice,Konary,Częstochowska,37,42-270,4416991b6eb304d0af6a7bf3d4e5c399858c73bd
+523616,Polska,częstochowski,Kłomnice,Zawada,Kościuszki,69,42-270,8ace86e878463f8a8c079f2ee621a94e5d6e77cf
+524023,Polska,częstochowski,Kłomnice,Zawada,Sobieskiego,55,42-270,35ec55494cb6cb72a946d665d0854094e570f7b8
+524324,Polska,częstochowski,"Dąbrowa Zielona",Cielętniki,Żurawia,3,42-265,974f9d97a292b1f927864fc49cb27bc237c193a4
+526133,Polska,mikołowski,"Łaziska Górne","Łaziska Górne",Polna,18C,43-173,fb849faa5e3033b58f5a71f8cfa87d3f2f7126a1
+526206,Polska,mikołowski,"Łaziska Górne","Łaziska Górne",Pszczelna,18,43-170,a555bd427e43c326ed251d0f2d445429d909768e
+527855,Polska,mikołowski,"Łaziska Górne","Łaziska Górne",Górnicza,20A,43-173,7da01640da02f6f1800d06c7b727609acef3ced2
+529318,Polska,pszczyński,Pawłowice,Pawłowice,Wodzisławska,7,43-251,1f60d10a303740acce99046a78b717bde4c5bc0f
+530095,Polska,tarnogórski,Zbrosławice,Świętoszowice,Mikulczycka,138,42-674,0ae571e0c9758369abcd4a632488e3bce5561a07
+530216,Polska,będziński,Mierzęcice,Przeczyce,"21 Stycznia",50XA,42-460,7a4c0e44210a876304582d4601b8c14c9f311190
+530488,Polska,będziński,Psary,Preczów,Szkolna,6D,42-512,175f85d23bd36074e93016fc044627cbd80303ea
+531777,Polska,wodzisławski,Marklowice,Marklowice,"Karola Szymanowskiego",41,44-321,c6ba97f5a8ca495452396c519f2b0e7ec09b871b
+532474,Polska,myszkowski,Koziegłowy,Winowno,Opolska,33,42-350,df8b3b98c49ed88446afa1944df1f6cf2cb1d059
+533740,Polska,kłobucki,Panki,Cyganka,,33A,00-000,54da1186b59cbd3ebe629827f6164cfcdc6b94f1
+533876,Polska,kłobucki,Panki,Kałmuki,,63,00-000,ef995c2983a354c0b207acc65fe7a6175ca65222
+534614,Polska,kłobucki,"Wręczyca Wielka",Jezioro,,133,00-000,ca526080fafd6a2acf5488d0226a2c58c29ead41
+535052,Polska,kłobucki,Panki,Konieczki,,13,00-000,28ef2f99cd25f5be4903500f59a80f4188d2656d
+536777,Polska,kłobucki,Lipie,Wapiennik,Główna,116,42-165,410bc81bb34fa16586c020fab6df6b523433f98b
+538364,Polska,myszkowski,Niegowa,Łutowiec,,46,42-320,876091aef7ff34f1a3939774b64a7b6b0ce6d7c8
+539091,Polska,myszkowski,Niegowa,Dąbrowno,,60,42-320,6714d7eb9c29b11076f9e621e2b981880151d334
+539580,Polska,lubliniecki,Koszęcin,Koszęcin," Makowa",10,42-700,edfaedb043a8e9d666f50ad247d22da9b4c722f8
+539686,Polska,lubliniecki,Koszęcin,Piłka,Poprzeczna,8,42-286,77e6b07372d664b3a76128fb4f1566ed71394d64
+539747,Polska,lubliniecki,Koszęcin,Strzebiń,"Żwirki i Wigury",4,00-000,5b7ace9c83165c4278f665a409b2edb234132001
+540690,Polska,kłobucki,"Wręczyca Wielka",Truskolasy,Kopernika,79,00-000,3efa236993ca68ebb731b1b6ce69e8e8d396aaf2
+540733,Polska,kłobucki,"Wręczyca Wielka",Bieżeń,Ogrodowa,21,00-000,b642791d56729f6586628c041c396938f6b61412
+540868,Polska,kłobucki,"Wręczyca Wielka",Jezioro,,88b,00-000,9a5f9fc0674d95b83ee3d5def1131fa3f127fa94
+541519,Polska,kłobucki,"Wręczyca Wielka","Wręczyca Wielka",Sienkiewicza,20,00-000,4b5c8b572ecd0f531e9e58da711f725d456207f7
+541588,Polska,kłobucki,"Wręczyca Wielka",Kuleje,Bukowa,53,00-000,789b92b4a8f24523c3d7d2cb5be44e563d30482d
+542567,Polska,kłobucki,"Wręczyca Wielka",Truskolasy,Częstochowska,39,00-000,f56a39a0ae18c96dd5197fa934910d4f6708656c
+542792,Polska,kłobucki,"Wręczyca Wielka",Klepaczka,,63,00-000,b2ed8c485edb4b56a173974e5461aa4e1ea59246
+543514,Polska,kłobucki,"Wręczyca Wielka",Zamłynie,,29,00-000,f1202241ea70b1298226e41fc51d6666b907a55f
+543650,Polska,kłobucki,"Wręczyca Wielka",Bieżeń,Wręczycka,18,00-000,98f353f0149ab3fb46f13e85611af07e2e5ae471
+543998,Polska,kłobucki,"Wręczyca Wielka",Borowe,Długa,42,00-000,230a37e78d9cf75227cb1a9a5c7946c8b68257b7
+544580,Polska,kłobucki,"Wręczyca Wielka","Wręczyca Mała",Lipowa,8,00-000,b45832c69b6fc4eca5865b6acbcc812817922c97
+546152,Polska,częstochowski,Mykanów,Kokawa,"Juliusza Słowackiego",82,42-231,2404158d693078da7e36abbdd75c04345a71bb9b
+548477,Polska,zawierciański,Łazy,Łazy,Krzywa,8,42-450,f484bca434d3edec62fa4a17588ee3db56d4ace3
+549910,Polska,częstochowski,Mykanów,Wierzchowisko,Osiedlowa,149C,42-233,322798bfae6c1f4e3456bc0e3182fb1823baf4bd
+550277,Polska,rybnicki,Gaszowice,Szczerbice,Rybnicka,82B,44-293,26a978343d5d15beee74e27f0f0a0d0e8cd6837d
+550324,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry","Kardynała Stefana Wyszyńskiego",202,42-612,a538bf96f98a9bac09c41c8759ca6e399031b679
+551936,Polska,kłobucki,"Wręczyca Wielka","Wręczyca Wielka",Częstochowska,12A,00-000,cb3c0440e9e27559eaf8d37a4c952dacaa34fc89
+552633,Polska,gliwicki,Wielowieś,Sieroty,"Świętego Jana",5,44-187,436f1581dc7ff8a9f5a9144118a4d0d5d5f20080
+554022,Polska,bielski,Szczyrk,Szczyrk,Myśliwska,137,43-370,368a81af728676a8f9303d7dc804438f6bef6078
+554050,Polska,bielski,Szczyrk,Szczyrk,Beskidzka,141A,43-370,096866b8b0a99e455c673d07c3c0b7826ef0d9b3
+554161,Polska,bielski,Szczyrk,Szczyrk,Bratków,10H,43-370,5c28d4939e63fcabea73aec72244c225e2d95237
+554282,Polska,bielski,Szczyrk,Szczyrk,Górska,88,43-370,4268cdb8d737fd1ebae032bc3fecc45e7842ae11
+555672,Polska,tarnogórski,Zbrosławice,Zbrosławice,Traugutta,24,42-674,32ba380c168f592b9ac2552e7b23e226153b290a
+555974,Polska,mikołowski,Wyry,Wyry,Kopaniny,43,43-175,a48490d501c6ae96f35c5e3c6b69f70ece94982c
+556062,Polska,wodzisławski,Marklowice,Marklowice,Jabłoniowa,30A,44-321,270509195678c96dcbc266e90396ad6de557b8f4
+556391,Polska,Rybnik,Rybnik,Rybnik,Patriotów,25,44-253,4f63fc268e80086b3163f3325d2245e2236e31a1
+557040,Polska,częstochowski,Mstów,Brzyszów,Częstochowska,110,42-244,b4bccecacaefb50457cd6fddaec60ac30d055c25
+558071,Polska,mikołowski,Wyry,Gostyń,Rybnicka,82C,43-176,9be41cd55496e8fa85016d475ee3841bc853ccfe
+558771,Polska,zawierciański,Poręba,Poręba,Siewierska,33,42-480,08b1bf31d9b8638b9c79f67a010c256b2ed86830
+559722,Polska,częstochowski,"Kamienica Polska",Osiny,Częstochowska,108A,42-260,dc23ab3d2eadedb3ea59bb1db9a160af684000c3
+560176,Polska,częstochowski,"Kamienica Polska","Rudnik Wielki",Słoneczna,107,42-260,aa77d796c83e0f899ed16cd9a71aa5f97b350c71
+560247,Polska,częstochowski,"Kamienica Polska",Wanaty,Osińska,35,42-260,f6711112133ce796cc27dafbea90d9d48da73f8a
+560731,Polska,częstochowski,"Kamienica Polska","Rudnik Wielki",Słoneczna,86,42-260,b1fe61935a370251c36ebb3dccad7ec6d4a57809
+561871,Polska,częstochowski,Mstów,Kobyłczyce,,86,42-244,e45c9ec2af11a6f5d6a5f16067e52c3404fc167a
+562856,Polska,żywiecki,Radziechowy-Wieprz,Radziechowy,"św. Marcina",589,34-381,b0259dbfa0f4e3d411fda54ebf00fc174437aa44
+563701,Polska,Chorzów,Chorzów,Chorzów,Osiedlowa,14,41-500,fe7d1686dc3e9406748010dd6d3e60f0dcdf3df2
+564275,Polska,Gliwice,Gliwice,Gliwice,Rolników,419,44-141,7cfe38a0ba3f731b9c84a2458be7fc358e9c2483
+564660,Polska,Gliwice,Gliwice,Gliwice,"Juliana Fałata",10,44-102,11f365e7f5cd02c60996413e702a7c2ba8413f64
+565392,Polska,Gliwice,Gliwice,Gliwice,Przyszłości,23A,44-119,0853eab37ee7897884d4f03257c5d90c98d5cbac
+566470,Polska,Gliwice,Gliwice,Gliwice,"Ignacego Daszyńskiego",694A,44-151,248fc93f3c83cc5149139bb803db838eb657121b
+567208,Polska,Gliwice,Gliwice,Gliwice,"Juliusza Słowackiego",52,44-100,ea5bdc0d8a3bae5b8a9e31eef6f5ec9474f3b4f1
+569009,Polska,Gliwice,Gliwice,Gliwice,"Dolnej Wsi",119,44-100,7555ab046c0ab4c1c2d2fcdb8a5964d7c2a3d5c8
+569162,Polska,Gliwice,Gliwice,Gliwice,"Cypriana Norwida",14,44-100,5afad72fd81f24ae6eea61717ceac3b5d28672cd
+569724,Polska,Gliwice,Gliwice,Gliwice,Czapli,47,44-122,76bce33c8b52b6a4157d9b144b57b4519753f220
+569792,Polska,Gliwice,Gliwice,Gliwice,"Jerzego Kukuczki",5,44-105,d9638050db07679173cc37cddf6ae3ed6e03cbe7
+570401,Polska,Gliwice,Gliwice,Gliwice,Dolna,5,44-100,dc668c317d3aaec640a02f6e39f2551d0a351327
+570421,Polska,Gliwice,Gliwice,Gliwice,"Stanisława Dubois",32,44-100,7e462844110c56183c776038c3cc386ca564e2ca
+570680,Polska,Gliwice,Gliwice,Gliwice,"Młodych Patriotów",5,44-122,0ba2beeb3c420343d8112aa1fda0e8c0ffb84f17
+571525,Polska,Gliwice,Gliwice,Gliwice,Granitowa,3,44-121,591fe27a37d47622d45ae5fcfa4f56d61e91d2a5
+571596,Polska,Gliwice,Gliwice,Gliwice,Tokarska,84,44-151,d8ca9dce9833c7bdc87c9d1404950a56ce69966e
+572270,Polska,Gliwice,Gliwice,Gliwice,Świerkowa,20,44-117,3e4c17d1dde81cdfc8cace50173f60d209c43b73
+572747,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Różana,11,43-309,707ca44d03fab1eab2ec430117e1f079fe8c7f19
+574632,Polska,Gliwice,Gliwice,Gliwice,Willowa,7,44-121,281cd26fe00fb4080026076e3870f95b537d9966
+575068,Polska,Gliwice,Gliwice,Gliwice,Tarnogórska,150,44-102,a527b6be36cd82285aed8a3f0b8cce74c7734976
+575133,Polska,Gliwice,Gliwice,Gliwice,Wolności,34,44-109,ba8099ab31e1e48ad43dbcdfccd1dd7b683bd1ac
+575574,Polska,Gliwice,Gliwice,Gliwice,Łabędzka,44,44-121,eaf11391912c1bc56e641ff6c93ec98d076b63ff
+575960,Polska,Gliwice,Gliwice,Gliwice,"Stefana Żeromskiego",73A,44-100,477a9aa16efc3d4b320161f06ea251b34232b487
+576835,Polska,Gliwice,Gliwice,Gliwice,"Gabrieli Zapolskiej",14,44-113,6aae8a6bd6bdb82e7e7a2e044e26562c5b1c2f77
+577126,Polska,Gliwice,Gliwice,Gliwice,Szafirowa,43,44-121,3f531f3758fffee808d05b5cb344b44f04ab2ea3
+577847,Polska,Gliwice,Gliwice,Gliwice,"Kornela Makuszyńskiego",9,44-113,26ed8e7bce9d89dddeec1fb65d581371368c9c67
+578143,Polska,Gliwice,Gliwice,Gliwice,"Zygmunta Starego",33,44-100,d7dc1faa2b0eb819ccd8118ad419e30d09007645
+578636,Polska,Gliwice,Gliwice,Gliwice,Raciborska,7,44-100,06f3cc5080987d9b7cb73637bec0972aaa2bb2dd
+578891,Polska,Gliwice,Gliwice,Gliwice,"Stefana Rogozińskiego",18,44-105,e15764f99aa68b8202250c001f4559f87e25c514
+579469,Polska,Gliwice,Gliwice,Gliwice,Radomska,67,44-164,219b9b4742c3f896b945d659262aad5dd423e1da
+580453,Polska,Gliwice,Gliwice,Gliwice,"Nad Kanałem",1,44-109,c5ceb4b2b4bb665eb9f1b22d39ddb85b84b7b2be
+581883,Polska,Gliwice,Gliwice,Gliwice,Kozielska,71,44-121,fe418cb6922923d80646e2a7cf63ad7bdfbdd443
+582998,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Bocianów,17,42-603,59074c0eb9cc34c7478a1951fd2a3345750ebf9a
+583853,Polska,częstochowski,Lelów,Nakło,,107,42-235,2d2392d4c7069cb4c32060918c4460e933e5f954
+585948,Polska,cieszyński,Goleszów,"Kozakowice Górne","dra Andrzeja Cinciały",75,43-440,70d5a54b9619c4b1f8ebc42b397f861da8de0db2
+586994,Polska,cieszyński,Goleszów,Puńców,Długa,46,43-400,d9d585b21c6eea0fe28dc679bd45d764b3be50a8
+587010,Polska,cieszyński,Goleszów,Dzięgielów,"ks. Karola Kulisza",53,43-445,d49af261d87bbc03f205d3c1de268e0558ee3b85
+588762,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"Józefa Piłsudskiego",12,43-300,a9a6218ec45b834e4fc0dcfeabacf7124541ebcc
+588777,Polska,cieszyński,Ustroń,Ustroń,Lipowska,21E,43-450,01363a98bce428782cc1b57789a20ac8876a8700
+591660,Polska,gliwicki,Sośnicowice,Sierakowice,Górna,8,44-156,77417fd2c6b77ddd413482fe49d0d225b7325543
+592276,Polska,Zabrze,Zabrze,Zabrze,"gen. Józefa Hallera",47b,41-814,24877a4f3a256d681f8e272e57b5027e1c679a4b
+592591,Polska,gliwicki,Sośnicowice,Bargłówka,Górna,6,44-153,c4265e935f6d2be8aa8800059bb0e6e2d557e028
+592699,Polska,gliwicki,Sośnicowice,Kozłów,Ułańska,8,44-153,3f918e204b09683967988d0e795c680b34c7be35
+592878,Polska,gliwicki,Sośnicowice,Sośnicowice,Graniczna,17,44-153,3805c3fa9669e853212fbdc29efc22121d657ea5
+593903,Polska,gliwicki,Sośnicowice,Trachy,Nowowiejska,44,44-153,2c43140663a3c4380f1bdca15cda64f4e327816e
+594315,Polska,gliwicki,Sośnicowice,Smolnica,Wiejska,103,44-153,dcde65faf7994e3358d3a790611d7aedff5b957e
+594804,Polska,żywiecki,Gilowice,Gilowice,"Józefa Beriniego",6,34-322,0c45c5484a181811d290bb6b0b578d2dc7daeb91
+595204,Polska,będziński,Wojkowice,Wojkowice,Głowackiego,60,42-580,49df30f4c156f45946dfb8a32246009df956fddf
+595942,Polska,żywiecki,"Węgierska Górka",Żabnica,"ks. Karola Śmiecha",209A,34-350,e12cb9b3876748d761eb280864dae0bcf9b9fca5
+596746,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Duboisa,15,41-300,eead6c5758843ef9555774ce4888782a99618fa0
+596874,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Konopnickiej,128,41-300,1bee782a6132cc12758115b3ed760ffb8c1e3b18
+597425,Polska,lubliniecki,Lubliniec,Lubliniec,Zachodnia,18A,42-700,2739e52b6854cbd6a23b5cc1f27dc28135b17151
+598215,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Majakowskiego,1,41-300,5189cb9fdc0ccb9f746043f2ed1c73cb3a01199b
+598777,Polska,żywiecki,Żywiec,Żywiec,"Księdza Zdzisława Dzidka",26,34-300,d078b05ba55899e35dbf3fe3c05dba98e0805fe4
+599637,Polska,Jaworzno,Jaworzno,Jaworzno,Filaretów,12A,43-600,7cd607a33b09df5f0ad4d2c4f50b11b8a264054c
+599712,Polska,Jaworzno,Jaworzno,Jaworzno,"Gabriela Narutowicza",19,43-600,7bde24171505714e9e32c7e024ab7d1213a39bcd
+600509,Polska,Jaworzno,Jaworzno,Jaworzno,Dworcowa,5,43-600,af119212dd8c6fdfb4fec16a603156a6b540ede4
+601461,Polska,Jaworzno,Jaworzno,Jaworzno,"Jana Karola Chodkiewicza",25,43-600,55dffd2bb69f039e464690854785cd4ecd7795ee
+602652,Polska,Jaworzno,Jaworzno,Jaworzno,Wiejska,72C,43-600,ab8de6f9d6a281b61130cb023f58d654e1b786f8
+602928,Polska,Jaworzno,Jaworzno,Jaworzno,Wolna,4,43-600,caa9163fc9641602c88ca355e366932cb60b0d1e
+603629,Polska,Jaworzno,Jaworzno,Jaworzno,Grzybowa,19,43-600,46ba389e88efd05895ff6d8bb3ae4edfc7a4b5bb
+603862,Polska,Jaworzno,Jaworzno,Jaworzno,Gródek,19,43-600,871f6a8924ad7522398a046c66b1d300c0cf6716
+604895,Polska,Jaworzno,Jaworzno,Jaworzno,"Ignacego Paderewskiego",7,43-600,e6c470bae39eb3e86ab2fa224ac745d28e5e3b5e
+605572,Polska,Jaworzno,Jaworzno,Jaworzno,Ciasna,2,43-600,b24c43008bf01e60f4dc7660699fe0819219f3ee
+606065,Polska,Jaworzno,Jaworzno,Jaworzno,"ks. Jana Sulińskiego",41,43-608,07898c074b24c2a336b81dc3a1fea5dcd31fb91a
+606260,Polska,Jaworzno,Jaworzno,Jaworzno,"gen. Jakuba Jasińskiego",12,43-607,cb44979a4319dfbc6fa5c6c0d7482086070fc57e
+606481,Polska,Jaworzno,Jaworzno,Jaworzno,Długoszyńska,24E,43-603,8707451894c69cc34cc9f1fb19bf1c569e75e807
+606791,Polska,Jaworzno,Jaworzno,Jaworzno,Abstorskich,8,43-607,9465da1bbfbe6d1121390fb36f3ad406b8cfd7d2
+607348,Polska,Jaworzno,Jaworzno,Jaworzno,Dąb,49A,43-608,abc7b1aea7136e99996d521cb3bed4755810a457
+607423,Polska,Jaworzno,Jaworzno,Jaworzno,"Obrońców Poczty Gdańskiej",32,43-600,c42b816643c7fbf7b29f84dd995c86de5811955c
+608011,Polska,myszkowski,Poraj,Poraj,Piaskowa,1A,42-360,c1b9f7ebecb155b7e98d5daa8feb8a6676aab3d0
+608131,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA","Szczęść Boże",62G,41-700,338ef8b789b5be0392cfc274f36aceeca8208d12
+609004,Polska,gliwicki,Pilchowice,Żernica,Brzozowa,12,00-000,8d177798934c91d89b772eb457caf543aa821b75
+609762,Polska,gliwicki,Pilchowice,Żernica,Ogrodowa,32,00-000,a47c1c5ea97e3a08381151b690877b02ba073ccf
+610067,Polska,gliwicki,Pilchowice,Pilchowice,Leśna,7,00-000,3c7c9b9567f7b04f7945e46b9d7caa65d83853b2
+610209,Polska,gliwicki,Pilchowice,Żernica,Wrzosowa,11,44-144,e08b023c33015b1d537235e58e09474d51379fc8
+610996,Polska,gliwicki,Pilchowice,Leboszowice,Gajowa,2,00-000,c6463decc928ed0505e87b72d41ca1f7042319a3
+611453,Polska,gliwicki,Pilchowice,Pilchowice,Bierawka,35,44-145,ee449adecfb57c3d0cfca390e11891328467590b
+612342,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","JÓZEFA BEMA",3,41-106,20361a506aa60c71976f723db1f8b286bd5898b2
+612500,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE",JAWOROWA,1,41-100,43d98dd1a12e7d33aff8cc1955d013370e65a17f
+612865,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","JANA PAWŁA II",17,41-100,1d7580410b46f465d1cfa0261fac106493a52751
+613357,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","JAROSŁAWA DĄBROWSKIEGO",10,41-100,6f7342217e27a2e6afa1f67224b33d45b386d5e5
+613629,Polska,Jaworzno,Jaworzno,Jaworzno,Długoszyńska,36B,43-603,da5388479f74904bc31501993f83f76cd26e3805
+613864,Polska,Jaworzno,Jaworzno,Jaworzno,Jaworowa,32,43-602,1b8e75c9c1221e9d0c38059f5705fc2b26c7ff8e
+614674,Polska,Mysłowice,Mysłowice,Mysłowice,Dolna,27B,41-400,58c4213d5cea8a3fbcb8b0e78d83049940bb37ea
+616935,Polska,Jaworzno,Jaworzno,Jaworzno,Mylna,17,43-602,b72bf2d589b90afdd9d5522e9b6382367390658d
+617032,Polska,Jaworzno,Jaworzno,Jaworzno,"Władysława Orkana",9,43-602,cc843f469261120166fa2325cf3f9902714037f7
+617272,Polska,Mysłowice,Mysłowice,Mysłowice,"Adama Dzióbka",45E,41-400,1563fd0be28ef045b0bbf659d64b5fdadcd43ed7
+618041,Polska,Jaworzno,Jaworzno,Jaworzno,Krakowska,114,43-600,bf003ef0e88837d94d873ed8c5045c605be21a3b
+619004,Polska,Jaworzno,Jaworzno,Jaworzno,Storczyków,7A,43-603,6db187beb599e7319158c328af97871843bb338e
+619015,Polska,Jaworzno,Jaworzno,Jaworzno,"Stanisława Witkiewicza",6,43-608,3b5daced382803740486b8314165e9f398df589e
+619899,Polska,Jaworzno,Jaworzno,Jaworzno,"gen. Józefa Chłopickiego",17,43-600,60b78503a4a6406c54d2e6fdf2a1c846d067ef8e
+621265,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE",PRZYJAŹNI,24B,41-103,bc4b5921adaf1ba8df80e52b5ddfa8ca70218a42
+622252,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE",WYZWOLENIA,9D,41-103,f74cf6eb66564735f608a6903f4925237af87f44
+623171,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","WŁADYSŁAWA ŁOKIETKA",29D,41-106,6487ca9530b83cf275f9c3317f71a4939df98df7
+623567,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE",WOJCIECHA,1,41-103,71ba5f64b823ee89aff262e21b34c63921376bd3
+624020,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","ALFONSA ZGRZEBNIOKA",31,41-106,0e7b020d06e79800649dec752a55768f2486da8f
+625361,Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,"NORBERTA BARLICKIEGO",25A,41-605,f605812fa43bfd449c4ff39159889ca178544f2e
+625710,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","WALEREGO WRÓBLEWSKIEGO",53C,41-106,dea57be6ec42d123eaeab904999ff41901aa2d41
+625906,Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,LIPOWA,80,41-603,e2e0a900c0c0e26d451e11d8fabb1a3006701501
+626194,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE","JANA NEPOMUCENA STĘŚLICKIEGO",10,41-106,0910fad3a4c56bd3b567026e11dd71538fd2da7a
+626692,Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,"MICHAŁA DRZYMAŁY",10a,41-603,3b2d21938b5246308ca9c1da3d2b821fc19a4008
+627120,Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,CHORZOWSKA,102,41-605,48a348107d65ed394473894be169d5f53b921f59
+627354,Polska,żywiecki,Milówka,Kamesznica,Górna,350,34-360,ca7bed4d534f32fc8ac5b5203759e084bdfb9241
+628029,Polska,żywiecki,Milówka,Kamesznica,Górna,217,34-360,9a06bf0f8b98b6fc9fbb65b581715e9ed85ee287
+628084,Polska,żywiecki,Milówka,Kamesznica,Koniakowska,1023,34-360,4708f3c85264eb17e573f51b586e63cd332a6c6f
+628172,Polska,żywiecki,Milówka,Milówka,"Plac Wolności",9,34-360,dc550784b4072b79cbf949d2e0a0a13c707f90c9
+628624,Polska,żywiecki,Milówka,Kamesznica,Parkowa,812,34-360,5b9431f5f070bb5ed48920723358322fd6f02468
+628669,Polska,żywiecki,Milówka,Szare,,143,34-360,6bb429bbc336b3b25b16aaf1ae6aae84777f5a02
+629874,Polska,żywiecki,Milówka,Kamesznica,Wspólna,602,34-360,1707b3074e6f78b57973c5293bfa85a9fe025e2b
+630652,Polska,żywiecki,Milówka,Kamesznica,Objazdowa,641,34-360,891d2fa5f54c53ab0d6e00865bb4a913e9cf9d41
+630658,Polska,żywiecki,Milówka,Kamesznica,Objazdowa,108,34-360,4a3810f0e03695009112f09668bb75e433f16617
+631306,Polska,wodzisławski,Godów,Skrbeńsko,Piotrowicka,79A,44-341,e36f641d422e5645793e69c9c86eb8d08a456b68
+631463,Polska,cieszyński,Istebna,Istebna,,461,43-470,08f7f6f4f9c5b3ffd6ae3e160de25e554b5f75d2
+632223,Polska,cieszyński,Istebna,Istebna,,755,43-470,23008c433477231cf82749220aca09728d206e10
+632793,Polska,cieszyński,Istebna,Jaworzynka,,360,43-476,4522abf97f4e195c5614575c61331bfcf4702312
+633051,Polska,cieszyński,Istebna,Jaworzynka,,675,43-476,2f5529d4ed34fe52a3aac6a269b06763cd028b52
+634076,Polska,cieszyński,Istebna,Jaworzynka,,457,43-476,667b4cc92f1519df2c7e4c3916114f975d3c7d35
+634330,Polska,cieszyński,Istebna,Jaworzynka,,940,43-476,24ef7fc3fcb3f8fb49005de4f2daaa448c92c656
+634385,Polska,żywiecki,Milówka,Milówka,Jarców,13a,34-360,185689a29753dc3381b2573377ab97baaff291ed
+634930,Polska,cieszyński,Istebna,Koniaków,,240,43-474,d9ce74a2424f4e2afef270249b7e027ecca52a47
+634957,Polska,cieszyński,Istebna,Koniaków,,539,43-474,38199f24414ca27de5f7eaff0297baa96e144538
+635249,Polska,cieszyński,Istebna,Istebna,,1408,43-470,f5d8ec567ac5327731f55713a1b53caf8eadd618
+636376,Polska,będziński,Sławków,Sławków,Biskupia,5,41-260,b4cf8530adcc46661d1c0ea1e06ef56da0d74570
+637060,Polska,będziński,Sławków,Sławków,Makowa,10,41-260,ef4aa73d9e0a029fc3087fba74b509e001d2765f
+637825,Polska,będziński,Sławków,Sławków,Krakowska,90,41-260,f724e3ba233c6ee1ba5265f0d1a6b0760b50cbbf
+639564,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie",Jesionowa,59,41-940,525b58fc98e1100292fcee3c66290226d651e9fe
+639737,Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,BARBÓRKI,2,43-155,930477001e176c5b6cd2d6cb5f7b835ec3ddcc0f
+639783,Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,ŁOWIECKA,18,43-150,4175199aee16e573d4d758ab9e0990ce729e7fa2
+640493,Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,WARSZAWSKA,304,43-155,10ae4fe8b5d95eb86f931a1c37730912056f90d4
+642069,Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,KAMIENNA,62,43-155,c8398808f48b543146b5e44fe2cda97bd89c3970
+642591,Polska,cieszyński,Istebna,Istebna,,1862,43-470,ec598b06ba1a10c8cd5a2b5d7a93d5a220e43560
+642921,Polska,tarnogórski,Świerklaniec,"Nakło Śląskie",Główna,118,42-620,d20db6fa8cb092400cdf851aa1b8754df4ce1eef
+643100,Polska,tarnogórski,Świerklaniec,"Nowe Chechło",Grzybowa,14,42-622,58c727fb463f166b42fa41fefc7c0a031a05956f
+643836,Polska,tarnogórski,Świerklaniec,"Nowe Chechło",Powstańców,60,42-622,2b9af672fd8a6ce0e93168c3376211bc055dde97
+644276,Polska,tarnogórski,Świerklaniec,Świerklaniec,"3 Maja",24,42-622,d75f1fd0709be655fe1b706b3d91ff157c55b1bd
+644367,Polska,tarnogórski,Świerklaniec,Orzech,Mickiewicza,17,42-622,6314311cefee4330e755d7bc1e47b57611fc8054
+645315,Polska,tarnogórski,Świerklaniec,"Nowe Chechło",Powstańców,88,42-622,fa1683ad4184ba18633da4f9520e6d6e32d9c30b
+645830,Polska,tarnogórski,Świerklaniec,Orzech,Wieczorków,44,42-622,a00cb23700ad468abd2f9ade7eec19318dee9b35
+646662,Polska,kłobucki,Krzepice,Krzepice,"Kazimierza Wielkiego",58,42-160,d9b5870bdb542358a4f84e186cb6d6cbe1404e0a
+647692,Polska,kłobucki,Krzepice,Krzepice,Chopina,42,42-160,e134d29f1e913a0ebb23d2fdd4608e2dd4a42b36
+647828,Polska,kłobucki,Krzepice,"Zajączki Drugie","Nowa Wieś",26,42-160,36b0f047375dd3bf18dbec25a5e438aa1ebe0032
+648452,Polska,kłobucki,Krzepice,"Zajączki Drugie",Parcele,141,42-160,9c1eb691e298aa98ceb9e270eb20c40fbbed3479
+648519,Polska,kłobucki,Krzepice,Krzepice,Dąbrowskiego,50,42-160,9e79890020ed49d36df759b40ce448e254a0a61a
+649396,Polska,kłobucki,Krzepice,"Dankowice Pierwsze",,3a,42-160,004f1ec5cb47bbca5d4711c608f54eca11ebb789
+653505,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski","Bolesława Krupińskiego",2,44-300,0747da9b46013f19e9e4cae92b377b6293e86da0
+654357,Polska,Częstochowa,Częstochowa,Częstochowa,Warmińska,7,42-202,cbac603ddd2d7198c201724c7eee87a48f77688f
+654707,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski","26 Marca",2,44-300,e5a6ce9bdcd7c14294c771a446b5cbcf428a0b6e
+655023,Polska,Częstochowa,Częstochowa,Częstochowa,Bieszczadzka,29b,42-226,24247e4a2c606cb16964ba43bebc78cc621627f9
+655025,Polska,Częstochowa,Częstochowa,Częstochowa,Bieszczadzka,31,42-226,2d4246b96bdb72d5b9e565070054040a9fc0455e
+657018,Polska,Częstochowa,Częstochowa,Częstochowa,Wiosenna,6,42-215,f18c5e8a3d6b90b5e1e218f77e886daba2e4934b
+657323,Polska,Częstochowa,Częstochowa,Częstochowa,Żonkilowa,12,42-224,d8064b98e24dd0961f29cc94004edce6bc9ca7fd
+658587,Polska,Częstochowa,Częstochowa,Częstochowa,Wilgotna,13,42-202,e71e3bff634039c494e9054a799640ffa30a28ed
+659062,Polska,Częstochowa,Częstochowa,Częstochowa,Meliorantów,65,42-209,d25898f29a4b9a732330356dd9fd1e7b89563e2c
+661712,Polska,Częstochowa,Częstochowa,Częstochowa,"Adama Bienia",4,42-208,5310b941af229c27c1e270a0f1657c0776070f9c
+662247,Polska,Częstochowa,Częstochowa,Częstochowa,Kościelna,53/63,42-202,f9824da0d899414a987858f631ed343550e3913f
+662646,Polska,Częstochowa,Częstochowa,Częstochowa,Legionów,186E,42-202,dcce0e808adc7db2d124d3ae8f600f6f77fc4adc
+662775,Polska,Częstochowa,Częstochowa,Częstochowa,"Józefa Chełmońskiego",66,42-202,bc0bf4b3c13bafff856b38e8bfdf113367ff6833
+663260,Polska,Częstochowa,Częstochowa,Częstochowa,Karpacka,76,42-271,1fed855106514a631d83573769146da3c8d48ab9
+663314,Polska,Częstochowa,Częstochowa,Częstochowa,"Batalionów Chłopskich",127,42-209,d9012b03fd9fbaa12b145b2a84b7eb2843f6b61c
+664094,Polska,Częstochowa,Częstochowa,Częstochowa,"Stanisława Wyspiańskiego",14,42-208,d9599c1552f541a39a298c048b5200549bf14a99
+664504,Polska,Częstochowa,Częstochowa,Częstochowa,Jurajska,67,42-202,ba3f0592142809f90b15bc788730cece3579ae6c
+664880,Polska,Częstochowa,Częstochowa,Częstochowa,Drzewna,21A,42-280,a1f6791ed12236534217281214d45d20811c5c1f
+667740,Polska,Częstochowa,Częstochowa,Częstochowa,"Daniela Chodowieckiego",16,42-202,4ab5164f525cba3682c027f0af96a86cc3edf3b7
+668355,Polska,Częstochowa,Częstochowa,Częstochowa,Żurawia,7,42-221,1b83943a8bd8cfa35b9092a9ae458ee488d4706a
+668940,Polska,Częstochowa,Częstochowa,Częstochowa,Okólna,30a,42-218,816e6294df6fc21087174ebd36e5eb1c61b8e8ff
+670039,Polska,Częstochowa,Częstochowa,Częstochowa,"Marszałka Edwarda Rydza-Śmigłego",28,42-229,5ca24d195c044ba1ab1c77ba05a591c3c17c780b
+671574,Polska,Częstochowa,Częstochowa,Częstochowa,Kolorowa,87,42-280,efd41534bf1aad21fdabcb8e982583b5088a354b
+671829,Polska,Częstochowa,Częstochowa,Częstochowa,Huculska,164,42-280,2db9cae15a1c016aada45b670dd4b972e9a48c49
+672220,Polska,Częstochowa,Częstochowa,Częstochowa,"Fiodora Dostojewskiego",11,42-209,691197ab2794995d7ce36a18e282447a630a96fe
+672737,Polska,Częstochowa,Częstochowa,Częstochowa,Wręczycka,68a,42-202,f2f5bb7601cbf71b805d6a58acd57b58b9f48c8e
+673256,Polska,Częstochowa,Częstochowa,Częstochowa,Kiedrzyńska,116,42-215,61cad8678b54d4d5df2a54db477064f21e6f2809
+673581,Polska,Częstochowa,Częstochowa,Częstochowa,"Mirona Białoszewskiego",6,42-209,02ae199b73a781331eb93175b303e08a3a7a9e1b
+674056,Polska,Częstochowa,Częstochowa,Częstochowa,Liliowa,2,42-224,7251d72a62cb13282650573b07126da7cfa23efc
+674607,Polska,Częstochowa,Częstochowa,Częstochowa,"Bolesława Limanowskiego",152,42-208,f456499b89675a30b708cb6d7cc5d5a2dc7e2b5f
+676138,Polska,Częstochowa,Częstochowa,Częstochowa,Konwaliowa,38,42-280,cfd492a9ee4b70c22538ee1a0c27b06957996c69
+676273,Polska,Częstochowa,Częstochowa,Częstochowa,"gen. Kazimierza Pułaskiego",4/6,42-226,59c729f7e05427c77f48e347a75f6aa6830b528a
+676717,Polska,Częstochowa,Częstochowa,Częstochowa,Młodości,20a,42-215,e1c845eb581853b9039c161142ca5b34807c71db
+677090,Polska,Częstochowa,Częstochowa,Częstochowa,"Ignacego Łukasiewicza",34,42-209,7bfe5b8f366231157cef05abe5b4f7223e74d5b8
+677138,Polska,Częstochowa,Częstochowa,Częstochowa,Zielna,17/19,42-209,dda776fd1c78c786a06336d2ffb0ba6f3129c58b
+677207,Polska,Częstochowa,Częstochowa,Częstochowa,"Jana Parandowskiego",5,42-209,ed5e6d2c202922c5d40f3c8c23337aca1b988076
+677623,Polska,Częstochowa,Częstochowa,Częstochowa,"Józefa Chełmońskiego",19,42-202,942c816f5282cade48dfda4aaf56b88511eafe20
+677625,Polska,Częstochowa,Częstochowa,Częstochowa,"Józefa Chełmońskiego",25A,42-202,58780871ddc16b7c515e6a84b4c7bfaa376e037b
+679164,Polska,Częstochowa,Częstochowa,Częstochowa,"prof. Stanisława Kontkiewicza",6,42-209,457e9a97190bcb8ca0d84c761b197913feeb6db4
+679584,Polska,Częstochowa,Częstochowa,Częstochowa,Brzezińska,21,42-208,4db6f2530be8c11408f8c90edff0df0cf4d5b30b
+679799,Polska,kłobucki,Miedźno,Borowa,Główna,37,42-120,ffd02c69dbeb80975b2b036e0eb2022a3fd6595f
+679898,Polska,kłobucki,Miedźno,Miedźno,"Henryka Sienkiewicza",3,42-120,ff8f587fb23f6ccc0e1354b2ba93ce8fe8fc6495
+681293,Polska,Częstochowa,Częstochowa,Częstochowa,"gen. Michała Tokarzewskiego-Karaszewicza",18,42-221,ba29571428b78b44bc29a257dac50c63ac21dc9b
+681791,Polska,Częstochowa,Częstochowa,Częstochowa,"prof. Aleksandra Brücknera",19,42-209,f3569e641aee9541ba769f35312a4167d56701ff
+682398,Polska,Częstochowa,Częstochowa,Częstochowa,Równoległa,63,42-216,a1459e8e6c3c57b7d1be2b1aafcacfc4acc3b244
+683574,Polska,kłobucki,Miedźno,Miedźno,Wyzwolenia,56,42-120,a642a003820e9aa0cdda57fb962e39809743d2bc
+683797,Polska,Częstochowa,Częstochowa,Częstochowa,Kaszubska,14,42-202,7580d88c7fabe0bf16d23310ebdf18fccb171392
+684360,Polska,Częstochowa,Częstochowa,Częstochowa,Tatrzańska,57,42-280,80f976ff1ac9ff55fe959a7a310ba638b46fee88
+684415,Polska,Częstochowa,Częstochowa,Częstochowa,Świerczaki,28,42-208,d874e4ac2990f88dc2605fd761122b24953231b3
+686065,Polska,Częstochowa,Częstochowa,Częstochowa,"hetm. Stefana Czarnieckiego",33,42-218,2dee45804ac3b07933e882e2bd627b3d5408d6e5
+686211,Polska,Częstochowa,Częstochowa,Częstochowa,Pszenna,40,42-208,069d607e2c271e3820bdd0c5851533b4a114acd2
+686686,Polska,Częstochowa,Częstochowa,Częstochowa,Henryki,10a,42-226,2c8d722a4fd0fd51cf3c123c90295993a2b32411
+686814,Polska,Częstochowa,Częstochowa,Częstochowa,Gruszowa,69/71,42-215,c91aba6eff4553b8195ca2a1dc5e86844dab78f9
+686882,Polska,Częstochowa,Częstochowa,Częstochowa,"Janusza Kusocińskiego",100,42-208,523c7a7e8d2bc04608b2e1cbc94a3b833bcc4f71
+687505,Polska,Częstochowa,Częstochowa,Częstochowa,Ostatnia,9,42-271,2199a76dc7b277d69b4eb542a016e85454480cf9
+689244,Polska,Częstochowa,Częstochowa,Częstochowa,Bieszczadzka,28/30,42-226,80051f380154f0a8cb37b6cc6c01651a5886169d
+689542,Polska,Częstochowa,Częstochowa,Częstochowa,"Prof. Jerzego Kołakowskiego",2G,42-218,d8ed4d136df6af9797f3b7ed0113795aa2d13443
+689610,Polska,Częstochowa,Częstochowa,Częstochowa,Legnicka,64,42-202,612ec1dfc5c9c5acbf9c1d49348d8ac8d592b62c
+690033,Polska,Częstochowa,Częstochowa,Częstochowa,"Zenona Klemensiewicza",20,42-215,46cefc818aaab1df6f2c58d74be9f430fb721241
+690108,Polska,Częstochowa,Częstochowa,Częstochowa,Krótka,19,42-202,745a7801c6ff81da2b0250a584ee5941fc14a841
+690538,Polska,Częstochowa,Częstochowa,Częstochowa,"Marka Hłaski",14,42-208,f10ba1745624659ab3be1d7f3d7c03fb91df6304
+690752,Polska,Częstochowa,Częstochowa,Częstochowa,"Giuseppe Garibaldiego",3,42-202,a5757785c8e659d6a6c0d43f9780b7a7e30706dc
+690867,Polska,Częstochowa,Częstochowa,Częstochowa,"Batalionów Chłopskich",8A,42-209,499af6a54675f5021acad5514ba54d13e9886134
+691055,Polska,Częstochowa,Częstochowa,Częstochowa,Łomżyńska,112A,42-280,6c86e051b0282a5c6ab14d7f6b324d42d1891ad8
+691598,Polska,Częstochowa,Częstochowa,Częstochowa,"Fiodora Dostojewskiego",21,42-209,64c8f46327d6173956cb3023d29a8bbdce649e77
+692222,Polska,Gliwice,Gliwice,Gliwice,"Andrzeja Czoka",60N,44-105,c906448daf70535338f61f5d3cfb526b42253d4b
+692482,Polska,Katowice,Katowice,Katowice,Słonecznikowa,48B,40-748,4316352cea5daec70b8bd04d274ea131d5f4a3a9
+693626,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Cienista,19b,43-500,6de0851ed7acde01d5fdc4c9f106c26c7b0b3185
+694139,Polska,kłobucki,Kłobuck,Kamyk,"Władysława Reymonta",94,42-125,a66fc3b31595586738e64e3dfd977ed71f365df0
+694203,Polska,kłobucki,Kłobuck,Biała,Strażacka,35,42-125,d91bc7e3dacbab915748beb9b1500cf4ff58567c
+694324,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Lipowska,22h,43-500,f58d1fda29f70741bcc2f88595fbce3cc086b502
+695145,Polska,bielski,Czechowice-Dziedzice,Bronów,Woźniacka,29A,43-502,3ea4716e05c7a04184620dad35e732d256ef4bca
+695522,Polska,kłobucki,Kłobuck,Lgota,Południowa,100,42-100,65cb5416238b4deaa5719f659fb8b1044bd6e7ef
+695738,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,"Tadeusza Kościuszki",15,43-500,97a378499d4dda7bb6d349cc29faed67325f597e
+696538,Polska,kłobucki,Kłobuck,Kłobuck,"Stanisława Staszica",47,42-100,27b8953431c4a5a84406a73dda062354f377d134
+697775,Polska,kłobucki,Kłobuck,Kłobuck,Główna,6,42-100,11dd270596e1d5976e00fffd701c239b12718fb8
+698881,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Mazańcowicka,105,43-500,71a07211eac8a27c2dfa92ccfdb23ce8a3b14793
+699102,Polska,bielski,Czechowice-Dziedzice,Ligota,"Powstańców Śląskich",58,43-518,838160a9c30687bd5397a83f150ca65ad4ba21b4
+700768,Polska,kłobucki,Kłobuck,Łobodno,Nadrzeczna,52,42-125,b25a653abe6cb5ea269040e9683a9bd5ce9a570b
+701456,Polska,kłobucki,Kłobuck,Kamyk,"Stefana Żeromskiego",23,42-125,2d9ed6b28ee670ce0d6885026e0ea4d9a336a75b
+701696,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Kręta,68B,43-500,92fedc5cb2e90d107c92701645bfb735f0de5d2b
+702517,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,"Bartosza Głowackiego",47,43-500,e4588b0e328715751954d813b2bb268d00174b95
+703384,Polska,kłobucki,Kłobuck,Kłobuck,"Elizy Orzeszkowej",12,42-100,66719a50cfeddbd37bd4a1b542a4d4497c718911
+703411,Polska,kłobucki,Kłobuck,Kłobuck,Ogrodowa,22,42-100,9bca28e35b52067dc95f175a0b271ad75fc3b35e
+704094,Polska,kłobucki,Kłobuck,Kłobuck,"Wincentego Witosa",63,42-100,f91af62b80354b626e1247db62969a8f4804b0b6
+704421,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Pochyła,8,43-500,ec07ffb1bf5c393ec0a9266ff4870bf44c1b7649
+704793,Polska,bielski,Czechowice-Dziedzice,Ligota,Bielska,1,43-518,4bc705f03561f892d8fadf50a80ac1da632cd5c6
+705411,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Falista,23,43-500,20f45458b70b27b2c478a29e34b4b13ca25e35d1
+708979,Polska,bielski,Wilamowice,Pisarzowice,Szkolna,90E,43-332,26027e47106d31150127d3aaffd76be2e0771d37
+709248,Polska,bielski,Wilamowice,Wilamowice,"Jadwigi Staneckiej",6,43-330,74ad627516451985de9d4f3acf058c2265e8ace5
+709893,Polska,bielski,Wilamowice,Dankowice,Oświęcimska,94,43-331,c838f52596b6e0a1640b26a847cc91146ccd05b3
+710414,Polska,bielski,Wilamowice,Pisarzowice,Kwiatowa,2,43-332,e565badf67ecc1e9e8a20eeea041c095dd31dc40
+711372,Polska,bielski,Wilamowice,"Zasole Bielańskie",Piękna,81C,43-330,830c2580c3d9b1df0fb8e5bf5c9fc7fab071dfba
+712274,Polska,bielski,Wilamowice,Pisarzowice,Leszczynowa,2,43-332,b877d332bfb4e6ac0e5eab86767de0c16c3b3391
+712325,Polska,bielski,Wilamowice,Pisarzowice,Ogrodnicza,2A,43-332,6d1e9f488aa257ada802945acbbe95713318fdd6
+712330,Polska,bielski,Wilamowice,Pisarzowice,Polna,10,43-332,9217b924876ff5ea0825ab4cff259810a87413f1
+714550,Polska,bielski,Jasienica,Rudzica,,242,43-394,121ff6ac6959ddcb028201507101dc1babdff53f
+715744,Polska,bielski,Jasienica,Jasienica,,789,43-385,8c83cafdabb45ac77568794b22fae4e87e8b9684
+716069,Polska,bielski,Jasienica,"Międzyrzecze Górne",,149,43-392,4e916bb088e5ccfe3063793edc17b6bb402f3726
+716517,Polska,bielski,Jasienica,Jasienica,,135,43-385,f0a66583c134328cafab835cac7db2a9538027a7
+716762,Polska,bielski,Jasienica,Wieszczęta,,159,43-386,4070b15d7496d53eeb99aaa5644de602acd9e301
+716865,Polska,bielski,Jasienica,Łazy,,74,43-386,d6e14dcc21cd694e67d20a13914d2684292e66a4
+717274,Polska,bielski,Jasienica,Jasienica,,1510,43-385,2537deef8495e0ef8e739dbc8be30f82ec007f6e
+717386,Polska,bielski,Jasienica,"Międzyrzecze Górne",,408,43-392,1f06659967d49fea345213291361ea7d1e8bde66
+718082,Polska,bielski,Jasienica,Bielowicko,,141,43-386,f6920f40d4a57ee49e9810faaf9d4d460352ae50
+718179,Polska,bielski,Jasienica,Biery,,280,43-386,18c853f4281e751fbd8c45262ddd1759a74658e2
+718391,Polska,bielski,Jasienica,Rudzica,,172,43-394,87660e59df41cfde1635da25aedb9652db4ab933
+718564,Polska,bielski,Jasienica,Grodziec,,100,43-386,e367603670d2aace1aab1ac2dd1bedce072eef13
+719183,Polska,wodzisławski,Gorzyce,Czyżowice,Dworcowa,97D,44-352,fc932cbb0075a2060a4e0098f683048f570c10aa
+719894,Polska,bielski,Kozy,Kozy,Nadbrzeżna,105,43-340,b746d4a057fe861e90fe04f4371044be71d749f2
+720462,Polska,bielski,Kozy,Kozy,Srebrna,26,43-340,97482eed6f5b5cf24165df27e9b41d7d676bb2cd
+721666,Polska,bielski,Kozy,Kozy,Wiosenna,42,43-340,bc5428c30b1013a00e55f120959e722eed0b93e1
+721974,Polska,bielski,Kozy,Kozy,Porzeczkowa,20,43-340,a596d2a2b2a64cce43c5ae23b129f6b308d95f21
+722957,Polska,bielski,Kozy,Kozy,Bielska,143,43-340,b19596ff90ebc8d71d3243f19b68187415455689
+723149,Polska,bielski,Kozy,Kozy,Choinkowa,24,43-340,1b00d33e02cc43405e00543d4178068fb682c6f5
+723807,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Teofila Lenartowicza",67,41-219,7d171ce81a331f700e18b378d41469932f07707c
+724008,Polska,bielski,Porąbka,Czaniec,Zielona,80,43-354,a9ad19a454f1239e2dd6789183236f9691cca49b
+724045,Polska,bielski,Porąbka,Porąbka,Poziomkowa,13,43-353,bab1a7923d6b2ff574f9c524a57d5279dcf8b69e
+724393,Polska,bielski,Porąbka,Kobiernice,Żywiecka,12,43-356,35d09e43525128a48e3d1f866e67ad7043a6caff
+724480,Polska,bielski,Porąbka,Porąbka,Bracka,9,43-353,4142e929a7f8195fda294d5c5251d70d9e880820
+724576,Polska,bielski,Porąbka,Czaniec,Cisowa,9,43-354,c16431bc6f29727bc1ee09bd256711e25b2cbb3e
+724584,Polska,bielski,Porąbka,Czaniec,"kard. Karola Wojtyły",126,43-354,cae99f7e219d737b338c5ccb7617079314b21fbd
+725329,Polska,bielski,Porąbka,Porąbka,Słonecznikowa,4,43-353,1b0e5dcb3d4e819a287c3299fc0c804a50cfdc17
+725435,Polska,bielski,Porąbka,Bujaków,Szkolna,54A,43-356,7dfdae4ab134e8304759b1dc7233178b7be099c8
+725864,Polska,bielski,Porąbka,Czaniec,Bukowska,103,43-354,04d493c65695330aefdfa77dac9cb0d450e8d564
+725896,Polska,bielski,Porąbka,Kobiernice,Różana,6,43-356,2a14cf0eeffe5c73d49c1d726f20608dfe681719
+726021,Polska,bielski,Porąbka,Porąbka,Gajowa,39,43-353,086160a4ad00e40fa4e0baa5029088cb55e5cbde
+727335,Polska,bielski,Porąbka,Porąbka,"Wielka Puszcza",73,43-353,ce051ecfdc16a0e02f520156e0e23ff0444574f6
+727687,Polska,bielski,Porąbka,Porąbka,Kolista,1,43-353,6728d07bf38778534fab68306685ae8623d0cf6e
+727727,Polska,bielski,Porąbka,Czaniec,Bratnia,2,43-354,d327cb3c295fb1184b4caef0cb45d3f13b1f1c83
+728280,Polska,bielski,Porąbka,Porąbka,Palenica,31,43-353,f60cda365f586ef25cc4e908623799e927c12db0
+728437,Polska,bielski,Porąbka,Czaniec,Bukowa,10,43-354,5acaa90efe04c8d78fa8f96080ac84798434e03b
+729936,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Braci Altman",3,41-219,6da6bc6bf8dfe46d9c89187f70df06378b5432e8
+730245,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Józefa Ignacego Kraszewskiego",92,41-218,eaec1605bd1e305aa8768baf5edad456a77b7734
+732588,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Stefana Kisielewskiego",46,41-219,156b66a5c94c4c815af42b0c5d8b7f9e0f3638bf
+733003,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"gen. Józefa Hallera",74,41-214,c462a3655249f738b8ecab860f8be024fa4621b1
+733198,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Zakopiańska,9e,41-200,2b414be3fd57838ea8e93158859945cf9cb8dc54
+733253,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Słona,8,41-214,06addd5b8f9b4427b799bc1da4284e90550fd4ec
+735278,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Stanisława Wyspiańskiego",59,41-219,5bfaec70bad8035269c670f7bd16f2d68dbf9a4d
+735394,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Naftowa,61a,41-200,91a01f69c7dde4c6bc76fba92756490b4d5d85b2
+735923,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Andrzeja Nogi",10,41-200,248c3527cf616c8a8af487174ecce1cabe12f0bd
+736327,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Niwecka,1,41-200,1e5b4958265901002f261069e7b887121963e52d
+736691,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Władysława Reymonta",13,41-205,c1e22c98c955ca98c7ddc936ecd8d6ddc3afd27e
+738811,Polska,bielski,Wilkowice,Meszna,Orzechowa,3,43-360,77a1cbb26bdaed3b33c43309656d25f75ca3385c
+739147,Polska,bielski,Wilkowice,Meszna,Wspólna,19,43-360,70d38e40f98085185c7efbdafdd33989395fd7db
+739402,Polska,bielski,Wilkowice,Wilkowice,Kaczeńców,13,43-365,5547264152745bd7dfd506a41a0ebcc5ba2114b4
+739469,Polska,bielski,Wilkowice,Bystra,Klimczoka,132,43-360,d08d1481f8faa66c279c42633871e69266f025e4
+740164,Polska,bielski,Wilkowice,Meszna,Agrestowa,26,43-360,7fc0025e6359a1ee17d09e5cd935bee2bd606de0
+741468,Polska,bielski,Wilkowice,Bystra,Wąska,1,43-360,7267b6abb39614f2a4b8b64b04a6435ffc81bc9b
+742887,Polska,bielski,Bestwina,Bestwina,"Gen. Józefa Hallera",12,43-512,d1004c2c57655f01b685e6aa49e9e64d3d55bbfe
+743677,Polska,bielski,Bestwina,Bestwinka,"św. Floriana",41,43-512,33b7f8bde69948957d115f022c92f872f8ae5d20
+743976,Polska,bielski,Bestwina,Bestwina,Krakowska,121,43-512,f0628ed19f71e3f55b8b5ac8028c2db00dfbbeef
+744161,Polska,myszkowski,Niegowa,Niegowa,Sobieskiego,95,42-320,df28f5ef9d87df8335177079d2311e25e1cd13b1
+744747,Polska,bielski,Bestwina,Kaniów,Myśliwska,1A,43-514,7d37d56c13dd2e1b314953928fd4259b28cece28
+744808,Polska,bielski,Bestwina,Kaniów,"Batalionów Chłopskich",25d,43-514,8d0fd93ce60072b281b47697f1a4a8d57dff64fa
+744970,Polska,bielski,Bestwina,Kaniów,Ludowa,42,43-514,d2187d9f4feced63a605e91d23d91389d9e75a89
+746188,Polska,bielski,Bestwina,Bestwina,Zacisze,12,43-512,9af6cf59aa9349ac0e75e08664cd7ff4190d3bae
+747394,Polska,wodzisławski,Pszów,Pszów,"Osiedle Tadeusza Kościuszki",29,44-370,e8ea35dc910ea8cc271b5b1cd0be326bde518edb
+747810,Polska,wodzisławski,Pszów,Pszów,"Księcia Witolda",5A,44-370,213fb21929f6c1392a22ef3ff1e2302387f9db1c
+748689,Polska,wodzisławski,Pszów,Pszów,Niepodległości,72B,44-370,4db3fec6d833d2b1ae14894f7d71bce19b5191a1
+750700,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Gacka,48,41-218,54dcf9b093d831e8f65acf044041e739330ab975
+750748,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Leona Wasilewskiego",6,41-208,87cc9c86d270a963939e455a11d261399e2b9580
+751333,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Dębowa,5,41-218,0e62b283ef0cc5d7627d4dd6b54dbc0449320eeb
+751439,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Będzińska,51a,41-205,08ecf6527fa222a4e6fca449e553e698a856068d
+752034,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Leona Wasilewskiego",21,41-208,d0206501e623fdf46edd12ac4efa7e522874a85e
+752042,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Brzozowa,69,41-200,7e77f5159aac0d7edf49bb63fcb4564716c7fb98
+752426,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"gen. Mariusza Zaruskiego",3a,41-219,6fa566efa55707523370c24714107a17dff8121b
+752503,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Aleksandra Janowskiego",57,41-200,feb75ef427fceaf5658a461481a51d730f6d9c2f
+752688,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"gen. Zygmunta Waltera-Janke",23,41-215,896b8151acb8920b6a7457e0fdc3b441349e8b39
+753039,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Gabriela Narutowicza",38c,41-200,7df714248d22312b20b7182314f01fe05d885692
+753494,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Stroma,67,41-200,f6e5df387b051820cd6410a672930912c007cfd0
+753878,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Leśna,1,41-215,8688908fe620de18e019942918ba3325ea0169fe
+753944,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"11 Listopada",67,41-208,05fdf84b833d22aa020dc0129fa6006e925d30b1
+753998,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Gustawa Daniłowskiego",16,41-208,a70aee469a6ea4679f4be3c7745dd60915d11b22
+754659,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Południowa,39,41-219,1551017be70cdb20fa0207b3dfd609e60a15a70e
+755365,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Zielona,1,41-215,b0bd07f73b20d96801fceaea7145ca5ba492b353
+755605,Polska,Sosnowiec,Sosnowiec,Sosnowiec,Partyzantów,20,41-200,22fe7c4f6b3513126ad5a61a45653fffca094bf0
+755879,Polska,gliwicki,Pilchowice,Nieborowice,Orzechowa,1,44-144,f038a05d548b95d0d00d5881df370386e34baf32
+756017,Polska,kłobucki,Popów,"Wąsosz Górny",Powstańców,117,42-110,951c0f50916d18d8401e4786d97641527ef082e0
+756300,Polska,kłobucki,Popów,Zawady,"Kornela Makuszyńskiego",98,42-110,7d06ad2780d7b374e18e01202159c20f42652d16
+757171,Polska,kłobucki,Popów,Kamieńszczyzna,Lipowa,6,42-110,fa347a42c9448ae1f0b431fe72f0315ab3f702f2
+758453,Polska,kłobucki,Popów,Więcki,Długa,90,42-110,2adee464bf52f121f3ff97c1ec2c0d94a867db9d
+758616,Polska,kłobucki,Popów,Popów,Szlachecka,30,42-110,bb707cc7e2d085156a987bcc863b55d3671c4138
+759017,Polska,kłobucki,Popów,"Rębielice Królewskie","Świętego Rocha",26,42-110,89bed32aac4dcf052e44bb22327e0f802231f09c
+759328,Polska,kłobucki,Popów,"Rębielice Królewskie",Główna,49,42-110,7cd576b172f02e0273b1053652bb56a9a95bef0e
+759846,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Jastrzębska,139B,44-304,651b60d185f12748a372c80350a2166ae9bb3adc
+760276,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Górnicza,56,44-300,680256992ca9a4d76f1b19b3069b601d052c5b8f
+761428,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Bojowników,116,44-300,ad1a139fb294478f6d6231bd83fc0d90e5e5d048
+763037,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski","Bolesława Chrobrego",68A,44-300,4e007ecca8dc24ce3fc31a00f6e2f6df1ee0bce7
+764298,Polska,żywiecki,Lipowa,Lipowa,"Doliny Zimnika",16,34-324,5c4b03143babefb6108bed3c821fd26f12998136
+765127,Polska,żywiecki,Lipowa,Lipowa,Bugaj,23,34-324,8acb803ca023ce4a761c5770a49a7138b9389ef9
+765510,Polska,żywiecki,Lipowa,Lipowa,Jabłkowa,13,34-324,2d900a06a81086fdb9f40fb5e7b0f2b1b853ee55
+765733,Polska,żywiecki,Lipowa,Leśna,"Świętego Michała Archanioła",14,34-324,b64e48991f2c3e3cff7d84ffaa1835e828dc3e65
+765858,Polska,żywiecki,Lipowa,Lipowa,Lipowska,190A,34-324,860f02bb62505767d0141625d8a1b191275c4037
+766166,Polska,żywiecki,Lipowa,Leśna,Konwaliowa,5,34-324,a9d01342a11ee9779c5667c77c4433e6d750960c
+767462,Polska,żywiecki,Lipowa,Sienna,Morelowa,1,34-300,2879bce1ee8560bfa10482918f6ea132da7614fb
+767625,Polska,żywiecki,Lipowa,Leśna,,111,34-324,f9c74a07aa8cc3a8b53dd9a2ba5caf55b2091998
+767739,Polska,żywiecki,Lipowa,Słotwina,"Księdza Jerzego Popiełuszki",11,34-324,207d82932b71bffb44e4bf7a56be046d13824d9a
+768493,Polska,żywiecki,Lipowa,Lipowa,Siewna,1,34-324,5103b3d01cdba81f6b292bbeec305db4af3b981c
+768833,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Odrodzenia,79,44-230,ebbfc75495ef15eb4d107281b77f80769a9fb102
+769007,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Odrodzenia,23,44-230,c5e045e8fa0cf3f3cbcb510b82b8385f691d594d
+769651,Polska,kłobucki,"Wręczyca Wielka",Pierzchno,,199,00-000,3c08ad18cb13fc4b21d73da6e42b8de82cc6bfc6
+771704,Polska,częstochowski,Olsztyn,Przymiłowice,Sokola,68,42-256,b6f30e38310da904a287d7d0df0b94ac04b09c02
+772725,Polska,częstochowski,Olsztyn,Olsztyn,Leśna,33,42-256,5c2da925a96bf14dd57091f17bef69dd6a8ed2a7
+772798,Polska,częstochowski,Olsztyn,"Zrębice Pierwsze",Główna,7,42-256,c1572d67e325fba1e634481cc89a102b726856db
+772913,Polska,częstochowski,Olsztyn,Kusięta,,262,42-256,fc36c3854e2f66068b3bf0c9f89151eccecaee2d
+772964,Polska,częstochowski,Olsztyn,Turów,Długa,11,42-256,d980c1eb58c9837def4a2585880f1b41b2e4f49a
+773168,Polska,częstochowski,Olsztyn,Biskupice,Polna,21,42-256,c4ef90b4f84264629eb5918fa1d8e643129d3943
+773746,Polska,częstochowski,Olsztyn,"Zrębice Pierwsze",Skalna,1,42-256,1999720d710c42d245f1e72c8f297b4c0aba4a38
+775780,Polska,będziński,Bobrowniki,Rogoźnik,Brzozowa,2A,42-582,ff147f707c72bb0c278ef923850489b640433283
+776601,Polska,częstochowski,Kłomnice,"Michałów Rudnicki",Sportowa,16,42-270,663c7d7a13393a58d04f1a0c44edc5b77b74ff0a
+776806,Polska,częstochowski,Kłomnice,Zdrowa,Mstowska,1,42-270,70f8fca57db53abea4a42d91862c91fe6e4b32ae
+777712,Polska,częstochowski,Kłomnice,Kłomnice,Pocztowa,42,42-270,a31fa3b4e807d48abd9bcab11afe268f5662530c
+777927,Polska,częstochowski,Kłomnice,Kłomnice,Pocztowa,34,42-270,c38b138448a55d3c551388d0a6f689ba0277525a
+778957,Polska,częstochowski,Koniecpol,Koniecpol,Zamkowa,6,42-230,4b7f6a499cd7f8e08dd36c7c04a86ceaa4b663cc
+779389,Polska,częstochowski,Koniecpol,Koniecpol,Prusa,5,42-230,b412785c0ab8066d3b6ec70e6aedccdeff6136df
+780499,Polska,częstochowski,Koniecpol,Koniecpol,Słowackiego,69,42-230,24d8fba7c40ce74733f55eb68c229f6894c5d5ef
+780841,Polska,częstochowski,Koniecpol,Koniecpol,Żeromskiego,91,42-230,e76e7558363e8c36db43c2bdef93a481ba8df1f6
