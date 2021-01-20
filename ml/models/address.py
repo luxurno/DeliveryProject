@@ -66,8 +66,8 @@ def filter_test(line):
     )
 
 
-ds_train = tf.data.TextLineDataset("../resources/addressDb.csv").filter(filter_train)
-ds_test = tf.data.TextLineDataset("../resources/addressDb.csv").filter(filter_test)
+ds_train = tf.data.TextLineDataset("../resources/driverHistory_1.csv").filter(filter_train)
+ds_test = tf.data.TextLineDataset("../resources/driverHistory_1.csv").filter(filter_test)
 
 # TODO:
 # 1. Create vocabulary
@@ -78,7 +78,7 @@ tokenizer = tfds.deprecated.text.Tokenizer()
 # 'i love banana' -> ['i', 'love', 'banana'] -> [0, 1, 2]
 
 
-def build_vocabulary(ds_train, threshold=200):
+def build_vocabulary(ds_train, threshold=50):
     """ Build a vocabulary """
     frequencies = {}
     vocabulary = set()

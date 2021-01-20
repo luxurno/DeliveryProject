@@ -1,14 +1,14 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-7451,Polska,rybnicki,Świerklany,Jankowice,Jaworowa,11,44-264,38b6362ae300e22ed5521d2ba8ab5065caa83163
-50846,Polska,raciborski,"Kuźnia Raciborska","Kuźnia Raciborska",Kozielska,20,47-420,d1f5b41e31a224ac1cae6fa243c6334c72155638
-67981,Polska,żywiecki,Żywiec,Żywiec,Kasztanowa,33,34-300,304b88b39f9c46a50054fc70c1b284d93c1aa136
-86140,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Karpacka,56,43-316,5ef52e2fc0a71555f8c3f1ad5827e672f7db85f3
-288250,Polska,tarnogórski,Zbrosławice,Szałsza,Leśna,8,42-674,9c91909b91a6d3219803d732f5a149aaaaf22b07
-324273,Polska,cieszyński,Brenna,"Górki Wielkie",Wiosenna,30,00-000,3c7684458a4cdf0369380cb688670e606500a393
-341117,Polska,bielski,Buczkowice,Buczkowice,Świerkowa,1111,43-374,58965254ccd7fb921f19567611c8f1e1a82895c2
-417711,Polska,zawierciański,Kroczyce,Kostkowice,Stawowa,1a,42-425,b6ed578318bf042d89c9824e9fdd4df6c61d64ce
-465866,Polska,Katowice,Katowice,Katowice,Panewnicka,300b,40-773,0c0125211c1224caa4c44ed4a35e71dcc120fb4c
-561098,Polska,częstochowski,"Kamienica Polska","Kolonia Klepaczka",Transportowa,2,42-260,d555e6e868ce1eee05d83bed33f5ad7c77188b36
-667657,Polska,Częstochowa,Częstochowa,Częstochowa,Bełchatowska,13h,42-202,394cf0acfdab0a8d8d8b5419af4a71761ec65284
-726184,Polska,bielski,Porąbka,Bujaków,Zdrojowa,47,43-356,62175f8f3dac5abba0c704d5e382db9a720382a1
-766035,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Młodzieżowa,9,44-286,a3875a6c288c1c99504ca6c4fc35eef85c757c23
+41324,Polska,rybnicki,Czerwionka-Leszczyny,Palowice,Kolonia,4,44-246,d97697e0c74dcd0bf0d459ad3d25ee9588eb1b76
+44744,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Powstańców,79A,44-238,3cc7614149afc0bf00caea25b699c3b97cfc5cbe
+133413,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,"STREFA GOSPODARCZA",1,44-280,304836621dfe4091ea64c5cacfe1b039d065d4f8
+225907,Polska,Rybnik,Rybnik,Rybnik,"Za Torem",21c,44-200,d3a7f56c06e6f1c9f485c90a82be25ac76a27bc6
+384822,Polska,mikołowski,Orzesze,Orzesze,Klonowa,12,43-180,788374f228841082d565adbf47c68c8a6977dc9f
+397524,Polska,cieszyński,Cieszyn,Cieszyn,"Juliusza Ligonia",13,43-400,17008adc547e19a5a02b62e2c3b440ff8d7069aa
+538179,Polska,kłobucki,Lipie,Wapiennik,Główna,55,42-165,023201f6bfa666693c95d21818a87a9f3d7eb108
+575829,Polska,Gliwice,Gliwice,Gliwice,Staromiejska,35E,44-109,9396bd3e00115d616e9861ddbbb4e374d2baae22
+597785,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Sienkiewicza,6,41-300,425c6a6d4ead173fe809cd107b3cade815f0719d
+628283,Polska,żywiecki,Milówka,Nieledwia,Górska,11,34-360,6fb9911323af741f8cc5057e3137d8e9c14b48b8
+732874,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Józefa Ignacego Kraszewskiego",33,41-218,d9f411b3f99f8ce32c5d6f4dd4c6eddfbd50c10a
+757438,Polska,kłobucki,Popów,Lelity,,10A,42-110,5736b7fe6127cffe08bd3f91f7ecc8b63a71570e
+761003,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Długa,63A,44-300,3b9ff1675b314fd6817c8e4fec8ddc558110465f

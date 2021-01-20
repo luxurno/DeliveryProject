@@ -1,16 +1,16 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-47888,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Agrestowa,12,43-303,7dcf1481a9c0095e5e177a1c23a6867c9dcb1732
-64217,Polska,bieruńsko-lędziński,Bojszowy,Świerczyniec,Trzcinowa,1B,43-220,c0ffe516fb67058055d7e78b2ed187f3e6f255b7
-72410,Polska,żywiecki,Żywiec,Żywiec,Bielów,17,34-300,413804ad6c7cbfa52818e9f9cde51b1e581a0f4f
-145075,Polska,tarnogórski,Radzionków,Radzionków,Krzywa,14A,41-922,3ab74557be0d8e95417cfa340c1322c736b5e73c
-233993,Polska,gliwicki,Gierałtowice,Przyszowice,Brzozowa,11a,44-178,e715b36c5c6c54647e6bcea53c733c7e44950fbc
-281740,Polska,żywiecki,Świnna,Rychwałdek,Karpacka,55,34-331,712f4f54fbd9ace7992b71f045d4b6f15092764b
-320943,Polska,cieszyński,Brenna,Brenna,Bukowa,93A,00-000,9bb5857c4c089cede784a0faf1e45f54cc1affcb
-333238,Polska,Bytom,Bytom,Bytom,"Juliana Tuwima",39,41-900,3bd57b5218977930164fffb499df6d7783c3353a
-334079,Polska,Bytom,Bytom,Bytom,Racjonalizatorów,44a,41-900,828bb7282900a0a2c339bd26db3153097914b243
-362190,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Kazimierza Srokowskiego",36,41-300,4f7e17dcb8230a00ee8cc259363edfd830790fa4
-445894,Polska,Katowice,Katowice,Katowice,Józefowska,95,40-145,aab3c7f02622130540c5c17ce2865e0d5c1b4616
-572193,Polska,Gliwice,Gliwice,Gliwice,Rodzinna,22,44-113,f3bb24bf69dd086395e3fed891c44920ad1358c1
-688466,Polska,Częstochowa,Częstochowa,Częstochowa,"Juliusza Osterwy",5,42-209,dd41ddd144fc5b59b77e7b4db5e7ec95d2c0d27b
-694321,Polska,bielski,Czechowice-Dziedzice,Zabrzeg,"Wojciecha Korfantego",27g,43-516,acedafe606d93a398bcfd6c58e755262838d6c13
-725585,Polska,bielski,Porąbka,Kobiernice,Łąkowa,1,43-356,d868b03f4e48967e2232729cde2a2f6832e9e88e
+32545,Polska,cieszyński,Skoczów,"Ochaby Wielkie",Gołyska,120,43-430,449beeb42fbdcbc9185bdfa61e3abff7bbb1f9e1
+114307,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"św. Katarzyny",2,44-335,44ab6cc4a9c36ccab04874336e9c20ab33d61265
+158139,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"P. Skargi",26,44-337,451b6773c0fb8d221a4728337a945b04a2f28506
+265050,Polska,bielski,Jaworze,Jaworze,Południowa,494,43-384,2f1bf7a158face76d78b98280a57d2ca06428e0b
+320762,Polska,cieszyński,Brenna,Brenna,Leśnica,168A,00-000,c049b20b21cf44f63d14f2a2c58a13918174a16c
+427221,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Oddziału AK Ordona",107a,41-300,1831fa1637fc785e502fe2c198733c4015a6ad9c
+449733,Polska,Katowice,Katowice,Katowice,Promienna,29,40-148,31fb89023cc170da2cf11039633a7045a293fa92
+459416,Polska,Katowice,Katowice,Katowice,Migdałowców,24,40-750,b253cf0e84851a0e2c609af9064cd2b94b182f7f
+526530,Polska,mikołowski,"Łaziska Górne","Łaziska Górne",Ligonia,23,43-173,40c04326cbde46f735018308a9183f476bd94d8e
+549113,Polska,zawierciański,Łazy,Chruszczobród,"Adama Mickiewicza",92a,42-450,505b5c7bd70e4ff9e3da3892cf3db18f7d5b40a7
+570360,Polska,gliwicki,Gierałtowice,Gierałtowice,Piontka,32D,44-186,308660165906e5f5ad21511f2f23462b2278f4ad
+597649,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Traugutta,19,41-300,e31539cb916d646e07f1a119b5daa73a08bde614
+660290,Polska,Częstochowa,Częstochowa,Częstochowa,Żołnierska,12,42-202,e11ae1b3f2a8832d887d30db52ab5d128b0beeb6
+711700,Polska,bielski,Wilamowice,Pisarzowice,Tęczowa,8C,43-332,25f949ae523bc1f1ea45e528d82877ea0c7fd105
+772454,Polska,częstochowski,Olsztyn,Olsztyn,"Plac marsz. Józefa Piłsudskiego",13,42-256,42c942d428fb890950d1d17e5424cfb9dcb52bfe

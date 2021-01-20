@@ -13,18 +13,17 @@ class LabelAnalyzer
 
     public function analyze(GenerateDTO $driverHistory, array $warehousePackages): string
     {
-        $driverHash = sha1($driverHistory->getCity().$driverHistory->getStreet());
+        $driverHash = sha1($driverHistory->getCity());
 
-        $exist = false;
         /** @var GenerateDTO $warehousePackage */
         foreach($warehousePackages as $warehousePackage) {
-            $warehouseHash = sha1($warehousePackage->getCity().$warehousePackage->getStreet());
+            $warehouseHash = sha1($warehousePackage->getCity());
 
             if ($driverHash === $warehouseHash) {
-                $exist = true;
+                return self::POSITIVE;
             }
         }
 
-        return $exist ? self::POSITIVE : self::NEGATIVE;
+        return self::NEGATIVE;
     }
 }

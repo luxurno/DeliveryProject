@@ -1,11 +1,11 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-199152,Polska,rybnicki,Świerklany,Świerklany,Zamkowa,5B,44-266,d259634957c5ab5fee64d4a0529656abe02e1925
-199300,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Zagórska,173A,42-600,b5f232543ba8379e84b3d5d81ddceec82c457fe8
-236365,Polska,żywiecki,Łękawica,"Kocierz Moszczanicki",Beskidzka,79,34-321,12440247c5bc644e5848331e96dbd820d8c4e96c
-372574,Polska,wodzisławski,Radlin,Radlin,"Władysława Orkana",7d,44-310,f4d681ecbfc781ee15f69ccaddc60edd48723bef
-392603,Polska,zawierciański,Włodowice,Włodowice,Żarecka,41,42-421,a7e9977e7007cb02d33344f8371523a404d3923e
-495072,Polska,Tychy,Tychy,Tychy,Oświęcimska,184,43-109,4b5c13ecb5d67f15434e018b58b48fe93b02a8c2
-568775,Polska,Gliwice,Gliwice,Gliwice,Klasztorna,3,44-109,59e4f4d870db05e1f0a361c246e40dace1ddd81e
-605809,Polska,Jaworzno,Jaworzno,Jaworzno,Grunwaldzka,66,43-600,582252020513629f0071eafa60a04c2f10e95f94
-654618,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Oraczy,150,44-300,ebf41436243aec4694dfe2aa600125e09ec9bb2a
-713522,Polska,bielski,Jasienica,"Międzyrzecze Górne",,609,43-392,d8a5aad1dd0654d5c2454e50eacbaf0076a76743
+21655,Polska,będziński,Siewierz,Gołuchowice,,120,42-470,439a5e14076a346e8b357919522ea9758745467b
+102191,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie",Leśna,22,41-943,1391662f2bdaca2bcc62e351b4136d4eb9496020
+126752,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Stara,10,00-000,bb41d8182cf4411f512b06551086aaf431ce2a6d
+160171,Polska,Chorzów,Chorzów,Chorzów,Brzozowa,30,41-506,aea93178a037c9a60c61f8a787b9587fbd7828a9
+183356,Polska,zawierciański,Zawiercie,Zawiercie,Osiedlowa,14,42-400,befc821094829012bb3a5072cf22c2c109dd6f12
+318990,Polska,cieszyński,Brenna,Brenna,Kobyla,9,00-000,e1e77821f5ef7b6230ba037b753605efd0eaf11c
+320478,Polska,cieszyński,Brenna,Brenna,Partyzantów,23,00-000,7a6fcd41da478989df0fbc77f0fa6035a1fb5642
+350171,Polska,Mysłowice,Mysłowice,Mysłowice,Zachęty,38,41-400,283667cf20b1fa43faaba5a8a7a6d5c53229713a
+691063,Polska,Częstochowa,Częstochowa,Częstochowa,"Kornela Makuszyńskiego",118C,42-209,4a0b11457a8a41cbdc79f121a09f5a74820dc318
+697501,Polska,bielski,Czechowice-Dziedzice,Ligota,Żabia,6a,43-518,5c3912544586cb789356926cde3638bb8adb7d1c

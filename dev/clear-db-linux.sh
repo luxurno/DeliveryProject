@@ -13,8 +13,8 @@
 #php bin/console generate:train-db test_example6.csv 9 14
 
 # Generate AI files
-php bin/console import:generate warehousePackagesDb.csv 136 -i=true -o=true
-php bin/console import:generate driverHistory_1.csv 1236 -i=true -o=true
+php bin/console import:generate warehousePackagesDb.csv 7360 -i=true -o=true
+php bin/console import:generate driverHistory_1.csv 23600 -i=true -o=true
 php bin/console generate:from-resource driverHistory_1.csv warehousePackagesDb.csv -o=true
 
 php bin/console import:generate test_example5.csv 10 -i=true -o=true
