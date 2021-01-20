@@ -13,8 +13,8 @@ tokenizer = tfds.deprecated.text.Tokenizer()
 warehousePackages = tf.data.TextLineDataset("../resources/warehousePackagesDb.csv")
 dataset = tf.data.Dataset.zip(warehousePackages)
 
-for warehousePackage in dataset.skip(1):
-    print(tokenizer.tokenize(warehousePackage.numpy().decode("UTF-8")))
+# for warehousePackage in dataset.skip(1):
+#     print(tokenizer.tokenize(warehousePackage.numpy().decode("UTF-8")))
 
 # TODO:
 # 1. vocabulary (for each language)
@@ -164,3 +164,66 @@ model.compile(
 
 model.fit(ds_train, epochs=15, verbose=2)
 model.evaluate(ds_test)
+
+### Workaround with predicition
+import sys
+
+ds_predict = tf.data.TextLineDataset("../resources/driverHistory_2.csv").skip(1).filter(filter_test)
+
+# print(ds_predict)
+# sys.exit()
+
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+
+print(predictions)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular pet had a %.1f percent probability "
+    "of getting adopted." % (100 * prob)
+)
+
+# for predict_line in ds_predict:
+#     split_line = tf.strings.split(predict_line, ",", maxsplit=4)
+#
+#     # predict_line = encode_map_fn(predict_line)
+#     # sample = {
+#     #     split_line[4]
+#     # }
+#     test = tf.convert_to_tensor(predict_line)
+#
+#     predictions = model.predict(test)
+#     prob = tf.nn.sigmoid(predictions[0])
+#
+#     print(
+#         "This particular pet had a %.1f percent probability "
+#         "of getting adopted." % (100 * prob)
+#     )
+#
+#     print(predict_line)
+#     print(split_line[4])
+#     sys.exit()
+#
+# input_dict = tf.convert_to_tensor(vocabulary)
+#
+# import sys
+# sys.exit()
+
+# for predict in ds_predict:
+    # predict = tf.Tensor(b'11,train,pos,e1413d4935a9f00467aed8dd245efe978ab73fed,"Polska \xc5\x9al\xc4\x85sk tarnog\xc3\xb3rski \xc5\x9awierklaniec Nak\xc5\x82o \xc5\x9al\xc4\x85skie 42-620 Gaw\xc4\x99dy 4"', shape=(), dtype=string)
+    # vocabulary = build_vocabulary(predict)
+    # print(vocabulary)
+    # import sys
+    # sys.exit()
+    #
+    # input_dict = tf.convert_to_tensor(predict)
+    # predictions = model.predict(input_dict)
+    # prob = tf.nn.sigmoid(predictions[0])
+    # print(
+    #     "This particular pet had a %.1f percent probability "
+    #     "of getting adopted." % (100 * prob)
+    # )
+

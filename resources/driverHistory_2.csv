@@ -1,0 +1,15 @@
+id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+21523,Polska,będziński,Siewierz,Siewierz,Długa,4,42-470,b0909f6e399f78163f7a971cb49f04822582aa0d
+33061,Polska,zawierciański,Pilica,Cisowa,,54,42-436,bf30fc554efc257448d958e57c4add13322bd78d
+214896,Polska,Rybnik,Rybnik,Rybnik,Górnośląska,110A,44-200,c1953c63118e3f0c616591730a4772ce0963769e
+234023,Polska,gliwicki,Gierałtowice,Paniówki,"Powstańców Śląskich",85,44-177,3a4698f58c4626b66a129663c43674c1d1a592d6
+321706,Polska,cieszyński,Brenna,"Górki Wielkie",Majowa,19,00-000,a2d67b2bbd04127a369734ede7fd63427f7c83fb
+382544,Polska,mikołowski,Orzesze,Orzesze,Sosnowa,36,43-180,f59bb39dbdd482ca73cd300c234c0092a6daade9
+398947,Polska,cieszyński,Cieszyn,Cieszyn,"Braci Miłosiernych",33,43-400,92fe79d3ba2675300850f4f5e40ca80c0138ef26
+442496,Polska,Katowice,Katowice,Katowice,Bocianów,2,40-522,199485391d557b247283e51bb4df67adf3819839
+471150,Polska,wodzisławski,Gorzyce,Czyżowice,Parkowa,10,44-352,ad3101cf6705cb8e2db029c962ecc38634e53035
+543367,Polska,kłobucki,"Wręczyca Wielka","Wręczyca Wielka",Miodowa,31,00-000,c73840b6ad071fd450ded9de3062e7c2f31ef5f7
+606117,Polska,Jaworzno,Jaworzno,Jaworzno,Złota,6,43-600,f67948e14a4e52bfbe3c3fd39c96163a7f986c55
+645623,Polska,tarnogórski,Świerklaniec,"Nakło Śląskie",Gawędy,4,42-620,e1413d4935a9f00467aed8dd245efe978ab73fed
+673174,Polska,Częstochowa,Częstochowa,Częstochowa,"Fiodora Dostojewskiego",8,42-209,7bef1198e36e2218e22bd950a723dc1153fee613
+750564,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Karola Szymanowskiego",110,41-219,60300f9071ae0885c42b014133d99b1a503df7a0
