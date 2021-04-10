@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace App\Bundle\ImporterGenerator\Generator;
 
 use App\Bundle\ImporterGenerator\Provider\TotalAddressCountProvider;
+use App\Bundle\ImporterGenerator\Randomizer\Randomizer;
 use App\Bundle\ImporterGenerator\Repository\TotalAddressRepository;
 
 class RandomIdsTotalAddressGenerator
@@ -23,7 +24,7 @@ class RandomIdsTotalAddressGenerator
 
         $numbers = [];
         for ($i=1; $i<= $numbersCount; $i++) {
-            $numbers[] = rand(1, $numberRange);
+            $numbers[] = Randomizer::random($numbers, $numberRange);
         }
 
         return $numbers;
