@@ -6,6 +6,7 @@ namespace App\Bundle\ImporterGenerator\Enum;
 
 class ImportFileHeadersEnum
 {
+    public const ID = 'id';
     public const COUNTRY = 'kraj';
     public const DISTRICT = 'powiat';
     public const COMMUNITY = 'gmina';
@@ -13,8 +14,9 @@ class ImportFileHeadersEnum
     public const STREET = 'ulica';
     public const NUMBER = 'numer';
     public const POSTAL_CODE = 'kod_pocztowy';
+    public const HASH = 'hash';
 
-    public static function getAll(): array
+    public static function getAllHeaders(): array
     {
         return [
             self::COUNTRY,

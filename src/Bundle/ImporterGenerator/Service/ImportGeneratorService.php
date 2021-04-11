@@ -8,7 +8,6 @@ use App\Bundle\ImporterGenerator\Entity\TotalAddress;
 use App\Bundle\ImporterGenerator\Enum\ImportFileHeadersEnum;
 use App\Bundle\ImporterGenerator\Exception\MissingResultsException;
 use App\Bundle\ImporterGenerator\Generator\RandomIdsTotalAddressGenerator;
-use App\Bundle\ImporterGenerator\Provider\TotalAddressCountProvider;
 use App\Bundle\ImporterGenerator\Repository\TotalAddressRepository;
 use App\Core\Exception\FileExistException;
 
@@ -53,9 +52,9 @@ class ImportGeneratorService
         $fileHandler = fopen($filePath, 'w');
 
         if ($includeReq) {
-            fputcsv($fileHandler, array_merge(['id'], ImportFileHeadersEnum::getAll(), ['hash']));
+            fputcsv($fileHandler, array_merge(['id'], ImportFileHeadersEnum::getAllHeaders(), ['hash']));
         } else {
-            fputcsv($fileHandler, ImportFileHeadersEnum::getAll());
+            fputcsv($fileHandler, ImportFileHeadersEnum::getAllHeaders());
         }
 
         /** @var TotalAddress $totalAddress */

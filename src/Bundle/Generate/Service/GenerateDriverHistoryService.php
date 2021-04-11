@@ -76,7 +76,7 @@ class GenerateDriverHistoryService
         // Save $fromFilePath
         $fromFilePath = self::ML_RESOURCE_LOCATION . $fromFileName;
         $fp = fopen($fromFilePath, 'w');
-        fputcsv($fp, ImportFileHeadersEnum::getAll());
+        fputcsv($fp, ImportFileHeadersEnum::getAllHeaders());
         /** @var GenerateDTO $driverHistory */
         foreach ($warehousePackages as $warehousePackage) {
             fputcsv($fp, [GenerateDTOParser::parse($warehousePackage)]);
