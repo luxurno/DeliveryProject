@@ -6,6 +6,7 @@ namespace App\Bundle\ImporterGenerator\Mapper;
 
 use App\Bundle\ImporterGenerator\Entity\TotalAddress;
 use App\Bundle\ImporterGenerator\Enum\ImportFileHeadersEnum;
+use App\Core\Filter\PostalCodeConverter;
 
 class TotalAddressMapper
 {
@@ -23,7 +24,9 @@ class TotalAddressMapper
                 ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
                 ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
                 ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
-                ImportFileHeadersEnum::POSTAL_CODE => $totalAddress->getKodPocztowy(),
+                ImportFileHeadersEnum::POSTAL_CODE => PostalCodeConverter::filter(
+                    $totalAddress->getKodPocztowy()
+                ),
                 ImportFileHeadersEnum::HASH => $totalAddress->getHash(),
             ];
         }
@@ -35,7 +38,9 @@ class TotalAddressMapper
             ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
             ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
             ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
-            ImportFileHeadersEnum::POSTAL_CODE => $totalAddress->getKodPocztowy(),
+            ImportFileHeadersEnum::POSTAL_CODE => PostalCodeConverter::filter(
+                $totalAddress->getKodPocztowy()
+            ),
         ];
     }
 }
