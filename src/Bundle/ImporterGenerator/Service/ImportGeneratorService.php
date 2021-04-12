@@ -8,6 +8,7 @@ use App\Bundle\ImporterGenerator\Entity\TotalAddress;
 use App\Bundle\ImporterGenerator\Enum\ImportFileHeadersEnum;
 use App\Bundle\ImporterGenerator\Exception\MissingResultsException;
 use App\Bundle\ImporterGenerator\Generator\RandomIdsTotalAddressGenerator;
+use App\Bundle\ImporterGenerator\Mapper\TotalAddressMapper;
 use App\Bundle\ImporterGenerator\Repository\TotalAddressRepository;
 use App\Core\Exception\FileExistException;
 
@@ -17,15 +18,19 @@ class ImportGeneratorService
 
     /** @var RandomIdsTotalAddressGenerator */
     private $randomIdsTotalAddressGenerator;
+    /** @var TotalAddressMapper */
+    private $totalAddressMapper;
     /** @var TotalAddressRepository */
     private $totalAddressRepository;
 
     public function __construct(
         RandomIdsTotalAddressGenerator $randomIdsTotalAddressGenerator,
+        TotalAddressMapper $totalAddressMapper,
         TotalAddressRepository $totalAddressRepository
     )
     {
         $this->randomIdsTotalAddressGenerator = $randomIdsTotalAddressGenerator;
+        $this->totalAddressMapper = $totalAddressMapper;
         $this->totalAddressRepository = $totalAddressRepository;
     }
 
@@ -59,29 +64,7 @@ class ImportGeneratorService
 
         /** @var TotalAddress $totalAddress */
         foreach ($totalAddresses as $totalAddress) {
-            if ($includeReq) {
-                $row = [
-                    'id' => $totalAddress->getId(),
-                    ImportFileHeadersEnum::COUNTRY => $totalAddress->getKraj(),
-                    ImportFileHeadersEnum::DISTRICT => $totalAddress->getPowiat(),
-                    ImportFileHeadersEnum::COMMUNITY => $totalAddress->getGmina(),
-                    ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
-                    ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
-                    ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
-                    ImportFileHeadersEnum::POSTAL_CODE => $totalAddress->getKodPocztowy(),
-                    'hash' => $totalAddress->getHash(),
-                ];
-            } else {
-                $row = [
-                    ImportFileHeadersEnum::COUNTRY => $totalAddress->getKraj(),
-                    ImportFileHeadersEnum::DISTRICT => $totalAddress->getPowiat(),
-                    ImportFileHeadersEnum::COMMUNITY => $totalAddress->getGmina(),
-                    ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
-                    ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
-                    ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
-                    ImportFileHeadersEnum::POSTAL_CODE => $totalAddress->getKodPocztowy(),
-                ];
-            }
+            $row = $this->totalAddressMapper->map($includeReq, $totalAddress);
 
             fputcsv($fileHandler, $row);
         }

@@ -1,13 +1,13 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-87196,Polska,pszczyński,Pszczyna,Łąka,"Kazimierza Tetmajera-Przerwy",46,43-241,f31f2e1d986aa1400a13e8e3a42243b07e9cd0f3
-95051,Polska,raciborski,Krzanowice,Borucin,Bończyka,25,47-470,0bdaa7774e7dcc8764a71456126135b39193d317
-124452,Polska,myszkowski,Żarki,Żarki,Chryzantem,6,42-310,a8297098cae8c21cd725aae3be723f91931e5fcf
-233704,Polska,częstochowski,Kruszyna,Baby,Słoneczna,17,42-282,937df80c3d34c640a751b0711a09ef91192c53bd
-323259,Polska,pszczyński,Miedźna,Gilowice,Leśna,19,43-227,2508c855e672250992c19cb6f4c92b27696efd10
-332008,Polska,Bytom,Bytom,Bytom,"Strzelców Bytomskich",233,41-900,5f0c9b207c802dc242b4813f0ffd3a45cd2ab8ae
-345640,Polska,lubliniecki,Lubliniec,Lubliniec,Droniowicka,91,42-700,b2056a66f6ab21f5a0a947fb02fd0be28f8a1ed9
-618993,Polska,Jaworzno,Jaworzno,Jaworzno,"Kornela Ujejskiego",5A,43-602,85767a3f6cb686e7f0f65f015d65d00cecec8875
-684183,Polska,kłobucki,Miedźno,Wapiennik,Akacjowa,25,42-120,bc731a57abae0ca83152ea273575763ad17d66a7
-696355,Polska,bielski,Czechowice-Dziedzice,Czechowice-Dziedzice,Pasieki,1,43-500,4711ce0df36dabe27478975db2585a12548b235d
-725743,Polska,bielski,Porąbka,Porąbka,Bukowska,114B,43-353,7a15fc707dd84763bdb3a46eead9949bf65ed80f
-760246,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Dołki,39,44-300,8f14aa193713cbd4cac446cbf8714cf2e412d179
+152760,Polska,cieszyński,Wisła,Wisła,Kręta,16,43460,9af26869d5f75d321d151e951a2272610359744e
+212447,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Główna,195,41300,0505ac25dd04e301bf19055af8de610ee483b9a1
+224365,Polska,Rybnik,Rybnik,Rybnik,"Bronisława Czecha",33,44292,3dd6a441b985b175837de322a0bf7a3d92c7e822
+392691,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Sasankowa,6,43300,cee611efae02eeac6aaf94b14322e8d035bf9e6f
+413736,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Młyńska,18,41706,14a9567e52a56c555b5f9c0729cd10a25c517cf4
+477513,Polska,Zabrze,Zabrze,Zabrze,Wolności,254,41800,302169989d0164e6c832e5e1a5989e0b0ae7b8f7
+512409,Polska,Rybnik,Rybnik,Rybnik,Łączna,72C,44200,1146165b05517429f7f773b278738fba53c419bf
+522763,Polska,częstochowski,"Dąbrowa Zielona",Raczkowice,,23,42265,74726dfd0cac801610e2508cbf2115977cee221d
+565515,Polska,Gliwice,Gliwice,Gliwice,Rolników,248B,44141,9c1164519a40918e8f4fb02bd9d1940240faa997
+614436,Polska,Jaworzno,Jaworzno,Jaworzno,Nadbrzeżna,25A,43602,dbda5ec711f0696b2707461fb26308d7fae8ee8b
+727434,Polska,bielski,Porąbka,Bujaków,"Stara Karczma",10,43356,16869c89151e97574cc56e9dc473cfb69d744a16
+777553,Polska,częstochowski,Kłomnice,Kłomnice,Łąkowa,16,42270,8522b4101d8216f01d1053f49eedeb187a99542e

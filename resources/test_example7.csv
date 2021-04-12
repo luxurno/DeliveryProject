@@ -1,14 +1,14 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-41324,Polska,rybnicki,Czerwionka-Leszczyny,Palowice,Kolonia,4,44-246,d97697e0c74dcd0bf0d459ad3d25ee9588eb1b76
-44744,Polska,rybnicki,Czerwionka-Leszczyny,Czerwionka-Leszczyny,Powstańców,79A,44-238,3cc7614149afc0bf00caea25b699c3b97cfc5cbe
-133413,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,"STREFA GOSPODARCZA",1,44-280,304836621dfe4091ea64c5cacfe1b039d065d4f8
-225907,Polska,Rybnik,Rybnik,Rybnik,"Za Torem",21c,44-200,d3a7f56c06e6f1c9f485c90a82be25ac76a27bc6
-384822,Polska,mikołowski,Orzesze,Orzesze,Klonowa,12,43-180,788374f228841082d565adbf47c68c8a6977dc9f
-397524,Polska,cieszyński,Cieszyn,Cieszyn,"Juliusza Ligonia",13,43-400,17008adc547e19a5a02b62e2c3b440ff8d7069aa
-538179,Polska,kłobucki,Lipie,Wapiennik,Główna,55,42-165,023201f6bfa666693c95d21818a87a9f3d7eb108
-575829,Polska,Gliwice,Gliwice,Gliwice,Staromiejska,35E,44-109,9396bd3e00115d616e9861ddbbb4e374d2baae22
-597785,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Sienkiewicza,6,41-300,425c6a6d4ead173fe809cd107b3cade815f0719d
-628283,Polska,żywiecki,Milówka,Nieledwia,Górska,11,34-360,6fb9911323af741f8cc5057e3137d8e9c14b48b8
-732874,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Józefa Ignacego Kraszewskiego",33,41-218,d9f411b3f99f8ce32c5d6f4dd4c6eddfbd50c10a
-757438,Polska,kłobucki,Popów,Lelity,,10A,42-110,5736b7fe6127cffe08bd3f91f7ecc8b63a71570e
-761003,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Długa,63A,44-300,3b9ff1675b314fd6817c8e4fec8ddc558110465f
+72333,Polska,zawierciański,Ogrodzieniec,Ogrodzieniec,Piastowska,35,42440,ca651fdb6469c4491f00d48094756321b0e4989b
+103024,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Powstańców Śląskich",42,41945,4ceb36271b8c086698c30c38b3cc3975a441af54
+122726,Polska,myszkowski,Myszków,Myszków,Ziemniaczana,8,42300,9feb149cf39aa6ec59f9004ccf1a62e802b8e7df
+136325,Polska,raciborski,Racibórz,Racibórz,Dworska,44,47400,2361251e832e281f9587a12b771522cdb05a6b89
+204447,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Hallerczyków,15a,41300,fe78223cd2662c032b748a874ddfc886c09c5f7e
+221678,Polska,Rybnik,Rybnik,Rybnik,Popiela,7,44200,2261511701be69ff70d0d840d2a4eb3e3ddac73c
+223884,Polska,Rybnik,Rybnik,Rybnik,Lotników,22,44270,c9c5aca495271fa54a11e4b626a2e27877203a1b
+269724,Polska,myszkowski,Koziegłowy,Mysłów,Brzozowa,4,42350,f3b830ddf2c76b2a499106ceef1b019bb3119429
+283686,Polska,gliwicki,Rudziniec,Bycina,Rolnicza,38,44120,452d6ba8bd2da8f99419e51d6236d5dccc1d1843
+399910,Polska,cieszyński,Cieszyn,Cieszyn,"Nestora Bucewicza",11,43400,51a1f1bc37794ce9a4ca7319495e643182b569dd
+537336,Polska,myszkowski,Niegowa,Sokolniki,,101b,42320,a8602714537b65b69afdad31e80fd04dac4ab972
+670974,Polska,Częstochowa,Częstochowa,Częstochowa,Artyleryjska,71,42202,f7eccf97ac6f94f1d22b3c7bc4a878b5d91172d3
+671975,Polska,Częstochowa,Częstochowa,Częstochowa,Ludowa,255,42215,1b69c1b3261dada3070db63dc4e6550744f7a3b9

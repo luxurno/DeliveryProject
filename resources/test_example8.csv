@@ -1,9 +1,9 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-7180,Polska,żywiecki,Rajcza,Rajcza,,399,34-370,64b1739e0201a46518ce34fa08f34076eb43271e
-114346,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Świerklańska,139,44-268,abebc73e0a5bbbaecd66833fa593ddaa57e1b01d
-166262,Polska,cieszyński,Wisła,Wisła,Klonowa,1,43-460,2cf4e7c66d7c7e7596c7bd814765708679409e37
-391152,Polska,będziński,Czeladź,Czeladź,"Osiedle Dziekana",11f,41-253,beabc9abb7816b0850cb132341b89a6c3cf3a090
-509640,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Tymiankowa,27,42-612,b333e6c019165512d8bc515636618a32b5b2a8bb
-512737,Polska,Rybnik,Rybnik,Rybnik,Gotartowicka,64B,44-200,42825cb159385575ed8d82277bfe6080dec480d5
-532808,Polska,mikołowski,Mikołów,Mikołów,"Konstantego Wolnego",17C,43-190,8e603053925c077b36d1010afc8ae53db94c9eae
-590570,Polska,gliwicki,Pyskowice,Pyskowice,"Romualda Traugutta",96,44-120,a38e4547dae15e50b1a1050f35bd6c3d39333bf2
+130493,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,PODLEŚNA,47,44280,a53f2fbeb11113cae7da5ae8bdd4bb7c87778ec7
+223985,Polska,Rybnik,Rybnik,Rybnik,Jagiellońska,1,44200,269b755834279a3c7164959d7a9f383486910be5
+235915,Polska,częstochowski,Kruszyna,Kruszyna,Kościelna,19,42282,3c9e4fcb1aa512b70815c80770d2d7677ceeff78
+348947,Polska,Mysłowice,Mysłowice,Mysłowice,"Polskiego Czerwonego Krzyża",165,41400,b74d4386ff00c17e99d7e8e14c88a3743f5d2fbc
+492004,Polska,Tychy,Tychy,Tychy,"Cypriana Norwida",30,43100,c75d41c01afddc83b7f0bd77e78da4688edf8029
+619879,Polska,Jaworzno,Jaworzno,Jaworzno,Zdrowia,5,43602,1e13cc8cd4f68fe1a92854b654fdc6d51973ea1b
+635274,Polska,cieszyński,Istebna,Istebna,,1095,43470,e40450f9dfbc7ca72dc2ec0ace4df5d4af7ae06d
+717338,Polska,bielski,Jasienica,Mazańcowice,,811,43391,1d1442b94bf7356dc2b7a649f338157367faef35

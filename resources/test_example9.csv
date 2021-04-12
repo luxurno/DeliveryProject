@@ -1,16 +1,16 @@
 id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
-32545,Polska,cieszyński,Skoczów,"Ochaby Wielkie",Gołyska,120,43-430,449beeb42fbdcbc9185bdfa61e3abff7bbb1f9e1
-114307,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"św. Katarzyny",2,44-335,44ab6cc4a9c36ccab04874336e9c20ab33d61265
-158139,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,"P. Skargi",26,44-337,451b6773c0fb8d221a4728337a945b04a2f28506
-265050,Polska,bielski,Jaworze,Jaworze,Południowa,494,43-384,2f1bf7a158face76d78b98280a57d2ca06428e0b
-320762,Polska,cieszyński,Brenna,Brenna,Leśnica,168A,00-000,c049b20b21cf44f63d14f2a2c58a13918174a16c
-427221,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza","Oddziału AK Ordona",107a,41-300,1831fa1637fc785e502fe2c198733c4015a6ad9c
-449733,Polska,Katowice,Katowice,Katowice,Promienna,29,40-148,31fb89023cc170da2cf11039633a7045a293fa92
-459416,Polska,Katowice,Katowice,Katowice,Migdałowców,24,40-750,b253cf0e84851a0e2c609af9064cd2b94b182f7f
-526530,Polska,mikołowski,"Łaziska Górne","Łaziska Górne",Ligonia,23,43-173,40c04326cbde46f735018308a9183f476bd94d8e
-549113,Polska,zawierciański,Łazy,Chruszczobród,"Adama Mickiewicza",92a,42-450,505b5c7bd70e4ff9e3da3892cf3db18f7d5b40a7
-570360,Polska,gliwicki,Gierałtowice,Gierałtowice,Piontka,32D,44-186,308660165906e5f5ad21511f2f23462b2278f4ad
-597649,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Traugutta,19,41-300,e31539cb916d646e07f1a119b5daa73a08bde614
-660290,Polska,Częstochowa,Częstochowa,Częstochowa,Żołnierska,12,42-202,e11ae1b3f2a8832d887d30db52ab5d128b0beeb6
-711700,Polska,bielski,Wilamowice,Pisarzowice,Tęczowa,8C,43-332,25f949ae523bc1f1ea45e528d82877ea0c7fd105
-772454,Polska,częstochowski,Olsztyn,Olsztyn,"Plac marsz. Józefa Piłsudskiego",13,42-256,42c942d428fb890950d1d17e5424cfb9dcb52bfe
+78605,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Monterska,19,43310,7daafcf6ec51cec8b5f04e25d5730bb818246eb8
+121384,Polska,myszkowski,Myszków,Myszków,Folwarczna,2,42300,86287e7e76342bce73e38b0e9fa2bfc438ba7e1d
+126530,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Przepiórek,3,,c7b473e1e8528d399c9c47ac982f1ef8946fb5ec
+246185,Polska,lubliniecki,Ciasna,Glinica,Boczna,12,42793,756096523ce8689ceed2adcad9d4e1ed39bff988
+270416,Polska,myszkowski,Koziegłowy,Koziegłowy,Porajska,42,42350,c3754f24543fbe7a02314dc2a2273f9e21c9dd9d
+370925,Polska,częstochowski,Konopiska,Hutki,,72,42274,a75125bcdf364c959bd22cdac15c38e98adc32b7
+417007,Polska,zawierciański,Kroczyce,Szypowice,,28,42425,00e34dac43d7cef361fe8987dd7faa2ad7a1ed33
+419869,Polska,gliwicki,Knurów,Knurów,Rybna,4,44190,2869e0ed86a73d858322cc83a0a321fe5aa0a80b
+500887,Polska,rybnicki,Lyski,Lyski,Sportowa,11a,44295,c2cb5ddb92ec16fb39a5de04e8325a1437a554a9
+505264,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"Do Niwki",48,43300,7aca49e775c644d88aec94e33c7dc6148d74e980
+585362,Polska,częstochowski,Lelów,"Biała Wielka",,165,42235,af88ccacd176d95e2212ed91324102097777db9b
+659368,Polska,Częstochowa,Częstochowa,Częstochowa,Cedrowa,16/18,42208,203ca5b8f951a0bbb033b70bb4683eb7a184b3ca
+731406,Polska,Sosnowiec,Sosnowiec,Sosnowiec,"Obrońców Warszawy",5A,41216,50ee08b6ed2ace4a011861587d62a36a3547cb19
+767198,Polska,żywiecki,Lipowa,Lipowa,Brzeziny,15,34324,33dee9692e3b97f7ca2e74839104943bb2705245
+769515,Polska,żywiecki,Milówka,Laliki,,538,34373,df170dfb9aa00e0aed8bc201eb294bea70359633
