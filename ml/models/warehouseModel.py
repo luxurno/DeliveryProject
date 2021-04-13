@@ -10,5 +10,5 @@
 # Step 10 - Create testing model
 # Step 11 - Declare model
 # Step 12 - Compile, train model
-# Step 13 -
+# Step 13 - Save model
 
