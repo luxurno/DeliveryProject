@@ -8,8 +8,8 @@ use App\Bundle\Generate\DTO\GenerateDTO;
 
 class LabelAnalyzer
 {
-    private const POSITIVE = 'pos';
-    private const NEGATIVE = 'neg';
+    public const POSITIVE = 'pos';
+    public const NEGATIVE = 'neg';
 
     public function analyze(GenerateDTO $driverHistory, array $warehousePackages): string
     {

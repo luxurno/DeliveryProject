@@ -27,3 +27,8 @@ yarn-error.log
 
 ### Addresses
 src/Migrations/Addresses/Slask/02.10.2020_08_07_22__24_slaskie.xml
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
