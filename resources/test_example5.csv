@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 32826,Polska,zawierciański,Pilica,Pilica,"pl. Mickiewicza",36,42436,189e482d9a867c1078499da8f08b4f0c4d17d044
 154608,Polska,Chorzów,Chorzów,Chorzów,Skrajna,34,41506,ed22f37d89d10ee2487d1cf76ba7dd0cca5e9b0e
 194204,Polska,rybnicki,Jejkowice,Jejkowice,Główna,3,44290,f1196d6965aa9d2fef6a3bd10783c5d040e798b2

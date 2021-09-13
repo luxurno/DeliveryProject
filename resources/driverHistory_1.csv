@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 2,Polska,raciborski,"Kuźnia Raciborska",Jankowice,Wiejska,8,47430,0bc734cf140f43bbcd5dc8d87a0c27e33d1437e0
 133,Polska,cieszyński,Chybie,Chybie,Dworcowa,54,43520,b803825e828b27f589e5eb60af45028ae8c4c48f
 134,Polska,cieszyński,Chybie,Zaborze,Darwina,18C,43520,46bb64d9fb7dd4acd0f30946dd8b8d466e42cc4f

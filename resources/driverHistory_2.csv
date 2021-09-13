@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 21523,Polska,będziński,Siewierz,Siewierz,Długa,4,42-470,b0909f6e399f78163f7a971cb49f04822582aa0d
 33061,Polska,zawierciański,Pilica,Cisowa,,54,42-436,bf30fc554efc257448d958e57c4add13322bd78d
 214896,Polska,Rybnik,Rybnik,Rybnik,Górnośląska,110A,44-200,c1953c63118e3f0c616591730a4772ce0963769e

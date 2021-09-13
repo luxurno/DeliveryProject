@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 72333,Polska,zawierciański,Ogrodzieniec,Ogrodzieniec,Piastowska,35,42440,ca651fdb6469c4491f00d48094756321b0e4989b
 103024,Polska,"Piekary Śląskie","Piekary Śląskie","Piekary Śląskie","Powstańców Śląskich",42,41945,4ceb36271b8c086698c30c38b3cc3975a441af54
 122726,Polska,myszkowski,Myszków,Myszków,Ziemniaczana,8,42300,9feb149cf39aa6ec59f9004ccf1a62e802b8e7df

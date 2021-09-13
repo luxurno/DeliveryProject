@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 130493,Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,PODLEŚNA,47,44280,a53f2fbeb11113cae7da5ae8bdd4bb7c87778ec7
 223985,Polska,Rybnik,Rybnik,Rybnik,Jagiellońska,1,44200,269b755834279a3c7164959d7a9f383486910be5
 235915,Polska,częstochowski,Kruszyna,Kruszyna,Kościelna,19,42282,3c9e4fcb1aa512b70815c80770d2d7677ceeff78

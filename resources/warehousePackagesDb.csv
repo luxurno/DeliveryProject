@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 19,Polska,raciborski,"Kuźnia Raciborska",Rudy,Rogera,61,47430,3aec2e33748330370db131bd6a8c55d5843fc89c
 147,Polska,lubliniecki,Koszęcin,Strzebiń,Sienkiewicza,1,,b9e16dcfda804a80e6d9c6f9dade51b3709a2f97
 266,Polska,lubliniecki,Koszęcin,Koszęcin,Opiełki,4,,4171aef10fac7edba9e3d03878079e8508942e0e

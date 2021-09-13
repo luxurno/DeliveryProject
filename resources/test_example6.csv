@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 152760,Polska,cieszyński,Wisła,Wisła,Kręta,16,43460,9af26869d5f75d321d151e951a2272610359744e
 212447,Polska,"Dąbrowa Górnicza","Dąbrowa Górnicza","Dąbrowa Górnicza",Główna,195,41300,0505ac25dd04e301bf19055af8de610ee483b9a1
 224365,Polska,Rybnik,Rybnik,Rybnik,"Bronisława Czecha",33,44292,3dd6a441b985b175837de322a0bf7a3d92c7e822

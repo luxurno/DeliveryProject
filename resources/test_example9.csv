@@ -1,4 +1,4 @@
-id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+id,country,district,community,city,street,number,postal_code,hash
 78605,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,Monterska,19,43310,7daafcf6ec51cec8b5f04e25d5730bb818246eb8
 121384,Polska,myszkowski,Myszków,Myszków,Folwarczna,2,42300,86287e7e76342bce73e38b0e9fa2bfc438ba7e1d
 126530,Polska,tarnogórski,"Tarnowskie Góry","Tarnowskie Góry",Przepiórek,3,,c7b473e1e8528d399c9c47ac982f1ef8946fb5ec
