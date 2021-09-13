@@ -178,46 +178,46 @@ class AddressValueObject
     /** @var DateTimeImmutable|null */
     private $createdDate;
     /** @var string */
-    private $kraj;
+    private $country;
     /** @var string */
-    private $wojewodztwo;
+    private $voivodeship;
     /** @var string */
-    private $powiat;
+    private $district;
     /** @var string */
-    private $gmina;
+    private $community;
     /** @var string */
-    private $miasto;
+    private $city;
     /** @var string */
-    private $ulica;
+    private $street;
     /** @var string */
-    private $numer;
+    private $number;
     /** @var string */
-    private $kodPocztowy;
+    private $postalCode;
     /** @var string */
     private $hash;
 
     public function __construct(
         ?DateTimeImmutable $createdDate,
-        string $kraj,
-        string $wojewodztwo,
-        string $powiat,
-        string $gmina,
-        string $miasto,
-        string $ulica,
-        string $numer,
-        string $kodPocztowy,
+        string $country,
+        string $voivodeship,
+        string $district,
+        string $community,
+        string $city,
+        string $street,
+        string $number,
+        string $postalCode,
         string $hash
     )
     {
         $this->createdDate = $createdDate;
-        $this->kraj = $kraj;
-        $this->wojewodztwo = $wojewodztwo;
-        $this->powiat = $powiat;
-        $this->gmina = $gmina;
-        $this->miasto = $miasto;
-        $this->ulica = $ulica;
-        $this->numer = $numer;
-        $this->kodPocztowy = $kodPocztowy;
+        $this->country = $country;
+        $this->voivodeship = $voivodeship;
+        $this->district = $district;
+        $this->community = $community;
+        $this->city = $city;
+        $this->street = $street;
+        $this->number = $number;
+        $this->postalCode = $postalCode;
         $this->hash = $hash;
     }
 
@@ -226,44 +226,44 @@ class AddressValueObject
         return $this->createdDate;
     }
 
-    public function getKraj(): ?string
+    public function getCountry(): ?string
     {
-        return $this->kraj;
+        return $this->country;
     }
 
-    public function getWojewodztwo(): ?string
+    public function getVoivodeship(): ?string
     {
-        return $this->wojewodztwo;
+        return $this->voivodeship;
     }
 
-    public function getPowiat(): ?string
+    public function getDistrict(): ?string
     {
-        return $this->powiat;
+        return $this->district;
     }
 
-    public function getGmina(): ?string
+    public function getCommunity(): ?string
     {
-        return $this->gmina;
+        return $this->community;
     }
 
-    public function getMiasto(): ?string
+    public function getCity(): ?string
     {
-        return $this->miasto;
+        return $this->city;
     }
 
-    public function getUlica(): ?string
+    public function getStreet(): ?string
     {
-        return $this->ulica;
+        return $this->street;
     }
 
-    public function getNumer(): ?string
+    public function getNumber(): ?string
     {
-        return $this->numer;
+        return $this->number;
     }
 
-    public function getKodPocztowy(): ?string
+    public function getPostalCode(): ?string
     {
-        return $this->kodPocztowy;
+        return $this->postalCode;
     }
 
     public function getHash(): ?string

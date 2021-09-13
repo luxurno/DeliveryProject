@@ -26,9 +26,9 @@ class User
      */
     protected $drivers;
     /**
-     * @ORM\Column(type="string", columnDefinition="ENUM('spedytor', 'kierowca')")
+     * @ORM\Column(type="string", columnDefinition="ENUM('admin', 'forwarder')")
      */
-    private $type = 'spedytor';
+    private $type = 'forwarder';
     /**
      * @ORM\Column(type="string", length=255)
      */

@@ -29,7 +29,7 @@ class ImportDelivery
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $kraj;
+    private $country;
     /**
      * @ORM\Column(type="string", length=255)
      */
@@ -37,27 +37,27 @@ class ImportDelivery
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $powiat;
+    private $district;
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $gmina;
+    private $community;
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $miasto;
+    private $city;
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $ulica;
+    private $street;
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $numer;
+    private $number;
     /**
      * @ORM\Column(type="string", length=255)
      */
-    private $kodPocztowy;
+    private $postalCode;
     /**
      * @ORM\Column(type="string", length=511)
      */
@@ -131,74 +131,74 @@ class ImportDelivery
         $this->voivodeship = $voivodeship;
     }
 
-    public function getKraj()
+    public function getCountry(): string
     {
-        return $this->kraj;
+        return $this->country;
     }
 
-    public function setKraj($kraj): void
+    public function setCountry(string $country): void
     {
-        $this->kraj = $kraj;
+        $this->country = $country;
     }
 
-    public function getPowiat()
+    public function getDistrict(): string
     {
-        return $this->powiat;
+        return $this->district;
     }
 
-    public function setPowiat($powiat): void
+    public function setDistrict(string $district): void
     {
-        $this->powiat = $powiat;
+        $this->district = $district;
     }
 
-    public function getGmina()
+    public function getCommunity(): string
     {
-        return $this->gmina;
+        return $this->community;
     }
 
-    public function setGmina($gmina): void
+    public function setCommunity(string $community): void
     {
-        $this->gmina = $gmina;
+        $this->community = $community;
     }
 
-    public function getMiasto()
+    public function getCity(): string
     {
-        return $this->miasto;
+        return $this->city;
     }
 
-    public function setMiasto($miasto): void
+    public function setCity(string $city): void
     {
-        $this->miasto = $miasto;
+        $this->city = $city;
     }
 
-    public function getUlica()
+    public function getStreet(): string
     {
-        return $this->ulica;
+        return $this->street;
     }
 
-    public function setUlica($ulica): void
+    public function setStreet(string $street): void
     {
-        $this->ulica = $ulica;
+        $this->street = $street;
     }
 
-    public function getNumer()
+    public function getNumber(): string
     {
-        return $this->numer;
+        return $this->number;
     }
 
-    public function setNumer($numer): void
+    public function setNumber(string $number): void
     {
-        $this->numer = $numer;
+        $this->number = $number;
     }
 
-    public function getKodPocztowy()
+    public function getPostalCode(): string
     {
-        return $this->kodPocztowy;
+        return $this->postalCode;
     }
 
-    public function setKodPocztowy($kodPocztowy): void
+    public function setPostalCode(string $postalCode): void
     {
-        $this->kodPocztowy = $kodPocztowy;
+        $this->postalCode = $postalCode;
     }
 
     public function getFormatted(): string

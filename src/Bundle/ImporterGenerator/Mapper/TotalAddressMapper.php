@@ -18,28 +18,28 @@ class TotalAddressMapper
         if ($includeReq) {
             return [
                 ImportFileHeadersEnum::ID => $totalAddress->getId(),
-                ImportFileHeadersEnum::COUNTRY => $totalAddress->getKraj(),
-                ImportFileHeadersEnum::DISTRICT => $totalAddress->getPowiat(),
-                ImportFileHeadersEnum::COMMUNITY => $totalAddress->getGmina(),
-                ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
-                ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
-                ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
+                ImportFileHeadersEnum::COUNTRY => $totalAddress->getCountry(),
+                ImportFileHeadersEnum::DISTRICT => $totalAddress->getDistrict(),
+                ImportFileHeadersEnum::COMMUNITY => $totalAddress->getCommunity(),
+                ImportFileHeadersEnum::CITY => $totalAddress->getCity(),
+                ImportFileHeadersEnum::STREET => $totalAddress->getStreet(),
+                ImportFileHeadersEnum::NUMBER => $totalAddress->getNumber(),
                 ImportFileHeadersEnum::POSTAL_CODE => PostalCodeConverter::filter(
-                    $totalAddress->getKodPocztowy()
+                    $totalAddress->getPostalCode()
                 ),
                 ImportFileHeadersEnum::HASH => $totalAddress->getHash(),
             ];
         }
 
         return [
-            ImportFileHeadersEnum::COUNTRY => $totalAddress->getKraj(),
-            ImportFileHeadersEnum::DISTRICT => $totalAddress->getPowiat(),
-            ImportFileHeadersEnum::COMMUNITY => $totalAddress->getGmina(),
-            ImportFileHeadersEnum::CITY => $totalAddress->getMiasto(),
-            ImportFileHeadersEnum::STREET => $totalAddress->getUlica(),
-            ImportFileHeadersEnum::NUMBER => $totalAddress->getNumer(),
+            ImportFileHeadersEnum::COUNTRY => $totalAddress->getCountry(),
+            ImportFileHeadersEnum::DISTRICT => $totalAddress->getDistrict(),
+            ImportFileHeadersEnum::COMMUNITY => $totalAddress->getCommunity(),
+            ImportFileHeadersEnum::CITY => $totalAddress->getCity(),
+            ImportFileHeadersEnum::STREET => $totalAddress->getStreet(),
+            ImportFileHeadersEnum::NUMBER => $totalAddress->getNumber(),
             ImportFileHeadersEnum::POSTAL_CODE => PostalCodeConverter::filter(
-                $totalAddress->getKodPocztowy()
+                $totalAddress->getPostalCode()
             ),
         ];
     }

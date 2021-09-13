@@ -33,14 +33,14 @@ class CreateImportDeliveryHandler
 
         $importDelivery->setImport($import);
 
-        $importDelivery->setKraj($importDeliveryDTO->getCountry());
+        $importDelivery->setCountry($importDeliveryDTO->getCountry());
         $importDelivery->setVoivodeship($importDeliveryDTO->getVoivodeship());
-        $importDelivery->setPowiat($importDeliveryDTO->getDistrict());
-        $importDelivery->setGmina($importDeliveryDTO->getCommunity());
-        $importDelivery->setMiasto($importDeliveryDTO->getCity());
-        $importDelivery->setUlica($importDeliveryDTO->getStreet());
-        $importDelivery->setNumer($importDeliveryDTO->getNumber());
-        $importDelivery->setKodPocztowy($importDeliveryDTO->getPostalCode());
+        $importDelivery->setDistrict($importDeliveryDTO->getDistrict());
+        $importDelivery->setCommunity($importDeliveryDTO->getCommunity());
+        $importDelivery->setCity($importDeliveryDTO->getCity());
+        $importDelivery->setStreet($importDeliveryDTO->getStreet());
+        $importDelivery->setNumber($importDeliveryDTO->getNumber());
+        $importDelivery->setPostalCode($importDeliveryDTO->getPostalCode());
         $importDelivery->setFormatted($importDeliveryDTO->getFormatted());
         $importDelivery->updateTimestamps();
 

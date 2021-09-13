@@ -20,8 +20,8 @@ final class Version20201008193839 extends AbstractMigration
     public function up(Schema $schema) : void
     {
         $this->addSql("INSERT INTO `user` SET 
-                                `type`='spedytor', 
-                                `nick`='Luxurno Marcin Szostak', 
+                                `type`='forwarder', 
+                                `nick`='Marcin Szostak', 
                                 `email`='luxurno@luxurno.com',
                                 `first_name`='Marcin',
                                 `last_name`='Szostak',

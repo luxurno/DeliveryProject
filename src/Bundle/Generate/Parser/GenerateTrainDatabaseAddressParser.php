@@ -11,14 +11,14 @@ class GenerateTrainDatabaseAddressParser
     public static function getAddress(TotalAddress $totalAddress): string
     {
         return implode(' ', [
-            $totalAddress->getKraj(),
+            $totalAddress->getCountry(),
             $totalAddress->getVoivodeship(),
-            $totalAddress->getPowiat(),
-            $totalAddress->getGmina(),
-            $totalAddress->getMiasto(),
-            $totalAddress->getKodPocztowy(),
-            $totalAddress->getUlica(),
-            $totalAddress->getNumer(),
+            $totalAddress->getDistrict(),
+            $totalAddress->getCommunity(),
+            $totalAddress->getCity(),
+            $totalAddress->getPostalCode(),
+            $totalAddress->getStreet(),
+            $totalAddress->getNumber(),
         ]);
     }
 }
