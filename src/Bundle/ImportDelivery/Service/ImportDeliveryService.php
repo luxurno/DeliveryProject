@@ -45,13 +45,15 @@ class ImportDeliveryService
         $importDeliveryDTO = $this->importDeliveryDTOFactory->factory();
 
         $importDeliveryDTO->setCountry($importDelivery[ImportFileHeadersEnum::COUNTRY]);
-        $importDeliveryDTO->setVoivodeship('Śląsk');
+        $importDeliveryDTO->setVoivodeship($importDelivery[ImportFileHeadersEnum::VOIVODESHIP]);
         $importDeliveryDTO->setDistrict($importDelivery[ImportFileHeadersEnum::DISTRICT]);
         $importDeliveryDTO->setCommunity($importDelivery[ImportFileHeadersEnum::COMMUNITY]);
         $importDeliveryDTO->setCity($importDelivery[ImportFileHeadersEnum::CITY]);
         $importDeliveryDTO->setStreet($importDelivery[ImportFileHeadersEnum::STREET]);
         $importDeliveryDTO->setNumber($importDelivery[ImportFileHeadersEnum::NUMBER]);
         $importDeliveryDTO->setPostalCode($importDelivery[ImportFileHeadersEnum::POSTAL_CODE]);
+        $importDeliveryDTO->setCapacity((float) $importDelivery[ImportFileHeadersEnum::CAPACITY]);
+        $importDeliveryDTO->setWeight((int) $importDelivery[ImportFileHeadersEnum::WEIGHT]);
         $importDeliveryDTO->setFormatted(ImportDeliveryAddressFormatter::format($importDeliveryDTO));
 
         $this->importDeliveryGenerator->create($import, $importDeliveryDTO);

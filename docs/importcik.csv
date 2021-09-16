@@ -1,36 +1,36 @@
-kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy
-Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,STRZODY,1,44-280
-Polska,wodzisławski,Rydułtowy,RYDUŁTOWY,BOLESŁAWA KRZYWOUSTEGO,69B,44-280
-Polska,cieszyński,Strumień,Pruchna,Rajska,5,43-523
-Polska,raciborski,Nędza,Babice,Polna,1,47-440
-Polska,cieszyński,Chybie,Mnich,Aleja Topolowa,45,43-520
-Polska,Chorzów,Chorzów,Chorzów,Cieszyńska,22,41-500
-Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Janusza Kusocińskiego,41,44-330
-Polska,żywiecki,Rajcza,Sól,Sól,279,34-370
-Polska,myszkowski,Koziegłowy,Lgota-Nadwarcie,Nadrzeczna,87,42-350
-Polska,częstochowski,Koniecpol,Okołowice,Stanisławska,12,42-230
-Polska,żywiecki,Żywiec,Żywiec,Marii Dąbrowskiej,19,34-300
-Polska,Mysłowice,Mysłowice,Mysłowice,Długa,222,41-400
-Polska,myszkowski,Poraj,Żarki-Letnisko,Kąpielowa,76,42-360
-Polska,częstochowski,Mykanów,Radostków-Kolonia,Wesoła,39,42-233
-Polska,Ruda Śląska,Ruda Śląska,RUDA ŚLĄSKA,Kurpiowska,3,41-706
-Polska,Ruda Śląska,Ruda Śląska,RUDA ŚLĄSKA,Sosnowa,10A,41-706
-Polska,lubliniecki,Lubliniec,Lubliniec,Południowa,26,42-700
-Polska,zawierciański,Kroczyce,Siedliszowice,Siedliszowice,82,42-427
-Polska,Katowice,Katowice,Katowice,Przedwiośnie,7,40-319
-Polska,Zabrze,Zabrze,Zabrze,Joanny Żnieńskiej,16,41-819
-Polska,Zabrze,Zabrze,Zabrze,Stalowa,5,41-814
-Polska,zawierciański,Łazy,Niegowonice,Nowowiejska,21a,42-450
-Polska,będziński,Będzin,Będzin,Sielecka,85,42-500
-Polska,Rybnik,Rybnik,Rybnik,Szczerbicka,86,44-273
-Polska,Jaworzno,Jaworzno,Jaworzno,Pszczelnik,48,43-600
-Polska,Jaworzno,Jaworzno,Jaworzno,Kaczeńców,73,43-607
-Polska,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,DWORCOWA,21A,41-600
-Polska,żywiecki,Milówka,Szare,Szare,9,34-360
-Polska,bieruńsko-lędziński,Bieruń,BIERUŃ,ŁĄKOWA,13,43-150
-Polska,kłobucki,Miedźno,Ostrowy nad Okszą,Zakładowa,6A,42-122
-Polska,Częstochowa,Częstochowa,Częstochowa,Limanowska,23,42-202
-Polska,bielski,Wilamowice,Pisarzowice,Zajęcza,6,43-332
-Polska,bielski,Wilkowice,Bystra,Gruntowa,14,43-360
-Polska,częstochowski,Kłomnice,Rzerzęczyce,Polna,2,42-270
-Polska,częstochowski,Kłomnice,Zdrowa,Kłomnicka,11,42-270
+country,voivodeship,district,community,city,street,number,postal_code,capacity,weight
+Polska,Śląsk,wodzisławski,Rydułtowy,RYDUŁTOWY,STRZODY,1,44-280,0.2,20
+Polska,Śląsk,wodzisławski,Rydułtowy,RYDUŁTOWY,BOLESŁAWA KRZYWOUSTEGO,69B,44-280,0.2,50
+Polska,Śląsk,cieszyński,Strumień,Pruchna,Rajska,5,43-523,0.6,20
+Polska,Śląsk,raciborski,Nędza,Babice,Polna,1,47-440,0.2,120
+Polska,Śląsk,cieszyński,Chybie,Mnich,Aleja Topolowa,45,43-520,0.3,30
+Polska,Śląsk,Chorzów,Chorzów,Chorzów,Cieszyńska,22,41-500,1,140
+Polska,Śląsk,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Janusza Kusocińskiego,41,44-330,0.5,80
+Polska,Śląsk,żywiecki,Rajcza,Sól,Sól,279,34-370,0.4,40
+Polska,Śląsk,myszkowski,Koziegłowy,Lgota-Nadwarcie,Nadrzeczna,87,42-350,0.5,50
+Polska,Śląsk,częstochowski,Koniecpol,Okołowice,Stanisławska,12,42-230,1,200
+Polska,Śląsk,żywiecki,Żywiec,Żywiec,Marii Dąbrowskiej,19,34-300,0.5,150
+Polska,Śląsk,Mysłowice,Mysłowice,Mysłowice,Długa,222,41-400,0.2,25
+Polska,Śląsk,myszkowski,Poraj,Żarki-Letnisko,Kąpielowa,76,42-360,0.2,25
+Polska,Śląsk,częstochowski,Mykanów,Radostków-Kolonia,Wesoła,39,42-233,0.6,60
+Polska,Śląsk,Ruda Śląska,Ruda Śląska,RUDA ŚLĄSKA,Kurpiowska,3,41-706,0.4,50
+Polska,Śląsk,Ruda Śląska,Ruda Śląska,RUDA ŚLĄSKA,Sosnowa,10A,41-706,0.8,60
+Polska,Śląsk,lubliniecki,Lubliniec,Lubliniec,Południowa,26,42-700,1.2,130
+Polska,Śląsk,zawierciański,Kroczyce,Siedliszowice,Siedliszowice,82,42-427,0.5,50
+Polska,Śląsk,Katowice,Katowice,Katowice,Przedwiośnie,7,40-319,1,400
+Polska,Śląsk,Zabrze,Zabrze,Zabrze,Joanny Żnieńskiej,16,41-819,1.2,300
+Polska,Śląsk,Zabrze,Zabrze,Zabrze,Stalowa,5,41-814,1.5,150
+Polska,Śląsk,zawierciański,Łazy,Niegowonice,Nowowiejska,21a,42-450,0.2,80
+Polska,Śląsk,będziński,Będzin,Będzin,Sielecka,85,42-500,1.1,140
+Polska,Śląsk,Rybnik,Rybnik,Rybnik,Szczerbicka,86,44-273,2,50
+Polska,Śląsk,Jaworzno,Jaworzno,Jaworzno,Pszczelnik,48,43-600,1.2,220
+Polska,Śląsk,Jaworzno,Jaworzno,Jaworzno,Kaczeńców,73,43-607,1.2,450
+Polska,Śląsk,Świętochłowice,Świętochłowice,ŚWIĘTOCHŁOWICE,DWORCOWA,21A,41-600,0.5,50
+Polska,Śląsk,żywiecki,Milówka,Szare,Szare,9,34-360,0.5,50
+Polska,Śląsk,bieruńsko-lędziński,Bieruń,BIERUŃ,ŁĄKOWA,13,43-150,0.6,60
+Polska,Śląsk,kłobucki,Miedźno,Ostrowy nad Okszą,Zakładowa,6A,42-122,0.8,140
+Polska,Śląsk,Częstochowa,Częstochowa,Częstochowa,Limanowska,23,42-202,1.2,60
+Polska,Śląsk,bielski,Wilamowice,Pisarzowice,Zajęcza,6,43-332,0.5,100
+Polska,Śląsk,bielski,Wilkowice,Bystra,Gruntowa,14,43-360,0.5,100
+Polska,Śląsk,częstochowski,Kłomnice,Rzerzęczyce,Polna,2,42-270,0.4,50
+Polska,Śląsk,częstochowski,Kłomnice,Zdrowa,Kłomnicka,11,42-270,0.4,50

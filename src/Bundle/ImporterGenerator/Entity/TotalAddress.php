@@ -26,9 +26,9 @@ class TotalAddress
      */
     private $country;
     /**
-     * @ORM\Column(type="string", length=255, options={"default" : "Śląsk"})
+     * @ORM\Column(type="string", length=255)
      */
-    private $voivodeship = "Śląsk";
+    private $voivodeship;
     /**
      * @ORM\Column(type="string", length=255)
      */

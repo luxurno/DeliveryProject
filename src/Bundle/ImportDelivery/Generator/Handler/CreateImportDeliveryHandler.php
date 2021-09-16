@@ -41,6 +41,8 @@ class CreateImportDeliveryHandler
         $importDelivery->setStreet($importDeliveryDTO->getStreet());
         $importDelivery->setNumber($importDeliveryDTO->getNumber());
         $importDelivery->setPostalCode($importDeliveryDTO->getPostalCode());
+        $importDelivery->setCapacity($importDeliveryDTO->getCapacity());
+        $importDelivery->setWeight($importDeliveryDTO->getWeight());
         $importDelivery->setFormatted($importDeliveryDTO->getFormatted());
         $importDelivery->updateTimestamps();
 

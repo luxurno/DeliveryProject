@@ -13,7 +13,7 @@ use App\Bundle\User\Repository\UserRepository;
 use DateTime;
 use Doctrine\ORM\EntityManagerInterface;
 use Exception;
-use GuzzleHttp\Exception\InvalidArgumentException;
+use InvalidArgumentException;
 
 class ImportService
 {
@@ -41,6 +41,12 @@ class ImportService
         $this->userRepository = $userRepository;
     }
 
+    /**
+     * @param string $date
+     * @return Import
+     * @throws UserNotFound
+     * @throws \InvalidArgumentException
+     */
     public function getImportByDate(string $date): Import
     {
         /** @var User $user */
@@ -49,17 +55,17 @@ class ImportService
             throw new UserNotFound(sprintf('User with id `%s` is missing', self::USER_ID));
         }
 
+        try {
+            $importDate = new DateTime($date);
+        } catch (\Exception $e) {
+            throw new InvalidArgumentException('Incorrect date');
+        }
+
         /** @var Import $import */
-        $import = $this->importRepository->findOneBy(['import_date' => new DateTime($date)]);
+        $import = $this->importRepository->findOneBy(['importDate' => $importDate]);
         if ($import === null) {
-            try {
-                $importDate = new DateTime($date);
-            } catch (\Exception $e) {
-                throw new InvalidArgumentException('Incorrect date');
-            }
             $importDate->format('Y-m-d');
 
-            /** @var Import $import */
             $import = $this->importFactory->factory();
             $import->setUser($user);
             $import->setImportDate($importDate);

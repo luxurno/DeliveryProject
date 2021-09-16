@@ -12,7 +12,7 @@ class GenerateDTOParser
     {
         return implode(' ', [
             $generateDTO->getCountry(),
-            'Śląsk',
+            $generateDTO->getVoivodeship(),
             $generateDTO->getDistrict(),
             $generateDTO->getCommunity(),
             $generateDTO->getCity(),

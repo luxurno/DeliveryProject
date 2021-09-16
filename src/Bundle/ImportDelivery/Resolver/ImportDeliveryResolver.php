@@ -8,6 +8,7 @@ use App\Bundle\Import\Service\ImportService;
 use App\Bundle\ImportDelivery\Filter\ImportDeliveryFilter;
 use App\Bundle\ImportDelivery\Service\ImportDeliveryService;
 use App\Bundle\ImportDelivery\Validator\ImportDeliveryValidator;
+use App\Bundle\User\Exception\UserNotFound;
 use DateTime;
 
 class ImportDeliveryResolver
@@ -34,9 +35,13 @@ class ImportDeliveryResolver
         $this->importService = $importService;
     }
 
+    /**
+     * @param array $importData
+     * @throws UserNotFound
+     */
     public function resolve(array $importData): void
     {
-        $date = $importData['importDate'];
+        $date = (new DateTime())->format('Y-m-d');
         $headers = $this->importDeliveryFilter->filterHeaders($importData);
         $import = $this->importService->getImportByDate($date);
 

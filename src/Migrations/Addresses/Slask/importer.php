@@ -105,9 +105,10 @@ class AddressHandler
         //$conn = Connection::getInstance();
         $conn = new class() { public function quote(string $string) { return sprintf("'%s'", addslashes($string)); } };
 
-        $sql = "INSERT INTO `total_address` SET  create_date = :createDate, country = :country, district = :district, community = :community, city = :city, street = :street, number = :number, postal_code = :postal_code, hash = :hash";
+        $sql = "INSERT INTO `total_address` SET  create_date = :createDate, country = :country, voivodeship = :voivodeship, district = :district, community = :community, city = :city, street = :street, number = :number, postal_code = :postal_code, hash = :hash";
         $createDate = $addressValueObject->getCreatedDate()->format('Y-m-d H:i:s');
         $country = $addressValueObject->getCountry();
+        $voivodeship = $addressValueObject->getVoivodeship();
         $district = $addressValueObject->getDistrict();
         $community = $addressValueObject->getCommunity();
         $city = $addressValueObject->getCity();
@@ -129,6 +130,7 @@ class AddressHandler
 
         $sql = str_replace(':createDate', $conn->quote($createDate), $sql);
         $sql = str_replace(':country', $conn->quote($country), $sql);
+        $sql = str_replace(':voivodeship', $conn->quote($voivodeship), $sql);
         $sql = str_replace(':district', $conn->quote($district), $sql);
         $sql = str_replace(':community', $conn->quote($community), $sql);
         $sql = str_replace(':city', $conn->quote($city), $sql);

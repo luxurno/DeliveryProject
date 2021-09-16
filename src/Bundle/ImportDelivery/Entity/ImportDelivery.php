@@ -59,6 +59,14 @@ class ImportDelivery
      */
     private $postalCode;
     /**
+     * @ORM\Column(type="decimal", precision=5, scale=2)
+     */
+    private $capacity;
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $weight;
+    /**
      * @ORM\Column(type="string", length=511)
      */
     private $formatted;
@@ -199,6 +207,26 @@ class ImportDelivery
     public function setPostalCode(string $postalCode): void
     {
         $this->postalCode = $postalCode;
+    }
+
+    public function getCapacity(): float
+    {
+        return $this->capacity;
+    }
+
+    public function setCapacity(float $capacity): void
+    {
+        $this->capacity = $capacity;
+    }
+
+    public function getWeight(): int
+    {
+        return $this->weight;
+    }
+
+    public function setWeight(int $weight): void
+    {
+        $this->weight = $weight;
     }
 
     public function getFormatted(): string

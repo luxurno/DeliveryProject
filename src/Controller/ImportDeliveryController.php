@@ -37,9 +37,6 @@ class ImportDeliveryController extends AbstractController
         if ($importData['data'] === []) {
             throw new MissingResultsException('Empty results');
         }
-        if (strlen($importData['importDate']) !== 10) {
-            throw new InvalidArgumentException();
-        }
 
         $response = new Response();
         try {
@@ -47,10 +44,10 @@ class ImportDeliveryController extends AbstractController
             $response->setStatusCode(Response::HTTP_NO_CONTENT);
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (Throwable $e) {
+            throw $e;
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
-//        catch (Throwable $e) {
-//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
-//        }
 
         return $response;
     }

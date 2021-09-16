@@ -24,6 +24,10 @@ class ImportDeliveryDTO implements QueueMessage
     private $number;
     /** @var string */
     private $postalCode;
+    /** @var null|float */
+    private $capacity;
+    /** @var int */
+    private $weight;
     /** @var string */
     private $formatted;
 
@@ -105,6 +109,26 @@ class ImportDeliveryDTO implements QueueMessage
     public function setPostalCode(string $postalCode): void
     {
         $this->postalCode = $postalCode;
+    }
+
+    public function getCapacity(): ?float
+    {
+        return $this->capacity;
+    }
+
+    public function setCapacity(?float $capacity): void
+    {
+        $this->capacity = $capacity;
+    }
+
+    public function getWeight(): int
+    {
+        return $this->weight;
+    }
+
+    public function setWeight(int $weight): void
+    {
+        $this->weight = $weight;
     }
 
     public function getFormatted(): string
