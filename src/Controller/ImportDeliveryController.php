@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\ImportDelivery\Controller;
+namespace App\Controller;
 
 use App\Bundle\ImportDelivery\Exception\MissingResultsException;
 use App\Bundle\ImportDelivery\Resolver\ImportDeliveryResolver;

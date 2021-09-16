@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\Perception\Controller;
+namespace App\Controller;
 
 use App\Bundle\ImportDelivery\Exception\MissingResultsException;
 use App\Bundle\Perception\Service\PerceptionService;
@@ -38,13 +38,13 @@ class PerceptionController extends AbstractController
         }
 
         $response = new Response();
-//        try {
-//            $this->perceptionService->savePerception($perceptionData['perception']);
-//        } catch (UserNotFound $e) {
-//            $response->setStatusCode(Response::HTTP_NOT_FOUND);
-//        } catch (Throwable $e) {
-//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
-//        }
+        try {
+            $this->perceptionService->savePerception($perceptionData['perception']);
+        } catch (UserNotFound $e) {
+            $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (Throwable $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+        }
         $response->headers->set('Content-Type', 'application/json');
         $response->setContent(json_encode(['id' => 1]));
 

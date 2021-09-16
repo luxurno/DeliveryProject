@@ -2,18 +2,6 @@ controllers:
     resource: ../../src/Controller/
     type: annotation
 
-import_delivery:
-    resource: ../../src/Bundle/ImportDelivery/Controller/
-    type: annotation
-
-near_by:
-    resource: ../../src/Bundle/NearBy/Controller/
-    type: annotation
-
-perception:
-    resource: ../../src/Bundle/Perception/Controller/
-    type: annotation
-
 kernel:
     resource: ../../src/Kernel.php
     type: annotation
