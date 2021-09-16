@@ -34,6 +34,10 @@ class Driver implements JsonSerializable
     /**
      * @ORM\Column(type="integer", nullable=true)
      */
+    private $length;
+    /**
+     * @ORM\Column(type="integer", nullable=true)
+     */
     private $width;
     /**
      * @ORM\Column(type="integer", nullable=true)
@@ -98,6 +102,16 @@ class Driver implements JsonSerializable
     public function setHeight($height): void
     {
         $this->height = $height;
+    }
+
+    public function getLength(): ?int
+    {
+        return $this->length;
+    }
+
+    public function setLength(?int $length): void
+    {
+        $this->length = $length;
     }
 
     public function getWidth()

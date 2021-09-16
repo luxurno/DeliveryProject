@@ -118,6 +118,7 @@ class DriverController extends AbstractController
             null,
             null,
             (int) $driverData['config']['height'],
+            (int) $driverData['config']['length'],
             (int) $driverData['config']['width'],
             (int) $driverData['config']['capacity'],
             strtolower($driverData['config']['adr'])

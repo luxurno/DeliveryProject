@@ -15,6 +15,8 @@ class DriverValueObject
     /** @var null|int */
     private $height;
     /** @var null|int */
+    private $length;
+    /** @var null|int */
     private $width;
     /** @var null|int */
     private $capacity;
@@ -26,6 +28,7 @@ class DriverValueObject
         ?int $userId = null,
         ?string $name = null,
         ?int $height = null,
+        ?int $length = null,
         ?int $width = null,
         ?int $capacity = null,
         ?string $adr = null
@@ -35,6 +38,7 @@ class DriverValueObject
         $this->userId = $userId;
         $this->name = $name;
         $this->height = $height;
+        $this->length = $length;
         $this->width = $width;
         $this->capacity = $capacity;
         $this->adr = $adr;
@@ -58,6 +62,11 @@ class DriverValueObject
     public function getHeight(): ?int
     {
         return $this->height;
+    }
+
+    public function getLength(): ?int
+    {
+        return $this->length;
     }
 
     public function getWidth(): ?int

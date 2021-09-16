@@ -36,6 +36,7 @@ class DriverService
         $driver = $this->driverRepository->findOneBy(['id' => $driverVO->getId()]);
 
         $driver->setHeight($driverVO->getHeight());
+        $driver->setLength($driverVO->getLength());
         $driver->setWidth($driverVO->getWidth());
         $driver->setCapacity($driverVO->getCapacity());
         $driver->setAdr($driverVO->getAdr());

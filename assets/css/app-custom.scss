@@ -116,6 +116,34 @@ input{
   }
 }
 
+.blue-outline-box-single {
+  color: #292cc4;
+
+  label {
+    top: -50%;
+    position: absolute;
+  }
+  label:nth-of-type(2) {
+    top: 95%;
+    left: 28%;
+    max-width: fit-content;
+    position: absolute;
+    color: red;
+  }
+
+  input[type=text] {
+    border: solid #292cc4;
+    width: 38vh;
+    height: 8vh;
+  }
+
+  section {
+    border: solid #292cc4;
+    width: 38vh;
+    height: 8vh;
+  }
+}
+
 .import-dostaw-box {
   color: #292cc4;
   flex: none; // This is for test

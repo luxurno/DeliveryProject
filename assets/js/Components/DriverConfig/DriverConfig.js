@@ -15,10 +15,12 @@ export default class DriverConfig extends Component {
         this.state = {
             name: HeadersEnum.DRIVER_CONFIG,
             height: "",
+            length: "",
             width: "",
             capacity: "",
             adr: "",
             invalidHeight: true,
+            invalidLength: true,
             invalidWidth: true,
             invalidCapacity: true,
             invalidAdr: true,
@@ -59,6 +61,18 @@ export default class DriverConfig extends Component {
                     this.setState({invalidHeight: true});
                 }
                 break;
+            case "length":
+                value = parseInt(event.target.value);
+                if (Number.isInteger(value)) {
+                    if (value.valueOf() >= 150 && value.valueOf() <= 350) {
+                        this.setState({invalidLength: false});
+                    } else {
+                        this.setState({invalidLength: true});
+                    }
+                } else {
+                    this.setState({invalidLength: true});
+                }
+                break;
             case "width":
                 value = parseInt(event.target.value);
                 if (Number.isInteger(value)) {
@@ -70,7 +84,6 @@ export default class DriverConfig extends Component {
                 } else {
                     this.setState({invalidWidth: true});
                 }
-                //this.state.invalidWidth = !Number.isInteger(parseInt(value));
                 break;
             case "capacity":
                 value = parseInt(event.target.value);
@@ -95,7 +108,7 @@ export default class DriverConfig extends Component {
     }
 
     handleSaveConfiguration(event: KeyboardEvent) {
-        const { height, width, capacity, adr } = this.state;
+        const { height, length, width, capacity, adr } = this.state;
 
         const { name } = this.props.data;
         let id = this.driverNameFilter$.getDriverId(name);
@@ -107,6 +120,7 @@ export default class DriverConfig extends Component {
                     config: {
                         id: id,
                         height: height,
+                        length: length,
                         width: width,
                         capacity: capacity,
                         adr: adr,
@@ -155,15 +169,15 @@ export default class DriverConfig extends Component {
                             </div>
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
                                 <div className={"col text-center blue-outline-box"}>
-                                    <label>Wysokość Samochodu *</label>
+                                    <label>Długość Samochodu *</label>
                                     <input
                                         type={"text"}
-                                        name={"height"}
-                                        value={this.state.height}
-                                        placeholder={"np. 220cm"}
+                                        name={"length"}
+                                        value={this.state.length}
+                                        placeholder={"np. 250cm"}
                                         onChange={this.handleChange}
                                     />
-                                    <label style={{display: this.state.invalidHeight ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
+                                    <label style={{display: this.state.invalidLength ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
                                 <div className={"col text-center blue-outline-box"}>
                                     <label>Szerokość Samochod *</label>
@@ -179,6 +193,17 @@ export default class DriverConfig extends Component {
                             </div>
                             <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
                                 <div className={"col text-center blue-outline-box"}>
+                                    <label>Wysokość Samochodu *</label>
+                                    <input
+                                        type={"text"}
+                                        name={"height"}
+                                        value={this.state.height}
+                                        placeholder={"np. 220cm"}
+                                        onChange={this.handleChange}
+                                    />
+                                    <label style={{display: this.state.invalidHeight ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
+                                </div>
+                                <div className={"col text-center blue-outline-box"}>
                                     <label>Ładowność Samochodu *</label>
                                     <input
                                         type={"text"}
@@ -189,7 +214,9 @@ export default class DriverConfig extends Component {
                                     />
                                     <label style={{display: this.state.invalidCapacity ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
                                 </div>
-                                <div className={"col text-center blue-outline-box"}>
+                            </div>
+                            <div className={"row margin-0 vertical-center konfiguracja-kierowcy-row"}>
+                                <div className={"col text-center blue-outline-box-single"}>
                                     <label>Uprawnienia ADR *</label>
                                     <input
                                         type={"text"}
