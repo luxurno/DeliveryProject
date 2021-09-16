@@ -62,4 +62,12 @@ class DriverService
         $this->entityManager->persist($driver);
         $this->entityManager->flush();
     }
+
+    public function deleteDriver(DriverValueObject $driverValueObject): void
+    {
+        $driver = $this->driverRepository->findOneBy(['id' => $driverValueObject->getId()]);
+
+        $this->entityManager->remove($driver);
+        $this->entityManager->flush();
+    }
 }

@@ -50,6 +50,32 @@ class DriverController extends AbstractController
     }
 
     /**
+     * @Route("/api/driver/{id}", methods={"DELETE"})
+     * @param Request $request
+     * @return Response
+     */
+    public function deleteDriver(Request $request, $id): Response
+    {
+        $response = new Response();
+        try {
+            if (false === is_numeric($id)) {
+                throw new Exception();
+            }
+
+            $driverVO = new DriverValueObject(
+                (int) $id
+            );
+
+            $this->driverService->deleteDriver($driverVO);
+            $response->setStatusCode(Response::HTTP_NO_CONTENT);
+        } catch (Exception $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+        }
+
+        return $response;
+    }
+
+    /**
      * @Route("/api/driver", methods={"PUT"})
      * @param Request $request
      * @return Response

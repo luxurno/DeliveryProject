@@ -17,7 +17,7 @@ export default class HomeApp extends Component {
 
                 <Switch>
                     <Route path={"/add-driver"} component={AddDriver}/>
-                    {/*<Route path={"/remove-driver"} component={RemoveDriver}/>*/}
+                    <Route path={"/remove-driver"} component={RemoveDriver}/>
                     <Route path={"/import-delivery"} component={ImportDelivery}/>
                     <Route path={"/settings"} component={Settings}/>
                     <Route path={"/route-lookup"} component={RouteLookup}/>
