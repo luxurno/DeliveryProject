@@ -50,6 +50,35 @@ class DriverController extends AbstractController
     }
 
     /**
+     * @Route("/api/driver", methods={"PUT"})
+     * @param Request $request
+     * @return Response
+     */
+    public function createDriver(Request $request): Response
+    {
+        $driverData = json_decode($request->getContent(), true);
+
+        $driverVO = new DriverValueObject(
+            null,
+            (int) $driverData['userId'],
+            $driverData['name']
+        );
+
+        $response = new Response();
+        try {
+            if (false === $this->driverValidator->validateUserId($driverVO)) {
+                throw new Exception();
+            }
+            $this->driverService->createDriver($driverVO);
+            $response->setStatusCode(Response::HTTP_NO_CONTENT);
+        } catch (Exception $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+        }
+
+        return $response;
+    }
+
+    /**
      * @Route("/api/driver/save", methods={"POST"})
      * @param Request $request
      * @return Response
@@ -60,6 +89,8 @@ class DriverController extends AbstractController
 
         $driverVO = new DriverValueObject(
             (int) $driverData['config']['id'],
+            null,
+            null,
             (int) $driverData['config']['height'],
             (int) $driverData['config']['width'],
             (int) $driverData['config']['capacity'],

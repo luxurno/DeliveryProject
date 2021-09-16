@@ -6,47 +6,71 @@ namespace App\ValueObject;
 
 class DriverValueObject
 {
-    /** @var int */
+    /** @var null|int */
     private $id;
-    /** @var int */
+    /** @var null|int */
+    private $userId;
+    /** @var null|string */
+    private $name;
+    /** @var null|int */
     private $height;
-    /** @var int */
+    /** @var null|int */
     private $width;
-    /** @var int */
+    /** @var null|int */
     private $capacity;
-    /** @var string */
+    /** @var null|string */
     private $adr;
 
-    public function __construct(int $id, int $height, int $width, int $capacity, string $adr)
+    public function __construct(
+        ?int $id = null,
+        ?int $userId = null,
+        ?string $name = null,
+        ?int $height = null,
+        ?int $width = null,
+        ?int $capacity = null,
+        ?string $adr = null
+    )
     {
         $this->id = $id;
+        $this->userId = $userId;
+        $this->name = $name;
         $this->height = $height;
         $this->width = $width;
         $this->capacity = $capacity;
         $this->adr = $adr;
     }
 
-    public function getId(): int
+    public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getHeight(): int
+    public function getUserId(): ?int
+    {
+        return $this->userId;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function getHeight(): ?int
     {
         return $this->height;
     }
 
-    public function getWidth(): int
+    public function getWidth(): ?int
     {
         return $this->width;
     }
 
-    public function getCapacity(): int
+    public function getCapacity(): ?int
     {
         return $this->capacity;
     }
 
-    public function getAdr(): string
+    public function getAdr(): ?string
     {
         return $this->adr;
     }

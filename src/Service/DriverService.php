@@ -4,24 +4,31 @@ declare(strict_types = 1);
 
 namespace App\Service;
 
+use App\Bundle\User\Repository\UserRepository;
+use App\Entity\Driver;
+use App\Enum\AdrEnum;
 use App\Repository\DriverRepository;
 use App\ValueObject\DriverValueObject;
 use Doctrine\ORM\EntityManagerInterface;
 
 class DriverService
 {
-    /** @var EntityManagerInterface */
-    private $entityManager;
     /** @var DriverRepository */
     private $driverRepository;
+    /** @var EntityManagerInterface */
+    private $entityManager;
+    /** @var UserRepository */
+    private $userRepository;
 
     public function __construct(
+        DriverRepository $driverRepository,
         EntityManagerInterface $entityManager,
-        DriverRepository $driverRepository
+        UserRepository $userRepository
     )
     {
-        $this->entityManager = $entityManager;
         $this->driverRepository = $driverRepository;
+        $this->entityManager = $entityManager;
+        $this->userRepository = $userRepository;
     }
 
     public function saveDriverConfig(DriverValueObject $driverVO): void
@@ -40,5 +47,19 @@ class DriverService
     public function getAllDrivers(int $userId): array
     {
          return $this->driverRepository->findBy(['user' => $userId]);
+    }
+
+    public function createDriver(DriverValueObject $driverValueObject): void
+    {
+        $user = $this->userRepository->findOneBy(['id' => $driverValueObject->getUserId()]);
+
+        $driver = new Driver();
+
+        $driver->setUser($user);
+        $driver->setName($driverValueObject->getName());
+        $driver->setAdr(AdrEnum::NO);
+
+        $this->entityManager->persist($driver);
+        $this->entityManager->flush();
     }
 }

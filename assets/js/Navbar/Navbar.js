@@ -32,6 +32,8 @@ class Navbar extends Component {
                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <Link className="dropdown-item" to={"/add-driver"}>Dodawanie kierowcy</Link>
+                                {/*<Link className="dropdown-item" to={"/remove-driver"}>Usuwanie kierowcy</Link>*/}
                                 <Link className="dropdown-item" to={"/settings"}>Konfiguracja</Link>
                                 <Link className="dropdown-item" to={"/import-delivery"}>Import dostaw</Link>
                                 <Link className="dropdown-item" to={"/route-generator"}>Generator trasy</Link>
