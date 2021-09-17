@@ -78,7 +78,7 @@ class ImportDeliveryComponent extends Component {
                 </div>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"import-dostaw-form d-flex"}>
-                        <form onSubmit={(e) => this.handleImportFile(e)}>
+                        <form>
                             <div className={'import-dostaw-wrapper'}>
                                 <div className={"row margin-0 import-dostaw-item"}
                                      style={{display: !isLoading ? 'flex' : 'none' }}
