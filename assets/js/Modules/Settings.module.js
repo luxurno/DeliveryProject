@@ -16,8 +16,8 @@ export default class Settings extends Component {
         };
     }
 
-    driverNameCallback = (dataFromChild) => {
-        this.setState({
+    driverNameCallback = async (dataFromChild) => {
+        await this.setState({
             name: dataFromChild.name,
             showConfig: dataFromChild.showConfig,
         });

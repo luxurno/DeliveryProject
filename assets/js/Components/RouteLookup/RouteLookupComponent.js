@@ -26,7 +26,6 @@ class RouteLookupComponent extends Component {
         this.setState({
             list: dataFromChild.list,
         });
-        // TODO Remove bug with missing one action (letter)
     };
 
     render() {

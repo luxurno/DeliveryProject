@@ -19,7 +19,6 @@ export default class NearByComponent extends Component {
         this.setState({
             list: dataFromChild.list,
         })
-        // TODO Remove bug with missing one action (letter)
     };
 
     nearByPerceptionCallback = (dataFromChild) => {

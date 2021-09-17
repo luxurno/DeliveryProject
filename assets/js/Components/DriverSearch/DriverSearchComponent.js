@@ -21,18 +21,17 @@ export default class DriverSearchComponent extends Component {
         });
     }
 
-    handleSearchDriver(event) {
+    async handleSearchDriver(event) {
         event.preventDefault();
 
-        this.setState({ showConfig: true});
-        this.props.callbackFromParent(this.state);
+        await this.setState({showConfig: true});
+        await this.props.callbackFromParent(this.state);
     }
 
-    availableCallback = (dataFromChild) => {
-        this.setState({
+    availableCallback = async (dataFromChild) => {
+        await this.setState({
             showAvailable: !dataFromChild.available,
         });
-        // TODO Remove bug with missing one action (letter)
     };
 
     render() {

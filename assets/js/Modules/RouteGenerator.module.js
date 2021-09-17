@@ -22,7 +22,6 @@ export default class RouteGenerator extends Component {
             name: dataFromChild.name,
             showConfig: dataFromChild.showConfig,
         });
-        // TODO Remove bug with missing one action (letter)
     };
 
     render() {
