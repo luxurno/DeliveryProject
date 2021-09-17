@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import FileDropzone from "./FileDropzone/FileDropzone";
+import ScreenPopup from "../../Core/Popup/Screen.popup";
 import SpinnerPage from "../../Spinner/SpinnerPage";
 
 class ImportDeliveryComponent extends Component {
@@ -9,6 +10,7 @@ class ImportDeliveryComponent extends Component {
 
         this.state = {
             name: "",
+            status: null,
             importData: null,
             showConfig: false,
             isLoading: false
@@ -18,15 +20,15 @@ class ImportDeliveryComponent extends Component {
         this.handleImportFile = this.handleImportFile.bind(this);
     }
 
-    handleChange(event) {
-        this.setState({
+    async handleChange(event) {
+        await this.setState({
             [event.target.name]: event.target.value
         });
-        this.props.callbackFromParent(this.state);
+        await this.props.callbackFromParent(this.state);
     }
 
-    importDataCallback = (data) => {
-        this.setState({
+    importDataCallback = async (data) => {
+        await this.setState({
             importData: data,
         });
     };
@@ -42,18 +44,26 @@ class ImportDeliveryComponent extends Component {
                 {
                     data: data,
                 },
-                { withCredentials: true }
+                {withCredentials: true}
             )
             .then(response => {
-                this.setState({isLoading: false});
+                this.setState({
+                    isLoading: false,
+                    status: "Pomyślnie przekazano plik",
+                });
+
                 console.log('ok');
                 console.log(response);
             })
             .catch(error => {
-                this.setState({isLoading: false});
+                this.setState({
+                    isLoading: false,
+                    status: "Coś poszło nie tak",
+                });
                 console.log('error');
                 console.log(error);
             });
+        event.preventDefault();
     }
 
     render() {
@@ -68,7 +78,7 @@ class ImportDeliveryComponent extends Component {
                 </div>
                 <div className={"d-flex justify-content-center"}>
                     <div className={"import-dostaw-form d-flex"}>
-                        <form onSubmit={this.handleImportFile}>
+                        <form onSubmit={(e) => this.handleImportFile(e)}>
                             <div className={'import-dostaw-wrapper'}>
                                 <div className={"row margin-0 import-dostaw-item"}
                                      style={{display: !isLoading ? 'flex' : 'none' }}
@@ -81,15 +91,16 @@ class ImportDeliveryComponent extends Component {
                                         <button
                                             type={"button"}
                                             className={"btn btn-primary"}
-                                            onClick={this.handleImportFile}
+                                            onClick={(e) => this.handleImportFile(e)}
                                         >{this.props.data.button}</button>
                                     </div>
                                 </div>
-                            </div>
-                            <div className={"import-dostaw-loader"}>
-                                <SpinnerPage isLoading={this.state.isLoading}/>
+                                <div className={"import-dostaw-loader"}>
+                                    <SpinnerPage isLoading={this.state.isLoading}/>
+                                </div>
                             </div>
                         </form>
+                        <ScreenPopup status={this.state.status}/>
                     </div>
                 </div>
             </div>

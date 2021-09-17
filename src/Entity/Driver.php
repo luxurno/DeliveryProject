@@ -49,7 +49,7 @@ class Driver implements JsonSerializable
     private $adr;
 
     /**
-     * @ORM\Column(type="boolean", options={"default" : false})
+     * @ORM\Column(type="integer", columnDefinition="ENUM('0', '1', '2')")
      */
     private $available = false;
 

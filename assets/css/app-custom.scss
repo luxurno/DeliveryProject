@@ -501,9 +501,9 @@ input{
   }
 
   &-loader {
-    margin-top: -21vh;
-    width: 8rem;
-    margin-left: 44.75%;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
   }
 }
 
@@ -513,3 +513,35 @@ input{
   color: lightsteelblue;
 }
 
+.screen-popup {
+  display: grid;
+  z-index: 99;
+  grid-gap: 1.25rem;
+  grid-auto-rows: 1.75rem;
+  grid-template-areas:
+            ". . . ."
+            ". a a ."
+            ". . . ."
+            ". b b .";
+  width: 38%;
+  height: 70%;
+  left: 31%;
+  background-color: #b2bfd4;
+  position: absolute;
+
+  span {
+    color: #87a6d6;
+    background-color: white;
+    grid-area: a;
+    border-radius: 2vh;
+    padding: 2vh 4vh;
+    align-self: center;
+    justify-self: center;
+  }
+
+  button {
+    grid-area: b;
+    align-self: center;
+    justify-self: center;
+  }
+}
