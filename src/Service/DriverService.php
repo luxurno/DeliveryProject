@@ -40,14 +40,20 @@ class DriverService
         $driver->setWidth($driverVO->getWidth());
         $driver->setCapacity($driverVO->getCapacity());
         $driver->setAdr($driverVO->getAdr());
+        $driver->setAvailable(true);
 
         $this->entityManager->persist($driver);
         $this->entityManager->flush();
     }
 
-    public function getAllDrivers(int $userId): array
+    public function getAllDrivers(int $userId, bool $available): array
     {
-         return $this->driverRepository->findBy(['user' => $userId]);
+        $criteria = ['user' => $userId];
+        if ($available) {
+            $criteria['available'] = $available;
+        }
+
+         return $this->driverRepository->findBy($criteria);
     }
 
     public function createDriver(DriverValueObject $driverValueObject): void

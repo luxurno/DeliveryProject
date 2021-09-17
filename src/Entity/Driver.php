@@ -49,6 +49,11 @@ class Driver implements JsonSerializable
     private $adr;
 
     /**
+     * @ORM\Column(type="boolean", options={"default" : false})
+     */
+    private $available = false;
+
+    /**
      * @ORM\ManyToOne(targetEntity="App\Bundle\User\Entity\User", inversedBy="drivers", cascade={"persist"})
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
@@ -142,6 +147,16 @@ class Driver implements JsonSerializable
     public function setAdr($adr): void
     {
         $this->adr = $adr;
+    }
+
+    public function setAvailable(bool $available): void
+    {
+        $this->available = $available;
+    }
+
+    public function getAvailable(): bool
+    {
+        return $this->available;
     }
 
     public function jsonSerialize()

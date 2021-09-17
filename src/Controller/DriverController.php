@@ -37,12 +37,12 @@ class DriverController extends AbstractController
     public function getDrivers(Request $request): Response
     {
         $userId = $request->get('userId');
+        $available = (bool) $request->get('available');
 
-        $users = ($userId !== null) ? $this->driverService->getAllDrivers((int) $userId) : [];
+        $users = ($userId !== null) ? $this->driverService->getAllDrivers((int) $userId, $available) : [];
 
         $response = new Response();
         $response->headers->set('Content-Type', 'application/json');
-        //$response->headers->set('Access-Control-Allow-Origin', '*');
 
         $response->setContent(json_encode($users));
 
@@ -76,7 +76,7 @@ class DriverController extends AbstractController
     }
 
     /**
-     * @Route("/api/driver", methods={"PUT"})
+     * @Route("/api/driver", methods={"POST"})
      * @param Request $request
      * @return Response
      */
@@ -105,7 +105,7 @@ class DriverController extends AbstractController
     }
 
     /**
-     * @Route("/api/driver/save", methods={"POST"})
+     * @Route("/api/driver/config", methods={"PUT"})
      * @param Request $request
      * @return Response
      */

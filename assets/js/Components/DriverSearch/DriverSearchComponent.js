@@ -8,6 +8,7 @@ export default class DriverSearchComponent extends Component {
         this.state = {
             name: "",
             showConfig: false,
+            showAvailable: true,
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -26,6 +27,13 @@ export default class DriverSearchComponent extends Component {
         this.setState({ showConfig: true});
         this.props.callbackFromParent(this.state);
     }
+
+    availableCallback = (dataFromChild) => {
+        this.setState({
+            showAvailable: !dataFromChild.available,
+        });
+        // TODO Remove bug with missing one action (letter)
+    };
 
     render() {
         return(
@@ -49,10 +57,11 @@ export default class DriverSearchComponent extends Component {
                                         placeholder={"np. Karol Kowalski"}
                                         onChange={this.handleChange}
                                     />
-                                    <DriverSearchDatalist/>
+                                    <DriverSearchDatalist available={this.props.data.available} callback={this.availableCallback} />
                                 </div>
                                 <div className={"col text-center customize-button"}>
                                     <button
+                                        disabled={!this.state.showAvailable}
                                         type={"button"}
                                         className={"btn btn-primary"}
                                         onClick={this.handleSearchDriver}

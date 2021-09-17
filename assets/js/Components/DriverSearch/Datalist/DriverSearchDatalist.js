@@ -11,7 +11,13 @@ export default class DriverSearchDatalist extends Component {
         this.state = {
             drivers: null,
             refEl: null,
+            available: false,
+            disable: false,
         };
+
+        if (props.available) {
+            this.state.available = true;
+        }
 
         this.handleSearch = this.handleSearch.bind(this);
         this.handleSearch();
@@ -19,11 +25,25 @@ export default class DriverSearchDatalist extends Component {
 
     handleSearch() {
         let userId = this.storageService$.getCurrentUserId();
+        let available = '';
 
-        axios.get(process.env.APP_DOMAIN + '/api/drivers?userId=' + userId).then(res => {
-            const drivers = res.data;
-            this.setState({ drivers: drivers });
-        });
+        if (this.state.available) {
+            available = '&available=' + this.state.available;
+        }
+
+        axios
+            .get(
+                process.env.APP_DOMAIN + '/api/drivers?userId=' + userId + available,
+            )
+            .then(res => {
+                const drivers = res.data;
+                this.setState({ drivers: drivers });
+
+                if (0 === res.data.length) {
+                    this.setState({ disable: true });
+                    this.props.callback(this.state);
+                }
+            });
     }
 
     render() {

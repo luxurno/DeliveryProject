@@ -29,7 +29,7 @@ export default class DriverAddComponent extends Component {
         this.props.callbackFromParent(this.state);
 
         axios
-            .put(
+            .post(
                 process.env.APP_DOMAIN + '/api/driver',
                 {
                     userId: userId,

@@ -114,8 +114,8 @@ export default class DriverConfig extends Component {
         let id = this.driverNameFilter$.getDriverId(name);
 
         axios
-            .post(
-                process.env.APP_DOMAIN + '/api/driver/save',
+            .put(
+                process.env.APP_DOMAIN + '/api/driver/config',
                 {
                     config: {
                         id: id,
