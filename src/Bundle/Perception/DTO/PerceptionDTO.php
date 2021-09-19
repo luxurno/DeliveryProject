@@ -26,6 +26,8 @@ class PerceptionDTO implements QueueMessage
     private $capacity;
     /** @var int */
     private $weight;
+    /** @var string */
+    private $formatted;
 
     public function __construct(array $data)
     {
@@ -88,5 +90,15 @@ class PerceptionDTO implements QueueMessage
     public function getWeight(): int
     {
         return $this->weight;
+    }
+
+    public function getFormatted(): string
+    {
+        return $this->formatted;
+    }
+
+    public function setFormatted(string $formatted): void
+    {
+        $this->formatted = $formatted;
     }
 }

@@ -55,6 +55,10 @@ class Perception
      */
     private $weight;
     /**
+     * @ORM\Column(type="string", length=511)
+     */
+    private $formatted;
+    /**
      * @var string
      *
      * @ORM\Column(name="lat", type="decimal", precision=20, scale=16, options={"default" : null}, nullable=true)
@@ -205,6 +209,16 @@ class Perception
     public function setWeight(int $weight): void
     {
         $this->weight = $weight;
+    }
+
+    public function getFormatted(): string
+    {
+        return $this->formatted;
+    }
+
+    public function setFormatted(string $formatted): void
+    {
+        $this->formatted = $formatted;
     }
 
     public function getLat(): string

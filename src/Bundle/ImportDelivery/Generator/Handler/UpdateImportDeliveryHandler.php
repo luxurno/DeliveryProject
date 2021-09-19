@@ -6,16 +6,23 @@ namespace App\Bundle\ImportDelivery\Generator\Handler;
 
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
 use App\Bundle\ImportDelivery\Generator\Command\UpdateImportDeliveryCommand;
+use App\Bundle\ImportDelivery\Repository\ImportDeliveryRepository;
 use Doctrine\ORM\EntityManagerInterface;
 
 class UpdateImportDeliveryHandler
 {
     /** @var EntityManagerInterface */
     private $em;
+    /** @var ImportDeliveryRepository */
+    private $importDeliveryRepository;
 
-    public function __construct(EntityManagerInterface $em)
+    public function __construct(
+        EntityManagerInterface $em,
+        ImportDeliveryRepository $importDeliveryRepository
+    )
     {
         $this->em = $em;
+        $this->importDeliveryRepository = $importDeliveryRepository;
     }
 
     public function handle(UpdateImportDeliveryCommand $importDeliveryCommand): void
@@ -24,7 +31,7 @@ class UpdateImportDeliveryHandler
         $coordinatesDTO = $importDeliveryCommand->getCoordinatesDTO();
 
         /** @var null|ImportDelivery $importDelivery */
-        $importDelivery = $this->em->getRepository(ImportDelivery::class)
+        $importDelivery = $this->importDeliveryRepository
             ->findOneBy(['formatted' => $importDeliveryDTO->getFormatted()]);
 
         if ($importDelivery !== null) {

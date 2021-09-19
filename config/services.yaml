@@ -58,3 +58,16 @@ services:
             - '@doctrine.orm.entity_manager'
         tags:
             - { name: command_handler, handles: App\Bundle\ImportDelivery\Generator\Command\UpdateImportDeliveryCommand }
+
+    perception_bundle.perception_generator:
+        class: App\Bundle\Perception\Generator\PerceptionGenerator
+        arguments:
+            - '@command_bus'
+
+    perception_bundle.update_perception_handler:
+        class: App\Bundle\Perception\Generator\Handler\UpdatePerceptionHandler
+        public: true
+        arguments:
+            - '@doctrine.orm.entity_manager'
+        tags:
+            - { name: command_handler, handles: App\Bundle\Perception\Generator\Command\UpdatePerceptionCommand }

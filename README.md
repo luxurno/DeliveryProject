@@ -7,6 +7,7 @@ yarn encore dev --watch
 
 ### Run coordinates consumer
 php bin/console import-delivery:coordinates-consumer 1
+php bin/console perception:coordinates-consumer 1
 
 ### Example usage for AI
 docker run -it --rm -v $PWD:/tmp -w /tmp tensorflow/tensorflow:latest python ./tensorflow/models/model.py

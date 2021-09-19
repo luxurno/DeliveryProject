@@ -7,6 +7,7 @@ namespace App\Bundle\Perception\Service;
 use App\Bundle\Driver\Repository\DriverRepository;
 use App\Bundle\Perception\DTO\PerceptionDTO;
 use App\Bundle\Perception\Factory\PerceptionFactory;
+use App\Bundle\Perception\Formatter\PerceptionAddressFormatter;
 use App\Bundle\Perception\Producer\PerceptionProducer;
 use App\Bundle\User\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
@@ -40,6 +41,9 @@ class PerceptionService
     {
         $perceptionDTO = PerceptionDTO::create($data);
 
+        $formatted = PerceptionAddressFormatter::format($perceptionDTO);
+        $perceptionDTO->setFormatted($formatted);
+
         $user = $this->userRepository->findOneBy(['id' => $data['userId']]);
 
         if (null === $user) {
@@ -57,6 +61,7 @@ class PerceptionService
         $perception->setNumber($perceptionDTO->getNumber());
         $perception->setCapacity($perceptionDTO->getCapacity());
         $perception->setWeight($perceptionDTO->getWeight());
+        $perception->setFormatted($formatted);
         $perception->updateTimestamps();
 
         $this->perceptionProducer->addQueue($perceptionDTO);

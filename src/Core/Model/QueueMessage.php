@@ -12,4 +12,5 @@ interface QueueMessage
     public function getStreet(): string;
     public function getNumber(): string;
     public function getPostalCode(): string;
+    public function getFormatted(): string;
 }

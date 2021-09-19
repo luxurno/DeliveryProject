@@ -46,9 +46,7 @@ export default class SendingPerceptionForm extends Component {
 
     handleReceiptOrder(event: KeyboardEvent) {
         const { country, voivodeship, postal, city, street, number, capacity, weight } = this.state;
-
-        const { name } = this.props.data;
-        let id = this.driverNameFilter$.getDriverId(name);
+        let id = this.storageService$.getCurrentUserId();
 
         axios
             .post(
