@@ -25,6 +25,10 @@ final class Version20210919194701 extends AbstractMigration
 
         $first = true;
         $headers = [];
+
+        $query = "INSERT INTO `import` SET `user_id`='1', `import_date`='".(new \DateTime())->format('Y-m-d')."', `created_at`=NOW()";
+        $this->addSql($query);
+
         while (! feof($file)) {
             $row = fgetcsv($file);
 
@@ -51,7 +55,6 @@ final class Version20210919194701 extends AbstractMigration
                 if ($insert) {
                     $this->addSql($query);
                 }
-                var_dump($query);
             }
 
             if ($first) {
