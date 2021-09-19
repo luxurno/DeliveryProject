@@ -1,28 +1,10 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import DriverListComponent from "../DriverList/DriverListComponent";
 
 class RouteGeneratorComponent extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-            route: process.env.APP_DOMAIN + '/api/route/preview',
-            name: "",
-            showConfig: false
-        };
-
-        this.handleChange = this.handleChange.bind(this);
-        this.handleGenerateList = this.handleGenerateList.bind(this);
-    }
-
-    handleChange(event) {
-        this.setState({
-            [event.target.name]: event.target.value
-        });
-    }
-
-    handleGenerateList() {
-        console.log('handluje!');
+    constructor(props) {
+        super(props);
     }
 
     render() {
@@ -34,9 +16,7 @@ class RouteGeneratorComponent extends Component {
                 display: "none",
             };
         }
-        if (name !== "") {
-            this.handleGenerateList();
-        }
+
         let listaKierowcyStyles = {
             display: "flex !important",
             justifyContent: "center",
@@ -50,7 +30,10 @@ class RouteGeneratorComponent extends Component {
                     </div>
                 </div>
                 <div className={"d-flex justify-content-center"}>
-                    <DriverListComponent data={this.state} styles={listaKierowcyStyles} />
+                    <DriverListComponent
+                        data={this.props.data}
+                        styles={listaKierowcyStyles}
+                    />
                 </div>
             </div>
         );

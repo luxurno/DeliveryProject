@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 namespace App\Controller;
 
-use App\Service\DriverService;
-use App\Validator\DriverValidator;
-use App\ValueObject\DriverValueObject;
+use App\Bundle\Driver\Service\DriverService;
+use App\Bundle\Driver\Validator\DriverValidator;
+use App\Bundle\Driver\ValueObject\DriverValueObject;
 use Exception;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;

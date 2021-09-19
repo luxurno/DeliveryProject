@@ -13,12 +13,12 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore_number_aware
         auto_mapping: true
         mappings:
-            App:
+            App\Bundle\Driver:
                 is_bundle: false
                 type: annotation
-                dir: '%kernel.project_dir%/src/Entity'
-                prefix: 'App\Entity'
-                alias: App
+                dir: '%kernel.project_dir%/src/Bundle/Driver/Entity'
+                prefix: 'App\Bundle\Driver\Entity'
+                alias: App\Bundle\Driver
             App\Bundle\Import:
                 is_bundle: false
                 type: annotation
@@ -43,3 +43,15 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Bundle/User/Entity'
                 prefix: 'App\Bundle\User\Entity'
                 alias: App\Bundle\User`
+            App\Bundle\Route:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/Route/Entity'
+                prefix: 'App\Bundle\Route\Entity'
+                alias: App\Bundle\Route`
+            App\Bundle\TopCity:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/TopCities/Entity'
+                prefix: 'App\Bundle\TopCities\Entity'
+                alias: App\Bundle\TopCity`

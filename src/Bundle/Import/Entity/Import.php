@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace App\Bundle\Import\Entity;
 
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
+use App\Bundle\Route\Entity\Route;
 use App\Bundle\User\Entity\User;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
@@ -33,6 +34,12 @@ class Import
      */
     private $importDate;
     /**
+     * @var DateTime $created
+     *
+     * @ORM\Column(name="created_at", type="datetime")
+     */
+    private $createdAt;
+    /**
      * @ORM\OneToOne(targetEntity="App\Bundle\User\Entity\User", inversedBy="imports", cascade={"persist"})
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
@@ -41,21 +48,15 @@ class Import
      * @ORM\OneToMany(targetEntity="App\Bundle\ImportDelivery\Entity\ImportDelivery", mappedBy="import", cascade={"persist", "remove"})
      */
     protected $importDeliveries;
-    /**
-     * @var DateTime $created
-     *
-     * @ORM\Column(name="created_at", type="datetime")
-     */
-    private $createdAt;
 
     public function __construct()
     {
-        $dateTimeNow = new DateTime('now');
+        $dateTime = new DateTime('now');
         if ($this->getCreatedAt() === null) {
-            $this->setCreatedAt($dateTimeNow);
+            $this->setCreatedAt($dateTime);
         }
-        $dateTimeNow->format('Y-m-d');
-        $this->setImportDate($dateTimeNow);
+        $dateTime->format('Y-m-d');
+        $this->setImportDate($dateTime);
         $this->importDeliveries = new ArrayCollection();
     }
 
@@ -78,6 +79,11 @@ class Import
     public function setUser(User $user): void
     {
         $this->user = $user;
+    }
+
+    public function getUser(): User
+    {
+        return $this->user;
     }
 
     public function getImportDate(): DateTime

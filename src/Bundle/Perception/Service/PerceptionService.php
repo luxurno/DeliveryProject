@@ -4,44 +4,25 @@ declare(strict_types = 1);
 
 namespace App\Bundle\Perception\Service;
 
-use App\Bundle\Perception\Generator\PerceptionDTOGenerator;
-use App\Bundle\User\Exception\UserNotFound;
-use App\Bundle\User\Repository\UserRepository;
-use App\Core\Coordinates\Service\CoordinatesService;
-
 class PerceptionService
 {
-    /** @var CoordinatesService */
-    private $coordinatesService;
-    /** @var PerceptionDTOGenerator */
-    private $perceptionDTOGenerator;
-    /** @var UserRepository */
-    private $userRepository;
+    private const FILENAME = __DIR__.'/../../../../ml/resources/Prediction/';
 
-    public function __construct(
-        CoordinatesService $coordinatesService,
-        PerceptionDTOGenerator $perceptionDTOGenerator,
-        UserRepository $userRepository
-    )
+    public function getPerceptionCity(string $voivodeship): string
     {
-        $this->coordinatesService = $coordinatesService;
-        $this->perceptionDTOGenerator = $perceptionDTOGenerator;
-        $this->userRepository = $userRepository;
-    }
+        $fileName = self::FILENAME.$voivodeship.'.csv';
+        $file = fopen($fileName, 'r');
 
-    public function savePerception(array $perceptionData): void
-    {
-        $perceptionDTO = $this->perceptionDTOGenerator->generate($perceptionData);
-
-        $user = $this->userRepository->findOneBy(['id' => $perceptionDTO->getUserId()]);
-        if ($user === null) {
-            throw new UserNotFound(sprintf('User with id `%s` is missing', $perceptionDTO->getUserId()));
+        $cities = [];
+        while(! feof($file)) {
+            $row = fgets($file);
+            if (is_string($row)) {
+                $city = explode(",", $row);
+                $cities[$city[0]] = trim($city[1]);
+            }
         }
+        arsort($cities, SORT_NUMERIC);
 
-        // TODO
-        // Obsługa logiki trasy kierowcy, czy jeszcze jeźdźi
-        // Logika pobrania lat/long
-        // AI przypisania odpowiedniej kolejności
+        return array_keys($cities)[0];
     }
-
 }

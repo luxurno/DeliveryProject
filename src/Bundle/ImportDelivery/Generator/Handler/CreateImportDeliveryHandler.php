@@ -6,17 +6,17 @@ namespace App\Bundle\ImportDelivery\Generator\Handler;
 
 use App\Bundle\ImportDelivery\Factory\ImportDeliveryFactory;
 use App\Bundle\ImportDelivery\Generator\Command\CreateImportDeliveryCommand;
-use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 
 class CreateImportDeliveryHandler
 {
-    /** @var EntityManager */
+    /** @var EntityManagerInterface */
     private $em;
     /** @var ImportDeliveryFactory */
     private $importDeliveryFactory;
 
     public function __construct(
-        EntityManager $em,
+        EntityManagerInterface $em,
         ImportDeliveryFactory $importDeliveryFactory
     )
     {

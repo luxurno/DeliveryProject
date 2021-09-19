@@ -7,6 +7,18 @@ php bin/console doctrine:schema:update --force
 php bin/console doctrine:migration:migrate --no-interaction
 
 # AI database dump
+
+### Generate cities
+#php bin/console generate:train-db Częstochowa.csv --city="Częstochowa"
+#php bin/console generate:train-db Katowice.csv --city="Katowice"
+#php bin/console generate:train-db Bielsko-Biała.csv --city="Bielsko-Biała"
+#php bin/console generate:train-db Rybnik.csv --city="Rybnik"
+#php bin/console generate:train-db Gliwice.csv --city="Gliwice"
+#php bin/console generate:train-db Sosnowiec.csv --city="Sosnowiec"
+#php bin/console generate:train-db "Dąbrowa Górnicza.csv" --city="Dąbrowa Górnicza"
+#php bin/console generate:train-db Jaworzno.csv --city="Jaworzno"
+#php bin/console generate:train-db Zabrze.csv --city="Zabrze"
+#php bin/console generate:train-db "Ruda Śląska.csv" --city="RUDA ŚLĄSKA"
 #php bin/console generate:train-db addressDb.csv
 #php bin/console generate:train-db test_example4.csv 5 0
 #php bin/console generate:train-db test_example5.csv 7 6

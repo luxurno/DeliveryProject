@@ -8,6 +8,7 @@ use App\Bundle\Generate\Service\GenerateTrainDatabaseService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 class GenerateTrainDatabaseCommand extends Command
@@ -29,6 +30,7 @@ class GenerateTrainDatabaseCommand extends Command
         $this->addArgument('fileName', InputArgument::REQUIRED, 'File name to import in directory /resources/');
         $this->addArgument('count', InputArgument::OPTIONAL, 'Number of rows to generate');
         $this->addArgument('from', InputArgument::OPTIONAL, 'Number of id to generate from');
+        $this->addOption('city', 'c', InputOption::VALUE_OPTIONAL, 'City to generate export');
     }
 
     public function execute(InputInterface $input, OutputInterface $output)
@@ -36,8 +38,11 @@ class GenerateTrainDatabaseCommand extends Command
         $fileName = $input->getArgument('fileName');
         $count = (int) $input->getArgument('count');
         $from = (int) $input->getArgument('from');
+        $city = $input->getOption('city');
 
-        if ($count !== 0) {
+        if ($city !== null) {
+            $this->generateTrainDatabaseService->generateCityCsv($fileName, $city);
+        } else if ($count !== 0) {
             $this->generateTrainDatabaseService->generateCustomCsv($fileName, $count, $from);
         } else {
             $this->generateTrainDatabaseService->generateCsv();

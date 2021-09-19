@@ -1,4 +1,29 @@
+# Step 1 - Read warehousePackagesDB.csv
+# Step 2 - Build Test Sets
+# Step 3 - Create Filter methods datasets
+# Step 4 - Building vocabulary datasets
+# Step 5 - Save vocabulary dataset
+# Step 6 - Create encoder
+# Step 7 - Create encoder function
+# Step 8 - Create encoder mapping function
+# Step 9 - Create training model
+# Step 10 - Create testing model
+# Step 11 - Declare model
+# Step 12 - Compile, train model
+# Step 13 - Save model
+# Step 14 - Prediction - śląskie
+# Step 15 - Prediction for City1 - śląskie - Częstochowa
+# Step 16 - Prediction for City2 - śląskie - Katowice
+# Step 17 - Prediction for City3 - śląskie - Bielsko-Biała
+# Step 18 - Prediction for City4 - śląskie - Rybnik
+# Step 19 - Prediction for City5 - śląskie - Gliwice
+# Step 20 - Prediction for City6 - śląskie - Sosnowiec
+# Step 21 - Prediction for City7 - śląskie - Dąbrowa Górnicza
+# Step 22 - Prediction for City8 - śląskie - Jaworzno
+# Step 23 - Prediction for City9 - śląskie - Zabrze
+# Step 24 - Prediction for City10 - śląskie - Ruda Śląska
 import os
+import sys
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 import tensorflow as tf
@@ -162,29 +187,171 @@ model.compile(
     metrics=["accuracy"],
 )
 
-model.fit(ds_train, epochs=15, verbose=2)
+model.fit(ds_train, epochs=30, verbose=2)
 model.evaluate(ds_test)
 
-### Workaround with predicition
-import sys
+### Prediction - śląskie
+f = open("../resources/Prediction/śląskie.csv", "a")
 
-ds_predict = tf.data.TextLineDataset("../resources/driverHistory_2.csv").skip(1).filter(filter_test)
-
-# print(ds_predict)
-# sys.exit()
-
+### Prediction for City1 - śląskie - Częstochowa
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Częstochowa.csv").skip(1).filter(filter_test)
 ds_predict = ds_predict.map(encode_map_fn)
 ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
 
 predictions = model.predict(ds_predict)
-
-print(predictions)
 prob = tf.nn.sigmoid(predictions[0])
 
 print(
-    "This particular pet had a %.1f percent probability "
-    "of getting adopted." % (100 * prob)
+    "This particular city Częstochowa had a %.1f percent probability " % (100 * prob)
 )
+f.write("Częstochowa, %.1f\n" % (100 * prob))
+
+### Prediction for City2 - śląskie - Katowice
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Katowice had a %.1f percent probability " % (100 * prob)
+)
+f.write("Katowice, %.1f\n" % (100 * prob))
+
+### Prediction for City3 - śląskie - Bielsko-Biała
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Bielsko-Biała had a %.1f percent probability " % (100 * prob)
+)
+f.write("Bielsko-Biała, %.1f\n" % (100 * prob))
+
+### Prediction for City4 - śląskie - Rybnik
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Rybnik had a %.1f percent probability " % (100 * prob)
+)
+f.write("Rybnik, %.1f\n" % (100 * prob))
+
+### Prediction for City5 - śląskie - Gliwice
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Gliwice had a %.1f percent probability " % (100 * prob)
+)
+f.write("Gliwice, %.1f\n" % (100 * prob))
+
+### Prediction for City6 - śląskie - Sosnowiec
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Sosnowiec had a %.1f percent probability " % (100 * prob)
+)
+f.write("Sosnowiec, %.1f\n" % (100 * prob))
+
+### Prediction for City7 - śląskie - Dąbrowa Górnicza
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Dąbrowa Górnicza had a %.1f percent probability " % (100 * prob)
+)
+f.write("Dąbrowa Górnicza, %.1f\n" % (100 * prob))
+
+### Prediction for City8 - śląskie - Jaworzno
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Jaworzno had a %.1f percent probability " % (100 * prob)
+)
+f.write("Jaworzno, %.1f\n" % (100 * prob))
+
+### Prediction for City9 - śląskie - Zabrze
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Zabrze had a %.1f percent probability " % (100 * prob)
+)
+f.write("Zabrze, %.1f\n" % (100 * prob))
+
+### Prediction for City10 - śląskie - Ruda Śląska
+ds_predict = tf.data.TextLineDataset("../resources/Prediction/śląskie/Katowice.csv").skip(1).filter(filter_test)
+ds_predict = ds_predict.map(encode_map_fn)
+ds_predict = ds_predict.padded_batch(32, padded_shapes=([None], ()))
+
+predictions = model.predict(ds_predict)
+prob = tf.nn.sigmoid(predictions[0])
+
+print(
+    "This particular city Ruda Śląska had a %.1f percent probability " % (100 * prob)
+)
+f.write("Ruda Śląska, %.1f\n" % (100 * prob))
+
+f.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # for predict_line in ds_predict:
 #     split_line = tf.strings.split(predict_line, ",", maxsplit=4)

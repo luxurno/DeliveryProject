@@ -6,14 +6,14 @@ namespace App\Bundle\ImportDelivery\Generator\Handler;
 
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
 use App\Bundle\ImportDelivery\Generator\Command\UpdateImportDeliveryCommand;
-use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\EntityManagerInterface;
 
 class UpdateImportDeliveryHandler
 {
-    /** @var EntityManager */
+    /** @var EntityManagerInterface */
     private $em;
 
-    public function __construct(EntityManager $em)
+    public function __construct(EntityManagerInterface $em)
     {
         $this->em = $em;
     }

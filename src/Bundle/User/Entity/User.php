@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace App\Bundle\User\Entity;
 
 use App\Bundle\Import\Entity\Import;
-use App\Entity\Driver;
+use App\Bundle\Driver\Entity\Driver;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -22,7 +22,7 @@ class User
      */
     private $id;
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Driver", mappedBy="driver", cascade={"persist"})
+     * @ORM\OneToMany(targetEntity="App\Bundle\Driver\Entity\Driver", mappedBy="driver", cascade={"persist"})
      */
     protected $drivers;
     /**

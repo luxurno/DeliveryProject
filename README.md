@@ -22,3 +22,20 @@ https://www.youtube.com/watch?v=NoKvCREx36Q
 docker-compose exec tensorflow bash
 ##### Run training model
 cd /var/www/models && python example.py
+
+### TOP 10 Cities in Slask
+### Query
+SELECT COUNT(*) as `ilosc`, `city` FROM `total_address` GROUP BY `city` ORDER BY `ilosc` DESC
+
+------ count | city ---------------
+|      32621 | Częstochowa        |
+|      26613 | Katowice           |
+|      26356 | Bielsko-Biała      |
+|      22589 | Rybnik             |
+|      19145 | Gliwice            |
+|      16183 | Sosnowiec          |
+|      15374 | Dąbrowa Górnicza   |
+|      14696 | Jaworzno           |
+|      14636 | Zabrze             |
+|      12468 | RUDA ŚLĄSKA        |
+-----------------------------------

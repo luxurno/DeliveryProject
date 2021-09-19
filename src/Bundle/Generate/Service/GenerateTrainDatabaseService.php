@@ -15,7 +15,7 @@ ini_set('memory_limit', '2GB');
 class GenerateTrainDatabaseService
 {
     private const FILE_NAME = 'addressDb.csv';
-    private const LOCATION = __DIR__ . '/../../../../ml/resources/';
+    private const LOCATION = __DIR__ . '/../../../../ml/resources/Prediction/';
     private const TYPES = ['test', 'train', 'train', 'train'];
     private const HEADERS = ['index', 'type', 'label', 'file', 'review'];
     private const LABELS = ['neg', 'pos', 'neg', 'pos'];
@@ -55,6 +55,27 @@ class GenerateTrainDatabaseService
                 'type' => $type,
                 'label' => $label,
                 'file' => $totalAddress->getHash() ?? '',
+                'review' => GenerateTrainDatabaseAddressParser::getAddress($totalAddress),
+            ];
+            fputcsv($fp, $addressDbRow);
+        }
+        fclose($fp);
+    }
+
+    public function generateCityCsv(string $fileName, string $city): void
+    {
+        $fp = fopen(self::LOCATION . $fileName, 'w+');
+        fputcsv($fp, self::HEADERS);
+
+        /** @var TotalAddress[] $totalAddresses */
+        $totalAddresses = $this->totalAddressRepository->findBy(['city' => $city]);
+
+        foreach ($totalAddresses as $totalAddress) {
+            $addressDbRow = [
+                'index' =>  $totalAddress->getId(),
+                'type' => self::TYPES[0],
+                'label' => self::LABELS[1],
+                'file' => $totalAddress->getHash() ?: '',
                 'review' => GenerateTrainDatabaseAddressParser::getAddress($totalAddress),
             ];
             fputcsv($fp, $addressDbRow);

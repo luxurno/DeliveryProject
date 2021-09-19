@@ -5,6 +5,7 @@ declare(strict_types = 1);
 namespace App\Bundle\ImportDelivery\Entity;
 
 use App\Bundle\Import\Entity\Import;
+use App\Bundle\Route\Entity\Route;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\UniqueConstraint;
@@ -96,6 +97,11 @@ class ImportDelivery
      * @ORM\JoinColumn(name="import_id", referencedColumnName="id")
      */
     protected $import;
+    /**
+     * @ORM\OneToOne(targetEntity="App\Bundle\Route\Entity\Route", inversedBy="importDeliveries", cascade={"persist"})
+     * @ORM\JoinColumn(name="route_id", referencedColumnName="id")
+     */
+    protected $route;
 
     /**
      * @ORM\PrePersist
@@ -117,6 +123,11 @@ class ImportDelivery
     public function setImport(Import $import): void
     {
         $this->import = $import;
+    }
+
+    public function setRoute(Route $route): void
+    {
+        $this->route = $route;
     }
 
     public function getId()
