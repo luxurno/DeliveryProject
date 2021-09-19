@@ -38,14 +38,14 @@ class PerceptionController extends AbstractController
                 throw new MissingResultsException('Empty results');
             }
 
-            $this->perceptionService->savePerception($perceptionData['perception']);
+            $perception = $this->perceptionService->savePerception($perceptionData['perception']);
+            $response->setContent(json_encode($perception));
             $response->setStatusCode(Response::HTTP_OK);
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (Throwable $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
-//        catch (Throwable $e) {
-//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
-//        }
 
         return $response;
     }

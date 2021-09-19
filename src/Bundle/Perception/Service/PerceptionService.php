@@ -6,9 +6,11 @@ namespace App\Bundle\Perception\Service;
 
 use App\Bundle\Driver\Repository\DriverRepository;
 use App\Bundle\Perception\DTO\PerceptionDTO;
+use App\Bundle\Perception\Entity\Perception;
 use App\Bundle\Perception\Factory\PerceptionFactory;
 use App\Bundle\Perception\Formatter\PerceptionAddressFormatter;
 use App\Bundle\Perception\Producer\PerceptionProducer;
+use App\Bundle\Perception\Repository\PerceptionRepository;
 use App\Bundle\User\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
@@ -23,21 +25,25 @@ class PerceptionService
     private $perceptionFactory;
     /** @var PerceptionProducer */
     private $perceptionProducer;
+    /** @var PerceptionRepository */
+    private $perceptionRepository;
 
     public function __construct(
         EntityManagerInterface $entityManager,
         UserRepository $userRepository,
         PerceptionFactory $perceptionFactory,
-        PerceptionProducer $perceptionProducer
+        PerceptionProducer $perceptionProducer,
+        PerceptionRepository $perceptionRepository
     )
     {
         $this->entityManager = $entityManager;
         $this->userRepository = $userRepository;
         $this->perceptionFactory = $perceptionFactory;
         $this->perceptionProducer = $perceptionProducer;
+        $this->perceptionRepository = $perceptionRepository;
     }
 
-    public function savePerception(array $data): void
+    public function savePerception(array $data): Perception
     {
         $perceptionDTO = PerceptionDTO::create($data);
 
@@ -68,5 +74,9 @@ class PerceptionService
 
         $this->entityManager->persist($perception);
         $this->entityManager->flush();
+
+        $perception = $this->perceptionRepository->findOneBy(['formatted' => $perceptionDTO->getFormatted()]);
+
+        return $perception;
     }
 }

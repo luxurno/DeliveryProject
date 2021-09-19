@@ -9,12 +9,13 @@ use App\Bundle\User\Entity\User;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\UniqueConstraint;
+use JsonSerializable;
 
 /**
  * @ORM\Table(name="perception")
  * @ORM\Entity(repositoryClass="App\Bundle\Route\Repository\RouteRepository")
  */
-class Perception
+class Perception implements JsonSerializable
 {
     /**
      * @ORM\Id()
@@ -259,5 +260,12 @@ class Perception
     public function setCreatedAt(?DateTime $createdAt): void
     {
         $this->createdAt = $createdAt;
+    }
+
+    public function jsonSerialize(): array
+    {
+        return [
+            'id' => $this->id,
+        ];
     }
 }
