@@ -14,12 +14,16 @@ export default class SendingPerceptionForm extends Component {
         super(props);
 
         this.state = {
+            country: "",
+            voivodeship: "",
             postal: "",
             city: "",
             street: "",
             number: "",
             capacity: "",
             weight: "",
+            invalidCountry: true,
+            invalidVoivodeship: true,
             invalidPostal: true,
             invalidCity: true,
             invalidStreet: true,
@@ -41,7 +45,7 @@ export default class SendingPerceptionForm extends Component {
     }
 
     handleReceiptOrder(event: KeyboardEvent) {
-        const { postal, city, street, number, capacity, weight } = this.state;
+        const { country, voivodeship, postal, city, street, number, capacity, weight } = this.state;
 
         const { name } = this.props.data;
         let id = this.driverNameFilter$.getDriverId(name);
@@ -51,6 +55,8 @@ export default class SendingPerceptionForm extends Component {
                 process.env.APP_DOMAIN + '/api/perception',
                 {
                     perception: {
+                        country: country,
+                        voivodeship: voivodeship,
                         userId: id,
                         postal: postal,
                         city: city,
@@ -87,6 +93,20 @@ export default class SendingPerceptionForm extends Component {
         let value = event.target.value;
 
         switch(event.target.name) {
+            case "country":
+                if (value.length >= 3) {
+                    this.setState({invalidCountry: false});
+                } else {
+                    this.setState({invalidCountry: true});
+                }
+                break;
+            case "voivodeship":
+                if (value.length >= 3) {
+                    this.setState({invalidVoivodeship: false});
+                } else {
+                    this.setState({invalidVoivodeship: true});
+                }
+                break;
             case "postal":
                 if (/^[0-9]{2}-[0-9]{3}$/.test(value)) {
                     this.setState({invalidPostal: false});
@@ -154,6 +174,30 @@ export default class SendingPerceptionForm extends Component {
                         "modules-header-text-form wysylanie-odbioru-name " +
                         "wysylanie-odbioru-row"}>
                             <span>Zlecenie nowego odbioru</span>
+                        </div>
+                        <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
+                            <div className={"col text-center blue-outline-box"}>
+                                <label><span>Kraj *</span></label>
+                                <input
+                                    type={"text"}
+                                    name={"country"}
+                                    value={this.state.country}
+                                    placeholder={"np. Polska"}
+                                    onChange={this.handleChange}
+                                />
+                                <label style={{display: this.state.invalidCountry ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
+                            </div>
+                            <div className={"col text-center blue-outline-box"}>
+                                <label><span>Województwo *</span></label>
+                                <input
+                                    type={"text"}
+                                    name={"voivodeship"}
+                                    value={this.state.voivodeship}
+                                    placeholder={"np. Śląskie"}
+                                    onChange={this.handleChange}
+                                />
+                                <label style={{display: this.state.invalidVoivodeship ? 'block' : 'none' }}>Wprowadzono niepoprawną wartość.</label>
+                            </div>
                         </div>
                         <div className={"row margin-0 vertical-center wysylanie-odbioru-row"}>
                             <div className={"col text-center blue-outline-box"}>
@@ -231,6 +275,8 @@ export default class SendingPerceptionForm extends Component {
                             <div className={"col text-center customize-button"}>
                                 <button
                                     disabled={
+                                        this.state.invalidCountry ||
+                                        this.state.invalidVoivodeship ||
                                         this.state.invalidPostal ||
                                         this.state.invalidCity ||
                                         this.state.invalidStreet ||
