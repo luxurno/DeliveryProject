@@ -1,34 +1,33 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
-namespace App\Bundle\ImportDelivery\Producer;
+namespace App\Bundle\Perception\Producer;
 
-use App\Bundle\ImportDelivery\DTO\ImportDeliveryDTO;
-use App\Bundle\ImportDelivery\Producer\Builder\TopicImportDeliveryDTOBuilder;
+use App\Bundle\Perception\DTO\PerceptionDTO;
+use App\Bundle\Perception\Producer\Builder\TopicPerceptionDTOBuilder;
 use App\Core\Rabbit\RabbitClient;
 use Throwable;
 
-class ImportDeliveryProducer
+class PerceptionProducer
 {
     /** @var RabbitClient */
     private $rabbitClient;
-    /** @var TopicImportDeliveryDTOBuilder */
-    private $topicImportDeliveryDTOBuilder;
+    /** @var TopicPerceptionDTOBuilder */
+    private $topicPerceptionDTOBuilder;
 
     public function __construct(
         RabbitClient $rabbitClient,
-        TopicImportDeliveryDTOBuilder $topicImportDeliveryDTOBuilder
-    )
-    {
+        TopicPerceptionDTOBuilder $topicPerceptionDTOBuilder
+    ) {
         $this->rabbitClient = $rabbitClient;
-        $this->topicImportDeliveryDTOBuilder = $topicImportDeliveryDTOBuilder;
+        $this->topicPerceptionDTOBuilder = $topicPerceptionDTOBuilder;
     }
 
-    public function addQueue(ImportDeliveryDTO $importDeliveryDTO, int $importNumber): void
+    public function addQueue(PerceptionDTO $perceptionDTO): void
     {
         try {
-            $topic = $this->topicImportDeliveryDTOBuilder->build($importDeliveryDTO, $importNumber);
+            $topic = $this->topicPerceptionDTOBuilder->build($perceptionDTO);
             $connection = $this->rabbitClient->getConnection();
             $channel = $connection->channel();
 

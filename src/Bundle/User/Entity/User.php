@@ -6,6 +6,7 @@ namespace App\Bundle\User\Entity;
 
 use App\Bundle\Import\Entity\Import;
 use App\Bundle\Driver\Entity\Driver;
+use App\Bundle\Perception\Entity\Perception;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -21,10 +22,6 @@ class User
      * @ORM\Column(type="integer")
      */
     private $id;
-    /**
-     * @ORM\OneToMany(targetEntity="App\Bundle\Driver\Entity\Driver", mappedBy="driver", cascade={"persist"})
-     */
-    protected $drivers;
     /**
      * @ORM\Column(type="string", columnDefinition="ENUM('admin', 'forwarder')")
      */
@@ -46,9 +43,17 @@ class User
      */
     private $lastName;
     /**
+     * @ORM\OneToMany(targetEntity="App\Bundle\Driver\Entity\Driver", mappedBy="driver", cascade={"persist"})
+     */
+    protected $drivers;
+    /**
      * @ORM\OneToMany(targetEntity="App\Bundle\Import\Entity\Import", mappedBy="user", cascade={"persist"})
      */
     protected $imports;
+    /**
+     * @ORM\OneToMany(targetEntity="App\Bundle\Perception\Entity\Perception", mappedBy="user", cascade={"persist", "remove"})
+     */
+    protected $perceptions;
     /**
      * @var DateTime $updated
      *
@@ -66,6 +71,7 @@ class User
     {
         $this->drivers = new ArrayCollection();
         $this->imports = new ArrayCollection();
+        $this->perceptions = new ArrayCollection();
     }
 
     /**
@@ -92,6 +98,14 @@ class User
     {
         $this->drivers->add($driver);
         $driver->setUser($this);
+
+        return $this;
+    }
+
+    public function addPerception(Perception $perception): self
+    {
+        $this->perceptions->add($perception);
+        $perception->setUser($this);
 
         return $this;
     }

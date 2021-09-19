@@ -5,8 +5,8 @@ declare(strict_types = 1);
 namespace App\Bundle\ImportDelivery\Command;
 
 use App\Bundle\ImportDelivery\Consumer\ImportDeliveryCoordinatesConsumer;
-use App\Bundle\ImportDelivery\Enum\QueueDeclareEnum;
-use App\Bundle\ImportDelivery\Provider\QueueNumberProvider;
+use App\Core\Enum\QueueDeclareEnum;
+use App\Core\Provider\QueueNumberProvider;
 use Assert\InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\ImportDelivery\Producer\Builder\Topic;
+namespace App\Core\Producer\Topic;
 
 use PhpAmqpLib\Message\AMQPMessage;
 
-class ImportDeliveryTopic
+class QueueTopic
 {
     /** @var string */
     private $topicName;

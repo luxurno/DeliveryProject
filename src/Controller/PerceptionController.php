@@ -27,26 +27,24 @@ class PerceptionController extends AbstractController
      * @Route("/api/perception", name="perception-save", methods={"POST"})
      * @param Request $request
      * @return Response
-     * @throws MissingResultsException
      */
     public function savePerception(Request $request): Response
     {
         $perceptionData = json_decode($request->getContent(), true);
 
-        if ($perceptionData['perception'] === []) {
-            throw new MissingResultsException('Empty results');
-        }
-
         $response = new Response();
         try {
+            if ([] === $perceptionData['perception']) {
+                throw new MissingResultsException('Empty results');
+            }
+
             $this->perceptionService->savePerception($perceptionData['perception']);
+            $response->setStatusCode(Response::HTTP_OK);
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
         } catch (Throwable $e) {
             $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
-        $response->headers->set('Content-Type', 'application/json');
-        $response->setContent(json_encode(['id' => 1]));
 
         return $response;
     }

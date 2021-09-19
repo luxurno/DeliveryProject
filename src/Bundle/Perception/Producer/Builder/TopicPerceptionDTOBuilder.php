@@ -1,17 +1,17 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
-namespace App\Bundle\ImportDelivery\Producer\Builder;
+namespace App\Bundle\Perception\Producer\Builder;
 
-use App\Bundle\ImportDelivery\DTO\ImportDeliveryDTO;
+use App\Bundle\Perception\DTO\PerceptionDTO;
 use App\Core\Enum\QueueDeclareEnum;
 use App\Core\Producer\Topic\QueueTopic;
 use App\Core\Provider\QueueNumberProvider;
 use App\Core\Transformer\QueueMessageTransformer;
 use PhpAmqpLib\Message\AMQPMessage;
 
-class TopicImportDeliveryDTOBuilder
+class TopicPerceptionDTOBuilder
 {
     /** @var QueueMessageTransformer */
     private $queueMessageTransformer;
@@ -27,14 +27,14 @@ class TopicImportDeliveryDTOBuilder
         $this->queueNumberProvider = $queueNumberProvider;
     }
 
-    public function build(ImportDeliveryDTO $importDeliveryDTO, int $importNumber): QueueTopic
+    public function build(PerceptionDTO $perceptionDTO): QueueTopic
     {
         $topicName = sprintf(
-            QueueDeclareEnum::IMPORT_DELIVERY_COORDINATES_UPDATE,
-            $this->queueNumberProvider->provideTopicNumber($importNumber)
+            QueueDeclareEnum::PERCEPTION_COORDINATES_UPDATE,
+            $this->queueNumberProvider->provideTopicNumber(1)
         );
         $topicContent = new AMQPMessage(
-            $this->queueMessageTransformer->transformToQueueMessage($importDeliveryDTO)
+            $this->queueMessageTransformer->transformToQueueMessage($perceptionDTO)
         );
 
         return new QueueTopic($topicName, $topicContent);

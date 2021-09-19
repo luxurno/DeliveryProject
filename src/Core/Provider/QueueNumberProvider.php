@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace App\Bundle\ImportDelivery\Provider;
+namespace App\Core\Provider;
 
 use App\Core\Rabbit\Config\RabbitConfig;
 

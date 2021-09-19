@@ -4,8 +4,10 @@ declare(strict_types = 1);
 
 namespace App\Bundle\Driver\Entity;
 
+use App\Bundle\Perception\Entity\Perception;
 use App\Bundle\Route\Entity\Route;
 use App\Bundle\User\Entity\User;
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use JsonSerializable;
 
@@ -58,6 +60,21 @@ class Driver implements JsonSerializable
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
     protected $user;
+    /**
+     * @ORM\OneToMany(targetEntity="App\Bundle\Perception\Entity\Perception", mappedBy="driver", cascade={"persist", "remove"})
+     */
+    protected $perceptions;
+
+    public function __construct()
+    {
+        $this->perceptions = new ArrayCollection();
+    }
+
+    public function setPerceptions(Perception $perception): void
+    {
+        $this->perceptions->add($perception);
+        $perception->setDriver($this);
+    }
 
     public function getUser(): User
     {

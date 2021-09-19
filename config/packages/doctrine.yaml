@@ -42,16 +42,22 @@ doctrine:
                 type: annotation
                 dir: '%kernel.project_dir%/src/Bundle/User/Entity'
                 prefix: 'App\Bundle\User\Entity'
-                alias: App\Bundle\User`
+                alias: App\Bundle\User
+            App\Bundle\Perception:
+                is_bundle: false
+                type: annotation
+                dir: '%kernel.project_dir%/src/Bundle/Perception/Entity'
+                prefix: 'App\Bundle\Perception\Entity'
+                alias: App\Bundle\Perception
             App\Bundle\Route:
                 is_bundle: false
                 type: annotation
                 dir: '%kernel.project_dir%/src/Bundle/Route/Entity'
                 prefix: 'App\Bundle\Route\Entity'
-                alias: App\Bundle\Route`
+                alias: App\Bundle\Route
             App\Bundle\TopCity:
                 is_bundle: false
                 type: annotation
                 dir: '%kernel.project_dir%/src/Bundle/TopCities/Entity'
                 prefix: 'App\Bundle\TopCities\Entity'
-                alias: App\Bundle\TopCity`
+                alias: App\Bundle\TopCity

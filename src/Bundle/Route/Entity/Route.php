@@ -4,7 +4,6 @@ declare(strict_types = 1);
 
 namespace App\Bundle\Route\Entity;
 
-use App\Bundle\Driver\Entity\Driver;
 use App\Bundle\Import\Entity\Import;
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
 use DateTime;
@@ -42,8 +41,6 @@ class Route
         if ($this->getCreatedAt() === null) {
             $this->setCreatedAt($dateTime);
         }
-        $this->imports = new ArrayCollection();
-        $this->drivers = new ArrayCollection();
     }
 
     public function setImportDelivery(ImportDelivery $importDelivery): void
@@ -55,12 +52,6 @@ class Route
     public function getImportDelivery(): ImportDelivery
     {
         return $this->importDelivery;
-    }
-
-    public function setImports(Import $import): void
-    {
-        $this->imports->add($import);
-        $import->setRoute($this);
     }
 
     public function getId()
