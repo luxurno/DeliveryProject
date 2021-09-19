@@ -48,7 +48,7 @@ export default class SendingPerceptionForm extends Component {
 
         axios
             .post(
-                process.env.APP_DOMAIN + '/api/perception/save',
+                process.env.APP_DOMAIN + '/api/perception',
                 {
                     perception: {
                         userId: id,

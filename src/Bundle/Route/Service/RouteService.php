@@ -5,11 +5,10 @@ declare(strict_types=1);
 namespace App\Bundle\Route\Service;
 
 use App\Bundle\Driver\Enum\DriverAvailable;
-use App\Bundle\Driver\Repository\DriverRepository;
 use App\Bundle\Driver\Service\DriverService;
 use App\Bundle\Import\Repository\ImportRepository;
 use App\Bundle\ImportDelivery\Provider\ImportDeliveryProvider;
-use App\Bundle\Perception\Service\PerceptionService;
+use App\Bundle\Prediction\Service\PredictionService;
 use App\Bundle\Route\Assigner\RouteAssigner;
 use App\Bundle\Route\Calculator\DriverCapacityCalculator;
 use App\Bundle\Route\Capacity\DriverCapacity;
@@ -27,8 +26,8 @@ class RouteService
     private $importDeliveryProvider;
     /** @var ImportRepository */
     private $importRepository;
-    /** @var PerceptionService */
-    private $perceptionService;
+    /** @var PredictionService */
+    private $predictionService;
     /** @var RouteAssigner */
     private $routeAssigner;
     /** @var TopCityRepository */
@@ -39,7 +38,7 @@ class RouteService
         DriverService $driverService,
         ImportDeliveryProvider $importDeliveryProvider,
         ImportRepository $importRepository,
-        PerceptionService $perceptionService,
+        PredictionService $predictionService,
         RouteAssigner $routeAssigner,
         TopCityRepository $topCityRepository
     )
@@ -48,7 +47,7 @@ class RouteService
         $this->driverService = $driverService;
         $this->importDeliveryProvider = $importDeliveryProvider;
         $this->importRepository = $importRepository;
-        $this->perceptionService = $perceptionService;
+        $this->predictionService = $predictionService;
         $this->routeAssigner = $routeAssigner;
         $this->topCityRepository = $topCityRepository;
     }
@@ -60,7 +59,7 @@ class RouteService
         if (null === $driver) {
             throw new NotFoundHttpException();
         }
-        $city = $this->perceptionService->getPerceptionCity($voivodeship);
+        $city = $this->predictionService->getPerceptionCity($voivodeship);
 
         $topCity = $this->topCityRepository->findOneBy([
             'city' => $city,

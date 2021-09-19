@@ -24,7 +24,7 @@ class PerceptionController extends AbstractController
     }
 
     /**
-     * @Route("/api/perception/save", name="perception-save")
+     * @Route("/api/perception", name="perception-save", methods={"POST"})
      * @param Request $request
      * @return Response
      * @throws MissingResultsException
