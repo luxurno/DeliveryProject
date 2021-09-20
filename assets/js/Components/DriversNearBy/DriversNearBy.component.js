@@ -26,10 +26,12 @@ export default class DriversNearByComponent extends Component {
         });
     }
 
-    componentDidMount() {
-        this.getListDrivers().then(r => {
-            this.props.driversNearByListCallback(this.state);
-        });
+    componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS) {
+        if (prevProps.perceptionId !== this.props.perceptionId) {
+            this.getListDrivers().then(r => {
+                this.props.driversNearByListCallback(this.state);
+            });
+        }
     }
 
     callbackPerception = (dataFromChild) => {
@@ -45,7 +47,7 @@ export default class DriversNearByComponent extends Component {
 
         html.push(<NearByPerceptionBlock
             key={0}
-            perceptionId={this.storageService$.getSendingPerceptionId()}
+            perceptionId={this.props.perceptionId}
             callbackPerception={this.callbackPerception}
         />);
         for( let i=0; i < list.length; i++) {

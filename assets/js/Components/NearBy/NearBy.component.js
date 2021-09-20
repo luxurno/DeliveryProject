@@ -16,9 +16,11 @@ export default class NearByComponent extends Component {
     }
 
     driversNearByListCallback = (dataFromChild) => {
-        this.setState({
-            list: dataFromChild.list,
-        })
+        if (this.state.length !== dataFromChild.list.length) {
+            this.setState({
+                list: dataFromChild.list,
+            })
+        }
     };
 
     nearByPerceptionCallback = (dataFromChild) => {
@@ -43,6 +45,7 @@ export default class NearByComponent extends Component {
                     <div className={"podglad-trasy-kierowcy-list"} style={listaKierowcyStyles}>
                         <DriversNearByComponent
                             data={this.state}
+                            perceptionId={this.props.data.id}
                             driversNearByListCallback={this.driversNearByListCallback}
                             nearByPerceptionCallback={this.nearByPerceptionCallback}
                         />

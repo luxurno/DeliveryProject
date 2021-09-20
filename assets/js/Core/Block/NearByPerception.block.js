@@ -12,16 +12,18 @@ export default class NearByPerceptionBlock extends Component {
     }
 
     async getPerceptionData() {
-        await axios.get(process.env.APP_DOMAIN + '/api/perception?id=' + this.props.perceptionId).then(res => {
+        await axios.get(process.env.APP_DOMAIN + '/api/perception/' + this.props.perceptionId).then(res => {
             const perception = res.data;
             this.setState({ perception: perception });
         });
     }
 
-    componentDidMount() {
-        this.getPerceptionData().then(r => {
-            this.props.callbackPerception(this.state);
-        });
+    componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS) {
+        if (prevProps.perceptionId !== this.props.perceptionId) {
+            this.getPerceptionData().then(r => {
+                this.props.callbackPerception(this.state);
+            });
+        }
     }
 
     render() {

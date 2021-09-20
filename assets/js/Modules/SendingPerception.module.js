@@ -7,6 +7,7 @@ export default class SendingPerception extends Component {
         super(props);
 
         this.state = {
+            id: null,
             name: "",
             showNearBy: false,
         };
@@ -14,7 +15,8 @@ export default class SendingPerception extends Component {
 
     moduleShowNearByCallback = (showNearBy) => {
         this.setState({
-            showNearBy: showNearBy,
+            id: showNearBy.id,
+            showNearBy: showNearBy.showNearBy,
         });
     };
 

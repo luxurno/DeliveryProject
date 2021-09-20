@@ -266,6 +266,16 @@ class Perception implements JsonSerializable
     {
         return [
             'id' => $this->id,
+            'country' => $this->country,
+            'voivodeship' => $this->voivodeship,
+            'postal' => $this->postalCode,
+            'city' => $this->city,
+            'street' => $this->street,
+            'number' => $this->number,
+            'capacity' => $this->capacity,
+            'weight' => $this->weight,
+            'lat' => $this->lat,
+            'lng' => $this->lng,
         ];
     }
 }

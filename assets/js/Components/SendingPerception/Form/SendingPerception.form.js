@@ -68,13 +68,18 @@ export default class SendingPerceptionForm extends Component {
             )
             .then(response => {
                 if (response.status === 200) {
-                    this.storageService$.setSendingPerceptionId(Number.parseInt(response.data.id));
-                    this.props.showNearByCallback(true);
+                    this.props.showNearByCallback({
+                        id: Number.parseInt(response.data.id),
+                        showNearBy: true,
+                    });
                 }
             })
             .catch(error => {
                 console.log('TODO ERROR');
-                this.props.showNearByCallback(false);
+                this.props.showNearByCallback({
+                    id: null,
+                    showNearBy: false,
+                });
                 //this.state.validateErrorMessage = "Taki kierowca nie istnieje";
             });
         event.preventDefault();

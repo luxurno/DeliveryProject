@@ -43,6 +43,11 @@ class PerceptionService
         $this->perceptionRepository = $perceptionRepository;
     }
 
+    public function getPerception(int $perceptionId): ?Perception
+    {
+        return $this->perceptionRepository->findOneBy(['id' => $perceptionId]);
+    }
+
     public function savePerception(array $data): Perception
     {
         $perceptionDTO = PerceptionDTO::create($data);

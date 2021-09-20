@@ -10,6 +10,7 @@ use App\Bundle\User\Exception\UserNotFound;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 use Throwable;
 
@@ -51,27 +52,32 @@ class PerceptionController extends AbstractController
     }
 
     /**
-     * @Route("/api/perception", methods={"GET"})
+     * @Route("/api/perception/{id}", methods={"GET"})
      * @param Request $request
      * @return Response
      */
-    public function getPerception(Request $request): Response
+    public function getPerception(Request $request, $id): Response
     {
-        $perception = [
-            'id' => 1,
-            'postal' => '41-200',
-            'city' => 'Sosnowiec',
-            'street' => 'Paderewskiego',
-            'number' => '38',
-            'capacity' => '1,2',
-            'weight' => '400',
-            'lat' => '50.3737032',
-            'lng' => '19.2121552',
-        ];
-
         $response = new Response();
         $response->headers->set('Content-Type', 'application/json');
-        $response->setContent(json_encode($perception));
+
+        try {
+            if (false === is_numeric($id)) {
+                throw new \Exception();
+            }
+
+            $perception = $this->perceptionService->getPerception((int)$id);
+            if (null === $perception) {
+                throw new NotFoundHttpException();
+            }
+
+            $response->setContent(json_encode($perception));
+            $response->setStatusCode(Response::HTTP_OK);
+        } catch (NotFoundHttpException $e) {
+            $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (\Exception $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+        }
 
         return $response;
     }

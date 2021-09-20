@@ -8,15 +8,17 @@ export default class SendingPerceptionComponent extends Component {
         super(props);
 
         this.state = {
+            id: null,
             showNearBy: false,
         };
     }
 
     showNearByCallback = (showNearBy) => {
         this.setState({
-            showNearBy: showNearBy,
+            id: showNearBy.id,
+            showNearBy: showNearBy.showNearBy,
         });
-        this.props.moduleShowNearByCallback(this.state.showNearBy);
+        this.props.moduleShowNearByCallback(this.state);
     };
 
     render() {
