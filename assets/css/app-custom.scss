@@ -552,3 +552,13 @@ input{
     justify-self: center;
   }
 }
+
+.driver-customize-button {
+  position: absolute;
+  margin-left: 26rem;
+  margin-top: -3.25rem;
+
+  button {
+    width: 5rem;
+  }
+}

@@ -25,7 +25,7 @@ class PerceptionController extends AbstractController
     }
 
     /**
-     * @Route("/api/perception", name="perception-save", methods={"POST"})
+     * @Route("/api/perception", methods={"POST"})
      * @param Request $request
      * @return Response
      */
@@ -45,6 +45,35 @@ class PerceptionController extends AbstractController
         } catch (UserNotFound $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
         } catch (Throwable $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
+        }
+
+        return $response;
+    }
+
+    /**
+     * @Route("/api/perception/{id}", methods={"PUT"})
+     * @param Request $request
+     * @return Response
+     */
+    public function editPerception(Request $request, $id): Response
+    {
+        $driverData = json_decode($request->getContent(), true);
+
+        $response = new Response();
+        try {
+            if (false === is_numeric($id)) {
+                throw new \Exception();
+            }
+            if (null === $driverData['driverId']) {
+                throw new NotFoundHttpException();
+            }
+
+            $this->perceptionService->editPerception((int) $id, (int) $driverData['driverId']);
+            $response->setStatusCode(Response::HTTP_NO_CONTENT);
+        } catch (NotFoundHttpException $e) {
+            $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (\Exception $e) {
             $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
 

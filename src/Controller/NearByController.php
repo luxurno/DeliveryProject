@@ -45,10 +45,9 @@ class NearByController extends AbstractController
             $response->setStatusCode(Response::HTTP_OK);
         } catch (NotFoundHttpException $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (\Throwable $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
-//        catch (\Throwable $e) {
-//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
-//        }
 
         return $response;
     }

@@ -28,6 +28,7 @@ export default class DriversNearByComponent extends Component {
                 await axios.get(process.env.APP_DOMAIN + '/api/near-by?userId=' + userId + '&perceptionId=' + perceptionId).then(res => {
                     const list = res.data;
                     this.setState({ list: list });
+                    this.props.driversNearByListCallback(this.state);
                 })
             ), 1000)
         });
@@ -36,7 +37,7 @@ export default class DriversNearByComponent extends Component {
     componentDidUpdate(prevProps: Readonly<P>, prevState: Readonly<S>, snapshot: SS) {
         if (prevProps.perceptionId !== this.props.perceptionId) {
             this.getListDrivers().then(r => {
-                this.props.driversNearByListCallback(this.state);
+
             });
         }
     }
@@ -60,9 +61,9 @@ export default class DriversNearByComponent extends Component {
         for( let i=0; i < list.length; i++) {
             list[i]['id'] = i;
             if (i%2 === 0) {
-                html.push(<DriverOddsBlock key={i+1} data={list[i]} />);
+                html.push(<DriverOddsBlock key={i+1} data={list[i]} perceptionId={this.props.perceptionId}/>);
             } else {
-                html.push(<DriverEvenBlock key={i+1} data={list[i]} />);
+                html.push(<DriverEvenBlock key={i+1} data={list[i]} perceptionId={this.props.perceptionId}/>);
             }
         }
 

@@ -17,6 +17,8 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class PerceptionService
 {
+    /** @var DriverRepository */
+    private $driverRepository;
     /** @var EntityManagerInterface */
     private $entityManager;
     /** @var UserRepository */
@@ -29,6 +31,7 @@ class PerceptionService
     private $perceptionRepository;
 
     public function __construct(
+        DriverRepository $driverRepository,
         EntityManagerInterface $entityManager,
         UserRepository $userRepository,
         PerceptionFactory $perceptionFactory,
@@ -36,6 +39,7 @@ class PerceptionService
         PerceptionRepository $perceptionRepository
     )
     {
+        $this->driverRepository = $driverRepository;
         $this->entityManager = $entityManager;
         $this->userRepository = $userRepository;
         $this->perceptionFactory = $perceptionFactory;
@@ -46,6 +50,26 @@ class PerceptionService
     public function getPerception(int $perceptionId): ?Perception
     {
         return $this->perceptionRepository->findOneBy(['id' => $perceptionId]);
+    }
+
+    public function editPerception(int $perceptionId, int $driverId): void
+    {
+        $perception = $this->perceptionRepository->findOneBy(['id' => $perceptionId]);
+        if (null === $perception) {
+            throw new NotFoundHttpException();
+        }
+
+        $driver = $this->driverRepository->findOneBy(['id' => $driverId]);
+        if (null === $driver) {
+            throw new NotFoundHttpException();
+        }
+
+        $perception->setDriver($driver);
+        $driver->setPerceptions($perception);
+
+        $this->entityManager->persist($perception);
+        $this->entityManager->persist($driver);
+        $this->entityManager->flush();
     }
 
     public function savePerception(array $data): Perception
