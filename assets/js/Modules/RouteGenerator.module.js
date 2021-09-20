@@ -11,7 +11,7 @@ export default class RouteGenerator extends Component {
         this.state = {
             title: HeadersEnum.ROUTE_GENERATOR,
             button: ButtonEnum.GENERATE,
-            available: true,
+            available: '1',
             name: "",
             showConfig: false
         };

@@ -11,12 +11,12 @@ export default class DriverSearchDatalist extends Component {
         this.state = {
             drivers: null,
             refEl: null,
-            available: false,
+            available: '0',
             disable: false,
         };
 
         if (props.available) {
-            this.state.available = true;
+            this.state.available = '1';
         }
 
         this.handleSearch = this.handleSearch.bind(this);

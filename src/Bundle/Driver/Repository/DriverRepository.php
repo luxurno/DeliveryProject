@@ -21,7 +21,7 @@ class DriverRepository extends ServiceEntityRepository
         parent::__construct($registry, Driver::class);
     }
 
-    public function findDriversByUserIdAndAvailable(int $userId, ?bool $available): array
+    public function findDriversByUserIdAndAvailable(int $userId, ?string $available): array
     {
         $conn = $this->getEntityManager()
             ->getConnection();
@@ -34,7 +34,7 @@ class DriverRepository extends ServiceEntityRepository
 
         if (null !== $available) {
             $sql .= " AND `available` = :available";
-            $criteria['available'] = (int) $available;
+            $criteria['available'] = $available;
         }
 
         $stmt = $conn->prepare($sql);

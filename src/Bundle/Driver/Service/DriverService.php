@@ -52,7 +52,7 @@ class DriverService
         $this->entityManager->flush();
     }
 
-    public function getAllDrivers(int $userId, ?bool $available): array
+    public function getAllDrivers(int $userId, ?string $available): array
     {
         return $this->driverRepository->findDriversByUserIdAndAvailable($userId, $available);
     }
