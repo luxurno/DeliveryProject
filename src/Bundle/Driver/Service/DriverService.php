@@ -47,6 +47,8 @@ class DriverService
         $driver->setCapacity($driverVO->getCapacity());
         $driver->setAdr($driverVO->getAdr());
         $driver->setAvailable(DriverAvailable::AVAILABLE);
+        var_dump('updated');
+        var_dump('one');
 
         $this->entityManager->persist($driver);
         $this->entityManager->flush();

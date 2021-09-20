@@ -51,7 +51,7 @@ class Driver implements JsonSerializable
      */
     private $adr;
     /**
-     * @ORM\Column(name="available", type="integer", columnDefinition="ENUM('0', '1', '2')")
+     * @ORM\Column(name="available", type="string", columnDefinition="ENUM('0', '1', '2')")
      */
     private $available;
 
@@ -166,12 +166,12 @@ class Driver implements JsonSerializable
         $this->adr = $adr;
     }
 
-    public function setAvailable(Int $available): void
+    public function setAvailable(string $available): void
     {
         $this->available = $available;
     }
 
-    public function getAvailable(): int
+    public function getAvailable(): string
     {
         return $this->available;
     }

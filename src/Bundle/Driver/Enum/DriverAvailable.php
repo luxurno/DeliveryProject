@@ -6,7 +6,7 @@ namespace App\Bundle\Driver\Enum;
 
 class DriverAvailable
 {
-    public const NOT_AVAILABLE = 0;
-    public const AVAILABLE = 1;
-    public const ROUTE_AVAILABLE = 2;
+    public const NOT_AVAILABLE = '0';
+    public const AVAILABLE = '1';
+    public const ROUTE_AVAILABLE = '2';
 }
