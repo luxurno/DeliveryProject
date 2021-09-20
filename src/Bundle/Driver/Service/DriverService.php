@@ -79,7 +79,7 @@ class DriverService
         $this->entityManager->flush();
     }
 
-    public function setAvailable(int $driverId, int $available): void
+    public function setAvailable(int $driverId, string $available): void
     {
         $driver = $this->driverRepository->findOneBy(['id' => $driverId]);
 
