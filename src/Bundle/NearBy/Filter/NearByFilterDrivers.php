@@ -12,7 +12,7 @@ class NearByFilterDrivers
     {
         $drivers = [];
         foreach ($nearBys as $nearBy) {
-            if (count($drivers) <= self::DRIVER_LIMIT) {
+            if (count($drivers) < self::DRIVER_LIMIT) {
                 if (!in_array($nearBy['driver_id'], $drivers)) {
                     $drivers[] = $nearBy['driver_id'];
                 }

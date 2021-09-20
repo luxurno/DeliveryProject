@@ -12,9 +12,13 @@ export default class NearByPerceptionBlock extends Component {
     }
 
     async getPerceptionData() {
-        await axios.get(process.env.APP_DOMAIN + '/api/perception/' + this.props.perceptionId).then(res => {
-            const perception = res.data;
-            this.setState({ perception: perception });
+        new Promise((resolve, reject) => {
+            setTimeout(async _ => resolve(
+                await axios.get(process.env.APP_DOMAIN + '/api/perception/' + this.props.perceptionId).then(res => {
+                    const perception = res.data;
+                    this.setState({perception: perception});
+                })
+            ), 1000)
         });
     }
 

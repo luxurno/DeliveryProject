@@ -222,7 +222,7 @@ class Perception implements JsonSerializable
         $this->formatted = $formatted;
     }
 
-    public function getLat(): string
+    public function getLat(): ?string
     {
         return $this->lat;
     }
@@ -232,7 +232,7 @@ class Perception implements JsonSerializable
         $this->lat = $lat;
     }
 
-    public function getLng(): string
+    public function getLng(): ?string
     {
         return $this->lng;
     }

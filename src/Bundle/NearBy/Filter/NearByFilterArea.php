@@ -12,7 +12,7 @@ class NearByFilterArea
     {
         $areas = [];
         foreach ($nearBys as $nearBy) {
-            if (count($areas) <= self::AREA_LIMIT) {
+            if (count($areas) < self::AREA_LIMIT) {
                 if ($driverId === $nearBy['driver_id']) {
                     $area = [
                         'lat' => $nearBy['lat'],
