@@ -28,4 +28,17 @@ class ImportDeliveryProvider
             $longitude
         );
     }
+
+    public function provideNearByLatAndLngWithRoutes(
+        int $importId,
+        string $latitude,
+        string $longitude
+    ): array
+    {
+        return $this->importDeliveryRepository->provideNearByLatAndLngWithRoutes(
+            $importId,
+            $latitude,
+            $longitude
+        );
+    }
 }

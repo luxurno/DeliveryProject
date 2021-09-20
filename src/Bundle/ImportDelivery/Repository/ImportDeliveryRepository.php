@@ -52,4 +52,38 @@ class ImportDeliveryRepository extends ServiceEntityRepository
 
         return $stmt->fetchAll();
     }
+
+    public function provideNearByLatAndLngWithRoutes(
+        int $importId,
+        string $latitude,
+        string $longitude
+    ): array
+    {
+        $conn = $this->getEntityManager()
+            ->getConnection();
+
+        $sql = '
+            SELECT `idt`.`id`, `idt`.`capacity`, `idt`.`weight`, `idt`.`postal_code` as `postal`,
+                   `idt`.`city`, `idt`.`street`, `idt`.`number`, NULL as `house`,
+                   (acos(sin(:latitude) * sin(`lat`) + 
+                    cos(:latitude) * cos(`lat`) * 
+                    cos(`lng` - (:longitude))) * 6371)
+                   as `distance`,
+                   `r`.`driver_id`, `idt`.`lat`, `idt`.`lng`
+            FROM import_delivery as `idt`
+            RIGHT JOIN `route` as `r` ON `r`.`id` = `idt`.`route_id`
+            WHERE `import_id` = :importId
+            ORDER BY `distance` ASC
+            LIMIT 50
+            ';
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([
+            ':latitude' => $latitude,
+            ':longitude' => $longitude,
+            ':importId' => $importId,
+        ]);
+
+        return $stmt->fetchAll();
+    }
 }

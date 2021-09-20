@@ -20,7 +20,10 @@ export default class DriversNearByComponent extends Component {
     }
 
     async getListDrivers() {
-        await axios.get(process.env.APP_DOMAIN + '/api/near-by').then(res => {
+        let userId = this.storageService$.getCurrentUserId();
+        let perceptionId = this.props.perceptionId;
+
+        await axios.get(process.env.APP_DOMAIN + '/api/near-by?userId=' + userId + '&perceptionId=' + perceptionId).then(res => {
             const list = res.data;
             this.setState({ list: list });
         });
