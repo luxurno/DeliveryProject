@@ -98,7 +98,7 @@ class ImportDelivery
      */
     protected $import;
     /**
-     * @ORM\OneToOne(targetEntity="App\Bundle\Route\Entity\Route", inversedBy="importDeliveries", cascade={"persist"})
+     * @ORM\OneToOne(targetEntity="App\Bundle\Route\Entity\Route", inversedBy="importDelivery", cascade={"persist"})
      * @ORM\JoinColumn(name="route_id", referencedColumnName="id")
      */
     protected $route;

@@ -38,7 +38,7 @@ class ImportDeliveryRepository extends ServiceEntityRepository
                     cos(`lng` - (:longitude))) * 6371)
                    as `distance`
             FROM import_delivery as idt
-            WHERE `import_id` = :importId
+            WHERE `import_id` = :importId AND `route_id` IS NULL
             ORDER BY `distance` ASC
             LIMIT 50
             ';
