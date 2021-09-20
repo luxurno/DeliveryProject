@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import RouteLookupMap from "../../Core/Map/Google.map";
-import DriverListComponent from "../DriverList/DriverListComponent";
+import DriverListLookupComponent from "../DriverListLookup/DriverListLookupComponent";
 import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 
 class RouteLookupComponent extends Component {
@@ -54,7 +54,7 @@ class RouteLookupComponent extends Component {
                         <RouteLookupMap data={this.state}/>
                     </div>
                     <div className={"podglad-trasy-kierowcy-list"} style={listaKierowcyStyles}>
-                        <DriverListComponent data={this.state} callbackFromParent={this.handleDriverListCallback}/>
+                        <DriverListLookupComponent data={this.props.data} callbackFromParent={this.handleDriverListCallback}/>
                     </div>
                 </div>
             </div>

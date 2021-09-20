@@ -5,7 +5,7 @@ import {AddressEvenBlock} from "../../Core/Block/AddressEven.block";
 import {DriverNameFilter} from "../../Core/Filter/DriverName.filter";
 import {StorageService} from "../../Core/Service/Storage.service";
 
-export default class DriverListComponent extends Component {
+export default class DriverListLookupComponent extends Component {
     driverNameFilter$: DriverNameFilter = new DriverNameFilter();
     storageService$: StorageService = new StorageService();
 
@@ -23,11 +23,12 @@ export default class DriverListComponent extends Component {
             let id = this.driverNameFilter$.getDriverId(this.props.data.name);
             let userId = this.storageService$.getCurrentUserId();
 
-            axios.get(process.env.APP_DOMAIN + '/api/route/' + id + '?userId=' + userId).then(res => {
+            axios.get(process.env.APP_DOMAIN + '/api/route-lookup/' + id + '?userId=' + userId).then(res => {
                 const list = res.data;
                 this.setState({
                     list: list,
                 })
+                this.props.callbackFromParent(this.state);
             });
         }
     }

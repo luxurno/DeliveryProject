@@ -21,6 +21,32 @@ class ImportDeliveryRepository extends ServiceEntityRepository
         parent::__construct($registry, ImportDelivery::class);
     }
 
+    public function provideNearByDriverId(
+        int $importId,
+        int $driverId
+    ): array
+    {
+        $conn = $this->getEntityManager()
+            ->getConnection();
+
+        $sql = '
+            SELECT `idt`.`id`, `idt`.`capacity`, `idt`.`weight`, `idt`.`postal_code` as `postal`,
+                   `idt`.`city`, `idt`.`street`, `idt`.`number`, NULL as `house`, `idt`.`lat`, `idt`.`lng`
+            FROM import_delivery AS `idt`
+            LEFT JOIN `route` AS `r` ON `r`.`import_delivery_id` = `idt`.`id`
+            WHERE `idt`.`import_id` = :importId AND `r`.`driver_id` = :driverId
+            ORDER BY `r`.`id` ASC
+            ';
+
+        $stmt = $conn->prepare($sql);
+        $stmt->execute([
+            ':driverId' => $driverId,
+            ':importId' => $importId,
+        ]);
+
+        return $stmt->fetchAll();
+    }
+
     public function provideNearByLatAndLng(
         int $importId,
         string $latitude,

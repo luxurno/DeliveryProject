@@ -8,7 +8,7 @@ class RouteGeneratorComponent extends Component {
     }
 
     render() {
-        let { name, showConfig } = this.props.data;
+        let { showConfig } = this.props.data;
         let displayStyle = {};
 
         if (showConfig === false) {

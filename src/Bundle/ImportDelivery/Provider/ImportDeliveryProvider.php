@@ -16,6 +16,17 @@ class ImportDeliveryProvider
         $this->importDeliveryRepository = $importDeliveryRepository;
     }
 
+    public function provideNearByDriverId(
+        int $importId,
+        int $driverId
+    ): array
+    {
+        return $this->importDeliveryRepository->provideNearByDriverId(
+            $importId,
+            $driverId
+        );
+    }
+
     public function provideNearByLatAndLng(
         int $importId,
         string $latitude,

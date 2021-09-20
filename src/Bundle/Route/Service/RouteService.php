@@ -52,6 +52,31 @@ class RouteService
         $this->topCityRepository = $topCityRepository;
     }
 
+    public function generateRouteLookup(int $userId, int $driverId, string $voivodeship = 'śląskie'): array
+    {
+        $driver = $this->driverService->findById($driverId);
+
+        if (null === $driver) {
+            throw new NotFoundHttpException();
+        }
+
+        $import = $this->importRepository->findOneBy([
+            'importDate' => (new \DateTime()),
+//            'userId' => $userId,
+        ]);
+
+        if (null === $import) {
+            throw new NotFoundHttpException();
+        }
+
+        $results = $this->importDeliveryProvider->provideNearByDriverId(
+            $import->getId(),
+            $driverId
+        );
+
+        return $results;
+    }
+
     public function generateRoute(int $userId, int $driverId, string $voivodeship = 'śląskie'): array
     {
         $driver = $this->driverService->findById($driverId);
