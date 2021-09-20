@@ -11,6 +11,7 @@ class RouteLookup extends Component {
         this.state = {
             title: HeadersEnum.DRIVER_SEARCH,
             button: ButtonEnum.SEARCH,
+            available: '2',
             name: "",
             showConfig: false
         };

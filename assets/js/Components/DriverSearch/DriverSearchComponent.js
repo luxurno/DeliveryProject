@@ -30,7 +30,7 @@ export default class DriverSearchComponent extends Component {
 
     availableCallback = async (dataFromChild) => {
         await this.setState({
-            showAvailable: !dataFromChild.available,
+            showAvailable: dataFromChild.available,
         });
     };
 
