@@ -4,6 +4,7 @@ declare(strict_types = 1);
 
 namespace App\Bundle\Route\Entity;
 
+use App\Bundle\Driver\Entity\Driver;
 use App\Bundle\Import\Entity\Import;
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
 use DateTime;
@@ -29,6 +30,11 @@ class Route
      */
     protected $importDelivery;
     /**
+     * @ORM\ManyToOne(targetEntity="App\Bundle\Driver\Entity\Driver", inversedBy="routes", cascade={"persist"})
+     * @ORM\JoinColumn(name="driver_id", referencedColumnName="id")
+     */
+    protected $driver;
+    /**
      * @var DateTime $created
      *
      * @ORM\Column(name="created_at", type="datetime")
@@ -52,6 +58,16 @@ class Route
     public function getImportDelivery(): ImportDelivery
     {
         return $this->importDelivery;
+    }
+
+    public function setDriver(Driver $driver): void
+    {
+        $this->driver = $driver;
+    }
+
+    public function getDriver(): Driver
+    {
+        return $this->driver;
     }
 
     public function getId()

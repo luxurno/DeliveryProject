@@ -64,16 +64,27 @@ class Driver implements JsonSerializable
      * @ORM\OneToMany(targetEntity="App\Bundle\Perception\Entity\Perception", mappedBy="driver", cascade={"persist", "remove"})
      */
     protected $perceptions;
+    /**
+     * @ORM\OneToMany(targetEntity="App\Bundle\Route\Entity\Route", mappedBy="driver", cascade={"persist", "remove"})
+     */
+    protected $routes;
 
     public function __construct()
     {
         $this->perceptions = new ArrayCollection();
+        $this->routes = new ArrayCollection();
     }
 
     public function setPerceptions(Perception $perception): void
     {
         $this->perceptions->add($perception);
         $perception->setDriver($this);
+    }
+
+    public function setRoutes(Route $route): void
+    {
+        $this->routes->add($route);
+        $route->setDriver($this);
     }
 
     public function getUser(): User
