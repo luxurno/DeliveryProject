@@ -11,7 +11,7 @@ export default class DriverSearchDatalist extends Component {
         this.state = {
             drivers: null,
             refEl: null,
-            available: '0',
+            available: null,
             disable: false,
         };
 
