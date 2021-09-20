@@ -23,19 +23,19 @@ final class Version20221023145750 extends AbstractMigration
 
     public function up(Schema $schema) : void
     {
-//        $file = fopen(self::FILE_LOCATION, 'r');
-//
-//        while (! feof($file)) {
-//            $sql = fgets($file);
-//            if (is_string($sql)) {
-//                $this->addSql($sql);
-//            }
-//        }
+        $file = fopen(self::FILE_LOCATION, 'r');
+
+        while (! feof($file)) {
+            $sql = fgets($file);
+            if (is_string($sql)) {
+                $this->addSql($sql);
+            }
+        }
     }
 
     public function down(Schema $schema) : void
     {
-//        $query = 'DELETE FROM `total_address`';
-//        $this->addSql($query);
+        $query = 'DELETE FROM `total_address`';
+        $this->addSql($query);
     }
 }
