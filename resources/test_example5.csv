@@ -1,11 +1,16 @@
-id,country,district,community,city,street,number,postal_code,hash
-32826,Polska,zawierciański,Pilica,Pilica,"pl. Mickiewicza",36,42436,189e482d9a867c1078499da8f08b4f0c4d17d044
-154608,Polska,Chorzów,Chorzów,Chorzów,Skrajna,34,41506,ed22f37d89d10ee2487d1cf76ba7dd0cca5e9b0e
-194204,Polska,rybnicki,Jejkowice,Jejkowice,Główna,3,44290,f1196d6965aa9d2fef6a3bd10783c5d040e798b2
-270098,Polska,myszkowski,Koziegłowy,Pińczyce,Myszkowska,25,42350,5500d5d9bba5cdf75a269a0bbd2c60b1aba5e0f4
-304034,Polska,żywiecki,Ślemień,Ślemień,Sosnowa,3,34323,a2a4af70f278e6bd07f39a5419e477f05ffc0863
-339921,Polska,bielski,Buczkowice,Rybarzowice,Kościelna,695,43378,f2cef65782503eeaa315f86a3b309252edac1e35
-377270,Polska,będziński,Czeladź,Czeladź,Górnicza,32,41250,dc752cd20d991fd3e88089c5d5e165091005469e
-496733,Polska,Tychy,Tychy,Tychy,Żorska,22,43100,da6b231a4754aeba28cf946979d97e51b1e58244
-571338,Polska,Gliwice,Gliwice,Gliwice,"Bartosza Głowackiego",92A,44100,97d113e1b6009a510f6a060ccd74b98b701e3ccf
-727346,Polska,bielski,Porąbka,Porąbka,Cyniowa,7,43353,44d6fc7789c9b4cf292174538dffea3cdd1bfe87
+id,kraj,powiat,gmina,miasto,ulica,numer,kod_pocztowy,hash
+28798,Polska,raciborski,Krzyżanowice,Krzyżanowice,Boczna,11,47450,08f1c327775df1b7cc6c720dd0b160def23b706c
+76356,Polska,Bielsko-Biała,Bielsko-Biała,Bielsko-Biała,"ks. Józefa Londzina",115,43382,31edea957acb0310294c88d950b2f20bbc21d956
+133919,Polska,raciborski,"Pietrowice Wielkie",Cyprzanów,Polna,1,47480,9c07c4f2dbda519d3300b7ec53908db4ce296581
+171436,Polska,bieruńsko-lędziński,Lędziny,Lędziny,Gwarków,98,43143,3a1ddd373271036ac8112718eff566941db50e09
+201434,Polska,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Jastrzębie-Zdrój,Piaskowa,78,44338,b8c56784ac6771f2b133652d3090fd8bb9922a76
+336751,Polska,Bytom,Bytom,Bytom,"Emanuela Drobczyka",18,41900,bec774b1ddb363debc50649f89968727a9c532c8
+391320,Polska,cieszyński,Zebrzydowice,Zebrzydowice,Skotnicka,23G,43410,9bf42bc33c253a60a7387b43f423991c51d3dd5b
+413393,Polska,"Ruda Śląska","Ruda Śląska","RUDA ŚLĄSKA",Mostowa,30A,41710,bd72aab81c6a5ab010c668ac2f09ae2b10e1ae2d
+432129,Polska,mikołowski,Mikołów,Mikołów,Plebiscytowa,37a,43190,85ac423cb2a1f2839347b78377e574cfad6f2e61
+585255,Polska,częstochowski,Lelów,Mełchów,,1E,42235,7aaaf26904ba9bf106f8266eb465925d2bf7c4b3
+589317,Polska,gliwicki,Pyskowice,Pyskowice,"Karola Miarki",14,44120,c40408f2b8764b7d8641155eff33794bf2ba3908
+612246,Polska,"Siemianowice Śląskie","Siemianowice Śląskie","SIEMIANOWICE ŚLĄSKIE",CZELADZKA,12,41100,59cc01fa129a2fa44aa9fb60b48efbec66036363
+683266,Polska,Częstochowa,Częstochowa,Częstochowa,Warszawska,224,42202,e976818c0bf2e5796765daf183ef3313e9960e09
+727834,Polska,bielski,Porąbka,Czaniec,"kard. Karola Wojtyły",39,43354,2778c8e584898daf0fcc12a6d6702593cd110dd6
+762705,Polska,wodzisławski,"Wodzisław Śląski","Wodzisław Śląski",Wiejska,16D,44300,2d45aa11fc085733c2931965e21f651e03a6ade0

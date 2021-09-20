@@ -6,11 +6,11 @@ namespace App\Bundle\Prediction\Service;
 
 class PredictionService
 {
-    private const FILENAME = __DIR__.'/../../../../ml/resources/Prediction/';
+    private const FILENAME = __DIR__.'/../../../../ml/resources/';
 
     public function getPerceptionCity(string $voivodeship): string
     {
-        $fileName = self::FILENAME.$voivodeship.'.csv';
+        $fileName = self::FILENAME.$voivodeship.'/prediction.csv';
         $file = fopen($fileName, 'r');
 
         $cities = [];
