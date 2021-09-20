@@ -37,7 +37,7 @@ class DriverController extends AbstractController
     public function getDrivers(Request $request): Response
     {
         $userId = $request->get('userId');
-        $available = (bool) $request->get('available');
+        $available = $request->get('available', null);
 
         $users = ($userId !== null) ? $this->driverService->getAllDrivers((int) $userId, $available) : [];
 

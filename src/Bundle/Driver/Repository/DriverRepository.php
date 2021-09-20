@@ -21,21 +21,24 @@ class DriverRepository extends ServiceEntityRepository
         parent::__construct($registry, Driver::class);
     }
 
-    public function findDriversByUserIdAndAvailable(int $userId, int $available): array
+    public function findDriversByUserIdAndAvailable(int $userId, ?bool $available): array
     {
         $conn = $this->getEntityManager()
             ->getConnection();
 
+        $criteria = ['userId' => $userId];
         $sql = '
             SELECT * FROM `driver`
-            WHERE `user_id` = :userId AND `available` = :available
+            WHERE `user_id` = :userId
         ';
 
+        if (null !== $available) {
+            $sql .= " AND `available` = :available";
+            $criteria['available'] = (int) $available;
+        }
+
         $stmt = $conn->prepare($sql);
-        $stmt->execute([
-            'userId' => $userId,
-            'available' => $available,
-        ]);
+        $stmt->execute($criteria);
 
         return $stmt->fetchAll();
     }

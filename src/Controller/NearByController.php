@@ -11,7 +11,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class NearByController extends AbstractController
 {
     /**
-     * @Route("/api/near-by/preview", name="near-by-preview")
+     * @Route("/api/near-by", name="near-by")
      * @return Response
      */
     public function getNearBy(): Response
@@ -91,7 +91,6 @@ class NearByController extends AbstractController
         $response = new Response();
 
         $response->headers->set('Content-Type', 'application/json');
-        //$response->headers->set('Access-Control-Allow-Origin', '*');
 
         $response->setContent(json_encode($routePerview));
 
