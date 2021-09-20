@@ -2,6 +2,7 @@
 
 namespace App\Bundle\Route\Assigner;
 
+use App\Bundle\Driver\Entity\Driver;
 use App\Bundle\ImportDelivery\Repository\ImportDeliveryRepository;
 use App\Bundle\Route\Factory\RouteFactory;
 use Doctrine\ORM\EntityManagerInterface;
@@ -26,6 +27,7 @@ class RouteAssigner
     }
 
     public function assign(
+        Driver $driver,
         array $row
     ): void
     {
@@ -38,8 +40,12 @@ class RouteAssigner
         $route->setImportDelivery($importDelivery);
         $importDelivery->setRoute($route);
 
-        $this->entityManager->persist($route);
+        $route->setDriver($driver);
+        $driver->setRoutes($route);
+
+        $this->entityManager->persist($driver);
         $this->entityManager->persist($importDelivery);
+        $this->entityManager->persist($route);
         $this->entityManager->flush();
     }
 }

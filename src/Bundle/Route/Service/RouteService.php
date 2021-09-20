@@ -102,7 +102,7 @@ class RouteService
                     DriverCapacity::getDriverWeight() - (int) $result['weight']
                 );
 
-                $this->routeAssigner->assign($result);
+                $this->routeAssigner->assign($driver, $result);
                 $routes[] = $result;
             }
         }
