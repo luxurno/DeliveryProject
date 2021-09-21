@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Bundle\Perception\Entity;
 
 use App\Bundle\Driver\Entity\Driver;
+use App\Bundle\Route\Entity\Route;
 use App\Bundle\User\Entity\User;
 use DateTime;
 use Doctrine\ORM\Mapping as ORM;
@@ -73,6 +74,11 @@ class Perception implements JsonSerializable
     private $lng;
 
     /**
+     * @ORM\OneToOne(targetEntity="App\Bundle\Route\Entity\Route", inversedBy="routes", cascade={"persist"})
+     * @ORM\JoinColumn(name="route_id", referencedColumnName="id")
+     */
+    protected $route;
+    /**
      * @ORM\ManyToOne(targetEntity="App\Bundle\User\Entity\User", inversedBy="users", cascade={"persist"})
      * @ORM\JoinColumn(name="user_id", referencedColumnName="id")
      */
@@ -100,6 +106,16 @@ class Perception implements JsonSerializable
         if ($this->getCreatedAt() === null) {
             $this->setCreatedAt(new DateTime('now'));
         }
+    }
+
+    public function setRoute(Route $route): void
+    {
+        $this->route = $route;
+    }
+
+    public function getRoute(): Route
+    {
+        return $this->route;
     }
 
     public function setDriver(Driver $driver): void

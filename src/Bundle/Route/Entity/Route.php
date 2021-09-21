@@ -7,6 +7,7 @@ namespace App\Bundle\Route\Entity;
 use App\Bundle\Driver\Entity\Driver;
 use App\Bundle\Import\Entity\Import;
 use App\Bundle\ImportDelivery\Entity\ImportDelivery;
+use App\Bundle\Perception\Entity\Perception;
 use DateTime;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
@@ -29,6 +30,11 @@ class Route
      * @ORM\JoinColumn(name="import_delivery_id", referencedColumnName="id")
      */
     protected $importDelivery;
+    /**
+     * @ORM\OneToOne(targetEntity="App\Bundle\Perception\Entity\Perception", mappedBy="route", cascade={"persist", "remove"})
+     * @ORM\JoinColumn(name="perception_id", referencedColumnName="id")
+     */
+    protected $perception;
     /**
      * @ORM\ManyToOne(targetEntity="App\Bundle\Driver\Entity\Driver", inversedBy="routes", cascade={"persist"})
      * @ORM\JoinColumn(name="driver_id", referencedColumnName="id")
@@ -58,6 +64,16 @@ class Route
     public function getImportDelivery(): ImportDelivery
     {
         return $this->importDelivery;
+    }
+
+    public function setPerception(Perception $perception): void
+    {
+        $this->perception = $perception;
+    }
+
+    public function getPerception(): Perception
+    {
+        return $this->perception;
     }
 
     public function setDriver(Driver $driver): void

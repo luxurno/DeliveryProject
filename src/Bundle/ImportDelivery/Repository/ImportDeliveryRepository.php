@@ -30,12 +30,16 @@ class ImportDeliveryRepository extends ServiceEntityRepository
             ->getConnection();
 
         $sql = '
-            SELECT `idt`.`id`, `idt`.`capacity`, `idt`.`weight`, `idt`.`postal_code` as `postal`,
+            SELECT `idt`.`id`, false as `is_perception`, `idt`.`capacity`, `idt`.`weight`, `idt`.`postal_code` as `postal`,
                    `idt`.`city`, `idt`.`street`, `idt`.`number`, NULL as `house`, `idt`.`lat`, `idt`.`lng`
-            FROM import_delivery AS `idt`
-            LEFT JOIN `route` AS `r` ON `r`.`import_delivery_id` = `idt`.`id`
+            FROM `import_delivery` AS `idt`
+            LEFT JOIN route r on idt.id = r.import_delivery_id
             WHERE `idt`.`import_id` = :importId AND `r`.`driver_id` = :driverId
-            ORDER BY `r`.`id` ASC
+            UNION
+            SELECT `p`.`id`, true as `is_perception`, `p`.`capacity`, `p`.`weight`, `p`.`postal_code`,
+                   `p`.`city`, `p`.street, `p`.`number`, NULL as `house`, `p`.`lat`, `p`.`lng`
+            FROM `perception` AS `p`
+            WHERE `p`.`driver_id` = :driverId
             ';
 
         $stmt = $conn->prepare($sql);

@@ -395,6 +395,17 @@ input{
       font-size: 1.25rem;
       padding-left: 1rem;
     }
+
+    &-three {
+      position: absolute;
+      margin-left: 22rem;
+      margin-top: -3.375rem;
+
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
   }
 }
 

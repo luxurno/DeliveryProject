@@ -11,6 +11,7 @@ use App\Bundle\Perception\Factory\PerceptionFactory;
 use App\Bundle\Perception\Formatter\PerceptionAddressFormatter;
 use App\Bundle\Perception\Producer\PerceptionProducer;
 use App\Bundle\Perception\Repository\PerceptionRepository;
+use App\Bundle\Route\Factory\RouteFactory;
 use App\Bundle\User\Repository\UserRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
@@ -29,6 +30,8 @@ class PerceptionService
     private $perceptionProducer;
     /** @var PerceptionRepository */
     private $perceptionRepository;
+    /** @var RouteFactory */
+    private $routeFactory;
 
     public function __construct(
         DriverRepository $driverRepository,
@@ -36,7 +39,8 @@ class PerceptionService
         UserRepository $userRepository,
         PerceptionFactory $perceptionFactory,
         PerceptionProducer $perceptionProducer,
-        PerceptionRepository $perceptionRepository
+        PerceptionRepository $perceptionRepository,
+        RouteFactory $routeFactory
     )
     {
         $this->driverRepository = $driverRepository;
@@ -45,6 +49,7 @@ class PerceptionService
         $this->perceptionFactory = $perceptionFactory;
         $this->perceptionProducer = $perceptionProducer;
         $this->perceptionRepository = $perceptionRepository;
+        $this->routeFactory = $routeFactory;
     }
 
     public function getPerception(int $perceptionId): ?Perception
@@ -67,6 +72,14 @@ class PerceptionService
         $perception->setDriver($driver);
         $driver->setPerceptions($perception);
 
+        $route = $this->routeFactory->factory();
+        $route->setPerception($perception);
+        $route->setDriver($driver);
+
+        $perception->setRoute($route);
+        $driver->setRoutes($route);
+
+        $this->entityManager->persist($route);
         $this->entityManager->persist($perception);
         $this->entityManager->persist($driver);
         $this->entityManager->flush();
