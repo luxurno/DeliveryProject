@@ -23,7 +23,7 @@ class RouteController extends AbstractController
     }
 
     /**
-     * @Route("/api/route/{driverId}", name="route")
+     * @Route("/api/route/{driverId}")
      * @return Response
      */
     public function getRoute(Request $request, $driverId): Response
@@ -54,7 +54,7 @@ class RouteController extends AbstractController
     }
 
     /**
-     * @Route("/api/route-lookup/{driverId}", name="route")
+     * @Route("/api/route-lookup/{driverId}")
      * @return Response
      */
     public function getRouteLookup(Request $request, $driverId): Response
@@ -77,10 +77,9 @@ class RouteController extends AbstractController
             $response->setContent(json_encode($routePreviews));
         } catch (NotFoundHttpException $e) {
             $response->setStatusCode(Response::HTTP_NOT_FOUND);
+        } catch (Exception $e) {
+            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
         }
-//        catch (Exception $e) {
-//            $response->setStatusCode(Response::HTTP_BAD_REQUEST);
-//        }
 
         return $response;
     }

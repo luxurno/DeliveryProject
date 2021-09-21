@@ -1,23 +1,23 @@
 #!/bin/bash
 
 # Migration DB
-#php bin/console doctrine:database:drop --force
-#php bin/console doctrine:database:create
-#php bin/console doctrine:schema:update --force
-#php bin/console doctrine:migration:migrate --no-interaction
+php bin/console doctrine:database:drop --force
+php bin/console doctrine:database:create
+php bin/console doctrine:schema:update --force
+php bin/console doctrine:migration:migrate --no-interaction
 
 # AI database dump
 ### generate top-10 biggest cities
-php bin/console import:generate-city śląskie "Częstochowa.csv" "Częstochowa" -i=true -o=true
-php bin/console import:generate-city śląskie "Katowice.csv" "Katowice" -i=true -o=true
-php bin/console import:generate-city śląskie "Bielsko-Biała.csv" "Bielsko-Biała" -i=true -o=true
-php bin/console import:generate-city śląskie "Rybnik.csv" "Rybnik" -i=true -o=true
-php bin/console import:generate-city śląskie "Gliwice.csv" "Gliwice" -i=true -o=true
-php bin/console import:generate-city śląskie "Sosnowiec.csv" "Sosnowiec" -i=true -o=true
-php bin/console import:generate-city śląskie "Dąbrowa Górnicza.csv" "Dąbrowa Górnicza" -i=true -o=true
-php bin/console import:generate-city śląskie "Jaworzno.csv" "Jaworzno" -i=true -o=true
-php bin/console import:generate-city śląskie "Zabrze.csv" "Zabrze" -i=true -o=true
-php bin/console import:generate-city śląskie "Ruda Śląska.csv" "RUDA ŚLĄSKA" -i=true -o=true
+#php bin/console import:generate-city śląskie "Częstochowa.csv" "Częstochowa" -i=true -o=true
+#php bin/console import:generate-city śląskie "Katowice.csv" "Katowice" -i=true -o=true
+#php bin/console import:generate-city śląskie "Bielsko-Biała.csv" "Bielsko-Biała" -i=true -o=true
+#php bin/console import:generate-city śląskie "Rybnik.csv" "Rybnik" -i=true -o=true
+#php bin/console import:generate-city śląskie "Gliwice.csv" "Gliwice" -i=true -o=true
+#php bin/console import:generate-city śląskie "Sosnowiec.csv" "Sosnowiec" -i=true -o=true
+#php bin/console import:generate-city śląskie "Dąbrowa Górnicza.csv" "Dąbrowa Górnicza" -i=true -o=true
+#php bin/console import:generate-city śląskie "Jaworzno.csv" "Jaworzno" -i=true -o=true
+#php bin/console import:generate-city śląskie "Zabrze.csv" "Zabrze" -i=true -o=true
+#php bin/console import:generate-city śląskie "Ruda Śląska.csv" "RUDA ŚLĄSKA" -i=true -o=true
 
 # php bin/console import:generate warehousePackagesDb.csv 7360 -i=true -o=true
 # php bin/console import:generate addressDb.csv 23600 -i=true -o=true
