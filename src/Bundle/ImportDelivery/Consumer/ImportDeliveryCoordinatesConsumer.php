@@ -30,6 +30,7 @@ class ImportDeliveryCoordinatesConsumer
         try {
             $connection = $this->rabbitClient->getConnection();
             $channel = $connection->channel();
+            $channel->queue_declare($queueName);
 
             $channel->basic_consume(
                 $queueName,
