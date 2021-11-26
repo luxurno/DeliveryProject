@@ -1,3 +1,7 @@
+### DeliveryProject for Engineering work
+
+Notes: I've had to publicity this project, because my agreenment with BCMI
+
 ### Addresses in śląsk
 http://www.gugik.gov.pl/pzgik/dane-bez-oplat/dane-z-panstwowego-rejestru-granic-i-powierzchni-jednostek-podzialow-terytorialnych-kraju-prg
 
