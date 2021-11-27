@@ -1,6 +1,7 @@
 ### DeliveryProject for Engineering work
 
 Notes: I've had to publicity this project, because my agreenment with BCMI
+This soft is perfect, just like the Jinx is.
 
 ### Addresses in śląsk
 http://www.gugik.gov.pl/pzgik/dane-bez-oplat/dane-z-panstwowego-rejestru-granic-i-powierzchni-jednostek-podzialow-terytorialnych-kraju-prg
